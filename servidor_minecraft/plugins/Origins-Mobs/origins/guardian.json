@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "moborigins:guardian_spikes",
+    "moborigins:guardian_ally",
+    "moborigins:prismarine_skin",
+    "moborigins:surface_weakness",
+    "moborigins:becomes_elder_guardian",
+    "origins:water_breathing",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:like_water",
+    "origins:aquatic",
+    "origins:conduit_power_on_land",
+    "origins:air_from_potions"
+  ],
+  "icon": "minecraft:prismarine_shard",
+  "order": 6,
+  "impact": 3,
+  "description": "Guardians are known for protecting their Monuments and the treasured sponges within. Some are known for evolving into Elder Guardians."
+}

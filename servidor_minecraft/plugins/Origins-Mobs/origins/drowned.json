@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "moborigins:trident_expert",
+    "moborigins:water_vision",
+    "moborigins:guardian_ally",
+    "moborigins:water_combatant",
+    "moborigins:water_breathing",
+    "moborigins:undead",
+    "moborigins:zombie_hunger",
+    "moborigins:surface_slowness",
+    "origins:carnivore"
+  ],
+  "icon": "minecraft:trident",
+  "order": 2,
+  "impact": 1,
+  "description": "The dwellers of the deep ocean, they wield their tridents and attack the living that dare cross the ocean."
+}

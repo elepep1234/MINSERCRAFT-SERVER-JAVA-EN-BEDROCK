@@ -1,0 +1,25 @@
+npcs:
+  2afa7aa2-edbd-4f2b-8250-b578ae00ed47:
+    name: RTP
+    creator: 024fdfad-d078-3149-8896-20d579490a75
+    displayName: RTP
+    type: PLAYER
+    location:
+      world: void
+      x: -135.46663740511178
+      y: -27.0
+      z: -149.3966035332935
+      yaw: -1.7995605
+      pitch: 3.7499664
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false

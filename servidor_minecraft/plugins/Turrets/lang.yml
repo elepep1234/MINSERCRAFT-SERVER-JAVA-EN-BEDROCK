@@ -1,0 +1,152 @@
+crafts:
+  turret:
+    description:
+    - ''
+    - '&7To install, set to ground'
+    title: '&aTurret'
+  ammo:
+    laser:
+      description:
+      - ''
+      - '&bAmmo for the turret'
+      title: '&aLaser'
+gui:
+  howtouse:
+    help1:
+      title: '&aHow does it work?'
+      description:
+      - ''
+      - '&l&6Step 1. &7Set the turret on the ground'
+      - '&l&6Step 2. &7Set the entity type'
+      - '&7that the turret will open fire on'
+      - '&l&6Step 3. &7Install the weapon''s ammo'
+      - '&l&6Step 4. &7Turn on the turret'
+    craftmenu:
+      title: '&aAll Crafts'
+      description:
+      - ''
+      - '&7Left click to see all the crafts.'
+    title: Plugin information
+    help2:
+      description:
+      - ''
+      - '&7The turret can be repaired with a bar of iron.'
+      - '&7You can''t start a turret if it''s broken'
+      - '&7The turret doesn''t shoot at friends.'
+      - '   &7/turret friend add [playername]'
+      - '   &7/turret friend remove [playername]'
+      - '   &7/turret friend list'
+      title: '&aGeneral information'
+  selecttarget:
+    attackplayer:
+      description:
+      - ''
+      - Left click to switch modes
+      title: '&eMode: &4attacking players'
+    noattackplayer:
+      description:
+      - ''
+      - Left click to switch modes
+      title: '&eMode: &ano attack player'
+    noattackanimals:
+      title: '&eMode: &ano attacking animal'
+      description:
+      - ''
+      - Left click to switch modes
+    noattackentitu:
+      title: '&eMode: &ano attacking enemy'
+      description:
+      - ''
+      - Left click to switch modes
+    attackentitu:
+      description:
+      - ''
+      - Left click to switch modes
+      title: '&eMode: &4attacking enemy'
+    attackanimals:
+      description:
+      - ''
+      - Left click to switch modes
+      title: '&eMode: &4attacking animal'
+    title: Select attack entity
+  turretmenu:
+    itemammo:
+      title: '&aAmmo menu'
+      description:
+      - ''
+      - '&7This is where you can load ammo into the turret.'
+    title: Turret
+    itemselectentity:
+      description:
+      - ''
+      - '&7Here you can select a target to attack.'
+      title: '&aSelect a target to attack'
+    turetisenable:
+      title: '&7Status: &aenable'
+      description:
+      - ''
+      - '&7Left click to &4disable &7turret'
+    removeturret:
+      title: Remove turret
+      description:
+      - ''
+      - '&7Careful, the turret will break!'
+      - '&7The turret unit and ammunition falls to the ground'
+    howtouse:
+      description:
+      - ''
+      - '&7Open this menu'
+      - '&7to read information about the turret'
+      title: '&aFind out how it all works'
+    ammomenu: Ammo menu
+    turretdisable:
+      title: '&7Status: &4disable'
+      description:
+      - ''
+      - '&7Left click to &aenable &7turret'
+    message2: '&4Only an ovner can remove a turret'
+    message: Turret broken, needs to be repaired
+  backbutton:
+    title: '&4Back'
+  craftmenu:
+    title: Craft menu
+  closeinventory:
+    title: '&4Close'
+events:
+  plaseammoisenable: '&cTurn off the turret to put the supplies in.'
+  spawnturret: '&aThe turret was installed.'
+  openturret: '&cBreak the turret to open it.'
+  turretkillplayer: '&e{player} &cwas killed by a turret.'
+  turretrepair: '&aYou repaired the turret.'
+  turretdead: '&cYour turret was broken.'
+friendsys:
+  playernotfound: '&cNo player with the nickname &e{player} &cwas found'
+  saveymyslf: '&4You can''t add yourself as a friend.'
+  playerofflinemsg: '&cPlayer &e{player} &ais not online'
+  removemsg: '&cYou deleted &e{player} &cfrom your friends.'
+  addfriendmsg: '&aYou''ve been friended by a &e{player}'
+  addmsg: '&e{player} &aadded as a friend'
+  removefriendmsg: '&cYou''ve been de-friended by &e{player}.'
+  removenofound: '&cPlayer &e{player} &cis not in your friends list'
+  allradyadded: '&cYou already have &e{player}&c as a friend.'
+  nofriends: '&cYou don''t have any friends ('
+weapons:
+  bow:
+    description:
+    - ''
+    - '&7His ammunition is just arrows.'
+    - '&7Damage : &a{damage}'
+    - '&7Cooldown: &a{cooldown}'
+    title: '&aBow'
+  laser:
+    description:
+    - ''
+    - '&7You can learn about the craft of ammunition'
+    - '&7from the information in the upper right corner )'
+    - '&7Damage : &a{damage}'
+    - '&7Cooldown: &a{cooldown}'
+    title: '&aLaser weapon'
+commands:
+  spawnturret: '&aThe turret was installed.'
+  reloadmsg: '&aPlugin reloaded.'
+  getturretblock: '&aYou got the turret block'

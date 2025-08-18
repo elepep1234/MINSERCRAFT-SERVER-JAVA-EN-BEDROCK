@@ -1,0 +1,6 @@
+bow:
+  damage: 4
+  attackcooldown: 0.7
+laser:
+  attackcooldown: 0.2
+  damage: 2

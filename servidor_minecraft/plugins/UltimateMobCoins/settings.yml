@@ -1,0 +1,86 @@
+storage:
+  # Supported types are: SQLITE, MYSQL, MARIADB, POSTGRESQL and MONGODB
+  type: SQLITE
+  host: localhost
+  port: 3306
+  database: ultimatemobcoins
+  username: ultimatemobcoins
+  password: ultimatemobcoins
+  pool-settings:
+    maximum-pool-size: 5
+    minimum-idle: 2
+    maximum-lifetime: 1800000
+    connection-timeout: 5000
+  properties:
+    useUnicode: true
+    characterEncoding: utf8
+  
+  # Prefix for the collections created in mongodb by UltimateMobCoins
+  mongodb-collection-prefix: ''
+  # If you need to use a custom uri for MongoDB, use this.
+  # For information about this, please see: https://docs.mongodb.com/manual/reference/connection-string/
+  mongodb-connection-uri: ''
+
+mobcoins:
+  disabled_worlds:
+  - disabled_world
+  starting_balance: 0.0
+  auto-pickup: false
+  format: '###,##0.00'
+  format-locale: en-US
+  item:
+    material: SUNFLOWER
+    name: <gold><bold>Mob Coin <gray><italic>(Click to redeem)
+    lore:
+    - <gray>With mobcoins you can purchase
+    - <gray>items in the mobcoin shop!
+    - <reset>
+    - <gold>Holds <yellow><amount> <gold>mobcoins
+    - <reset>
+    - <gray>Right click to redeem!
+    glow: false
+    model_data: null
+  sounds:
+    drop:
+      enabled: true
+      sound: ENTITY_ENDER_DRAGON_GROWL
+      volume: 1.0
+      pitch: 1.0
+    pickup:
+      enabled: true
+      sound: ENTITY_PLAYER_LEVELUP
+      volume: 1.0
+      pitch: 1.0
+  animations:
+    drop:
+      enabled: false
+      type: CIRCLE
+      particle: SPELL_WITCH
+      duration: 10
+  looting-enchant-multiplier: true
+  allow-hopper-pickup: false
+  loss-on-death:
+    # Type options: PERCENTAGE or FIXED
+    type: percentage
+    # Value supports decimals. So 2.25 is 2.25% or 2.25 coins depending on the type set above.
+    value: 0.0
+  leaderboard:
+    enabled: false
+    show-zero: false
+
+log:
+  pay: true
+  withdraw: true
+  spinner: true
+
+# Changing the command name or aliases requires you to restart the server.
+command:
+  name: mobcoins
+  aliases:
+  - mobcoin
+  default_shop: main_menu
+
+update:
+  notify-on-join: true
+
+config-version: 9

@@ -1,0 +1,110 @@
+######          By NBCSM.           ######
+######        CustomMessages        ######
+######     Thank you for using.     ######
+######   After changing anything    ######
+######        Do /cm reload         ######
+######   Hex colors are supported!  ######
+######   PlaceholderAPI supported!  ######
+
+Death-Messages-Disable-All: false # true disables all death messages false vice versa.
+PvP-Messages-Disable: false # true disables only pvp messages.
+PvP-Messages: # In order to work "Death-Messages-Disable" should be false.
+  # You can add as many as you wish.
+  # CustomMessages Placeholders > %player% - %victim%.
+  - "&b%player% &6has killed &e%victim%!"
+  - "&b%player% &6destroyed &e%victim% &6in PvP!"
+  - "&e%victim% &6stood no chance against &b%player%&6."
+Mob-Death-Messages-Disable: false # true disables only mob death messages.
+Mob-Death-Messages: # In order to work "Death-Messages-Disable" should be false.
+  # If mob names are missing, you can add them yourself. do "/cm reload" after.
+  # Please use capital letters.
+  # DEFAULT section only will work if player killed by a mob that isn't listed.
+  DEFAULT: '&e%player% was slain by a mysterious creature.'
+  ZOMBIE: '&cZombie &6has slain &f%player%!'
+  HUSK: '&cHusk &6has slain &f%player%!'
+  DROWNED: '&3Drowned &6has slain &f%player%!'
+  SKELETON: '&7Skeleton &6has slain &f%player%!'
+  STRAY: '&7Stray &6has slain &f%player%!'
+  SPIDER: '&cSpider &6has slain &f%player%!'
+  CAVE_SPIDER: '&9Cave Spider &6has slain &f%player%!'
+  CREEPER: '&aCreeper &6exploded &f%player%!'
+  ENDERMAN: '&5Enderman &6has slain &f%player%!'
+  WITCH: '&dWitch &6has slain &f%player%!'
+  SLIME: '&aSlime &6has slain &f%player%!'
+  MAGMA_CUBE: '&cMagma Cube &6has slain &f%player%!'
+  BLAZE: '&6Blaze &6has slain &f%player%!'
+  GHAST: '&fGhast &6has slain &f%player%!'
+  PIGLIN: '&ePiglin &6has slain &f%player%!'
+  PIGLIN_BRUTE: '&6Piglin Brute &6has slain &f%player%!'
+  ZOMBIFIED_PIGLIN: '&eZombified Piglin &6has slain &f%player%!'
+  HOGLIN: '&cHoglin &6has slain &f%player%!'
+  ZOGLIN: '&cZoglin &6has slain &f%player%!'
+  PHANTOM: '&3Phantom &6has slain &f%player%!'
+  VEX: '&bVex &6has slain &f%player%!'
+  VINDICATOR: '&cVindicator &6has slain &f%player%!'
+  EVOKER: '&dEvoker &6has slain &f%player%!'
+  ILLUSIONER: '&bIllusioner &6has slain &f%player%!'
+  PILLAGER: '&7Pillager &6has slain &f%player%!'
+  RAVAGER: '&7Ravager &6has slain &f%player%!'
+  RAVAGER_JOCKEY: '&7Ravager Jockey &6has slain &f%player%!'
+  SHULKER: '&5Shulker &6has slain &f%player%!'
+  SILVERFISH: '&7Silverfish &6has slain &f%player%!'
+  ENDERMITE: '&5Endermite &6has slain &f%player%!'
+  GUARDIAN: '&3Guardian &6has slain &f%player%!'
+  ELDER_GUARDIAN: '&3Elder Guardian &6has slain &f%player%!'
+  WITHER_SKELETON: '&8Wither Skeleton &6has slain &f%player%!'
+  WITHER: '&8Wither &6has slain &f%player%!'
+  ENDER_DRAGON: '&5Ender Dragon &6has slain &f%player%!'
+  WARDEN: '&0Warden &6has slain &f%player%!'
+  BREEZE: '&bBreeze &6has slain &f%player%!'
+  BOGGED: '&2Bogged &6has slain &f%player%!'
+  DUNGEON_GUARDIAN: '&cDungeon Guardian &6has slain &f%player%!'
+  SNIFFER: '&aSniffer &6has slain &f%player%!'
+  PANDA: '&aPanda &6has slain &f%player%!'
+  WOLF: '&7Wolf &6has slain &f%player%!'
+  TAME_WOLF: '&7Tamed Wolf &6has slain &f%player%!'
+  GOAT: '&fGoat &6rammed &f%player%!'
+  IRON_GOLEM: '&fIron Golem &6has slain &f%player%!'
+  SNOW_GOLEM: '&fSnow Golem &6has slain &f%player%!'
+  AXOLOTL: '&dAxolotl &6has slain &f%player%!'
+  CAMEL: '&eCamel &6has slain &f%player%!'
+  FROG: '&aFrog &6has slain &f%player%!'
+Death-Cause-Messages-Disable: false # true disables only death cause messages.
+Death-Cause-Messages: # In order to work "Death-Messages-Disable" should be false.
+  # If cause names are missing, you can add them yourself. do "/cm reload" after.
+  # Please use capital letters.
+  # DEFAULT section only will work if player dies by a cause that isn't listed.
+  DEFAULT: '&f%player% &7died mysteriously.'
+  CONTACT: '&f%player% &7was pricked to death.'
+  ENTITY_ATTACK: '&f%player% &7was slain by a creature.'
+  PROJECTILE: '&f%player% &7was shot down.'
+  SUFFOCATION: '&f%player% &7suffocated in a wall.'
+  FALL: '&f%player% &7fell from a high place.'
+  FIRE: '&f%player% &7went up in flames.'
+  FIRE_TICK: '&f%player% &7burned to death.'
+  MELTING: '&f%player% &7melted.'
+  LAVA: '&f%player% &7tried to swim in lava.'
+  DROWNING: '&f%player% &7drowned.'
+  BLOCK_EXPLOSION: '&f%player% &7was blown up.'
+  ENTITY_EXPLOSION: '&f%player% &7was exploded by a creature.'
+  VOID: '&f%player% &7fell into the void.'
+  LIGHTNING: '&f%player% &7was struck by lightning.'
+  SUICIDE: '&f%player% &7took their own life.'
+  STARVATION: '&f%player% &7starved to death.'
+  POISON: '&f%player% &7was poisoned.'
+  MAGIC: '&f%player% &7was killed by magic.'
+  WITHER: '&f%player% &7withered away.'
+  FALLING_BLOCK: '&f%player% &7was squashed by a block.'
+  THORNS: '&f%player% &7was killed by thorns.'
+  DRAGON_BREATH: '&f%player% &7was burned by dragon breath.'
+  CUSTOM: '&f%player% &7died from unknown causes.'
+  FLY_INTO_WALL: '&f%player% &7experienced kinetic energy.'
+  HOT_FLOOR: '&f%player% &7was burned by magma.'
+  CRAMMING: '&f%player% &7was squished too tightly.'
+  DRYOUT: '&f%player% &7dried out.'
+  FREEZE: '&f%player% &7froze to death.'
+  SONIC_BOOM: '&f%player% &7was obliterated by a sonic boom.'
+  KILL: '&f%player% &7was eliminated.'
+  WORLD_BORDER: '&f%player% &7tried to escape the world border.'
+  FALLING_STALACTITE: '&f%player% &7was impaled by a stalactite.'
+  STALAGMITE: '&f%player% &7fell onto a stalagmite.'

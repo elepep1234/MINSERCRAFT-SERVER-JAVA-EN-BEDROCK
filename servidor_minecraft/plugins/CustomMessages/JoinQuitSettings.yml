@@ -1,0 +1,67 @@
+######          By NBCSM.           ######
+######        CustomMessages        ######
+######     Thank you for using.     ######
+######   After changing anything    ######
+######        Do /cm reload         ######
+######   Hex colors are supported!  ######
+
+Join-Quit-Settings: # Customize join/quit messages.
+  # If "true" "Join-Cool-Stuff", "First-Join-Messages" "Join-Messages" and "Welcome-MOTD" only will be shown after AuthMe login.
+  # Default: false
+  AuthMe-Support: false
+  # Silent Join Permissions: custommessages.* || custommessages.silentjoin.
+  First-Join-Messages-Enable: true # Enables messages for players joining for the first time.
+  First-Join-Messages: "&a%player% &ewelcome to our server, hope you stay!" # Message for first-time joiners.
+  Join-Messages-Enable: true # Enables normal join messages.
+  Join-Messages: "&a%player% &ejoined the game." # Message when a player joins.
+  # Silent Quit Permissions: custommessages.* || custommessages.silentquit.
+  Quit-Messages-Enable: true  # Enables quit messages.
+  Quit-Messages: "&a%player% &eleft the game." # Message when a player leaves.
+  Welcome-MOTD-Enable: true #If true "Welcome-MOTD" will be shown by players joined.
+  Welcome-MOTD: #"Welcome-MOTD-Enable: true" should be true in order to this work.
+    # Currently placeholders are >> %player% > shows player name. %playerdisplayname% > shows player displayed name.
+    - "&6========== &eWelcome to the Server! &6=========="
+    - "&aHello, &f%player%&a!"
+    - "&bWe hope you have a great time playing with us."
+    - "&7If you need any help, feel free to ask."
+    - "&6======================================="
+Join-Cool-Stuff: # Cool visual/sound effects triggered when a player joins.
+  Title:
+    Enable: true # Enables the title (center-screen message).
+    Title: "&aWelcome %player%!" # Main title text.
+    Subtitle: "&eEnjoy your stay!" # Subtitle below the main title.
+    FadeIn: 10 # How long the title takes to appear (in ticks, 20 ticks = 1 second).
+    Stay: 100 # How long the title stays on screen.
+    FadeOut: 10 # How long the title takes to disappear.
+  BossBar:
+    Enable: true # Enables the BossBar message.
+    Text: "&b%player% joined the game!" # Text shown on the BossBar.
+    Color: "GREEN" # Color of the BossBar (e.g., GREEN, RED, BLUE).
+    Style: "SEGMENTED_10" # Style of the BossBar (e.g., SEGMENTED_10, PROGRESS).
+    Duration: 100 # How long the BossBar stays visible (in ticks, 20 ticks = 1 second).
+  ActionBar:
+    Enable: true # Enables the ActionBar message.
+    Message: "&eWelcome, %player%!" # Small message displayed above the hotbar.
+    Duration: 100 # How long the ActionBar message stays (in ticks, 20 ticks = 1 second).
+  Sound:
+    Enable: true # Enables a sound to play when the player joins.
+    Sound: "ENTITY_PLAYER_LEVELUP" # Sound name (must match Minecraft sound ID).
+    Volume: 1.0 # Volume of the sound (0.0 - 1.0 recommended).
+    Pitch: 1.0 # Pitch of the sound (1.0 is normal, higher = squeaky, lower = deep).
+  FireWorks:
+    Enable: true # Enables fireworks on player join.
+    Color:
+      R: 255 # Red value for main color (0-255).
+      G: 255 # Green value for main color (0-255).
+      B: 255 # Blue value for main color (0-255).
+    FadeColor:
+      R: 255 # Red value for fade color (0-255).
+      G: 255 # Green value for fade color (0-255).
+      B: 255 # Blue value for fade color (0-255).
+    Type: "BALL_LARGE" # Firework shape type (BALL, BALL_LARGE, BURST, CREEPER, STAR).
+    Trail: true # Should the firework have a trail?
+    Flicker: true # Should the firework flicker?
+    Power: 1 # Firework flight duration (1–2 is recommended maybe more if you are brave enough ^^').
+    Detonation-Delay-Ticks: 40 # Delay before the firework detonates after being launched (in ticks, 20 ticks = 1 second).
+  LightningStrike:
+    Enable: true # Should a lightning effect strike when a player joins?

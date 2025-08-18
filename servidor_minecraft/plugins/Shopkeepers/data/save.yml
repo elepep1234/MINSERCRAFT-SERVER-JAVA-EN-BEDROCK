@@ -1,0 +1,71 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyway, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 4|2|4440
+'1':
+  uniqueId: 8de53d99-64c3-40cb-bcf4-a4e82ba0e29d
+  world: void
+  x: -136
+  y: -29
+  z: -165
+  yaw: 355.06342
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'2':
+  uniqueId: 7c1099e3-cf27-4c12-b8a2-a19700e89af0
+  world: void
+  x: -138
+  y: -29
+  z: -165
+  yaw: 348.9234
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'3':
+  uniqueId: 59e7b80a-8a32-4567-be33-929569023837
+  world: void
+  x: -144
+  y: -29
+  z: -163
+  yaw: 355.56778
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'4':
+  uniqueId: d0035444-7855-45da-b115-65cb81ee6d25
+  world: void
+  x: -145
+  y: -29
+  z: -163
+  yaw: 341.9278
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []

@@ -1,0 +1,252 @@
+# HealthGUI Configuration File
+# Enhanced configuration with comprehensive settings
+
+# Health Bar Display Settings
+health-bar:
+  # Detection range for entities (1-100 blocks)
+  detection-range: 15
+  
+  # Update interval in ticks (1-20, lower = faster updates)
+  update-interval: 3
+  
+  # Health bar length (1-50 characters)
+  bar-length: 10
+  
+  # Health bar style characters
+  style:
+    full-char: 💚
+    empty-char: 🤍
+
+# Enhanced Display Configuration with Professional Options
+display:
+  # Show percentage in health display
+  show-percentage: true
+  
+  # Show entity names
+  show-entity-name: true
+  
+  # Show exact health values (current/max)
+  show-health-values: true
+  
+  # Show health bar visual indicator
+  show-health-bar: true
+  
+  # Show heart symbol for health display
+  show-heart-symbol: true
+  
+  # Heart symbol for health display
+  heart-symbol: ❤
+  
+  # Enhanced display options
+  advanced:
+    # Show entity type (Zombie, Skeleton, Player, etc.)
+    show-entity-type: false
+    
+    # Show distance to entity
+    show-distance: false
+    
+    # Show entity level (if applicable)
+    show-entity-level: false
+    
+    # Show armor rating
+    show-armor: false
+    
+    # Show status effects
+    show-effects: false
+    
+    # Show hostile/passive indicator
+    show-hostility-indicator: true
+    
+    # Show tamed status for tameable entities
+    show-tamed-status: true
+    
+    # Show baby/adult status
+    show-age-status: false
+  
+  # Display positioning and timing
+  positioning:
+    # Where to display health info (ACTIONBAR, TITLE, SUBTITLE, CHAT, BOSSBAR)
+    display-location: ACTIONBAR
+    
+    # Display duration in ticks for non-persistent displays
+    display-duration: 40
+    
+    # Auto-hide when entity is at full health
+    auto-hide-full-health: false
+    
+    # Auto-hide when no damage taken recently
+    auto-hide-timeout: 100
+    
+    # Minimum health percentage to show (0-100)
+    min-health-threshold: 0
+  
+  # Visual enhancements
+  visual:
+    # Use animated health bar
+    animated-bars: false
+    
+    # Use gradient colors for smooth transitions
+    gradient-colors: true
+    
+    # Show damage indicators
+    damage-indicators: true
+    
+    # Show healing indicators
+    healing-indicators: true
+    
+    # Use Unicode symbols for better appearance
+    unicode-symbols: true
+    
+    # Show 3D health displays above entities using armor stands
+    show-3d-health-display: false
+    
+    # Show health information in action bar at bottom of screen
+    show-action-bar-display: true
+    
+    # Compact mode for smaller displays
+    compact-mode: false
+  
+  # Player-specific display options
+  player-options:
+    # Show health for other players
+    show-player-health: true
+    
+    # Show health for NPCs/Villagers
+    show-npc-health: true
+    
+    # Show health for passive mobs
+    show-passive-mobs: true
+    
+    # Show health for hostile mobs
+    show-hostile-mobs: true
+    
+    # Show health for boss entities
+    show-boss-health: true
+    
+    # Show health for pets/tamed animals
+    show-pet-health: true
+  
+  # Message format templates with placeholders
+  # Available placeholders: {name}, {type}, {heart}, {health}, {max-health}, {percentage}, {bar}, {distance}, {level}, {armor}, {effects}, {hostility}, {tamed}, {age}
+  format:
+    # Standard format
+    standard: '{hostility} {name} {heart} {health}/{max-health} {percentage} {bar}'
+    
+    # Compact format
+    compact: '{name} {heart} {percentage} {bar}'
+    
+    # Detailed format
+    detailed: '{hostility} {name} {type} {heart} {health}/{max-health} {percentage}
+      {bar} {distance} {effects}'
+    
+    # Minimal format
+    minimal: '{heart} {percentage}'
+    
+    # Custom format (user can modify)
+    custom: '{name} {heart} {health}/{max-health} {percentage} {bar}'
+  
+  # Current active format
+  active-format: standard
+  
+  # Percentage format template
+  # Available placeholders: {percentage}
+  percentage-format: ({percentage}%)
+  
+  # Distance format template
+  # Available placeholders: {distance}
+  distance-format: '[{distance}m]'
+  
+  # Effects format template
+  # Available placeholders: {effects}
+  effects-format: '{effects}'
+  
+  # Hostility indicators
+  hostility-indicators:
+    hostile: ⚔
+    passive: ☮
+    neutral: ⚖
+    tamed: 🏠
+    baby: 🍼
+
+# Color Settings for Health Levels
+colors:
+  # Color for healthy entities (>= medium threshold)
+  healthy: '#00FF00'
+  
+  # Color for medium health entities
+  medium: '#FFFF00'
+  
+  # Color for low health entities
+  low: '#FF0000'
+  
+  # Health percentage thresholds
+  thresholds:
+    # Medium health threshold (percentage)
+    medium: 60
+    
+    # Low health threshold (percentage)
+    low: 30
+
+# Performance Optimization Settings
+performance:
+  # Enable optimized mode for better performance
+  optimized-mode: true
+  
+  # Maximum entities to process per tick (1-20)
+  max-entities-per-tick: 5
+  
+  # Enable caching for better performance
+  enable-caching: true
+  
+  # Cache refresh interval in seconds
+  cache-refresh-interval: 30
+
+# Auto-Save Configuration
+auto-save:
+  # Enable automatic saving of settings
+  enabled: true
+  
+  # Delay in ticks before auto-save (20 ticks = 1 second)
+  delay-ticks: 20
+  
+  # Auto-save notification level (NONE, MINIMAL, DETAILED)
+  notification-level: MINIMAL
+
+# Advanced Settings
+advanced:
+  # Debug mode for troubleshooting
+  debug-mode: false
+  
+  # Log level (INFO, WARNING, SEVERE)
+  log-level: INFO
+  
+  # Enable metrics collection
+  enable-metrics: true
+  
+  # Auto-save interval in minutes
+  auto-save-interval: 10
+
+# Permission Settings
+permissions:
+  # Permission required to use the plugin
+  use-permission: healthgui.use
+  
+  # Permission required for admin commands
+  admin-permission: healthgui.admin
+  
+  # Permission required to reload configuration
+  reload-permission: healthgui.reload
+
+# Language Settings
+language:
+  # Default language for the plugin (en, ar, es, fr, de, pt, ru, zh, ja, ko, it, pl, tr, nl, sv, da, no, fi, cs, hu)
+  default: en
+  
+  # Try to detect and use client language if available
+  use-client-language: true
+  
+  # Fallback to default language if client language is not supported
+  fallback-to-default: true
+
+# Do not modify this version number
+config-version: 1

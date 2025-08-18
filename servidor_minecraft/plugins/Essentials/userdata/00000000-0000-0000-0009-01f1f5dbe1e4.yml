@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.198.128.226
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1755458119095
+  login: 1755456131124
+money: '0'
+last-account-name: .NovelFour7060
+lastlocation:
+  world: e19baa22-a9a0-4122-9237-a01b5655df17
+  world-name: world
+  x: 16.241207
+  y: 74.0
+  z: 207.44604
+  yaw: -173.1859893798828
+  pitch: -49.22857666015625
+logoutlocation:
+  world: 5eaa8144-2adf-4164-a151-70ae1ae982fb
+  world-name: void
+  x: 2.3871717
+  y: -60.0
+  z: 2.8635478
+  yaw: 81.44613647460938
+  pitch: 43.25309753417969

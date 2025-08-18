@@ -1,0 +1,25 @@
+general:
+  max-clan-name-length: 16
+  max-tag-length: 6
+  min-clan-name-length: 3
+  min-tag-length: 2
+  default-max-members: 10
+  experience-per-level: 1000
+  members-increase-per-level: 2
+war:
+  enable: true
+  friendly-fire: false
+  war-duration-minutes: 60
+  min-members-for-war: 3
+chat:
+  clan-chat-format: '&7[&a%clan_tag%&7] &f%player%&7: &f%message%'
+  clan-prefix-format: '&7[&a%clan_tag%&7] '
+  enable-clan-prefix: true
+protection:
+  enable: false
+  protect-clan-members: true
+blocked-words:
+- admin
+- mod
+- staff
+- owner
