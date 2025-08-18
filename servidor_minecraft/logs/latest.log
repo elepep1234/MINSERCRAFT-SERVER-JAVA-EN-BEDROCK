@@ -512,3 +512,77 @@ Caused by: java.lang.IllegalStateException: zip file closed
 [16:45:34] [Server thread/INFO]: edsthilaire121 issued server command: /setblock ~ ~ ~ minecraft:diamond_block
 [16:45:34] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Changed the block at 39, -50, -304]
 [16:45:45] [Server thread/INFO]: edsthilaire121 issued server command: /flyspeed fly 10
+[16:46:05] [Server thread/INFO]: edsthilaire121 issued server command: /flyspeed fly 10 edsthilaire121
+[16:46:27] [Server thread/INFO]: edsthilaire121 issued server command: /setblock ~ ~ ~ minecraft:diamond_block
+[16:46:27] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Changed the block at -341, 8, -12]
+[16:46:45] [Server thread/INFO]: edsthilaire121 issued server command: /regions create spawn
+[16:46:51] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag spawn
+[16:46:55] [Server thread/INFO]: edsthilaire121 issued server command: /rg flags spawn
+[16:46:59] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn use ALLOW
+[16:47:01] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn interact ALLOW
+[16:47:02] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn damage-animals ALLOW
+[16:47:04] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn pvp DENY
+[16:47:04] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'void' have been background saved
+[16:47:05] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn sleep DENY
+[16:47:07] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn respawn-anchors ALLOW
+[16:47:09] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn tnt ALLOW
+[16:47:09] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn tnt DENY
+[16:47:11] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn chest-access ALLOW
+[16:47:13] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn vehicle-place DENY
+[16:47:13] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn vehicle-destroy DENY
+[16:47:14] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn lighter DENY
+[16:47:14] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn ride DENY
+[16:47:15] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 1 spawn potion-splash DENY
+[16:47:17] [Server thread/INFO]: edsthilaire121 issued server command: /rg flags -w "void" -p 2 spawn
+[16:47:19] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn item-frame-rotation ALLOW
+[16:47:21] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn block-trampling ALLOW
+[16:47:22] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn block-trampling 
+[16:47:22] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn use-anvil ALLOW
+[16:47:22] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn use-anvil 
+[16:47:26] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn item-pickup ALLOW
+[16:47:27] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn item-drop ALLOW
+[16:47:28] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn mob-damage ALLOW
+[16:47:28] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn exp-drops ALLOW
+[16:47:31] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn mob-damage DENY
+[16:47:34] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'void' have been background saved
+[16:47:36] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn creeper-explosion DENY
+[16:47:37] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn enderdragon-block-damage DENY
+[16:47:37] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn other-explosion DENY
+[16:47:38] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn enderman-grief DENY
+[16:47:39] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn snowman-trails DENY
+[16:47:39] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn wither-damage DENY
+[16:47:40] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn breeze-charge-explosion DENY
+[16:47:40] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn ghast-fireball DENY
+[16:47:45] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn block-trampling DENY
+[16:47:47] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn firework-damage DENY
+[16:47:47] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn use-anvil DENY
+[16:47:48] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn use-dripleaf DENY
+[16:47:49] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 2 spawn wind-charge-burst DENY
+[16:47:50] [Server thread/INFO]: edsthilaire121 issued server command: /rg flags -w "void" -p 3 spawn
+[16:47:58] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn mob-spawning DENY
+[16:47:58] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn entity-item-frame-destroy DENY
+[16:47:59] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn entity-painting-destroy DENY
+[16:48:00] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn ravager-grief DENY
+[16:48:03] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn grass-growth DENY
+[16:48:03] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn leaf-decay DENY
+[16:48:04] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'void' have been background saved
+[16:48:04] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn mushroom-growth DENY
+[16:48:04] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn frosted-ice-form DENY
+[16:48:05] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn frosted-ice-melt DENY
+[16:48:06] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn ice-melt DENY
+[16:48:06] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn ice-form DENY
+[16:48:07] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn snow-melt DENY
+[16:48:07] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn snow-fall DENY
+[16:48:08] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn lightning DENY
+[16:48:09] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn lava-fire DENY
+[16:48:09] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn fire-spread DENY
+[16:48:11] [Server thread/INFO]: edsthilaire121 issued server command: /rg flag -w "void" -h 3 spawn pistons DENY
+[16:48:13] [Server thread/INFO]: edsthilaire121 issued server command: /rg flags -w "void" -p 4 spawn
+[16:48:17] [Server thread/INFO]: edsthilaire121 issued server command: /rg flags -w "void" -p 5 spawn
+[16:48:34] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'void' have been background saved
+[16:49:06] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
+[16:49:06] [Server thread/INFO]: [voicechat] Disconnecting client edsthilaire121
+[16:49:18] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:49:30] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:53:18] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:53:31] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive

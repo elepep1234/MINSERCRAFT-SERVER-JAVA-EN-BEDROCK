@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1755459932498
+  logout: 1755535746390
   login: 1755535187073
 money: '0'
 last-account-name: edsthilaire121
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 5eaa8144-2adf-4164-a151-70ae1ae982fb
   world-name: void
-  x: -134.5105440559678
+  x: -135.44500135305034
   y: -27.0
-  z: -140.39458880126028
-  yaw: 171.90045166015625
-  pitch: 8.700005531311035
+  z: -144.85441094770397
+  yaw: 179.10028076171875
+  pitch: 0.7498563528060913
