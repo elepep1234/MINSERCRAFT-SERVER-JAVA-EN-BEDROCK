@@ -59,7 +59,7 @@ scoreboard:
   enabled: true
   toggle-command: /sb
   remember-toggle-choice: true
-  hidden-by-default: false
+  hidden-by-default: true
   use-numbers: true
   static-number: 0
   delay-on-join-milliseconds: 0

@@ -1,2 +1,3 @@
-bossbar-off: &id001 []
-scoreboard-off: *id001
+bossbar-off: []
+scoreboard-off:
+- a5c322c1-a433-36c6-8021-d757628825cd

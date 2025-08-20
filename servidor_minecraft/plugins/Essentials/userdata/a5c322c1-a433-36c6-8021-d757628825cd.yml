@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.198.128.226
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1755617381417
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1755618500534
+  login: 1755616815090
+money: '0'
+last-account-name: sthilaireed
+lastlocation:
+  world: e19baa22-a9a0-4122-9237-a01b5655df17
+  world-name: world
+  x: -126.5
+  y: 70.0
+  z: -608.5
+  yaw: 175.3498992919922
+  pitch: 14.549970626831055
+logoutlocation:
+  world: e19baa22-a9a0-4122-9237-a01b5655df17
+  world-name: world
+  x: 133.92984876919374
+  y: 93.6252050950888
+  z: 627.0069534125214
+  yaw: -58.19964599609375
+  pitch: 58.9499397277832
+nickname: sthilaireed
