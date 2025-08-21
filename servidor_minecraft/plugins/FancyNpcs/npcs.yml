@@ -28,3 +28,61 @@ npcs:
         '1':
           action: player_command
           value: rtp world world
+  e270eab9-723f-4bb3-b012-9eefde892a7c:
+    name: SHOP
+    creator: 024fdfad-d078-3149-8896-20d579490a75
+    displayName: SHOP
+    type: PLAYER
+    location:
+      world: void
+      x: -151.99178165224023
+      y: -27.9375
+      z: -152.33345811454154
+      yaw: -35.398315
+      pitch: -1.2000077
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: shop
+  ae91d891-7687-44d3-8063-f2f8fe430554:
+    name: KITS
+    creator: 024fdfad-d078-3149-8896-20d579490a75
+    displayName: KITS
+    type: PLAYER
+    location:
+      world: void
+      x: -118.3455489980786
+      y: -27.9375
+      z: -152.61839360315358
+      yaw: 38.101807
+      pitch: 0.8999908
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: kits
