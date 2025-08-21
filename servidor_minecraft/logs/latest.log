@@ -1,31 +1,31 @@
-[15:52:37] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[15:52:37] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[15:52:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:52:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 35 plugins
-[15:52:39] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (6):
+[18:07:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[18:07:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[18:07:57] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:08:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 35 plugins
+[18:08:06] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (6):
  - CommandPanels (4.0.7), EconomyShopGUI (6.14.4), FancyHolograms (2.7.0), FancyNpcs (2.7.1), UltimateMobCoins (1.8.1), Worlds (3.3.1)
-[15:52:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (29):
+[18:08:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (29):
  - AuraSkills (2.3.6), BetterRTP (3.6.13), ClanSystem (1.0), CustomMessages (0.6), CustomNPCs (1.1), DamageIndicator (1.20.0), Essentials (2.22.0-dev+15-5ed43f3), EssentialsChat (2.22.0-dev+15-5ed43f3), EssentialsSpawn (2.22.0-dev+15-5ed43f3), Geyser-Spigot (2.8.3-SNAPSHOT), HealthGUI (2.0-ENHANCED), LuckPerms (5.5.0), NameTag (1.0), PlaceholderAPI (2.11.6), PlayerKits2 (1.18.4), Shopkeepers (2.23.10), SkinsRestorer (15.7.9), Skript (2.12.1), SupremeTags (2.1.10), TAB (5.2.5), Turrets (1.0.2), Vault (1.7.3-b131), ViaBackwards (5.4.2), ViaVersion (5.4.2), WorldEdit (7.3.16+cbf4bd5), WorldGuard (7.0.14+2339-43997ec), floodgate (2.2.4-SNAPSHOT (b118-40d320a)), playit-gg (0.1.4), voicechat (2.5.35)
-[15:52:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:52:47] [ServerMain/INFO]: Loaded 1407 recipes
-[15:52:47] [ServerMain/INFO]: Loaded 1520 advancements
-[15:52:47] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:52:47] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 569.0ms
-[15:52:48] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[15:52:48] [Server thread/INFO]: Loading properties
-[15:52:48] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[15:52:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:52:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:52:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:52:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:52:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:52:48] [Server thread/INFO]: Default game type: SURVIVAL
-[15:52:48] [Server thread/INFO]: Generating keypair
-[15:52:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:52:48] [Server thread/INFO]: Using epoll channel type
-[15:52:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:52:49] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:52:49] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/SupremeTags-2.1.10.jar' in 'plugins/.paper-remapped'
+[18:08:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:08:12] [ServerMain/INFO]: Loaded 1407 recipes
+[18:08:12] [ServerMain/INFO]: Loaded 1520 advancements
+[18:08:12] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[18:08:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,397.3ms
+[18:08:14] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[18:08:14] [Server thread/INFO]: Loading properties
+[18:08:14] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[18:08:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:08:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:08:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:08:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[18:08:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:08:15] [Server thread/INFO]: Default game type: SURVIVAL
+[18:08:15] [Server thread/INFO]: Generating keypair
+[18:08:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:08:15] [Server thread/INFO]: Using epoll channel type
+[18:08:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:08:15] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[18:08:15] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/SupremeTags-2.1.10.jar' in 'plugins/.paper-remapped'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [NBTAPI]. Please download and install these plugins to run 'SupremeTags'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
@@ -35,323 +35,323 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:52:51] [Server thread/INFO]: [UltimateMobCoins] Loaded 10 prizes for the mobcoin spinner!
-[15:52:51] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[15:52:51] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[15:52:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:52:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:52:52] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:52:52] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:52:52] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v4.0.7
-[15:52:52] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
-[15:52:53] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[15:52:53] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
-[15:52:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@70db5f83]
-[15:52:54] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[15:52:54] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[15:52:54] [Server thread/INFO]: [floodgate] Took 665ms to boot Floodgate
-[15:52:54] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+15-5ed43f3
-[15:52:54] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[15:52:54] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
-[15:52:54] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
-[15:52:55] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:52:55] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:52:55] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+15-5ed43f3
-[15:52:55] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.7.1
-[15:52:55] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
-[15:52:55] [Server thread/INFO]: [NameTag] Loading server plugin NameTag v1.0
-[15:52:55] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
-[15:52:55] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.1
-[15:52:55] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+15-5ed43f3
-[15:52:55] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
-[15:52:55] [Server thread/INFO]: [Worlds] Loading server plugin Worlds v3.3.1
-[15:52:55] [Server thread/INFO]: [HealthGUI] Loading server plugin HealthGUI v2.0-ENHANCED
-[15:52:55] [Server thread/INFO]: [DamageIndicator] Loading server plugin DamageIndicator v1.20.0
-[15:52:55] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
-[15:52:55] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.18.4
-[15:52:55] [Server thread/INFO]: [ClanSystem] Loading server plugin ClanSystem v1.0
-[15:52:55] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.6
-[15:52:55] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.13
-[15:52:55] [Server thread/INFO]: [Turrets] Loading server plugin Turrets v1.0.2
-[15:52:55] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.14.4
-[15:52:55] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.23.10
-[15:52:55] [ForkJoinPool.commonPool-worker-1/WARN]: [Worlds] An update for Worlds is available
-[15:52:55] [ForkJoinPool.commonPool-worker-1/WARN]: [Worlds] You are running version 3.3.1, the latest version is 3.4.3
-[15:52:55] [ForkJoinPool.commonPool-worker-1/WARN]: [Worlds] Update at https://modrinth.com/project/gBIw3Gvy/?version=1.21.8&loader=paper#download
-[15:52:55] [ForkJoinPool.commonPool-worker-1/WARN]: [Worlds] Do not test in production and always make backups before updating
-[15:52:56] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (689 ms).
-[15:52:56] [Server thread/INFO]: [Shopkeepers] Compatibility provider loaded: 1_21_R7_paper
-[15:52:56] [Server thread/INFO]: [Shopkeepers] Loading config.
-[15:52:56] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
-[15:52:56] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
-[15:52:56] [Server thread/INFO]: [Shopkeepers] Registering defaults.
-[15:52:56] [Server thread/INFO]: [CNPC] Loading server plugin CustomNPCs v1.1
-[15:52:56] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.7.0
-[15:52:56] [Server thread/INFO]: [UltimateMobCoins] Loading server plugin UltimateMobCoins v1.8.1
-[15:52:56] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.7.0
-[15:52:56] [Server thread/INFO]: [UltimateMobCoins] Successfully loaded WorldGuard hook!
-[15:52:56] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.9
-[15:52:56] [Server thread/INFO]: [CustomMessages] Loading server plugin CustomMessages v0.6
-[15:52:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:52:56] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
-[15:52:57] [Server thread/INFO]:         __    
-[15:52:57] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
-[15:52:57] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:52:57] [Server thread/INFO]: 
-[15:52:57] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:52:57] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:52:58] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:52:58] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:52:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2256ms)
-[15:52:58] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[15:52:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[15:52:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[15:52:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[15:52:58] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[15:52:58] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
-[15:52:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[15:52:59] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[15:52:59] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[15:53:01] [Server thread/INFO]: [Worlds] Enabling Worlds v3.3.1
-[15:53:01] [Server thread/INFO]: [HealthGUI] Enabling HealthGUI v2.0-ENHANCED
-[15:53:01] [Server thread/INFO]: [HealthGUI] ===============================================
-[15:53:01] [Server thread/INFO]: [HealthGUI]        HealthGUI v2.0-ENHANCED Starting       
-[15:53:01] [Server thread/INFO]: [HealthGUI]     Advanced Health Display System with       
-[15:53:01] [Server thread/INFO]: [HealthGUI]       Beautiful GUI & Configuration           
-[15:53:01] [Server thread/INFO]: [HealthGUI]                by Haider                       
-[15:53:01] [Server thread/INFO]: [HealthGUI] ===============================================
-[15:53:01] [Server thread/INFO]: [HealthGUI] Initializing enhanced core components...
-[15:53:01] [Server thread/INFO]: [HealthGUI] Enhanced configuration loaded successfully with 7 display features
-[15:53:01] [Server thread/INFO]: [HealthGUI] ✓ Configuration Manager initialized with validation
-[15:53:01] [Server thread/INFO]: [HealthGUI] §a✓ Language system initialized with 10 languages
-[15:53:01] [Server thread/INFO]: [HealthGUI] ✓ Language Manager initialized with multi-language support
-[15:53:01] [Server thread/INFO]: [HealthGUI] ✓ Selection Manager initialized for configuration changes
-[15:53:01] [Server thread/INFO]: [HealthGUI] ✓ Enhanced GUI Manager initialized with beautiful interface
-[15:53:01] [Server thread/INFO]: [HealthGUI] ✓ Health Bar Manager initialized with performance optimization
-[15:53:01] [Server thread/INFO]: [HealthGUI] ✓ Enhanced 3D Health Display Manager initialized with movement tracking and auto-display
-[15:53:01] [Server thread/INFO]: [HealthGUI] ✓ 3D Display Manager initialized for advanced 3D health displays
-[15:53:01] [Server thread/INFO]: [HealthGUI] All enhanced components initialized successfully!
-[15:53:01] [Server thread/INFO]: [HealthGUI] Registering enhanced events and commands...
-[15:53:01] [Server thread/INFO]: [HealthGUI] ✓ Enhanced events and commands registered successfully
-[15:53:01] [Server thread/INFO]: [HealthGUI] ✓ Health bar task started with 3 tick interval
-[15:53:01] [Server thread/INFO]: [HealthGUI] ✓ Enhanced health bar system started with optimization
-[15:53:01] [Server thread/INFO]: [HealthGUI] ===============================================
-[15:53:01] [Server thread/INFO]: [HealthGUI]      HealthGUI v2.0-ENHANCED Enabled!         
-[15:53:01] [Server thread/INFO]: [HealthGUI]   Beautiful GUI with streamlined config       
-[15:53:01] [Server thread/INFO]: [HealthGUI]      Use /healthgui to open settings          
-[15:53:01] [Server thread/INFO]: [HealthGUI]   No reload/reset - Focus on configuration!   
-[15:53:01] [Server thread/INFO]: [HealthGUI] ===============================================
-[15:53:01] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.9
-[15:53:01] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[15:53:02] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[15:53:02] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[15:53:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.9]
-[15:53:02] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[15:53:02] [Server thread/INFO]: [CustomMessages] Enabling CustomMessages v0.6
-[15:53:02] [Server thread/INFO]: [CustomMessages] AuthMe is not installed. AuthMe-Support is not available and class did not loaded.
-[15:53:02] [Server thread/INFO]: [CustomMessages] PlaceholderAPI detected. You can now use placeholders in DeathMessages and MOTD-Messages.
-[15:53:02] [Server thread/INFO]: [CustomMessages] CustomMessages 0.6 is enabled now and it only took 0.028ms to be active. By NBCSM
-[15:53:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:53:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:53:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:53:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:53:02] [Server thread/INFO]: Preparing level "world"
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.9
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: eb4ae0c
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[15:53:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[15:53:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:53:03] [Server thread/INFO]: Preparing spawn area: 0%
-[15:53:03] [Server thread/INFO]: Preparing spawn area: 2%
-[15:53:04] [Server thread/INFO]: Preparing spawn area: 2%
-[15:53:04] [Server thread/INFO]: Time elapsed: 1306 ms
-[15:53:04] [Server thread/INFO]: Preparing start region for dimension worlds:void
-[15:53:04] [Server thread/INFO]: Preparing spawn area: 0%
-[15:53:05] [Server thread/INFO]: Preparing spawn area: 0%
-[15:53:05] [Server thread/INFO]: Preparing spawn area: 0%
-[15:53:06] [Server thread/INFO]: Preparing spawn area: 30%
-[15:53:06] [Server thread/INFO]: Time elapsed: 1689 ms
-[15:53:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:53:06] [Server thread/INFO]: Preparing spawn area: 0%
-[15:53:06] [Server thread/INFO]: Time elapsed: 206 ms
-[15:53:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:53:06] [Server thread/INFO]: Preparing spawn area: 0%
-[15:53:06] [Server thread/INFO]: Time elapsed: 202 ms
-[15:53:06] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[15:53:06] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
-[15:53:06] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v4.0.7
-[15:53:06] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.0.7 Plugin Loading...
-[15:53:06] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.0.7 Plugin Loaded!
-[15:53:06] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[15:53:07] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+15-5ed43f3
-[15:53:07] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:53:07] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[15:53:07] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[15:53:08] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[15:53:08] [Server thread/INFO]: [Essentials] Using locale en
-[15:53:08] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:53:08] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:53:08] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[15:53:08] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[15:53:08] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[15:53:08] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[15:53:08] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[15:53:08] [Server thread/INFO]: [WorldGuard] (void) TNT ignition is PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (void) Lighters are PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (void) Lava fire is PERMITTED.
-[15:53:08] [Server thread/INFO]: [WorldGuard] (void) Fire spread is UNRESTRICTED.
-[15:53:09] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'void'
-[15:53:09] [Server thread/INFO]: [WorldGuard] Loading region data...
-[15:53:09] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
-[15:53:10] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+15-5ed43f3
-[15:53:10] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[15:53:10] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.7.1
-[15:53:10] [Server thread/WARN]: [org.mineskin.MineSkinClient] Creating MineSkinClient without API key
-[15:53:10] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.7.1) has been enabled.
-[15:53:10] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
-[15:53:10] [Server thread/INFO]: [NameTag] Enabling NameTag v1.0
-[15:53:10] [Server thread/INFO]: [NameTag] Commands /nametag (and /nt) registered successfully.
-[15:53:10] [Server thread/INFO]: [NameTag] §aCustomNameTag has been successfully enabled!
-[15:53:10] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
-[15:53:10] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
-[15:53:10] [Server thread/INFO]: [voicechat] Compatibility version 18
-[15:53:10] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[15:53:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.35]
-[15:53:10] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
-[15:53:10] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[15:53:10] [Server thread/INFO]: [Skript] Enabling Skript v2.12.1
-[15:53:11] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[15:53:11] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[15:53:11] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+15-5ed43f3
-[15:53:11] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[15:53:11] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[15:53:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[15:53:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[15:53:12] [Server thread/INFO]: [DamageIndicator] Enabling DamageIndicator v1.20.0
-[15:53:12] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
-[15:53:12] [Server thread/INFO]: [TAB] Enabled in 378ms
-[15:53:12] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.18.4
-[15:53:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.18.4]
-[15:53:12] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.18.4
-[15:53:12] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
-[15:53:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key invalid, starting over
-[15:53:13] [Server thread/INFO]: [ClanSystem] Enabling ClanSystem v1.0
-[15:53:13] [Server thread/INFO]: [ClanSystem] تم تحميل ملف الإعدادات بنجاح!
-[15:53:13] [Server thread/INFO]: [ClanSystem] تم الاتصال بقاعدة البيانات بنجاح!
-[15:53:13] [Server thread/INFO]: [ClanSystem] §a[ClanSystem] تم تسجيل الأمر الموحد: /clan
-[15:53:13] [Server thread/INFO]: [ClanSystem] §a[ClanSystem] تم تفعيل نظام العشائر بنجاح!
-[15:53:13] [Server thread/INFO]: [ClanSystem] §a[ClanSystem] ClanSystem has been enabled successfully!
-[15:53:13] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.6
-[15:53:13] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5504 aliases in 1478ms
-[15:53:13] [Server thread/WARN]: [AuraSkills] Error updating file messages_zh-TW.yml
-[15:53:13] [Server thread/WARN]: java.lang.IllegalArgumentException: Message file messages_zh-TW.yml is missing a file_version
-[15:53:13] [Server thread/WARN]: 	at AuraSkills-2.3.6.jar//dev.aurelium.auraskills.polyglot.lang.FileUpdater.updateFile(FileUpdater.java:52)
-[15:53:13] [Server thread/WARN]: 	at AuraSkills-2.3.6.jar//dev.aurelium.auraskills.polyglot.lang.MessageManager.attemptFileUpdate(MessageManager.java:167)
-[15:53:13] [Server thread/WARN]: 	at AuraSkills-2.3.6.jar//dev.aurelium.auraskills.polyglot.lang.MessageManager.loadMessages(MessageManager.java:150)
-[15:53:13] [Server thread/WARN]: 	at AuraSkills-2.3.6.jar//dev.aurelium.auraskills.common.message.MessageProvider.loadMessages(MessageProvider.java:72)
-[15:53:13] [Server thread/WARN]: 	at AuraSkills-2.3.6.jar//dev.aurelium.auraskills.bukkit.AuraSkills.onEnable(AuraSkills.java:204)
-[15:53:13] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
-[15:53:13] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
-[15:53:13] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
-[15:53:13] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
-[15:53:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651)
-[15:53:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
-[15:53:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743)
-[15:53:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488)
-[15:53:13] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280)
-[15:53:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164)
-[15:53:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[15:53:13] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[15:53:14] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[15:53:14] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
-[15:53:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: auraskills [2.3.6]
-[15:53:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: aureliumskills [2.3.6]
-[15:53:14] [Server thread/INFO]: [AuraSkills] Successfully registered hook PlaceholderAPI
-[15:53:14] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
-[15:53:14] [Server thread/INFO]: [AuraSkills] Successfully registered hook WorldGuard
-[15:53:14] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 39 ms
-[15:53:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.8! Trying to find NMS support
-[15:53:14] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(1.21.8-R0.1-SNAPSHOT) is not supported by this NBT-API Version(2.15.1) located in AuraSkills. The NBT-API will try to work as good as it can! Some functions may not work!
-[15:53:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[15:53:14] [Server thread/WARN]: [AuraSkills] NBT API is not yet supported for your Minecraft version, some legacy conversion and item nbt parsing functionality may be disabled!
-[15:53:14] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[15:53:14] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[15:53:15] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
-[15:53:15] [Server thread/INFO]: [BetterRTP] Cooldown = 600
-[15:53:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.13]
-[15:53:15] [Server thread/INFO]: [Turrets] Enabling Turrets v1.0.2
-[15:53:15] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key not set, generate claim code: a7209aa81529b279
-[15:53:15] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.14.4
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.8...
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[15:53:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[15:53:16] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 533ms to complete
-[15:53:16] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.23.10
-[15:53:16] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.14.4 but found v6.14.5.
-[15:53:16] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
-[15:53:16] [Server thread/INFO]: [Shopkeepers] Loading the data of 4 shopkeepers ...
-[15:53:16] [Server thread/INFO]: [CNPC] Enabling CustomNPCs v1.1
-[15:53:16] [Server thread/ERROR]: Incompatible server version! Please use 1.19.4. Shutting down plugin.
-[15:53:16] [Server thread/INFO]: [CNPC] Disabling CustomNPCs v1.1
-[15:53:16] [Server thread/ERROR]: Error occurred while enabling CustomNPCs v1.1 (Is it up to date?)
+[18:08:18] [Server thread/INFO]: [UltimateMobCoins] Loaded 10 prizes for the mobcoin spinner!
+[18:08:18] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[18:08:18] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[18:08:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:08:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:08:19] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:08:19] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:08:19] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v4.0.7
+[18:08:19] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[18:08:20] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[18:08:20] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[18:08:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@27ed0f20]
+[18:08:21] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[18:08:22] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[18:08:22] [Server thread/INFO]: [floodgate] Took 816ms to boot Floodgate
+[18:08:22] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+15-5ed43f3
+[18:08:22] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[18:08:22] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
+[18:08:22] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
+[18:08:22] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[18:08:22] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[18:08:22] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+15-5ed43f3
+[18:08:22] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.7.1
+[18:08:22] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[18:08:22] [Server thread/INFO]: [NameTag] Loading server plugin NameTag v1.0
+[18:08:22] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
+[18:08:22] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.1
+[18:08:22] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+15-5ed43f3
+[18:08:22] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[18:08:22] [Server thread/INFO]: [Worlds] Loading server plugin Worlds v3.3.1
+[18:08:22] [Server thread/INFO]: [HealthGUI] Loading server plugin HealthGUI v2.0-ENHANCED
+[18:08:22] [Server thread/INFO]: [DamageIndicator] Loading server plugin DamageIndicator v1.20.0
+[18:08:22] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[18:08:22] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.18.4
+[18:08:22] [Server thread/INFO]: [ClanSystem] Loading server plugin ClanSystem v1.0
+[18:08:22] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.6
+[18:08:22] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.13
+[18:08:22] [Server thread/INFO]: [Turrets] Loading server plugin Turrets v1.0.2
+[18:08:22] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.14.4
+[18:08:22] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.23.10
+[18:08:23] [ForkJoinPool.commonPool-worker-1/WARN]: [Worlds] An update for Worlds is available
+[18:08:23] [ForkJoinPool.commonPool-worker-1/WARN]: [Worlds] You are running version 3.3.1, the latest version is 3.4.4
+[18:08:23] [ForkJoinPool.commonPool-worker-1/WARN]: [Worlds] Update at https://modrinth.com/project/gBIw3Gvy/?version=1.21.8&loader=paper#download
+[18:08:23] [ForkJoinPool.commonPool-worker-1/WARN]: [Worlds] Do not test in production and always make backups before updating
+[18:08:23] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (531 ms).
+[18:08:23] [Server thread/INFO]: [Shopkeepers] Compatibility provider loaded: 1_21_R7_paper
+[18:08:23] [Server thread/INFO]: [Shopkeepers] Loading config.
+[18:08:23] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[18:08:23] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[18:08:23] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[18:08:23] [Server thread/INFO]: [CNPC] Loading server plugin CustomNPCs v1.1
+[18:08:23] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.7.0
+[18:08:23] [Server thread/INFO]: [UltimateMobCoins] Loading server plugin UltimateMobCoins v1.8.1
+[18:08:23] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.7.0
+[18:08:23] [Server thread/INFO]: [UltimateMobCoins] Successfully loaded WorldGuard hook!
+[18:08:23] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.9
+[18:08:23] [Server thread/INFO]: [CustomMessages] Loading server plugin CustomMessages v0.6
+[18:08:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:08:23] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[18:08:24] [Server thread/INFO]:         __    
+[18:08:24] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[18:08:24] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:08:24] [Server thread/INFO]: 
+[18:08:24] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:08:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:08:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:08:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:08:25] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2323ms)
+[18:08:25] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:08:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:08:26] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:08:26] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:08:26] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:08:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[18:08:26] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:08:26] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:08:26] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[18:08:28] [Server thread/INFO]: [Worlds] Enabling Worlds v3.3.1
+[18:08:28] [Server thread/INFO]: [HealthGUI] Enabling HealthGUI v2.0-ENHANCED
+[18:08:28] [Server thread/INFO]: [HealthGUI] ===============================================
+[18:08:28] [Server thread/INFO]: [HealthGUI]        HealthGUI v2.0-ENHANCED Starting       
+[18:08:28] [Server thread/INFO]: [HealthGUI]     Advanced Health Display System with       
+[18:08:28] [Server thread/INFO]: [HealthGUI]       Beautiful GUI & Configuration           
+[18:08:28] [Server thread/INFO]: [HealthGUI]                by Haider                       
+[18:08:28] [Server thread/INFO]: [HealthGUI] ===============================================
+[18:08:28] [Server thread/INFO]: [HealthGUI] Initializing enhanced core components...
+[18:08:28] [Server thread/INFO]: [HealthGUI] Enhanced configuration loaded successfully with 7 display features
+[18:08:28] [Server thread/INFO]: [HealthGUI] ✓ Configuration Manager initialized with validation
+[18:08:28] [Server thread/INFO]: [HealthGUI] §a✓ Language system initialized with 10 languages
+[18:08:28] [Server thread/INFO]: [HealthGUI] ✓ Language Manager initialized with multi-language support
+[18:08:28] [Server thread/INFO]: [HealthGUI] ✓ Selection Manager initialized for configuration changes
+[18:08:28] [Server thread/INFO]: [HealthGUI] ✓ Enhanced GUI Manager initialized with beautiful interface
+[18:08:28] [Server thread/INFO]: [HealthGUI] ✓ Health Bar Manager initialized with performance optimization
+[18:08:28] [Server thread/INFO]: [HealthGUI] ✓ Enhanced 3D Health Display Manager initialized with movement tracking and auto-display
+[18:08:28] [Server thread/INFO]: [HealthGUI] ✓ 3D Display Manager initialized for advanced 3D health displays
+[18:08:28] [Server thread/INFO]: [HealthGUI] All enhanced components initialized successfully!
+[18:08:28] [Server thread/INFO]: [HealthGUI] Registering enhanced events and commands...
+[18:08:28] [Server thread/INFO]: [HealthGUI] ✓ Enhanced events and commands registered successfully
+[18:08:28] [Server thread/INFO]: [HealthGUI] ✓ Health bar task started with 3 tick interval
+[18:08:28] [Server thread/INFO]: [HealthGUI] ✓ Enhanced health bar system started with optimization
+[18:08:28] [Server thread/INFO]: [HealthGUI] ===============================================
+[18:08:28] [Server thread/INFO]: [HealthGUI]      HealthGUI v2.0-ENHANCED Enabled!         
+[18:08:28] [Server thread/INFO]: [HealthGUI]   Beautiful GUI with streamlined config       
+[18:08:28] [Server thread/INFO]: [HealthGUI]      Use /healthgui to open settings          
+[18:08:28] [Server thread/INFO]: [HealthGUI]   No reload/reset - Focus on configuration!   
+[18:08:28] [Server thread/INFO]: [HealthGUI] ===============================================
+[18:08:28] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.9
+[18:08:29] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[18:08:29] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[18:08:29] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[18:08:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.9]
+[18:08:29] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[18:08:29] [Server thread/INFO]: [CustomMessages] Enabling CustomMessages v0.6
+[18:08:29] [Server thread/INFO]: [CustomMessages] AuthMe is not installed. AuthMe-Support is not available and class did not loaded.
+[18:08:29] [Server thread/INFO]: [CustomMessages] PlaceholderAPI detected. You can now use placeholders in DeathMessages and MOTD-Messages.
+[18:08:29] [Server thread/INFO]: [CustomMessages] CustomMessages 0.6 is enabled now and it only took 0.023ms to be active. By NBCSM
+[18:08:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:08:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:08:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:08:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:08:29] [Server thread/INFO]: Preparing level "world"
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.9
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: eb4ae0c
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[18:08:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[18:08:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:08:31] [Server thread/INFO]: Preparing spawn area: 0%
+[18:08:31] [Server thread/INFO]: Preparing spawn area: 2%
+[18:08:32] [Server thread/INFO]: Preparing spawn area: 2%
+[18:08:32] [Server thread/INFO]: Time elapsed: 1364 ms
+[18:08:32] [Server thread/INFO]: Preparing start region for dimension worlds:void
+[18:08:32] [Server thread/INFO]: Preparing spawn area: 0%
+[18:08:33] [Server thread/INFO]: Preparing spawn area: 0%
+[18:08:33] [Server thread/INFO]: Preparing spawn area: 0%
+[18:08:33] [Server thread/INFO]: Preparing spawn area: 7%
+[18:08:34] [Server thread/INFO]: Time elapsed: 1903 ms
+[18:08:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:08:34] [Server thread/INFO]: Preparing spawn area: 0%
+[18:08:34] [Server thread/INFO]: Time elapsed: 212 ms
+[18:08:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:08:34] [Server thread/INFO]: Preparing spawn area: 0%
+[18:08:34] [Server thread/INFO]: Time elapsed: 221 ms
+[18:08:34] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[18:08:34] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[18:08:34] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v4.0.7
+[18:08:34] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.0.7 Plugin Loading...
+[18:08:34] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.0.7 Plugin Loaded!
+[18:08:34] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[18:08:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+15-5ed43f3
+[18:08:35] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:08:35] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[18:08:35] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[18:08:36] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[18:08:36] [Server thread/INFO]: [Essentials] Using locale en
+[18:08:36] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:08:36] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:08:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:08:36] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:08:36] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[18:08:36] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:08:36] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:08:37] [Server thread/INFO]: [WorldGuard] (void) TNT ignition is PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (void) Lighters are PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (void) Lava fire is PERMITTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] (void) Fire spread is UNRESTRICTED.
+[18:08:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'void'
+[18:08:37] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:08:37] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
+[18:08:38] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+15-5ed43f3
+[18:08:38] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[18:08:38] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.7.1
+[18:08:38] [Server thread/WARN]: [org.mineskin.MineSkinClient] Creating MineSkinClient without API key
+[18:08:38] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.7.1) has been enabled.
+[18:08:38] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[18:08:38] [Server thread/INFO]: [NameTag] Enabling NameTag v1.0
+[18:08:38] [Server thread/INFO]: [NameTag] Commands /nametag (and /nt) registered successfully.
+[18:08:38] [Server thread/INFO]: [NameTag] §aCustomNameTag has been successfully enabled!
+[18:08:38] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
+[18:08:38] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
+[18:08:38] [Server thread/INFO]: [voicechat] Compatibility version 18
+[18:08:38] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[18:08:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.35]
+[18:08:38] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[18:08:38] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[18:08:38] [Server thread/INFO]: [Skript] Enabling Skript v2.12.1
+[18:08:39] [ForkJoinPool.commonPool-worker-2/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[18:08:40] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[18:08:40] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+15-5ed43f3
+[18:08:40] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[18:08:40] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[18:08:40] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[18:08:40] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[18:08:40] [Server thread/INFO]: [DamageIndicator] Enabling DamageIndicator v1.20.0
+[18:08:40] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[18:08:40] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key invalid, starting over
+[18:08:40] [Server thread/INFO]: [TAB] Enabled in 277ms
+[18:08:40] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.18.4
+[18:08:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.18.4]
+[18:08:41] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.18.4
+[18:08:41] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[18:08:41] [ForkJoinPool.commonPool-worker-2/INFO]: [Skript] Loaded 5504 aliases in 1232ms
+[18:08:41] [Server thread/INFO]: [ClanSystem] Enabling ClanSystem v1.0
+[18:08:41] [Server thread/INFO]: [ClanSystem] تم تحميل ملف الإعدادات بنجاح!
+[18:08:41] [Server thread/INFO]: [ClanSystem] تم الاتصال بقاعدة البيانات بنجاح!
+[18:08:41] [Server thread/INFO]: [ClanSystem] §a[ClanSystem] تم تسجيل الأمر الموحد: /clan
+[18:08:41] [Server thread/INFO]: [ClanSystem] §a[ClanSystem] تم تفعيل نظام العشائر بنجاح!
+[18:08:41] [Server thread/INFO]: [ClanSystem] §a[ClanSystem] ClanSystem has been enabled successfully!
+[18:08:41] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.6
+[18:08:42] [Server thread/WARN]: [AuraSkills] Error updating file messages_zh-TW.yml
+[18:08:42] [Server thread/WARN]: java.lang.IllegalArgumentException: Message file messages_zh-TW.yml is missing a file_version
+[18:08:42] [Server thread/WARN]: 	at AuraSkills-2.3.6.jar//dev.aurelium.auraskills.polyglot.lang.FileUpdater.updateFile(FileUpdater.java:52)
+[18:08:42] [Server thread/WARN]: 	at AuraSkills-2.3.6.jar//dev.aurelium.auraskills.polyglot.lang.MessageManager.attemptFileUpdate(MessageManager.java:167)
+[18:08:42] [Server thread/WARN]: 	at AuraSkills-2.3.6.jar//dev.aurelium.auraskills.polyglot.lang.MessageManager.loadMessages(MessageManager.java:150)
+[18:08:42] [Server thread/WARN]: 	at AuraSkills-2.3.6.jar//dev.aurelium.auraskills.common.message.MessageProvider.loadMessages(MessageProvider.java:72)
+[18:08:42] [Server thread/WARN]: 	at AuraSkills-2.3.6.jar//dev.aurelium.auraskills.bukkit.AuraSkills.onEnable(AuraSkills.java:204)
+[18:08:42] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[18:08:42] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[18:08:42] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[18:08:42] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[18:08:42] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651)
+[18:08:42] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+[18:08:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743)
+[18:08:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488)
+[18:08:42] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280)
+[18:08:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164)
+[18:08:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[18:08:42] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[18:08:42] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[18:08:43] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[18:08:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: auraskills [2.3.6]
+[18:08:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: aureliumskills [2.3.6]
+[18:08:43] [Server thread/INFO]: [AuraSkills] Successfully registered hook PlaceholderAPI
+[18:08:43] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
+[18:08:43] [Server thread/INFO]: [AuraSkills] Successfully registered hook WorldGuard
+[18:08:43] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 37 ms
+[18:08:43] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.8! Trying to find NMS support
+[18:08:43] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(1.21.8-R0.1-SNAPSHOT) is not supported by this NBT-API Version(2.15.1) located in AuraSkills. The NBT-API will try to work as good as it can! Some functions may not work!
+[18:08:43] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[18:08:43] [Server thread/WARN]: [AuraSkills] NBT API is not yet supported for your Minecraft version, some legacy conversion and item nbt parsing functionality may be disabled!
+[18:08:43] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[18:08:43] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[18:08:43] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
+[18:08:43] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key not set, generate claim code: 92c7c5114b79cb9a
+[18:08:43] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:08:43] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[18:08:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.13]
+[18:08:44] [Server thread/INFO]: [Turrets] Enabling Turrets v1.0.2
+[18:08:44] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.14.4
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.8...
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[18:08:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[18:08:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[18:08:45] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 483ms to complete
+[18:08:45] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.23.10
+[18:08:45] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.14.4 but found v6.14.5.
+[18:08:45] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[18:08:45] [Server thread/INFO]: [Shopkeepers] Loading the data of 4 shopkeepers ...
+[18:08:45] [Server thread/INFO]: [CNPC] Enabling CustomNPCs v1.1
+[18:08:45] [Server thread/ERROR]: Incompatible server version! Please use 1.19.4. Shutting down plugin.
+[18:08:45] [Server thread/INFO]: [CNPC] Disabling CustomNPCs v1.1
+[18:08:45] [Server thread/ERROR]: Error occurred while enabling CustomNPCs v1.1 (Is it up to date?)
 java.lang.IllegalStateException: The plugin classloader for CustomNPCs has thrown a zip file error.
 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:225) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
@@ -378,402 +378,114 @@ Caused by: java.lang.IllegalStateException: zip file closed
 	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:472) ~[?:?]
 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
 	... 17 more
-[15:53:16] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.7.0
-[15:53:16] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
-[15:53:16] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
-[15:53:16] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
-[15:53:16] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
-[15:53:16] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.7.0
-[15:53:16] [Server thread/INFO]: [UltimateMobCoins] Enabling UltimateMobCoins v1.8.1
-[15:53:16] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] UltimateMobCoins-pool - Starting...
-[15:53:16] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] UltimateMobCoins-pool - Added connection org.sqlite.jdbc4.JDBC4Connection@50186849
-[15:53:16] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] UltimateMobCoins-pool - Start completed.
-[15:53:17] [Server thread/INFO]: [UltimateMobCoins] Loaded 80 mobcoin drops
-[15:53:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ultimatemobcoins [1.8.1]
-[15:53:17] [Server thread/INFO]: [UltimateMobCoins] Successfully loaded Vault hook! (EssentialsX Economy)
-[15:53:17] [Server thread/INFO]: [UltimateMobCoins] Loaded 3 shop menus!
-[15:53:17] [Server thread/INFO]: [spark] Starting background profiler...
-[15:53:18] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[15:53:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:53:18] [Server thread/INFO]: [Geyser-Spigot] 
-[15:53:18] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b909 (git-master-ef726fb)
-[15:53:18] [Server thread/INFO]: [Geyser-Spigot] 
-[15:53:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:53:19] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:19] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:21] [GeyserServer-4-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[15:53:21] [Server thread/INFO]: [Geyser-Spigot] Done (3.207s)! Run /geyser help for help!
-[15:53:21] [Server thread/INFO]: Done preparing level "world" (19.401s)
-[15:53:21] [Server thread/INFO]: Running delayed init tasks
-[15:53:21] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:53:21] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[15:53:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: commandpanels [4.0.7]
-[15:53:21] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[15:53:21] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] Checking for Updates ... 
-[15:53:22] [Server thread/INFO]: [Skript] Loading variables...
-[15:53:22] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
-[15:53:22] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[15:53:22] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
-[15:53:22] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[15:53:22] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
-[15:53:22] [Server thread/INFO]: [Skript] Finished loading.
-[15:53:22] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] No new version available
-[15:53:22] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 317 total sources
-[15:53:22] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[15:53:22] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[15:53:22] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[15:53:22] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:22] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:53:22] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
-[15:53:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[15:53:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[15:53:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
-[15:53:22] [Server thread/INFO]: 3 placeholder hook(s) registered!
-[15:53:22] [Server thread/INFO]: Done (46.197s)! For help, type "help"
-[15:53:22] [Server thread/INFO]: [voicechat] Loading plugins
-[15:53:22] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[15:53:22] [Server thread/INFO]: [voicechat] Initializing plugins
-[15:53:22] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[15:53:22] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[15:53:22] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[15:53:22] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:25] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:26] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:29] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:29] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:32] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:32] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:35] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:35] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:38] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:38] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:41] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:42] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:45] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:45] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:48] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:48] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:51] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:51] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:54] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:55] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:53:58] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:53:58] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:01] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:01] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:04] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:04] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:07] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:08] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:11] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:11] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:14] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:14] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:17] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:17] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:20] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:21] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:24] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:24] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:27] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:27] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:30] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:30] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:33] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:34] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:37] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:37] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:40] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:40] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:43] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:43] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:46] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:46] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:49] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:50] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:53] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:53] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:56] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:56] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:54:59] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:54:59] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:02] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:03] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:06] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:06] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:09] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:09] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:15] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:16] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:19] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:19] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:22] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:22] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:25] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:25] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:28] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:29] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:32] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:32] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:35] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:35] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:38] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:38] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:41] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:41] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:44] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:45] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:48] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:48] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:51] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:51] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:54] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:54] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:55:57] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:55:58] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:01] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:01] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:04] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:04] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:07] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:07] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:10] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:11] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:14] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:14] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:17] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:17] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:20] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:20] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:23] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:24] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:27] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:27] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:30] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:30] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:33] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:33] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:36] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:37] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:40] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:40] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:43] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:43] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:46] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:46] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:49] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:49] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:52] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:53] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:56] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:56] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:56:59] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:56:59] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:02] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:02] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:05] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:06] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:09] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:09] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:15] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:15] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:18] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:19] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:22] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:22] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:25] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:25] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:28] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:28] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:31] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:32] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:35] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:35] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:38] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:38] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:41] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:41] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:44] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:45] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:48] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:48] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:51] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:51] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:54] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:54] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:57:57] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:57:57] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:00] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:01] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:04] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:04] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:07] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:07] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:10] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:10] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:13] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:14] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:17] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:17] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:20] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:20] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:23] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:23] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:26] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:27] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:30] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:30] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:33] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:33] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:36] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:36] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:39] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:40] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:43] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:43] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:46] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:46] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:49] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:49] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:52] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:53] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:56] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:56] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:58:59] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:58:59] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:02] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:02] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:05] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:05] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:08] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:09] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:15] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:15] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:18] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:18] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:21] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:22] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:25] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:25] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:28] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:28] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:31] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:31] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:34] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:35] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:38] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:38] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:41] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:41] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:44] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:44] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:47] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:47] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:50] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:51] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:54] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:54] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[15:59:57] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[15:59:58] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:01] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:01] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:04] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:04] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:07] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:07] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:10] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:11] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:14] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:14] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:17] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:17] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:20] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:20] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:23] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:24] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:27] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:27] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:30] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:30] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:33] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:33] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:36] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:36] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:39] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:40] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:43] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:43] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:46] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:46] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:49] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:49] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:52] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:53] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:56] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:56] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:00:59] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:00:59] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:02] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:02] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:05] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:06] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:09] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:09] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:15] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:15] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:18] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:19] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:22] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:22] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:25] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:25] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:28] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:28] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:31] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:32] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:35] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:35] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:38] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:38] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:41] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:41] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:44] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:45] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:48] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:48] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:51] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:51] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:54] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:54] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:01:57] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:01:58] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:02:01] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:02:01] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:02:04] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:02:04] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:02:07] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:02:07] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:02:10] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:02:11] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:02:14] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:02:14] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:02:17] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:02:17] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:02:20] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:02:21] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:02:24] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:02:24] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:02:27] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:02:27] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:02:30] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:02:30] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
-[16:02:33] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
-[16:02:34] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a7209aa81529b279
+[18:08:45] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.7.0
+[18:08:45] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[18:08:45] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[18:08:45] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[18:08:45] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) WARN: No holograms section found in config
+[18:08:45] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.7.0
+[18:08:45] [Server thread/INFO]: [UltimateMobCoins] Enabling UltimateMobCoins v1.8.1
+[18:08:45] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] UltimateMobCoins-pool - Starting...
+[18:08:45] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] UltimateMobCoins-pool - Added connection org.sqlite.jdbc4.JDBC4Connection@14d3e5c0
+[18:08:45] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] UltimateMobCoins-pool - Start completed.
+[18:08:45] [Server thread/INFO]: [UltimateMobCoins] Loaded 80 mobcoin drops
+[18:08:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ultimatemobcoins [1.8.1]
+[18:08:45] [Server thread/INFO]: [UltimateMobCoins] Successfully loaded Vault hook! (EssentialsX Economy)
+[18:08:45] [Server thread/INFO]: [UltimateMobCoins] Loaded 3 shop menus!
+[18:08:46] [Server thread/INFO]: [spark] Starting background profiler...
+[18:08:47] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:08:47] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:08:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:08:47] [Server thread/INFO]: [Geyser-Spigot] 
+[18:08:47] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b909 (git-master-ef726fb)
+[18:08:47] [Server thread/INFO]: [Geyser-Spigot] 
+[18:08:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:08:47] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:08:50] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:08:50] [GeyserServer-4-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[18:08:50] [Server thread/INFO]: [Geyser-Spigot] Done (3.166s)! Run /geyser help for help!
+[18:08:50] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:08:51] [Server thread/INFO]: Done preparing level "world" (21.066s)
+[18:08:51] [Server thread/INFO]: Running delayed init tasks
+[18:08:51] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:08:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: commandpanels [4.0.7]
+[18:08:51] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:08:51] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:08:51] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:08:51] [Server thread/INFO]: [Skript] Loading variables...
+[18:08:51] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 4 EssentialsX dev build(s) out of date!
+[18:08:51] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[18:08:51] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[18:08:51] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[18:08:51] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
+[18:08:51] [Server thread/INFO]: [Skript] Finished loading.
+[18:08:51] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] No new version available
+[18:08:51] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 317 total sources
+[18:08:51] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[18:08:51] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[18:08:51] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[18:08:52] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:08:52] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[18:08:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[18:08:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[18:08:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[18:08:52] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[18:08:52] [Server thread/INFO]: Done (56.792s)! For help, type "help"
+[18:08:52] [Server thread/INFO]: [voicechat] Loading plugins
+[18:08:52] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[18:08:52] [Server thread/INFO]: [voicechat] Initializing plugins
+[18:08:52] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[18:08:52] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[18:08:52] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[18:08:53] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:08:54] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:08:57] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:08:57] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:00] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:00] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:03] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:03] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:06] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:07] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:10] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:10] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:13] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:13] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:16] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:16] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:19] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:20] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:23] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:23] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:26] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:26] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:29] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:29] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:32] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:33] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:36] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:36] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:39] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:39] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:42] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:42] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:45] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:46] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:49] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:49] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:52] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:52] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/92c7c5114b79cb9a
+[18:09:55] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[18:09:56] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[18:09:57] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] create new minecraft java tunnel
+[18:10:06] [Thread-18/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: impact-central.joinmc.link
+[18:10:06] [Thread-18/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[18:10:06] [Thread-18/INFO]: playit.gg: tunnel setup
+[18:10:06] [Thread-18/INFO]: playit.gg: impact-central.joinmc.link
+[18:10:06] [Thread-18/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:860:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[18:10:07] [Thread-18/ERROR]: [gg.playit.minecraft.PlayitManager] failed when communicating with tunnel server, error: gg.playit.api.ApiError: Api error code: 400, req: {"agent_version":10001,"client_addr":"172.191.151.53:46634","tunnel_addr":"209.25.140.1:5525","type":"sign-agent-register"}, res: {"type":"error","code":400,"message":"too many agents on account"}
+[18:10:12] [Thread-18/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[18:10:12] [Thread-18/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:860:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[18:10:12] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[18:14:14] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:14:26] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
