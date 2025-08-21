@@ -619,3 +619,25 @@ Caused by: java.lang.IllegalStateException: zip file closed
 [19:16:28] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
 [19:16:28] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
 [19:16:28] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:18:31] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:18:43] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:22:08] [Thread-18/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=198.22.205.211:4932, peerAddr=185.165.44.22:47622, claimAddress=209.25.140.2:43783, claimToken=[44, 0, 68, -58, 22, -51, -45, 19, 68, -71, -91, 44, 22, -70, 6, -124, -76, -21, 123, -85, 7, 104, -89, 113, -32, 0, 0, 0, 0, 0, 22, -53, -41, 0, 0, 0, 0, 0, 74, -37, -124, 0, 0, 0, 0, 0, 33, -68, 4, -84, 123, -85, 7, 0, 0, 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, -55, 69, 43, 99, -83, -52, -84, 69, 37, 48, 44, 63, 11, 25, 97, 121], tunnelServerId=1, dataCenterId=42}
+[19:22:08] [Thread-18/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[19:22:08] [Thread-18/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43783 to claim client
+[19:22:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[19:22:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[19:22:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[19:22:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[19:22:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[19:22:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[19:22:08] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[19:22:32] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:22:44] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:24:55] [User Authenticator #0/INFO]: UUID of player edsthilaire121 is 024fdfad-d078-3149-8896-20d579490a75
+[19:24:55] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, SkinsRestorer, Essentials, CustomMessages, WorldGuard, UltimateMobCoins]
+[19:24:58] [Server thread/INFO]: [NameTag] §7Player edsthilaire121 joined. Applying NameTag.
+[19:24:58] [Server thread/INFO]: edsthilaire121[/127.198.128.226:36059] logged in with entity id 83 at ([void]-135.44500135305034, -27.0, -144.85441094770397)
+[19:25:12] [Server thread/INFO]: edsthilaire121 issued server command: /rtp world world
+[19:25:27] [Server thread/INFO]: edsthilaire121 issued server command: /spawn
+[19:26:33] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:26:45] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
