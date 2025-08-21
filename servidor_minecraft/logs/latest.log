@@ -1210,3 +1210,14 @@ Caused by: java.lang.IllegalStateException: zip file closed
 [21:28:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
 [21:28:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
 [21:28:03] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[21:31:04] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:31:16] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:32:01] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
+[21:32:01] [Server thread/INFO]: [voicechat] Disconnecting client edsthilaire121
+[21:32:03] [User Authenticator #6/INFO]: UUID of player edsthilaire121 is 024fdfad-d078-3149-8896-20d579490a75
+[21:32:03] [Server thread/INFO]: [NameTag] §7Player edsthilaire121 joined. Applying NameTag.
+[21:32:04] [Server thread/INFO]: edsthilaire121[/127.198.128.226:39653] logged in with entity id 5518 at ([void]-136.73766274911986, -27.0, -138.80150712515794)
+[21:35:04] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:35:16] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:39:05] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[21:39:17] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
