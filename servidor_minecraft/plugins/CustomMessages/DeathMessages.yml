@@ -1,110 +1,105 @@
 ######          By NBCSM.           ######
 ######        CustomMessages        ######
-######     Thank you for using.     ######
-######   After changing anything    ######
-######        Do /cm reload         ######
-######   Hex colors are supported!  ######
-######   PlaceholderAPI supported!  ######
+######     Gracias por usarlo.      ######
+######  Después de cambiar algo     ######
+######       Haz /cm reload         ######
+###### ¡Colores Hex soportados!     ######
+###### ¡PlaceholderAPI soportado!   ######
 
-Death-Messages-Disable-All: false # true disables all death messages false vice versa.
-PvP-Messages-Disable: false # true disables only pvp messages.
-PvP-Messages: # In order to work "Death-Messages-Disable" should be false.
-  # You can add as many as you wish.
-  # CustomMessages Placeholders > %player% - %victim%.
-  - "&b%player% &6has killed &e%victim%!"
-  - "&b%player% &6destroyed &e%victim% &6in PvP!"
-  - "&e%victim% &6stood no chance against &b%player%&6."
-Mob-Death-Messages-Disable: false # true disables only mob death messages.
-Mob-Death-Messages: # In order to work "Death-Messages-Disable" should be false.
-  # If mob names are missing, you can add them yourself. do "/cm reload" after.
-  # Please use capital letters.
-  # DEFAULT section only will work if player killed by a mob that isn't listed.
-  DEFAULT: '&e%player% was slain by a mysterious creature.'
-  ZOMBIE: '&cZombie &6has slain &f%player%!'
-  HUSK: '&cHusk &6has slain &f%player%!'
-  DROWNED: '&3Drowned &6has slain &f%player%!'
-  SKELETON: '&7Skeleton &6has slain &f%player%!'
-  STRAY: '&7Stray &6has slain &f%player%!'
-  SPIDER: '&cSpider &6has slain &f%player%!'
-  CAVE_SPIDER: '&9Cave Spider &6has slain &f%player%!'
-  CREEPER: '&aCreeper &6exploded &f%player%!'
-  ENDERMAN: '&5Enderman &6has slain &f%player%!'
-  WITCH: '&dWitch &6has slain &f%player%!'
-  SLIME: '&aSlime &6has slain &f%player%!'
-  MAGMA_CUBE: '&cMagma Cube &6has slain &f%player%!'
-  BLAZE: '&6Blaze &6has slain &f%player%!'
-  GHAST: '&fGhast &6has slain &f%player%!'
-  PIGLIN: '&ePiglin &6has slain &f%player%!'
-  PIGLIN_BRUTE: '&6Piglin Brute &6has slain &f%player%!'
-  ZOMBIFIED_PIGLIN: '&eZombified Piglin &6has slain &f%player%!'
-  HOGLIN: '&cHoglin &6has slain &f%player%!'
-  ZOGLIN: '&cZoglin &6has slain &f%player%!'
-  PHANTOM: '&3Phantom &6has slain &f%player%!'
-  VEX: '&bVex &6has slain &f%player%!'
-  VINDICATOR: '&cVindicator &6has slain &f%player%!'
-  EVOKER: '&dEvoker &6has slain &f%player%!'
-  ILLUSIONER: '&bIllusioner &6has slain &f%player%!'
-  PILLAGER: '&7Pillager &6has slain &f%player%!'
-  RAVAGER: '&7Ravager &6has slain &f%player%!'
-  RAVAGER_JOCKEY: '&7Ravager Jockey &6has slain &f%player%!'
-  SHULKER: '&5Shulker &6has slain &f%player%!'
-  SILVERFISH: '&7Silverfish &6has slain &f%player%!'
-  ENDERMITE: '&5Endermite &6has slain &f%player%!'
-  GUARDIAN: '&3Guardian &6has slain &f%player%!'
-  ELDER_GUARDIAN: '&3Elder Guardian &6has slain &f%player%!'
-  WITHER_SKELETON: '&8Wither Skeleton &6has slain &f%player%!'
-  WITHER: '&8Wither &6has slain &f%player%!'
-  ENDER_DRAGON: '&5Ender Dragon &6has slain &f%player%!'
-  WARDEN: '&0Warden &6has slain &f%player%!'
-  BREEZE: '&bBreeze &6has slain &f%player%!'
-  BOGGED: '&2Bogged &6has slain &f%player%!'
-  DUNGEON_GUARDIAN: '&cDungeon Guardian &6has slain &f%player%!'
-  SNIFFER: '&aSniffer &6has slain &f%player%!'
-  PANDA: '&aPanda &6has slain &f%player%!'
-  WOLF: '&7Wolf &6has slain &f%player%!'
-  TAME_WOLF: '&7Tamed Wolf &6has slain &f%player%!'
-  GOAT: '&fGoat &6rammed &f%player%!'
-  IRON_GOLEM: '&fIron Golem &6has slain &f%player%!'
-  SNOW_GOLEM: '&fSnow Golem &6has slain &f%player%!'
-  AXOLOTL: '&dAxolotl &6has slain &f%player%!'
-  CAMEL: '&eCamel &6has slain &f%player%!'
-  FROG: '&aFrog &6has slain &f%player%!'
-Death-Cause-Messages-Disable: false # true disables only death cause messages.
-Death-Cause-Messages: # In order to work "Death-Messages-Disable" should be false.
-  # If cause names are missing, you can add them yourself. do "/cm reload" after.
-  # Please use capital letters.
-  # DEFAULT section only will work if player dies by a cause that isn't listed.
-  DEFAULT: '&f%player% &7died mysteriously.'
-  CONTACT: '&f%player% &7was pricked to death.'
-  ENTITY_ATTACK: '&f%player% &7was slain by a creature.'
-  PROJECTILE: '&f%player% &7was shot down.'
-  SUFFOCATION: '&f%player% &7suffocated in a wall.'
-  FALL: '&f%player% &7fell from a high place.'
-  FIRE: '&f%player% &7went up in flames.'
-  FIRE_TICK: '&f%player% &7burned to death.'
-  MELTING: '&f%player% &7melted.'
-  LAVA: '&f%player% &7tried to swim in lava.'
-  DROWNING: '&f%player% &7drowned.'
-  BLOCK_EXPLOSION: '&f%player% &7was blown up.'
-  ENTITY_EXPLOSION: '&f%player% &7was exploded by a creature.'
-  VOID: '&f%player% &7fell into the void.'
-  LIGHTNING: '&f%player% &7was struck by lightning.'
-  SUICIDE: '&f%player% &7took their own life.'
-  STARVATION: '&f%player% &7starved to death.'
-  POISON: '&f%player% &7was poisoned.'
-  MAGIC: '&f%player% &7was killed by magic.'
-  WITHER: '&f%player% &7withered away.'
-  FALLING_BLOCK: '&f%player% &7was squashed by a block.'
-  THORNS: '&f%player% &7was killed by thorns.'
-  DRAGON_BREATH: '&f%player% &7was burned by dragon breath.'
-  CUSTOM: '&f%player% &7died from unknown causes.'
-  FLY_INTO_WALL: '&f%player% &7experienced kinetic energy.'
-  HOT_FLOOR: '&f%player% &7was burned by magma.'
-  CRAMMING: '&f%player% &7was squished too tightly.'
-  DRYOUT: '&f%player% &7dried out.'
-  FREEZE: '&f%player% &7froze to death.'
-  SONIC_BOOM: '&f%player% &7was obliterated by a sonic boom.'
-  KILL: '&f%player% &7was eliminated.'
-  WORLD_BORDER: '&f%player% &7tried to escape the world border.'
-  FALLING_STALACTITE: '&f%player% &7was impaled by a stalactite.'
-  STALAGMITE: '&f%player% &7fell onto a stalagmite.'
+Death-Messages-Disable-All: false # true desactiva todos los mensajes de muerte.
+PvP-Messages-Disable: false # true desactiva solo los mensajes de PvP.
+PvP-Messages:
+  - "&b%player% &6le dio una paliza épica a &e%victim%!"
+  - "&e%victim% &6fue mandado al lobby por &b%player%&6."
+  - "&b%player% &6hizo desaparecer a &e%victim% &6como por arte de magia."
+  - "&e%victim% &6se arrepintió de pelear con &b%player%&6."
+
+Mob-Death-Messages-Disable: false
+Mob-Death-Messages:
+  DEFAULT: '&e%player% fue destruido por una criatura misteriosa... y ahora es leyenda.'
+  ZOMBIE: '&cZombie &6convirtió a &f%player% &6en su snack favorito.'
+  HUSK: '&cHusk &6transformó a &f%player% &6en momia junior.'
+  DROWNED: '&3Ahogado &6dio clases de buceo eterno a &f%player%.'
+  SKELETON: '&7Esqueleto &6le dio a &f%player% &6unas “clases de tiro con arco”.'
+  STRAY: '&7Errante &6congeló los huesos de &f%player%.'
+  SPIDER: '&cAraña &6atrapó a &f%player% &6en su telaraña mortal.'
+  CAVE_SPIDER: '&9Araña de Cueva &6le regaló veneno gratis a &f%player%.'
+  CREEPER: '&aCreeper &6le susurró “sssss-BOOM” a &f%player%!'
+  ENDERMAN: '&5Enderman &6secuestró a &f%player% &6sin previo aviso.'
+  WITCH: '&dBruja &6probó una nueva pócima en &f%player%... ¡y funcionó!'
+  SLIME: '&aSlime &6aplastó a &f%player% &6con gelatina mortal.'
+  MAGMA_CUBE: '&cCubo de Magma &6abrazó a &f%player% &6con mucho calor.'
+  BLAZE: '&6Blaze &6convirtió a &f%player% &6en parrillada.'
+  GHAST: '&fGhast &6le lanzó un beso explosivo a &f%player%.'
+  PIGLIN: '&ePiglin &6quiso la cartera de &f%player%... y también su vida.'
+  PIGLIN_BRUTE: '&6Piglin Bruto &6le dio un correctivo a &f%player%.'
+  ZOMBIFIED_PIGLIN: '&ePiglin Zombificado &6enfureció con &f%player%.'
+  HOGLIN: '&cHoglin &6hizo volar a &f%player% &6como piñata.'
+  ZOGLIN: '&cZoglin &6aplastó a &f%player% &6sin remordimiento.'
+  PHANTOM: '&3Fantasma &6le dio insomnio eterno a &f%player%.'
+  VEX: '&bVex &6fastidió a &f%player% &6hasta la muerte.'
+  VINDICATOR: '&cVindicador &6defendió su casa contra &f%player%.'
+  EVOKER: '&dInvocador &6le hizo magia oscura a &f%player%.'
+  ILLUSIONER: '&bIlusionista &6hizo desaparecer a &f%player%.'
+  PILLAGER: '&7Saqueador &6le dio plomo a &f%player%.'
+  RAVAGER: '&7Devastador &6puso en el suelo a &f%player%.'
+  RAVAGER_JOCKEY: '&7Jinete Devastador &6hizo papilla a &f%player%.'
+  SHULKER: '&5Shulker &6le dio mareo eterno a &f%player%.'
+  SILVERFISH: '&7Lepisma &6hizo cosquillas mortales a &f%player%.'
+  ENDERMITE: '&5Endermite &6se coló en los zapatos de &f%player%.'
+  GUARDIAN: '&3Guardián &6lo protegió demasiado bien contra &f%player%.'
+  ELDER_GUARDIAN: '&3Guardián Anciano &6hizo sushi de &f%player%.'
+  WITHER_SKELETON: '&8Esqueleto Wither &6lo convirtió en ceniza.'
+  WITHER: '&8Wither &6puso a &f%player% &6en modo hardcore.'
+  ENDER_DRAGON: '&5Dragón del End &6usó a &f%player% &6como pelota de tenis.'
+  WARDEN: '&0Warden &6le enseñó a &f%player% &6el sonido del inframundo.'
+  BREEZE: '&bBrisa &6sopló tan fuerte que &f%player% &6salió volando.'
+  BOGGED: '&2Bogged &6le enseñó a &f%player% &6lo que es podredumbre.'
+  DUNGEON_GUARDIAN: '&cGuardián de Mazmorra &6dijo: “No pasarás, %player%!”'
+  SNIFFER: '&aOlfateador &6no olfateó flores... olfateó a &f%player%.'
+  PANDA: '&aPanda &6se hartó y aplastó a &f%player%.'
+  WOLF: '&7Lobo &6se comió a &f%player% &6como croqueta.'
+  TAME_WOLF: '&7Lobo Domesticado &6recordó viejos tiempos con &f%player%.'
+  GOAT: '&fCabra &6embistió a &f%player% &6por diversión.'
+  IRON_GOLEM: '&fGólem de Hierro &6le dio un abrazo rompehuesos a &f%player%.'
+  SNOW_GOLEM: '&fGólem de Nieve &6congeló a &f%player%.'
+  AXOLOTL: '&dAjolote &6usó ternura letal contra &f%player%.'
+  CAMEL: '&eCamello &6aplastó a &f%player% &6sin querer.'
+  FROG: '&aRana &6pensó que &f%player% &6era un mosquito gigante.'
+
+Death-Cause-Messages-Disable: false
+Death-Cause-Messages:
+  DEFAULT: '&f%player% &7murió... pero nadie sabe cómo, ni por qué.'
+  CONTACT: '&f%player% &7se pinchó solito... ouch.'
+  ENTITY_ATTACK: '&f%player% &7no aguantó los golpes.'
+  PROJECTILE: '&f%player% &7recibió flechas con “cariño”.'
+  SUFFOCATION: '&f%player% &7se olvidó de respirar dentro del muro.'
+  FALL: '&f%player% &7se creyó Superman... sin capa.'
+  FIRE: '&f%player% &7pensó que era antorcha humana.'
+  FIRE_TICK: '&f%player% &7se convirtió en marshmallow.'
+  MELTING: '&f%player% &7se derritió como helado al sol.'
+  LAVA: '&f%player% &7intentó nadar en lava... spoiler: no funciona.'
+  DROWNING: '&f%player% &7se olvidó del snorkel.'
+  BLOCK_EXPLOSION: '&f%player% &7voló como cohete.'
+  ENTITY_EXPLOSION: '&f%player% &7fue enviado a la luna por un mob explosivo.'
+  VOID: '&f%player% &7cayó al vacío... y aún sigue cayendo.'
+  LIGHTNING: '&f%player% &7jugó a ser pararrayos.'
+  SUICIDE: '&f%player% &7se ragequiteó solito.'
+  STARVATION: '&f%player% &7descubrió que no se vive de aire.'
+  POISON: '&f%player% &7bebió juguito verde sospechoso.'
+  MAGIC: '&f%player% &7fue eliminado por magia oscura.'
+  WITHER: '&f%player% &7se marchitó como flor sin agua.'
+  FALLING_BLOCK: '&f%player% &7fue aplastado por “la gravedad”.'
+  THORNS: '&f%player% &7murió intentando abrazar espinas.'
+  DRAGON_BREATH: '&f%player% &7se hizo gargara con aliento de dragón.'
+  CUSTOM: '&f%player% &7murió de causas desconocidas... rarísimo.'
+  FLY_INTO_WALL: '&f%player% &7descubrió que los muros son más duros que él.'
+  HOT_FLOOR: '&f%player% &7jugó al “piso es lava”... y perdió.'
+  CRAMMING: '&f%player% &7descubrió que 3 no caben en 1 bloque.'
+  DRYOUT: '&f%player% &7se secó como pasa de uva.'
+  FREEZE: '&f%player% &7se convirtió en paleta helada.'
+  SONIC_BOOM: '&f%player% &7fue reventado con Dolby Surround.'
+  KILL: '&f%player% &7fue eliminado del mapa.'
+  WORLD_BORDER: '&f%player% &7intentó huir del mundo... pero no lo logró.'
+  FALLING_STALACTITE: '&f%player% &7probó una estalactita en la cabeza.'
+  STALAGMITE: '&f%player% &7cayó justo en una estalagmita. Auch.'

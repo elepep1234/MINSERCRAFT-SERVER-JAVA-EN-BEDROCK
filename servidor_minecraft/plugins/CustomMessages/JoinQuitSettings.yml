@@ -1,67 +1,69 @@
 ######          By NBCSM.           ######
 ######        CustomMessages        ######
-######     Thank you for using.     ######
-######   After changing anything    ######
-######        Do /cm reload         ######
-######   Hex colors are supported!  ######
+######     Gracias por usarlo.      ######
+######  Después de cambiar algo     ######
+######       Haz /cm reload         ######
+###### ¡Colores Hex soportados!     ######
 
-Join-Quit-Settings: # Customize join/quit messages.
-  # If "true" "Join-Cool-Stuff", "First-Join-Messages" "Join-Messages" and "Welcome-MOTD" only will be shown after AuthMe login.
-  # Default: false
+Join-Quit-Settings: # Personaliza los mensajes de entrada/salida.
+  # Si está en "true", "Join-Cool-Stuff", "First-Join-Messages", "Join-Messages" y "Welcome-MOTD"
+  # solo se mostrarán después del login con AuthMe.
+  # Por defecto: false
   AuthMe-Support: false
-  # Silent Join Permissions: custommessages.* || custommessages.silentjoin.
-  First-Join-Messages-Enable: true # Enables messages for players joining for the first time.
-  First-Join-Messages: "&a%player% &ewelcome to our server, hope you stay!" # Message for first-time joiners.
-  Join-Messages-Enable: true # Enables normal join messages.
-  Join-Messages: "&a%player% &ejoined the game." # Message when a player joins.
-  # Silent Quit Permissions: custommessages.* || custommessages.silentquit.
-  Quit-Messages-Enable: true  # Enables quit messages.
-  Quit-Messages: "&a%player% &eleft the game." # Message when a player leaves.
-  Welcome-MOTD-Enable: true #If true "Welcome-MOTD" will be shown by players joined.
-  Welcome-MOTD: #"Welcome-MOTD-Enable: true" should be true in order to this work.
-    # Currently placeholders are >> %player% > shows player name. %playerdisplayname% > shows player displayed name.
-    - "&6========== &eWelcome to the Server! &6=========="
-    - "&aHello, &f%player%&a!"
-    - "&bWe hope you have a great time playing with us."
-    - "&7If you need any help, feel free to ask."
+  # Permisos de entrada silenciosa: custommessages.* || custommessages.silentjoin.
+  First-Join-Messages-Enable: true # Habilita mensajes para jugadores que entran por primera vez.
+  First-Join-Messages: "&a%player% &ese ha unido por primera vez, ¡bienvenido a nuestro servidor!" # Mensaje para primer ingreso.
+  Join-Messages-Enable: true # Habilita mensajes normales de entrada.
+  Join-Messages: "&a%player% &ese ha unido al juego." # Mensaje cuando un jugador entra.
+  # Permisos de salida silenciosa: custommessages.* || custommessages.silentquit.
+  Quit-Messages-Enable: true  # Habilita mensajes de salida.
+  Quit-Messages: "&a%player% &eha salido del juego." # Mensaje cuando un jugador sale.
+  Welcome-MOTD-Enable: true # Si es true, "Welcome-MOTD" se mostrará a los jugadores al entrar.
+  Welcome-MOTD: # "Welcome-MOTD-Enable: true" debe estar en true para que funcione.
+    # Placeholders disponibles >> %player% = nombre del jugador | %playerdisplayname% = nombre mostrado.
+    - "&6========== &e¡Bienvenido al Servidor! &6=========="
+    - "&a¡Hola, &f%player%&a!"
+    - "&bEsperamos que lo pases genial jugando con nosotros."
+    - "&7Si necesitas ayuda, no dudes en preguntar."
     - "&6======================================="
-Join-Cool-Stuff: # Cool visual/sound effects triggered when a player joins.
+
+Join-Cool-Stuff: # Efectos visuales/sonoros al entrar un jugador.
   Title:
-    Enable: true # Enables the title (center-screen message).
-    Title: "&aWelcome %player%!" # Main title text.
-    Subtitle: "&eEnjoy your stay!" # Subtitle below the main title.
-    FadeIn: 10 # How long the title takes to appear (in ticks, 20 ticks = 1 second).
-    Stay: 100 # How long the title stays on screen.
-    FadeOut: 10 # How long the title takes to disappear.
+    Enable: true # Habilita el título (mensaje en el centro de pantalla).
+    Title: "&a¡Bienvenido %player%!" # Texto principal.
+    Subtitle: "&e¡Disfruta tu estadía!" # Subtítulo.
+    FadeIn: 10 # Tiempo de aparición (ticks, 20 = 1 segundo).
+    Stay: 100 # Tiempo en pantalla.
+    FadeOut: 10 # Tiempo de desaparición.
   BossBar:
-    Enable: true # Enables the BossBar message.
-    Text: "&b%player% joined the game!" # Text shown on the BossBar.
-    Color: "GREEN" # Color of the BossBar (e.g., GREEN, RED, BLUE).
-    Style: "SEGMENTED_10" # Style of the BossBar (e.g., SEGMENTED_10, PROGRESS).
-    Duration: 100 # How long the BossBar stays visible (in ticks, 20 ticks = 1 second).
+    Enable: true # Habilita el BossBar.
+    Text: "&b%player% se ha unido al juego!" # Texto del BossBar.
+    Color: "GREEN" # Color del BossBar (GREEN, RED, BLUE...).
+    Style: "SEGMENTED_10" # Estilo del BossBar (SEGMENTED_10, PROGRESS...).
+    Duration: 100 # Duración visible (ticks).
   ActionBar:
-    Enable: true # Enables the ActionBar message.
-    Message: "&eWelcome, %player%!" # Small message displayed above the hotbar.
-    Duration: 100 # How long the ActionBar message stays (in ticks, 20 ticks = 1 second).
+    Enable: true # Habilita el ActionBar.
+    Message: "&e¡Bienvenido, %player%!" # Mensaje sobre la hotbar.
+    Duration: 100 # Duración (ticks).
   Sound:
-    Enable: true # Enables a sound to play when the player joins.
-    Sound: "ENTITY_PLAYER_LEVELUP" # Sound name (must match Minecraft sound ID).
-    Volume: 1.0 # Volume of the sound (0.0 - 1.0 recommended).
-    Pitch: 1.0 # Pitch of the sound (1.0 is normal, higher = squeaky, lower = deep).
+    Enable: true # Habilita sonido al entrar.
+    Sound: "ENTITY_PLAYER_LEVELUP" # ID del sonido de Minecraft.
+    Volume: 1.0 # Volumen (0.0 - 1.0 recomendado).
+    Pitch: 1.0 # Tono (1.0 normal, más alto = agudo, más bajo = grave).
   FireWorks:
-    Enable: true # Enables fireworks on player join.
+    Enable: true # Habilita fuegos artificiales al entrar.
     Color:
-      R: 255 # Red value for main color (0-255).
-      G: 255 # Green value for main color (0-255).
-      B: 255 # Blue value for main color (0-255).
+      R: 255
+      G: 255
+      B: 255
     FadeColor:
-      R: 255 # Red value for fade color (0-255).
-      G: 255 # Green value for fade color (0-255).
-      B: 255 # Blue value for fade color (0-255).
-    Type: "BALL_LARGE" # Firework shape type (BALL, BALL_LARGE, BURST, CREEPER, STAR).
-    Trail: true # Should the firework have a trail?
-    Flicker: true # Should the firework flicker?
-    Power: 1 # Firework flight duration (1–2 is recommended maybe more if you are brave enough ^^').
-    Detonation-Delay-Ticks: 40 # Delay before the firework detonates after being launched (in ticks, 20 ticks = 1 second).
+      R: 255
+      G: 255
+      B: 255
+    Type: "BALL_LARGE" # Tipo (BALL, BURST, CREEPER, STAR...).
+    Trail: true # Con estela.
+    Flicker: true # Con parpadeo.
+    Power: 1 # Duración de vuelo (1–2 recomendado).
+    Detonation-Delay-Ticks: 40 # Retraso antes de explotar (ticks).
   LightningStrike:
-    Enable: true # Should a lightning effect strike when a player joins?
+    Enable: true # ¿Lanzar un rayo al entrar un jugador?

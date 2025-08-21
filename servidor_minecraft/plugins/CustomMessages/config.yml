@@ -1,88 +1,127 @@
 ######          By NBCSM.           ######
 ######        CustomMessages        ######
-######     Thank you for using.     ######
-######   After changing anything    ######
-######        Do /cm reload         ######
-######   Hex colors are supported!  ######
+######     Gracias por usarlo.      ######
+######  Después de cambiar algo     ######
+######       Haz /cm reload         ######
+###### ¡Colores Hex soportados!     ######
+###### ¡PlaceholderAPI soportado!   ######
 
-Prefix: '&6[&bGAMECRAFT&6]' # Main plugin prefix.
-Reload-Message: '&aReloaded %reloadtime%ms.' # Reload message.
-No-Permission-Message: '&cYou don''t have a permission!' # No permission message.
-Main-Command-Message: # Main command output.
-  - '&7&m-------------&b bGAMECRAFT Commands &7&m-------------'
+# Prefijo del plugin
+Prefix: '&6[&bGAMECRAFT&6]' 
+Reload-Message: '&a¡Config recargada en %reloadtime%ms, qué velocidad!' 
+No-Permission-Message: '&cNo tienes permiso crack, pide OP jajaja.'
+
+# Comandos principales
+Main-Command-Message:
+  - '&7&m-------------&b GAMECRAFT Comandos &7&m-------------'
   - ''
-  - '&b/custommessages &7- &b/cm &7- &eMain command.'
-  - '&b/custommessages reload &7- &b/cm reload &7- &eReloads the config.'
-  - '&b/me &eCustomized command by bGAMECRAFT see it in config.yml.'
-  - '&b/say &eCustomized command by bGAMECRAFT see it in config.yml.'
-Server-Settings: # Customize server settings.
-  # Bypass Permission: custommessage.* || custommessage.syntaxbypass
-  Command-Syntax-Block: true #If "Command-Syntax-Block-Enable: true" syntax commands will be blocked.
-  Command-Syntax-Block-Message: "&cSyntax commands are not allowed on this server." #If "Command-Syntax-Block-Enable: true" syntax commands usage output.
-  Disconnect-Spam-Disable: true # true makes "disconnect.spam" blocked false vice versa.
-  # Should "Command-Block" protection be enabled?
-  # Bypass Permission: custommessage.* || custommessage.commandblockbypass
+  - '&b/custommessages &7- &b/cm &7- &eMuestra este menú mágico.'
+  - '&b/custommessages reload &7- &b/cm reload &7- &eRecarga la config (otra vez).'
+  - '&b/me &eUn comando personalizado para hacerte notar.'
+  - '&b/say &eEl megáfono del servidor.'
+
+# Configuración del servidor
+Server-Settings:
+  Command-Syntax-Block: true
+  Command-Syntax-Block-Message: "&c¡Comandos de sintaxis prohibidos en este server, amigo!"
+  Disconnect-Spam-Disable: true
   Command-Block: true
-  # The message sent when a player execute a command that is listed in "Blocked-Commands".
-  Command-Blocked-Message: "&cThe command &7(&c%cmd%&7) &cis blocked!"
-  # Commands in that list will be blocked.
-  # Do not use "/".
+  Command-Blocked-Message: "&cEl comando &7(&c%cmd%&7) &cestá bloqueado, no intentes hacer trampa."
   Blocked-Commands:
     - "plugins"
     - "version"
     - "about"
-  # Enables the server list MOTD feature (set to true or false).
   Server-List-MOTD: true
-  # If true, MOTD messages will be shown randomly.
-  # If false, MOTD messages will be shown in order.
   MOTD-Random: true
-  # MOTD Messages section.
-  # Please use "/n" for second line.
-  # PlaceholderAPI supported!
   MOTD-Messages:
-    - "&bWelcome!\n&eJoin the server!"
-    - "&aWhat a Beautiful Day!\n&7The game is about to begin..."
-    - "&dNew Features Added!\n&9Check them out now!"
-    - "&cCustomMessages 0.6\n&fWe're here with fresh updates!"
-    - "&6Server is Active!\n&eJoin and have fun!"
-Chat-Settings: # Take control of the chat.
-  # Should "Anti-Caps" protection be enabled?
-  # Bypass permissions: "custommessage.*" || "custommessage.anticapsbypass"
+    - "&b¡Bienvenido!\n&eEntra al server y trae papitas."
+    - "&aHace un buen día...\n&7... para picar diamantes."
+    - "&dNuevas locuras añadidas!\n&9Ven a descubrirlas."
+    - "&cGAMECRAFT 2.0\n&fAhora con menos bugs (o eso creemos)."
+    - "&6¡Servidor encendido!\n&eY tu PC todavía no explota."
+
+# Configuración del chat
+Chat-Settings:
   Anti-Caps: true
-  # If the caps exceed this amount, the entire message will be displayed in lower case.
   Allowed-Caps-Amount: 3
-  # The message sent when a player exceeds the "Allowed-Caps-Amount" limit.
-  Anti-Caps-Block-Message: "&cToo many capital letters &7(&c%allowedcaps%&7)&c, message lowercased."
-  # Whether "Anti-Caps-Block-Message:" should be shown or not.
+  Anti-Caps-Block-Message: "&cDemasiadas mayúsculas (&c%allowedcaps%&c), mensaje en minúsculas."
   Dont-Send-Anti-Caps-Block-Message: false
-  # Enable or disable the chat delay feature to prevent spamming.
-  # Bypass Permission: custommessage.* || custommessage.chatdelaybypass
   Chat-Delay: true
-  # The required delay time in seconds between player chat messages.
   Chat-Delay-Seconds: 3
-  # The message shown to players when they try to chat too quickly.
-  # %seconds% will be replaced with the remaining wait time.
-  Chat-Delay-Message: "&cPlease wait &7(&c%seconds% seconds&7)&c before sending your next message."
-Server-Messages: # Server messages customize.
-  # Me Command Permission: custommesages.* || custommessages.me
-  Me-Message-Enable: true # Allows you to customize /me command.
-  Me-Command-Patch: true # Basically blocks /minecraft:me command. If "Command-Syntax-Block-Enable: true" leave this "Me-Command-Patch: false".
-  Me-Message: "&d[ME] &e%player% &b%message%" # /me message format.
-  Me-Usage-Message: "&cWrong usage. &e/me &b<message>" # /me wrong usage command output.
-  Me-Message-No-Format: "&cPlease contact to the admin. There is no format for /me command." #/me no format message.
-  # Say Command Permission: custommesages.* || custommessages.say
-  Say-Message-Enable: true # Allows you to customize /say command.
-  Say-Command-Patch: true # Basically blocks /minecraft:say command. If "Command-Syntax-Block-Enable: true" leave this "Say-Command-Patch: false".
-  Say-Message: "&d[SAY] &e%player% &b%message%" # /say message format.
-  Say-Usage-Message: "&cWrong usage. &e/say &b<message>" # /say wrong usage command output.
-  Say-Message-No-Format: "&cPlease contact to the admin. There is no format for /say command." #/me no format message.
-  # Should "WhiteList-Kick-Message" be shown?
+  Chat-Delay-Message: "&cEspera &7(&c%seconds% segundos&7)&c antes de volver a escribir."
+
+# Mensajes del servidor
+Server-Messages:
+  Me-Message-Enable: true
+  Me-Command-Patch: true
+  Me-Message: "&d[ME] &e%player% &b%message%"
+  Me-Usage-Message: "&cUso incorrecto. &e/me &b<mensaje>"
+  Me-Message-No-Format: "&cContacta al admin. No hay formato para /me."
+  Say-Message-Enable: true
+  Say-Command-Patch: true
+  Say-Message: "&d[SAY] &e%player% &b%message%"
+  Say-Usage-Message: "&cUso incorrecto. &e/say &b<mensaje>"
+  Say-Message-No-Format: "&cContacta al admin. No hay formato para /say."
   Use-WhiteList-Message: true
-  # Current placeholders > %player% > player name.
-  # Multi-line is supported. By adding "\n" you can have multiple lines!
-  WhiteList-Kick-Message: "&cSorry &f%player%, &cyou are not whitelisted!\nTry again later." # Message shown when a non-whitelisted player tries to join.
-  # Should "Server-Full-Message" be shown?
+  WhiteList-Kick-Message: "&cLo siento &f%player%, &cno estás en la whitelist!\nVuelve más tarde."
   Use-Server-Full-Message: true
-  # Current placeholders >> %player% > player name > %online% > current online count > %max% max player limit.
-  # Multi-line is supported. By adding "\n" you can have multiple lines!
-  Server-Full-Message: "&cHey &f%player%, &cthe server is currently full (%online%/%max%).\nTry again later." # Message shown when the server is full.
+  Server-Full-Message: "&cHey &f%player%, &cel server está lleno (%online%/%max%).\nIntenta más tarde."
+
+# Mensajes de unión y bienvenida
+Join-Quit-Settings:
+  AuthMe-Support: false
+  First-Join-Messages-Enable: true
+  First-Join-Messages: "&a%player% &e¡bienvenido al server, que la pases genial!"
+  Join-Messages-Enable: true
+  Join-Messages: "&a%player% &eentró al juego, a disfrutar!"
+  Quit-Messages-Enable: true
+  Quit-Messages: "&a%player% &ese fue del juego, nos vemos pronto."
+  Welcome-MOTD-Enable: true
+  Welcome-MOTD:
+    - "&6========== &e¡Bienvenido al Server! &6=========="
+    - "&a¡Hola, &f%player%&a!"
+    - "&bEsperamos que lo pases genial jugando con nosotros."
+    - "&7Si necesitas ayuda, no dudes en preguntar."
+    - "&6======================================="
+
+# Efectos de unión
+Join-Cool-Stuff:
+  Title:
+    Enable: true
+    Title: "&a¡Bienvenido %player%!"
+    Subtitle: "&e¡Disfruta tu estadía!"
+    FadeIn: 10
+    Stay: 100
+    FadeOut: 10
+  BossBar:
+    Enable: true
+    Text: "&b%player% se unió al juego!"
+    Color: "GREEN"
+    Style: "SEGMENTED_10"
+    Duration: 100
+  ActionBar:
+    Enable: true
+    Message: "&eBienvenido, %player%!"
+    Duration: 100
+  Sound:
+    Enable: true
+    Sound: "ENTITY_PLAYER_LEVELUP"
+    Volume: 1.0
+    Pitch: 1.0
+  FireWorks:
+    Enable: true
+    Color:
+      R: 255
+      G: 255
+      B: 255
+    FadeColor:
+      R: 255
+      G: 255
+      B: 255
+    Type: "BALL_LARGE"
+    Trail: true
+    Flicker: true
+    Power: 1
+    Detonation-Delay-Ticks: 40
+  LightningStrike:
+    Enable: true
