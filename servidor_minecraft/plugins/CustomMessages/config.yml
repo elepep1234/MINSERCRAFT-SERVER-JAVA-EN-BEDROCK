@@ -5,16 +5,16 @@
 ######        Do /cm reload         ######
 ######   Hex colors are supported!  ######
 
-Prefix: '&6[&bCustomMessages&6]' # Main plugin prefix.
+Prefix: '&6[&bGAMECRAFT&6]' # Main plugin prefix.
 Reload-Message: '&aReloaded %reloadtime%ms.' # Reload message.
 No-Permission-Message: '&cYou don''t have a permission!' # No permission message.
 Main-Command-Message: # Main command output.
-  - '&7&m-------------&b CustomMessages Commands &7&m-------------'
+  - '&7&m-------------&b bGAMECRAFT Commands &7&m-------------'
   - ''
   - '&b/custommessages &7- &b/cm &7- &eMain command.'
   - '&b/custommessages reload &7- &b/cm reload &7- &eReloads the config.'
-  - '&b/me &eCustomized command by CustomMessages see it in config.yml.'
-  - '&b/say &eCustomized command by CustomMessages see it in config.yml.'
+  - '&b/me &eCustomized command by bGAMECRAFT see it in config.yml.'
+  - '&b/say &eCustomized command by bGAMECRAFT see it in config.yml.'
 Server-Settings: # Customize server settings.
   # Bypass Permission: custommessage.* || custommessage.syntaxbypass
   Command-Syntax-Block: true #If "Command-Syntax-Block-Enable: true" syntax commands will be blocked.

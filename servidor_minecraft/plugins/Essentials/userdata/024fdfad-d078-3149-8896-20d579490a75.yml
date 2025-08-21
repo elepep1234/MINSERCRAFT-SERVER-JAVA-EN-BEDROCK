@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.198.128.226
-afk: true
+afk: false
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1755535746390
-  login: 1755804298153
+  logout: 1755805580832
+  login: 1755805582833
 money: '0'
 last-account-name: edsthilaire121
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 5eaa8144-2adf-4164-a151-70ae1ae982fb
   world-name: void
-  x: -135.44500135305034
+  x: -136.66247441045485
   y: -27.0
-  z: -144.85441094770397
-  yaw: 179.10028076171875
-  pitch: 0.7498563528060913
+  z: -139.8837974730022
+  yaw: 176.90655517578125
+  pitch: 16.800003051757812
