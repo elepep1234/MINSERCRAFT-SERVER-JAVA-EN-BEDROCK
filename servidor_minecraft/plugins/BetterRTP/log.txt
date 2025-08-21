@@ -18,3 +18,16 @@
 2025-08-21 18:08:52 [INFO]: Queueing paused, max queue limit reached!
 2025-08-21 19:25:12 [INFO]: edsthilaire121 executed: /rtp world world
 2025-08-21 19:25:13 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=14.5,y=84.0,z=627.5,pitch=67.94987,yaw=-139.19972}
+2025-08-21 20:10:50 [INFO]: soypapa executed: /rtp world world
+2025-08-21 20:10:57 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=-987.5,y=67.0,z=-960.5,pitch=10.199943,yaw=177.45027}
+2025-08-21 20:12:42 [WARNING]: Seems like the world `void` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- void: NETHER`
+2025-08-21 20:16:02 [INFO]: soypapa executed: /rtp world world
+2025-08-21 20:16:14 [INFO]: soypapa executed: /rtp world world
+2025-08-21 20:16:15 [INFO]: soypapa executed: /rtp world world
+2025-08-21 20:16:15 [INFO]: soypapa executed: /rtp world world
+2025-08-21 20:16:15 [INFO]: soypapa executed: /rtp world world
+2025-08-21 20:16:15 [INFO]: soypapa executed: /rtp world world
+2025-08-21 20:16:16 [INFO]: soypapa executed: /rtp world world
+2025-08-21 20:16:16 [INFO]: soypapa executed: /rtp world world
+2025-08-21 20:16:16 [INFO]: soypapa executed: /rtp world world
+2025-08-21 20:16:16 [INFO]: soypapa executed: /rtp world world
