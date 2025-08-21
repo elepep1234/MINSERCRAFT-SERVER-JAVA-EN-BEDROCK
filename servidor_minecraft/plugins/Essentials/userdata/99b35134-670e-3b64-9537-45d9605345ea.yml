@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1755806222384
+  logout: 1755809059384
   login: 1755807001181
 money: '0'
 last-account-name: soypapa
 lastlocation:
-  world: e19baa22-a9a0-4122-9237-a01b5655df17
-  world-name: world
-  x: -1009.5860132076562
-  y: 50.0
-  z: -973.6931523424561
-  yaw: -86.399658203125
-  pitch: 34.65000915527344
-logoutlocation:
   world: 5eaa8144-2adf-4164-a151-70ae1ae982fb
   world-name: void
-  x: -137.09436464601004
-  y: -27.5
-  z: -138.47477720631247
-  yaw: -19.949750900268555
-  pitch: 18.599943161010742
+  x: -135.61441748605213
+  y: -27.0
+  z: -148.03454068162677
+  yaw: 177.903076171875
+  pitch: 7.200000286102295
+logoutlocation:
+  world: e19baa22-a9a0-4122-9237-a01b5655df17
+  world-name: world
+  x: 6118.5
+  y: 68.0
+  z: -1728.5
+  yaw: 177.903076171875
+  pitch: 7.200000286102295
