@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1755804327543
+  lastteleport: 1755807742633
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,11 +23,11 @@ last-account-name: edsthilaire121
 lastlocation:
   world: e19baa22-a9a0-4122-9237-a01b5655df17
   world-name: world
-  x: -0.6587213498223559
-  y: 87.74833208461968
-  z: 674.0221778045689
-  yaw: -25.049652099609375
-  pitch: 12.149858474731445
+  x: -967.5
+  y: 98.0
+  z: -393.5
+  yaw: 88.65054321289062
+  pitch: -4.350009918212891
 logoutlocation:
   world: 5eaa8144-2adf-4164-a151-70ae1ae982fb
   world-name: void

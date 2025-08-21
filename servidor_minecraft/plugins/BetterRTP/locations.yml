@@ -1,21 +1,7 @@
-# Locations where rtp will center upon
-# Format:
-# - LOCATION_NAME:
-#     World: world
-#     CenterX: 100
-#     CenterY: 150
-#     MaxRadius: 100
-#     MinRadius: 5
-#     Shape: square
-#     MinY: 0
-#     MaxY: 320
-
-Enabled: false # enable the locations feature
-RequirePermission: false # Require players to have `betterrtp.location.<world_name>`
-UseLocationIfAvailable: true # Will choose a location upon `/rtp` if location(s) is available in the world
-UseLocationsInSameWorld: true # Will only choose locations in same world rtp'ing in
-# If UseLocationsInSameWorld is set to true, use `betterrtp.bypass.location` to allow rtp'ing to locations in other worlds
-
+Enabled: false
+RequirePermission: false
+UseLocationIfAvailable: true
+UseLocationsInSameWorld: true
 Locations:
 - main_loc:
     World: world_name
@@ -27,3 +13,15 @@ Locations:
     MinY: 0
     MaxY: 320
     Cooldown: 300
+Default:
+  UseWorldBorder: false # Ignora el worldborder si quieres un área grande
+  Biomes: []
+  MaxRadius: 10000 # Distancia máxima desde el centro (spawn)
+  MinRadius: 500 # Distancia mínima desde el spawn para evitar que salga cerca
+  CenterX: 0 # Coordenadas X del centro (usualmente spawn)
+  CenterZ: 0 # Coordenadas Z del centro (usualmente spawn)
+  Shape: square # Forma del área: square o circle
+  MaxY: 320 # Altura máxima
+  MinY: 0 # Altura mínima
+  RTPOnDeath: false # No rtp automático al morir
+
