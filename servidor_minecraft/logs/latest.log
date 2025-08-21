@@ -599,3 +599,9 @@ Caused by: java.lang.IllegalStateException: zip file closed
 [18:54:40] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
 [18:54:40] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
 [18:54:40] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:58:28] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:58:40] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:02:29] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:02:41] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:06:29] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:06:41] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
