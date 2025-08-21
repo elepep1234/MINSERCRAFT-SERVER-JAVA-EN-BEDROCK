@@ -786,3 +786,11 @@ Caused by: java.lang.IllegalStateException: zip file closed
 [19:57:02] [Server thread/INFO]: [voicechat] Disconnecting client soypapa
 [19:57:02] [Server thread/INFO]: [U] soypapa ha salido del juego.
 [19:57:28] [Server thread/INFO]: edsthilaire121 issued server command: /custommessages reload
+[19:58:27] [Server thread/INFO]: edsthilaire121 lost connection: Timed out
+[19:58:27] [Server thread/INFO]: [voicechat] Disconnecting client edsthilaire121
+[19:58:41] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[19:58:53] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:02:42] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:02:54] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:06:42] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[20:06:54] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
