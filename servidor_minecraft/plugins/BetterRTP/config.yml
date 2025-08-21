@@ -1,6 +1,30 @@
-# Plugin GAMECRAFT RTP
-# ¿Necesitas ayuda? Ve a https://ronanplugins.com/discord!
+# GAMECRAFT - Configuración completa de RTP
+# Autor: Ed Sthilaire
+# Mensajes divertidos y seguros
 
+CustomWorlds:
+- custom_world_1:
+    UseWorldBorder: false
+    MaxRadius: 1000
+    MinRadius: 100
+    CenterX: 0
+    CenterZ: 0
+    Price: 50
+    Shape: square
+    MaxY: 320
+    MinY: 0
+    Cooldown: 60
+- other_custom_world:
+    MaxRadius: 10000
+    MinRadius: 150
+    CenterX: 123
+    CenterZ: -123
+    Price: 0
+    Biomes:
+    - desert
+    - forest
+    Shape: circle
+    RTPOnDeath: true
 Language-File: es.yml
 
 Settings:
@@ -56,9 +80,9 @@ Settings:
 Default:
   UseWorldBorder: false
   Biomes: []
-  MaxRadius: 1000
-  MinRadius: 10
-  CenterX: 0
+  MaxRadius: 10000 # Máxima distancia desde el spawn
+  MinRadius: 500 # Distancia mínima desde spawn para que aparezca aleatorio
+  CenterX: 0 # Coordenadas del centro del mundo (spawn)
   CenterZ: 0
   Shape: square
   MaxY: 320
@@ -87,31 +111,7 @@ DisabledWorlds:
 - creative
 - void
 
-CustomWorlds:
-- custom_world_1:
-    UseWorldBorder: false
-    MaxRadius: 1000
-    MinRadius: 100
-    CenterX: 0
-    CenterZ: 0
-    Price: 50
-    Shape: square
-    MaxY: 320
-    MinY: 0
-    Cooldown: 60
-- other_custom_world:
-    MaxRadius: 10000
-    MinRadius: 150
-    CenterX: 123
-    CenterZ: -123
-    Price: 0
-    Biomes:
-    - desert
-    - forest
-    Shape: circle
-    RTPOnDeath: true
-
-# Overrides: redirige un /rtp en un mundo hacia otro mundo
+# Redirección de mundos peligrosos
 Overrides:
 - void: world
 - creative: world
@@ -149,10 +149,9 @@ PermissionGroup:
         Price: 15
         Cooldown: 1500
 
-# Mensajes divertidos de RTP (con GAMECRAFT)
+# Mensajes divertidos de RTP
 Messages:
-  Success: '&a¡%player%, teletransportado con éxito por GAMECRAFT a un lugar seguro!
-    🎉'
+  Success: '&a¡%player%, GAMECRAFT te teletransportó a un lugar seguro! 🎉'
   Fail: '&c¡Uy! GAMECRAFT no encontró un lugar seguro, intenta de nuevo.'
   Cooldown: '&cEspera &7(%seconds%s) antes de usar /rtp otra vez, dice GAMECRAFT.'
   QueueStart: '&eGAMECRAFT está buscando un lugar seguro para ti, %player%… paciencia
@@ -161,3 +160,38 @@ Messages:
     ubicación 🌎'
   VoidRedirect: '&6GAMECRAFT dice: ¡Cuidado! Intentaste /rtp en el void, te llevamos
     al mundo seguro. 🌟'
+
+# Configuración de placeholders
+betterrtp_count: Cantidad total de /rtp realizados
+betterrtp_cooldown: Cooldown en el mundo actual
+betterrtp_cooldown_<world_name>: Cooldown de un mundo específico
+betterrtp_cooldowntime: Tiempo restante de cooldown en el mundo actual
+betterrtp_cooldowntime_<world_name>: Tiempo restante de cooldown en un mundo específico
+betterrtp_canrtp: Razón o 'sí' si el jugador puede /rtp en este mundo
+betterrtp_canrtp_<world_name>: Razón o 'sí' si puede /rtp en un mundo específico
+betterrtp_canrtpcooldown: Si puede /rtp basado solo en cooldown
+betterrtp_canrtpcooldown_<world_name>: Lo mismo para un mundo específico
+betterrtp_canrtpprice: Si puede /rtp basado en saldo bancario
+betterrtp_canrtpprice_<world_name>: Lo mismo para un mundo específico
+betterrtp_canrtphunger: Si puede /rtp basado en hambre
+betterrtp_canrtphunger_<world_name>: Lo mismo para un mundo específico
+betterrtp_price: Precio de /rtp en el mundo actual
+betterrtp_price_<world_name>: Precio de /rtp en un mundo específico
+
+Config:
+  TimeFormat:
+    Days: '{0} Día(s)'
+    Hours: '{0} Hora(s)'
+    Minutes: '{0} Min(s)'
+    Seconds: '{0} Seg(s)'
+    ZeroAll: Ninguno
+    Infinite: ∞
+    Separator:
+      Middle: ', '
+      Last: ' y '
+  CanRTP:
+    Success: '&aSí! GAMECRAFT te teletransportará 😎'
+    NoPermission: '&c¡Ups! No tienes permiso para hacer /rtp'
+    Cooldown: '&fGAMECRAFT dice: paciencia, tu teletransporte aún no está listo ⏳'
+    Price: '&cNo puedes. &7Razón: &eBancarrota 💸'
+    Hunger: '&cNo puedes. &7Razón: &3¡Hambriento! Come algo antes 🍗'
