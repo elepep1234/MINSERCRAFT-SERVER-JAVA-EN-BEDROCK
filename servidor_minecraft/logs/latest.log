@@ -635,3 +635,57 @@ Caused by: java.lang.IllegalStateException: zip file closed
 [18:39:14] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [18:41:03] [Thread-19/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [18:41:15] [Thread-19/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:42:51] [Thread-19/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=198.22.205.211:4932, peerAddr=185.165.44.22:55218, claimAddress=209.25.140.2:43783, claimToken=[44, 0, 68, -58, 22, -51, -45, 19, 68, -71, -91, 44, 22, -41, -78, 78, 6, 43, 117, -85, 7, 104, -84, -82, -85, 0, 0, 0, 0, 0, 22, -53, -41, 0, 0, 0, 0, 0, 74, -37, -124, 0, 0, 0, 0, 0, 33, -68, 4, 63, 117, -85, 7, 0, 0, 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 6, -122, -100, -30, 31, -18, 28, -55, 97, 48, 18, 76, -54, -118, 117, 36], tunnelServerId=1, dataCenterId=42}
+[18:42:51] [Thread-19/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[18:42:51] [Thread-19/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43783 to claim client
+[18:42:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[18:42:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[18:42:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[18:42:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[18:42:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[18:42:51] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[18:42:51] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[18:45:04] [Thread-19/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:45:16] [Thread-19/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:45:23] [Server thread/INFO]: edsthilaire121 issued server command: /give @p minecraft:shield{BlockEntityTag:{Base:15,Patterns:[{Color:14,Pattern:"sc"},{Color:0,Pattern:"ts"},{Color:13,Pattern:"cre"}]}}
+[18:45:25] [Server thread/INFO]: edsthilaire121 issued server command: /give @p minecraft:shield{BlockEntityTag:{Base:15,Patterns:[{Color:14,Pattern:"sc"},{Color:0,Pattern:"ts"},{Color:13,Pattern:"cre"}]}}
+[18:45:36] [Server thread/INFO]: edsthilaire121 issued server command: /give @p minecraft:black_banner{BlockEntityTag:{Patterns:[{Color:14,Pattern:"sc"},{Color:0,Pattern:"ts"},{Color:13,Pattern:"cre"}]}}
+[18:46:40] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:46:40] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:46:43] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:46:43] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:46:44] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:46:44] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:46:45] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:46:45] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:46:46] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:46:46] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:46:47] [Server thread/INFO]: edsthilaire121 issued server command: /rtp
+[18:47:01] [Server thread/INFO]: edsthilaire121 issued server command: /day add 5000
+[18:47:04] [Server thread/INFO]: edsthilaire121 issued server command: /day add 1000
+[18:47:07] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:47:07] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:47:28] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:47:28] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:47:36] [Server thread/INFO]: edsthilaire121 issued server command: /day set night
+[18:47:38] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:47:38] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:47:42] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:47:42] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:47:45] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:47:45] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:47:46] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:47:46] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:47:47] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:47:47] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:47:49] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:47:49] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:47:50] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:47:50] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:47:50] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:47:51] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:47:51] [Server thread/INFO]: edsthilaire121 issued server command: /summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}}}}
+[18:47:51] [Server thread/INFO]: [[PLAYER] edsthilaire121 [MEMBER]: Summoned new Firework Rocket]
+[18:48:00] [Server thread/INFO]: edsthilaire121 issued server command: /give @s firework_rocket{Fireworks:{Flight:2,Explosions:[{Type:1,Colors:[I;2437522],FadeColors:[I;2437522]}]}} 1
+[18:49:04] [Thread-19/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[18:49:16] [Thread-19/INFO]: [gg.playit.control.ChannelSetup] send keep alive
