@@ -4,35 +4,35 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.198.128.226
-afk: true
+afk: false
 socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1755809062814
+  lastteleport: 1755813934829
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1755811921183
-  login: 1755811924030
+  logout: 1755814202211
+  login: 1755814134269
 money: '0'
 last-account-name: edsthilaire121
 lastlocation:
   world: e19baa22-a9a0-4122-9237-a01b5655df17
   world-name: world
-  x: 6118.456349227245
-  y: 68.0
-  z: -1728.9730482550501
-  yaw: -8.246940612792969
-  pitch: 35.85000228881836
+  x: 2649.277749878708
+  y: 159.0
+  z: -4658.699999988079
+  yaw: -90.30104064941406
+  pitch: -40.35000228881836
 logoutlocation:
   world: 5eaa8144-2adf-4164-a151-70ae1ae982fb
   world-name: void
-  x: -136.73766274911986
-  y: -27.0
-  z: -138.80150712515794
-  yaw: -33.6011962890625
-  pitch: 14.249983787536621
+  x: -138.9239185204391
+  y: -24.013451270438086
+  z: -136.97169863879833
+  yaw: -40.94976806640625
+  pitch: 20.699974060058594
