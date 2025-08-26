@@ -626,3 +626,9 @@ Caused by: java.lang.IllegalStateException: zip file closed
 [16:13:11] [Server thread/INFO]: edsthilaire121[/127.198.128.226:57793] logged in with entity id 325 at ([void]-134.9749415503123, -27.5, -127.97883801737385)
 [16:13:17] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
 [16:13:17] [Server thread/INFO]: [voicechat] Disconnecting client edsthilaire121
+[16:16:18] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:16:30] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:20:18] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:20:30] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:24:19] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:24:31] [Thread-18/INFO]: [gg.playit.control.ChannelSetup] send keep alive
