@@ -1,0 +1,51 @@
+title: "%rank_color%%rank_symbol% %rank_name%"
+rows: 1
+sound: ITEM_BOOK_PAGE_TURN
+
+options:
+  name:
+    name: "&5Name{$colon} {$p}%rank_name%"
+    material: DIAMOND
+    lore:
+      - "{$s}The name of this rank."
+      - "Can contain any character but must be"
+      - "20 characters max."
+      - "It can also contain color codes."
+    posx: 1
+    posy: 1
+  material:
+    name: "&eMaterial{$colon} {$p}%rank_material%"
+    material: GOLD_INGOT
+    lore:
+      - "{$s}The material used to display"
+      - "this rank in the ranks GUI."
+      - "You should use the latest material names"
+      - "even if the server is running on old versions."
+    posx: 2
+    posy: 1
+  symbol:
+    name: "&dSymbol{$colon} {$p}%rank_symbol%"
+    material: IRON_INGOT
+    lore:
+      - "{$s}Symbol for this rank."
+      - "It can only be 5 characters."
+      - "Also supports colors."
+    posx: 3
+    posy: 1
+  color:
+    name: "%rank_color%Color"
+    material: COAL
+    lore:
+      - "{$s}The chat color for this rank."
+      - "It can only be 5 characters."
+    posx: 4
+    posy: 1
+
+  back:
+    name: "{$p}Back"
+    material: PLAYER_HEAD
+    skull: "{$gui-back}"
+    lore:
+      - "{$s}Go back to nexus menu."
+    posx: 9
+    posy: 1

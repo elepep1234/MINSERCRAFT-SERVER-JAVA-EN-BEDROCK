@@ -1,0 +1,72 @@
+(import):
+  turret:
+    parameters:
+      <name>: flame
+      <build-duration-factor>: '0'
+      <durability-factor>: 100
+      <skull-1>: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA4MGJiZWZjYTg3ZGMwZjM2NTM2YjY1MDg0MjVjZmM0Yjk1YmE2ZThmNWU2YTQ2ZmY5ZTljYjQ4OGE5ZWQifX19'
+      <skull-2>: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU0NjljZTJkYjE2OTAyYWFiNzhjM2E5NjM2NjRiOWY5Yjc4ZTU4NTM2YWQxOWRkM2I5YzJhYjRkNDA0NTZmIn19fQ=='
+      <skull-3>: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE0MmEzNWFjMGIwNTVlZDUwYTVjYmY4NzBiNmVmMWNjMWY5NGUyNjQyYjliYTY1MGM5ZTAzODVlNmNiZTM2In19fQ=='
+
+name: "&cFlame"
+type: arrow
+cost: 300
+sell: 200
+max-level: 3
+
+conditions:
+  purchase:
+    'kingdoms_kingdom_level < 2': '{$$kingdom-levels.II}'
+  upgrade:
+    'level == 1 && kingdoms_kingdom_level < 3': '{$$kingdom-levels.III}'
+    'level == 2 && kingdoms_kingdom_level < 4': '{$$kingdom-levels.IV}'
+
+sounds:
+  1:
+    opening:
+      started: &start-sound ITEM_FIRECHARGE_USE
+      finished: *start-sound
+      stopped: &stop-sound BLOCK_FIRE_EXTINGUISH
+    upgrading:
+      started: *start-sound
+      finished: *start-sound
+      stopped: *stop-sound
+    demolition:
+      started: *stop-sound
+      finished: *stop-sound
+      stopped: *stop-sound
+
+range: 7 + lvl
+cooldown: 10 - lvl
+max-targets: 1
+max-ammo: lvl * 2000
+upgrade-cost: lvl * 80
+fire: 1
+particle: ~
+effects:
+  1: [ ]
+projectile:
+  1: ARROW
+  3: SPECTRAL_ARROW
+speed: 1 + (lvl * 0.8)
+damage: lvl * 3
+
+item:
+  1:
+    name: "&cFlame Turret"
+    material: SPECTRAL_ARROW
+    flags: [ ALL ]
+    lore:
+      - "{$s}A similar turret as arrow"
+      - "turret but shoots fired arrows with higher"
+      - "damage and spectral arrow on max level."
+      - ""
+      - "{$sp}Attributes{$colon}"
+      - "{$dot} {$p}Level{$colon} {$s}%roman@level%"
+      - "{$dot} {$p}Ammo{$colon} {$s}%ammo%"
+      - "{$dot} {$p}Range{$colon} {$s}%range%"
+      - "{$dot} {$p}Max Targets{$colon} {$s}%max_targets%"
+      - "{$dot} {$p}Max Ammo{$colon} {$s}%max_ammo%"
+      - "{$dot} {$p}Cooldown{$colon} {$s}%cooldown%"
+      - "{$dot} {$p}Speed{$colon} {$s}%fancy@speed%"
+      - "{$dot} {$p}Damage{$colon} {$s}%damage%"

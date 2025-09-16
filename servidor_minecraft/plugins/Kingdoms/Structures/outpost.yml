@@ -1,0 +1,155 @@
+(import):
+  structure:
+    parameters:
+      <name>: outpost
+      <build-duration-factor>: '+1 minute'
+      <durability-factor>: 100
+      <material-1>: HAY_BLOCK
+      <material-2>: HAY_BLOCK
+      <material-3>: HAY_BLOCK
+
+'[fn-base]': &fn-base
+  args: [ "<cost>", "<material>" ]
+  return:
+    buy: 'percentOf(10, <cost> * (initial / stock)) + (<cost> * (initial / stock))'
+    sell: 'min(buy, <cost> * (initial / stock))'
+    stock:
+      initial: 10000
+      max: 100000
+      min: 500
+    item:
+      material: <material>
+
+name: "&eOutpost"
+default-name: 'Outpost'
+type: outpost
+
+conditions:
+  purchase:
+    'kingdoms_kingdom_level < 2': '{$$kingdom-levels.II}'
+
+limits:
+  per-land: 1
+  total: 10
+
+# The items that can be sold in the outpost structure.
+stocks:
+  # The name of each entry is basically the ID of the item,
+  # this ID is used for saving server-wide stock data and being
+  # used in the GUI with the "stock-" prefix.
+  # For example, this particular item will be referenced as "stock-diamonds" in the GUI.
+  diamonds: # <--- Note this name is important
+    # The amount of resource points used for buying this item from the structure.
+    # Here you can use the special placeholder "stock" which is the amount of this
+    # item that is held by the server-wide stock and can be used to adjust prices.
+    # Note: Other options below use the *fn-base function which basically repeats this
+    # equation for easier configuration.
+    buy: 'percentOf(10, 50 * (initial / stock)) + (60 * (initial / stock))'
+
+    # The amount of resource points used for selling this item to the structure.
+    # Supports "stock" placeholder just like the buy option.
+    # The selling price is always lower or equal to the buying price to avoid arbitrage transcations and exploits.
+    sell: 'min(buy, 50 * (initial / stock))'
+
+    # Settings for the "stock" variable used for buy/sell options
+    # This is a server-wide variable shared between all outpost structures.
+    # When players buy this item from an outpost, it'll decrease the amount
+    # of stock depending on how much they bought, when they sell the same item,
+    # the market stock will increase.
+    stock: &stock
+      # The initial value assigned. This is permanent and the server
+      # will save this data, so changing this option will not work
+      # unless you reset your data.
+      initial: 10000
+
+      # No matter how many items the players buy/sell the stock value
+      # will not go out of this range.
+      max: 100000
+      min: 500
+
+    # The item given to the player after they purchase it.
+    # (The amount is adjusted automatically)
+    # The items sold will have to match this exact same description.
+    item:
+      material: DIAMOND
+
+    # A kingdom-wide limit that prevents players from
+    # purchasing certain items after a certain amount is purchased.
+    purchase-limit:
+      # The cooldown doesn't persist between restarts.
+
+      # We're using math here to make it easier to understand.
+      # In this case, if you purchase 10 items together, you'll hit the limit.
+      cooldown-per-item: '[6hr] / 64' # = ~5mins %outpost_cooldown_per_item%
+
+      # When you purchase the items, the cooldown will accumulate,
+      # And once this limit is reached, they'll have to wait.
+      # Players will not be able to purchase items if the total cooldown
+      # is going to be more than this limit.
+      max-cooldown: 6hrs # %outpost_max_cooldown%
+
+  emerald: *fn-base [ 60, EMERALD ]
+  gold-ingot: *fn-base [ 40, GOLD_INGOT ]
+  iron-ingot: *fn-base [ 30, IRON_INGOT ]
+  nether-brick: *fn-base [ 30, NETHER_BRICK ]
+  brick: *fn-base [ 20, BRICK ]
+  lapis-lazuli: *fn-base [ 10, LAPIS_LAZULI ]
+  coal: *fn-base [ 2, COAL ]
+  charcoal: *fn-base [ 1, CHARCOAL ]
+
+  ender-eye: *fn-base [ 1000, ENDER_EYE ]
+  ender-pearl: *fn-base [ 100, ENDER_PEARL ]
+  dragon-breath: *fn-base [ 3000, DRAGON_BREATH ]
+  blaze-rod: *fn-base [ 40, BLAZE_ROD ]
+  blaze-powder: *fn-base [ 20, BLAZE_POWDER ]
+  prismarine-crystals: *fn-base [ 20, PRISMARINE_CRYSTALS ]
+
+  golden-carrot: *fn-base [ 50, GOLDEN_CARROT ]
+  magma-cream: *fn-base [ 50, MAGMA_CREAM ]
+  slime-ball: *fn-base [ 30, SLIME_BALL ]
+  flint: *fn-base [ 1, FLINT ]
+  book: *fn-base [ 10, BOOK ]
+
+  xp-bottle:
+    <<: *fn-base [ 30, EXPERIENCE_BOTTLE ]
+    purchase-limit:
+      cooldown-per-item: '[1hr] / 64'
+      max-cooldown: 1hrs
+
+  cooked-rabbit: *fn-base [ 3, COOKED_RABBIT ]
+  cooked-beef: *fn-base [ 2, COOKED_BEEF ]
+  cooked-porkchop: *fn-base [ 2, COOKED_PORKCHOP ]
+  cooked-chicken: *fn-base [ 1, COOKED_CHICKEN ]
+  cooked-fish: *fn-base [ 1, COOKED_COD ]
+  cooked-salmon: *fn-base [ 1, COOKED_SALMON ]
+  cooked-mutton: *fn-base [ 1, COOKED_MUTTON ]
+
+  wool: *fn-base [ 15, WHITE_WOOL ]
+  string: *fn-base [ 1, STRING ]
+  bucket: *fn-base [ 80, BUCKET ]
+  bone-meal: *fn-base [ 3, BONE_MEAL ]
+  rail: *fn-base [ 3, RAIL ]
+  glass: *fn-base [ 25, GLASS ]
+  ghast-tear: *fn-base [ 100, GHAST_TEAR ]
+
+  redstone-torch: *fn-base [ 5, REDSTONE_TORCH ]
+  repeater: *fn-base [ 10, REPEATER ]
+  comparator: *fn-base [ 15, COMPARATOR ]
+  dispenser: *fn-base [ 30, DISPENSER ]
+  dropper: *fn-base [ 20, DROPPER ]
+  hopper: *fn-base [ 200, HOPPER ]
+  piston: *fn-base [ 80, PISTON ]
+
+cost: 500
+sell: 250
+item:
+  1:
+    name: "{$sp}Outpost"
+    material: HAY_BLOCK
+    flags: [ ALL ]
+    lore:
+      - "{$sep}The Outpost allows direct access to your Nexus."
+      - "{$sep}It enables you to access turrets, upgrades,"
+      - "and unlockable structures."
+      - "{$sep}Outposts can produce exp bottles from"
+      - "resource points aswell."
