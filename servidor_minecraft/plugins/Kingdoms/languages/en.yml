@@ -708,46 +708,46 @@ nexus:
     disable: '{$s}Tu reino ahora no requiere una invitación para unirse.'
   structure-inventory-full: '{$e}¡Tu inventario está lleno!'
   turret-inventory-full: '{$e}¡Tu inventario está lleno!'
-  structure-purchased: '{$p}You''ve purchased {$s}%structure% {$p}for {$s}{? rp > 0 ? "%fancy@rp% resource points"}{? rp > 0 && money > 0 ? " {$e}&{$es} "}{? money > 0 ? "$%fancy@money%"}'
-  structure-cost: '{$e}You need {$es}{? rp > 0 ? "%fancy@rp% resource points"}{? rp > 0 && money > 0 ? " {$e}&{$es} "}{? money > 0 ? "$%fancy@money%"} {$e}to buy this structure.'
-  turret-cost: '{$e}You need {$es}{? rp > 0 ? "%fancy@rp% resource points"}{? rp > 0 && money > 0 ? " {$e}&{$es} "}{? money > 0 ? "$%fancy@money%"} {$e}to buy this turret.'
-  turret-purchased: '{$p}You''ve purchased {$s}%turret% {$p}for {$s}{? rp > 0 ? "%fancy@rp% resource points"}{? rp > 0 && money > 0 ? " {$p}&{$s} "}{? money > 0 ? "$%fancy@money%"}'
-  resource-points: '{$s}A total of {$es}%amount% {$s}resource points has been added.'
+  structure-purchased: '{$p}Has comprado {$s}%structure% {$p}por {$s}{? rp > 0 ? "%fancy@rp% puntos de recursos"}{? rp > 0 && money > 0 ? " {$e}y{$es} "}{? money > 0 ? "$%fancy@money%"}'
+  structure-cost: '{$e}Necesitas {$es}{? rp > 0 ? "%fancy@rp% puntos de recursos"}{? rp > 0 && money > 0 ? " {$e}y{$es} "}{? money > 0 ? "$%fancy@money%"} {$e}para comprar esta estructura.'
+  turret-cost: '{$e}Necesitas {$es}{? rp > 0 ? "%fancy@rp% puntos de recursos"}{? rp > 0 && money > 0 ? " {$e}y{$es} "}{? money > 0 ? "$%fancy@money%"} {$e}para comprar esta torreta.'
+  turret-purchased: '{$p}Has comprado {$s}%turret% {$p}por {$s}{? rp > 0 ? "%fancy@rp% puntos de recursos"}{? rp > 0 && money > 0 ? " {$p}y{$s} "}{? money > 0 ? "$%fancy@money%"}'
+  resource-points: '{$s}Se ha agregado un total de {$es}%amount% {$s}puntos de recursos.'
   rank-editor:
-    enter-value: '{$s}Please enter the new value in chat {$cancel}'
-    max: '{$e}You can''t create more than {$es}%limit% {$e}ranks for your kingdom.'
-    other: '{$e}You can''t change rank settings of other kingdoms.'
-    cannot-delete-rank: '{$e}You can''t delete this rank. Your Kingdom must at least have 2 ranks.'
-    cannot-delete-king: '{$e}Cannot delete the king rank.'
-    cannot-delete-member: '{$e}Cannot delete the member rank.'
-    copy: '{$p}Successfully coped {$s}%copy_node% {$p}rank to {$s}%rank_node%'
+    enter-value: '{$s}Por favor ingresa el nuevo valor en el chat {$cancel}'
+    max: '{$e}No puedes crear más de {$es}%limit% {$e}rangos para tu reino.'
+    other: '{$e}No puedes cambiar la configuración de rangos de otros reinos.'
+    cannot-delete-rank: '{$e}No puedes eliminar este rango. Tu Reino debe tener al menos 2 rangos.'
+    cannot-delete-king: '{$e}No se puede eliminar el rango de rey.'
+    cannot-delete-member: '{$e}No se puede eliminar el rango de miembro.'
+    copy: '{$p}Copiado exitosamente el rango {$s}%copy_node% {$p}a {$s}%rank_node%'
     length:
-      node: '{$e}Node length cannot be greater than {$es}%limit%'
-      name: '{$e}Name length cannot be greater than {$es}%limit%'
-      color: '{$e}Color length cannot be greater than {$es}%limit%'
-      symbol: '{$e}Symbol length cannot be greater than {$es}%limit%'
+      node: '{$e}La longitud del nodo no puede ser mayor que {$es}%limit%'
+      name: '{$e}La longitud del nombre no puede ser mayor que {$es}%limit%'
+      color: '{$e}La longitud del color no puede ser mayor que {$es}%limit%'
+      symbol: '{$e}La longitud del símbolo no puede ser mayor que {$es}%limit%'
     node:
-      already-exists: '{$e}There''s another rank with this node.'
-    unknown-material: '{$e}No such material{$colon} {$es}%material%'
+      already-exists: '{$e}Ya existe otro rango con este nodo.'
+    unknown-material: '{$e}No existe el material{$colon} {$es}%material%'
     invalid:
-      material: '{$e}You can''t use the material {$es}%material%'
-      max-claims: '{$e}Max claims must be a number and greater than 0'
-      priority: '{$e}Invalid priority. Priority must be lower than {$es}%kingdoms_ranks% {$e}and higher than {$es}0'
-      node: '{$e}Rank node cannot contain special characters. Alphabets and numbers only.'
-    max-claims-limit: '{$e}Max claims cannot be greater than {$es}%limit%'
+      material: '{$e}No puedes usar el material {$es}%material%'
+      max-claims: '{$e}Los reclamos máximos deben ser un número mayor que 0'
+      priority: '{$e}Prioridad inválida. La prioridad debe ser menor que {$es}%kingdoms_ranks% {$e}y mayor que {$es}0'
+      node: '{$e}El nodo de rango no puede contener caracteres especiales. Solo letras y números.'
+    max-claims-limit: '{$e}Los reclamos máximos no pueden ser mayores que {$es}%limit%'
     color:
-      has-none-colors: '{$e}The specified text must only contain color codes. Spaces aren''t allowed either{$colon} &f%color%'
+      has-none-colors: '{$e}El texto especificado solo debe contener códigos de color. Los espacios tampoco están permitidos{$colon} &f%color%'
   chest:
-    others: '{$e}You can''t open nexus chest of other kingdoms.'
+    others: '{$e}No puedes abrir el cofre del nexo de otros reinos.'
   misc-upgrades:
-    others: '{$e}You can''t change misc upgrades of other kingdoms.'
+    others: '{$e}No puedes cambiar las mejoras misceláneas de otros reinos.'
   settings:
-    tax-enter-value: '{$s}Please enter the new value in chat {$cancel}'
+    tax-enter-value: '{$s}Por favor ingresa el nuevo valor en el chat {$cancel}'
     flag:
-      wrong-url: '{$e}Invalid URL for flag{$colon} {$es}%flag%'
-      contains: '{$e}Flag URL cannot be accepted as it contains a blacklisted word{$colon} {$es}%flag%'
-      regex: '{$e}Flag URL cannot be accepted{$colon} {$es}%flag%'
-      validate: '{$p}Validating image...'
+      wrong-url: '{$e}URL inválida para la bandera{$colon} {$es}%flag%'
+      contains: '{$e}La URL de la bandera no puede ser aceptada ya que contiene una palabra en la lista negra{$colon} {$es}%flag%'
+      regex: '{$e}La URL de la bandera no puede ser aceptada{$colon} {$es}%flag%'
+      validate: '{$p}Validando imagen...'
       cooldown: '{$e}You need to wait {$es}%cooldown% {$e}before changing your flag.'
       size-limit:
         fail: '{$e}The URL specified is either not an image or inaccessible{$colon} {$es}%flag%'
@@ -769,202 +769,202 @@ nexus:
         {$e}Could not test {$es}%tax% {$e}tax equation on you{$colon} {$es}%reason%
         {$e}Please enter a valid equation.
     shield:
-      not-enough-resource-points: '{$e}You don''t have enough resource points.'
-      refunded: '{$p}Refunded {$s}%fancy@rp% {$p}resource points for the shield.'
-      nothing-to-refund: '{$e}You have no shield to refund it.'
+      not-enough-resource-points: '{$e}No tienes suficientes puntos de recursos.'
+      refunded: '{$p}Reembolsado {$s}%fancy@rp% {$p}puntos de recursos por el escudo.'
+      nothing-to-refund: '{$e}No tienes ningún escudo para reembolsar.'
       cooldown:
-        siege-cannon: '{$e}You need to wait {$es}%time% {$e}before buying a shield again. Since you were attacked by a siege cannon {$es}%last% {$e}ago.'
+        siege-cannon: '{$e}Necesitas esperar {$es}%time% {$e}antes de comprar un escudo de nuevo. Ya que fuiste atacado por un cañón de asedio hace {$es}%last%{$e}.'
         invasions:
-          attacked: '{$e}You need to wait {$es}%time% {$e}before buying a shield again. Since your kingdom invaded {$es}%last% {$e}ago.'
-          defended: '{$e}You need to wait {$es}%time% {$e}before buying a shield again. Since your kingdom was invaded {$es}%last% {$e}ago.'
-    shield-activated: '{$p}Shield activated for{$colon} {$s}%time@shield_time_left%'
-nexus-resource-points-enter-value: '{$s}Please enter the amount of resource points {$cancel}'
+          attacked: '{$e}Necesitas esperar {$es}%time% {$e}antes de comprar un escudo de nuevo. Ya que tu reino invadió hace {$es}%last%{$e}.'
+          defended: '{$e}Necesitas esperar {$es}%time% {$e}antes de comprar un escudo de nuevo. Ya que tu reino fue invadido hace {$es}%last%{$e}.'
+    shield-activated: '{$p}Escudo activado por{$colon} {$s}%time@shield_time_left%'
+nexus-resource-points-enter-value: '{$s}Por favor ingresa la cantidad de puntos de recursos {$cancel}'
 group-banner:
   url:
-    prompt: '{$p}Please enter the banner URL {$cancel}'
-    description: '{$p}URL Banner{$colon} {$s}%url%'
+    prompt: '{$p}Por favor ingresa la URL del estandarte {$cancel}'
+    description: '{$p}URL del Estandarte{$colon} {$s}%url%'
   minecraft:
-    banner-prompt: '{$p}Please hold the banner item in your hand and type {$s}ok {$cancel}'
+    banner-prompt: '{$p}Por favor sostén el estandarte en tu mano y escribe {$s}ok {$cancel}'
     banner-not:
-      a-banner: '{$e}The item you''re holding is not a banner.'
+      a-banner: '{$e}El objeto que sostienes no es un estandarte.'
     banner-description: |
-      {$p}Minecraft Banner{$colon}
+      {$p}Estandarte de Minecraft{$colon}
       {$s}%patterns%
 themes:
   prompt: |
-    {$s}Please enter the new hex color code in chat. {$cancel}
-    You can get the hex code for colors from hover:{{$p}here;{$p}Click to Open;@https://htmlcolorcodes.com/}
-  unknown-theme: '{$e}Unknown theme{$colon} {$es}%theme%'
-  wrong-hex: '{$e}Invalid hex color{$colon} {$es}%color%'
-  wrong-rgb: '{$e}Invalid RGB color{$colon} {$es}%color%'
-  disallowed: '{$e}The color you''ve chosen is not in the range of available colors.'
-  set: '{$p}Your kingdom''s color was changed to{$colon} {$s}%color%'
+    {$s}Por favor ingresa el nuevo código de color hexadecimal en el chat. {$cancel}
+    Puedes obtener el código hexadecimal para colores desde hover:{{$p}aquí;{$p}Clic para Abrir;@https://htmlcolorcodes.com/}
+  unknown-theme: '{$e}Tema desconocido{$colon} {$es}%theme%'
+  wrong-hex: '{$e}Color hexadecimal inválido{$colon} {$es}%color%'
+  wrong-rgb: '{$e}Color RGB inválido{$colon} {$es}%color%'
+  disallowed: '{$e}El color que has elegido no está en el rango de colores disponibles.'
+  set: '{$p}El color de tu reino ha sido cambiado a{$colon} {$s}%color%'
   main:
-    displayname: '&2Main Theme'
-    description: All colors that are not set will reset back to this color.
+    displayname: '&2Tema Principal'
+    description: Todos los colores que no estén establecidos volverán a este color.
 
-      You may see other colors here from addons that can set specific colors.
+      Podrías ver otros colores aquí de complementos que pueden establecer colores específicos.
   map-viewers:
     outline:
-      description: The color used as the online map outline color for land borders.
-      displayname: '&2Map Viewers Outline Color'
+      description: El color usado como color de contorno del mapa en línea para los bordes de tierra.
+      displayname: '&2Color de Contorno del Visor de Mapas'
     fill-color:
-      description: The color used as the online map fill color for lands.
+      description: El color usado como color de relleno del mapa en línea para las tierras.
     fill:
-      displayname: '&2Map Viewers Fill Color'
+      displayname: '&2Color de Relleno del Visor de Mapas'
 teleports:
-  moved: '{$e}Teleportation has been canceled because you moved.'
-  already-teleporting: '{$e}You''re already teleporting somewhere else.'
+  moved: '{$e}La teletransportación ha sido cancelada porque te moviste.'
+  already-teleporting: '{$e}Ya te estás teletransportando a otro lugar.'
   timer:
-    actionbar: '{$p}Teleporting in{$colon} &9%timer%'
+    actionbar: '{$p}Teletransportando en{$colon} &9%timer%'
   teleported:
-    actionbar: '&9Teleported'
+    actionbar: '&9Teletransportado'
 warppad:
-  teleporting: '{$p}Teleporting in {$s}%countdown% seconds{$p}... Don''t move.'
+  teleporting: '{$p}Teletransportando en {$s}%countdown% segundos{$p}... No te muevas.'
   low-fuel: |
-    {$e}You need {$es}%fuel-cost% fuel {$e}to teleport, this Warp Pad only has {$es}%fuel%
-    {$e}You can refill the warppad by throwing {$es}coals {$e}at it.
-  no-safe-location: '{$e}There are no safe locations around this Warp Pad to teleport.'
-  success: '{$p}Teleported!'
+    {$e}Necesitas {$es}%fuel-cost% de combustible {$e}para teletransportarte, esta Plataforma de Teletransporte solo tiene {$es}%fuel%
+    {$e}Puedes rellenar la plataforma lanzándole {$es}carbón{$e}.'
+  no-safe-location: '{$e}No hay ubicaciones seguras alrededor de esta Plataforma de Teletransporte.'
+  success: '{$p}¡Teletransportado!'
 structure:
   fuel:
-    fill: '{$p}Structure Fuel{$colon} {$s}%old-fuel% &7+ {$s}%added-fuel% &7= {$s}%fuel%'
-    maxxed: '{$p}Structure Fuel{$colon} {$s}%old-fuel% &7+ {$s}%added-fuel% &7= {$s}%fuel% {$sep}({$s}Max capacity reached{$sep})'
-    full: '{$e}Structure''s maximum fuel is reached{$colon} {$es}%fuel%'
+    fill: '{$p}Combustible de la Estructura{$colon} {$s}%old-fuel% &7+ {$s}%added-fuel% &7= {$s}%fuel%'
+    maxxed: '{$p}Combustible de la Estructura{$colon} {$s}%old-fuel% &7+ {$s}%added-fuel% &7= {$s}%fuel% {$sep}({$s}Capacidad máxima alcanzada{$sep})'
+    full: '{$e}Se alcanzó el combustible máximo de la estructura{$colon} {$es}%fuel%'
 outpost:
-  not-enough-resource-points: '{$e}You don''t have enough resource points.'
-  cooldown: '{$e}You can''t buy this item anymore until{$colon} {$es}%time@cooldown%'
-  purchased: '{$p}You''ve purchased {$s}%amount%x %name% {$p}for {$s}%fancy@cost% resource points.'
-  sold: '{$p}You''ve sold {$s}%amount%x %name% {$p}for {$s}%fancy@cost% resource points.'
-  mismatched-item: '{$p}The item you''re trying to sell is not exactly the same as the one outpost is selling.'
+  not-enough-resource-points: '{$e}No tienes suficientes puntos de recursos.'
+  cooldown: '{$e}No puedes comprar este objeto hasta{$colon} {$es}%time@cooldown%'
+  purchased: '{$p}Has comprado {$s}%amount%x %name% {$p}por {$s}%fancy@cost% puntos de recursos.'
+  sold: '{$p}Has vendido {$s}%amount%x %name% {$p}por {$s}%fancy@cost% puntos de recursos.'
+  mismatched-item: '{$p}El objeto que intentas vender no es exactamente el mismo que el puesto avanzado está vendiendo.'
 turret:
   ammo:
-    not-enough-resource-points: '{$e}You don''t have enough resource points.'
-    purchased: '{$p}Purchased ammo for turret.'
-    max-ammo: '{$e}Max ammo reached.'
-    empty: '{$e}Turret has no ammo.'
+    not-enough-resource-points: '{$e}No tienes suficientes puntos de recursos.'
+    purchased: '{$p}Munición comprada para la torreta.'
+    max-ammo: '{$e}Munición máxima alcanzada.'
+    empty: '{$e}La torreta no tiene munición.'
   upgrade:
-    max-level: '{$e}This turret is already upgraded to max level.'
-  upgrade-not-enough-resource-points: '{$e}You don''t have enough resource points to upgrade.'
-  upgrade-upgrading: '{$p}Upgrading {$s}%building_displayname%{$colon} {$s}%roman@building_level% {$arrow} {$s}%roman@building_next_level%'
+    max-level: '{$e}Esta torreta ya está mejorada al nivel máximo.'
+  upgrade-not-enough-resource-points: '{$e}No tienes suficientes puntos de recursos para mejorar.'
+  upgrade-upgrading: '{$p}Mejorando {$s}%building_displayname%{$colon} {$s}%roman@building_level% {$arrow} {$s}%roman@building_next_level%'
   manual:
-    cannot-function: '{$e}The turret cannot function.'
-disabled-world: '{$e}Kingdoms are disabled in {$s}%world%'
+    cannot-function: '{$e}La torreta no puede funcionar.'
+disabled-world: '{$e}Los reinos están deshabilitados en {$s}%world%'
 not-found:
-  nation-kingdom-player: '{$e}No nation, kingdom or player was found by that name{$colon} {$es}%arg%'
-  kingdom-player: '{$e}No kingdom or player was found by that name{$colon} {$es}%arg%'
-  kingdom: '{$e}The specified kingdom {$es}%kingdom% {$e}was not found.'
-  nation: '{$e}The specified nation was not found.'
-  player: '{$e}The specified player was not found.'
-  relation: '{$e}The specified kingdom relation was not found.'
-  player-no-kingdom: '{$e}The specified player is not in a kingdom.'
-  player-no-nation: '{$e}The specified player''s kingdom isn''t a part of a nation.'
-  in-your-kingdom: '{$e}That player isn''t in your kingdom.'
+  nation-kingdom-player: '{$e}No se encontró ninguna nación, reino o jugador con ese nombre{$colon} {$es}%arg%'
+  kingdom-player: '{$e}No se encontró ningún reino o jugador con ese nombre{$colon} {$es}%arg%'
+  kingdom: '{$e}El reino especificado {$es}%kingdom% {$e}no fue encontrado.'
+  nation: '{$e}La nación especificada no fue encontrada.'
+  player: '{$e}El jugador especificado no fue encontrado.'
+  relation: '{$e}La relación de reino especificada no fue encontrada.'
+  player-no-kingdom: '{$e}El jugador especificado no está en un reino.'
+  player-no-nation: '{$e}El reino del jugador especificado no es parte de una nación.'
+  in-your-kingdom: '{$e}Ese jugador no está en tu reino.'
 invalid:
-  username: '{$e}Invalid player username{$colon} {$es}%name%'
-  uuid: '{$es}%arg% {$e}is not a valid &nhover:{UUID;&7Click to open Wikipedia page;@https://en.wikipedia.org/wiki/Universally_unique_identifier#Format}'
-  number: '{$es}%arg% {$e}is not a number.'
-  number-too-large: '{$es}%arg% {$e}number is too large.'
-  number-integer-only: '{$es}%arg% {$e}must be an integer.'
-  number-negative: '{$e}Must be a positive number.'
-  amount: '{$e}Invalid amount{$colon} {$es}%amount%'
-  material: '{$e}Unknown material{$colon} {$es}%material%'
-  time: '{$e}Invalid time{$colon} {$es}%time% {$sep}({$e}Correct format{$colon} {$es}<amount><time-suffix> {$e}e.g.{$colon} {$es}1s{$sep}, {$es}50days{$sep})'
-  boolean: '{$es}%arg% {$e}is not a valid option. Please either use ''&2true{$e}'' or ''&4false{$e}'''
-  path: '{$es}%arg% {$e}is not a valid path.'''
+  username: '{$e}Nombre de usuario inválido{$colon} {$es}%name%'
+  uuid: '{$es}%arg% {$e}no es un &nhover:{UUID;&7Clic para abrir página de Wikipedia;@https://en.wikipedia.org/wiki/Universally_unique_identifier#Format} válido'
+  number: '{$es}%arg% {$e}no es un número.'
+  number-too-large: '{$es}%arg% {$e}el número es demasiado grande.'
+  number-integer-only: '{$es}%arg% {$e}debe ser un número entero.'
+  number-negative: '{$e}Debe ser un número positivo.'
+  amount: '{$e}Cantidad inválida{$colon} {$es}%amount%'
+  material: '{$e}Material desconocido{$colon} {$es}%material%'
+  time: '{$e}Tiempo inválido{$colon} {$es}%time% {$sep}({$e}Formato correcto{$colon} {$es}<cantidad><sufijo-tiempo> {$e}ej.{$colon} {$es}1s{$sep}, {$es}50dias{$sep})'
+  boolean: '{$es}%arg% {$e}no es una opción válida. Por favor usa ''&2true{$e}'' o ''&4false{$e}'''
+  path: '{$es}%arg% {$e}no es una ruta válida.'''
 masswar:
   started: |
 
-    &4&lMassWar&4 has started! {$es}Invasions are free for 1 hour!
-  stopped: '{$s}Masswar has ended!'
-  command-disallowed: '{$e}That command is disallowed during MassWars.'
+    &4&lGuerra Masiva&4 ha comenzado! {$es}¡Las invasiones son gratis por 1 hora!
+  stopped: '{$s}¡La Guerra Masiva ha terminado!'
+  command-disallowed: '{$e}Ese comando no está permitido durante las Guerras Masivas.'
 players:
-  online: '{$p}Online'
-  offline: '&4Offline'
+  online: '{$p}Conectado'
+  offline: '&4Desconectado'
 power:
-  death: '{$e}You died and lost {$es}%lost% {$e}power.'
-kingdom-guards-spawning: '{$es}%kingdoms_kingdom_name% {$e}Kingdom guards are spawning around you...'
+  death: '{$e}Has muerto y perdido {$es}%lost% {$e}de poder.'
+kingdom-guards-spawning: '{$es}%kingdoms_kingdom_name% {$e}Los guardias del reino están apareciendo a tu alrededor...'
 no-kingdom:
-  default: '{$e}You don''t have a kingdom.'
-  target: '{$e}The specified player doesn''t have a kingdom.'
-  private: '{$e}Your kingdom is private.'
-  structures-use: '{$e}You need to join a kingdom to use structures.'
-  turrets-use: '{$e}You need to join a kingdom to use turrets.'
-no-nation: '{$e}Your kingdom is not in a nation.'
-no-nation-other: '{$e}The specified kingdom is not in a nation.'
+  default: '{$e}No tienes un reino.'
+  target: '{$e}El jugador especificado no tiene un reino.'
+  private: '{$e}Tu reino es privado.'
+  structures-use: '{$e}Necesitas unirte a un reino para usar estructuras.'
+  turrets-use: '{$e}Necesitas unirte a un reino para usar torretas.'
+no-nation: '{$e}Tu reino no está en una nación.'
+no-nation-other: '{$e}El reino especificado no está en una nación.'
 unclaimed:
-  place-structures: '{$e}You can''t place structures in unclaimed land.'
-  place-turrets: '{$e}You can''t place turrets in unclaimed land.'
+  place-structures: '{$e}No puedes colocar estructuras en terreno sin reclamar.'
+  place-turrets: '{$e}No puedes colocar torretas en terreno sin reclamar.'
 player-selectors:
   username:
-    prompt: '{$p}Please enter the username of the player {$cancel}'
-    name: '{$p}Username'
-    info: '{$p}Username{$colon} {$s}%target_name%'
+    prompt: '{$p}Por favor ingresa el nombre de usuario del jugador {$cancel}'
+    name: '{$p}Nombre de Usuario'
+    info: '{$p}Nombre de Usuario{$colon} {$s}%target_name%'
   rank:
-    prompt: '{$p}Please enter the rank''s node {$cancel}'
-    name: '{$p}By Rank'
-    info: '{$p}Rank{$colon} {$s}%rank_node%'
+    prompt: '{$p}Por favor ingresa el nodo del rango {$cancel}'
+    name: '{$p}Por Rango'
+    info: '{$p}Rango{$colon} {$s}%rank_node%'
   kingdom:
-    prompt: '{$p}Please enter the kingdom''s name {$cancel}'
-    name: '{$p}All Kingdom Members'
-    info: '{$p}Kingdom{$colon} {$s}%kingdoms_kingdom_name%'
+    prompt: '{$p}Por favor ingresa el nombre del reino {$cancel}'
+    name: '{$p}Todos los Miembros del Reino'
+    info: '{$p}Reino{$colon} {$s}%kingdoms_kingdom_name%'
   nation:
-    prompt: '{$p}Please enter the nation''s name {$cancel}'
-    name: '{$p}All Nation Members'
-    info: '{$p}Nation{$colon} {$s}%kingdoms_nation_name%'
+    prompt: '{$p}Por favor ingresa el nombre de la nación {$cancel}'
+    name: '{$p}Todos los Miembros de la Nación'
+    info: '{$p}Nación{$colon} {$s}%kingdoms_nation_name%'
   relation:
-    prompt: '{$p}Please enter the relation''s name {$cancel}'
-    name: '{$p}By Relation'
-    info: '{$p}Relation{$colon} {$s}%relation_color%%relation_name%'
+    prompt: '{$p}Por favor ingresa el nombre de la relación {$cancel}'
+    name: '{$p}Por Relación'
+    info: '{$p}Relación{$colon} {$s}%relation_color%%relation_name%'
   union:
-    name: Union
+    name: Unión
     info: |
-      {$p}Union {$sep}(&5{? ORmode ? "OR" : "AND" }{$sep}){$colon}
+      {$p}Unión {$sep}(&5{? ORmode ? "O" : "Y" }{$sep}){$colon}
       %elements%
 commands:
-  insufficient-permission: '{$e}You don''t have permission to do that.'
-  console-only: '{$e}This command can only be performed from console.'
-  cooldown: '{$e}This command is in cooldown for{$colon} {$es}%cooldown%'
-  disabled-world: '{$e}This command cannot be used in this world.'
-  error: '{$e}An error occurred while performing this command. If you''re a player, please inform the server admins. If you''re an admin, please check your console logs.'
+  insufficient-permission: '{$e}No tienes permiso para hacer eso.'
+  console-only: '{$e}Este comando solo puede ser ejecutado desde la consola.'
+  cooldown: '{$e}Este comando está en enfriamiento por{$colon} {$es}%cooldown%'
+  disabled-world: '{$e}Este comando no puede ser usado en este mundo.'
+  error: '{$e}Ocurrió un error al ejecutar este comando. Si eres un jugador, por favor informa a los administradores del servidor. Si eres un administrador, por favor revisa los registros de la consola.'
   tags:
     identifier:
-      players: '#PLAYER'
-      kingdoms: '#KINGDOM'
-      nations: '#NATION'
-    players: <player>
-    kingdoms: <kingdom>
-    nations: <nation>
-  players-only: '{$e}Only players can use this command.'
-  mapped-arguments-missing: '{$e}Argument {$es}%argument_name% {$e}is missing.'
-  unknown-command: '{$e}Unknown command!'
+      players: '#JUGADOR'
+      kingdoms: '#REINO'
+      nations: '#NACION'
+    players: <jugador>
+    kingdoms: <reino>
+    nations: <nacion>
+  players-only: '{$e}Solo los jugadores pueden usar este comando.'
+  mapped-arguments-missing: '{$e}Falta el argumento {$es}%argument_name%{$e}.'
+  unknown-command: '{$e}¡Comando desconocido!'
   tabs:
-    error: '{$e}An error occurred during tab completion of this command. If you''re a player, please inform the server admins. If you''re an admin, please check your console logs.'
+    error: '{$e}Ocurrió un error durante el autocompletado del comando. Si eres un jugador, por favor informa a los administradores del servidor. Si eres un administrador, por favor revisa los registros de la consola.'
 kingdom:
-  name-blacklisted: '{$e}Your kingdom''s name contains blacklisted words.'
-  tag-blacklisted: '{$e}Your tag contains blacklisted words.'
-death-penalty: '{$es}%name% {$e}has died and {$es}%penalty% {$e}resource points has been taken from your kingdom.'
+  name-blacklisted: '{$e}El nombre de tu reino contiene palabras prohibidas.'
+  tag-blacklisted: '{$e}Tu etiqueta contiene palabras prohibidas.'
+death-penalty: '{$es}%name% {$e}ha muerto y se han quitado {$es}%penalty% {$e}puntos de recursos de tu reino.'
 mails:
   header-format:
     sent: |
-      {$p}Subject{$colon} {$s}%subject%
-      {$p}From{$colon} {$s}%from%
-      {$p}Sender{$colon} {$s}%sender%
-      {$p}To{$colon} {$s}%to%
+      {$p}Asunto{$colon} {$s}%subject%
+      {$p}De{$colon} {$s}%from%
+      {$p}Remitente{$colon} {$s}%sender%
+      {$p}Para{$colon} {$s}%to%
       {$p}CC{$colon} {$s}%cc%
-      {$p}At{$colon} {$s}%date_sent%
+      {$p}Fecha{$colon} {$s}%date_sent%
 
-                hover:{{$sep}[{$p}Reply{$sep}];{$sep}Click to reply;/k mail reply %id%}
+                hover:{{$sep}[{$p}Responder{$sep}];{$sep}Clic para responder;/k mail reply %id%}
       &7.......................................................
     received: |
-      {$p}Subject{$colon} {$s}%subject%
-      {$p}From{$colon} {$s}%from%
-      {$p}Sender{$colon} {$s}%sender%
-      {$p}To{$colon} {$s}%to%
+      {$p}Asunto{$colon} {$s}%subject%
+      {$p}De{$colon} {$s}%from%
+      {$p}Remitente{$colon} {$s}%sender%
+      {$p}Para{$colon} {$s}%to%
       {$p}CC{$colon} {$s}%cc%
-      {$p}At{$colon} {$s}%date_sent%
+      {$p}Fecha{$colon} {$s}%date_sent%
 
-                hover:{{$sep}[{$p}Reply{$sep}];{$sep}Click to reply;/k mail reply %id%}
+                hover:{{$sep}[{$p}Responder{$sep}];{$sep}Clic para responder;/k mail reply %id%}
       &7.......................................................
   reply-subject-formatter: '{$sep}[{$p}RE{$sep}] &f%subject%'
   notifications:
