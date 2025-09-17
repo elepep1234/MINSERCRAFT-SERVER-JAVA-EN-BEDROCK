@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.198.128.226
-afk: false
+afk: true
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -17,7 +17,7 @@ timestamps:
   jail: 0
   onlinejail: 0
   logout: 1758151980716
-  login: 1758151927602
+  login: 1758152095408
 money: '499999595000.0'
 last-account-name: edsthilaire121
 lastlocation:

@@ -962,3 +962,113 @@ Latest Version: v1.17.20.1-BETA
 [23:33:47] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [23:34:21] [kingdoms-worker-2/INFO]: [GAMECRAFT] Detected changes for language file: en
 [23:34:21] [kingdoms-worker-2/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:34:43] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:34:43] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:34:54] [User Authenticator #2/INFO]: UUID of player edsthilaire121 is 024fdfad-d078-3149-8896-20d579490a75
+[23:34:55] [Server thread/INFO]: [NameTag] §7Player edsthilaire121 joined. Applying NameTag.
+[23:34:55] [Server thread/INFO]: edsthilaire121[/127.198.128.226:46651] logged in with entity id 872 at ([world]-8138.568296480686, 70.0, -4106.268705393368)
+[23:35:09] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:35:09] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:35:12] [Server thread/INFO]: edsthilaire121 issued server command: /k
+[23:37:22] [Server thread/INFO]: edsthilaire121 issued server command: /k reload
+[23:37:22] [Server thread/INFO]: [KingdomsX] Performing a full reload for the plugin...
+[23:37:22] [kingdoms-worker-2/INFO]: [KingdomsX] Setting up file manager...
+[23:37:22] [kingdoms-worker-2/INFO]: [KingdomsX] Reloading langauge and GUI files...
+[23:37:22] [kingdoms-worker-2/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:37:22] [kingdoms-worker-2/INFO]: [KingdomsX] Default language: en (English)
+[23:37:23] [kingdoms-worker-2/INFO]: [KingdomsX] Reloading configs...
+[23:37:23] [kingdoms-worker-2/INFO]: [KingdomsX] Reregistering event listeners...
+[23:37:23] [kingdoms-worker-2/WARN]: [KingdomsX] Please ignore any messages you receive about EntityKnockbackEvent being deprecated. It's bullshit :)
+[23:37:23] [kingdoms-worker-2/WARN]: [KingdomsX] "Kingdoms v1.17.20-BETA" has registered a listener for org.bukkit.event.entity.EntityKnockbackEvent on method "private static void org.kingdoms.managers.land.LandProtectionManager$c.a(org.bukkit.event.entity.EntityKnockbackEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Crypto Morin].
+[23:37:23] [kingdoms-worker-2/INFO]: [KingdomsX] Registering declaration modules...
+[23:37:23] [kingdoms-worker-2/INFO]: [KingdomsX] Registering commands...
+[23:37:24] [kingdoms-worker-2/INFO]: [KingdomsX] Reinitializing other services...
+[23:37:24] [kingdoms-worker-2/INFO]: [KingdomsX] Reloading turrets...
+[23:37:24] [kingdoms-worker-2/INFO]: [KingdomsX] Reloading structures...
+[23:37:24] [kingdoms-worker-2/INFO]: [GAMECRAFT] Manual Save: 
+  | GLOBALS:  0/1 (1ms)
+  | KINGDOMS: 0/1 (1ms)
+  | LANDS:    1/1 (5ms)
+  | MTG:      0/0 (0ms)
+  | NATIONS:  0/0 (0ms)
+  | PLAYERS:  0/1 (0ms)
+[23:37:24] [kingdoms-worker-2/INFO]: [KingdomsX] Reloading addons...
+[23:37:24] [kingdoms-worker-2/INFO]: [GAMECRAFT] Failed to load map services:
+[23:37:24] [kingdoms-worker-2/WARN]: java.lang.IllegalStateException: Error while registering Map Icons 'warppad' plugins/Kingdoms/maps/icons/warppad.png
+[23:37:24] [kingdoms-worker-2/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.utils.fs.FolderRegistry.b(FolderRegistry.java:51)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.utils.fs.FolderRegistry.visitPresent(FolderRegistry.java:42)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.IconFolderRegistry.register(IconFolderRegistry.java:50)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.MapServiceProvider.loadIcons(MapServiceProvider.java:78)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.MapServiceProvider.load(MapServiceProvider.java:53)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.ServiceMap.lambda$load$7(ServiceMap.java:140)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.data.centers.KingdomsStartup.whenReady(KingdomsStartup.java:77)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.ServiceMap.load(ServiceMap.java:135)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.MapViewerAddon.reloadAddon(MapViewerAddon.java:43)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.commands.general.admin.CommandReload.a(CommandReload.java:99)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.scheduler.traced.TracedFunctionalObject.tracedRun(TracedFunctionalObject.java:37)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.scheduler.traced.TracedRunnable.run(TracedRunnable.java:23)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.scheduler.convert.UnconsumedRunnable.accept(UnconsumedRunnable.java:16)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.scheduler.convert.InjectedConsumerRunnable.run(InjectedConsumerRunnable.java:16)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[23:37:24] [kingdoms-worker-2/WARN]: Caused by: java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.getMarkerAPI()" because "this.api" is null
+[23:37:24] [kingdoms-worker-2/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.dynmap.ServiceDynmap.updateOrRegisterIcon(ServiceDynmap.java:258)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.IconFolderRegistry.handle(IconFolderRegistry.java:43)
+[23:37:24] [kingdoms-worker-2/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.utils.fs.FolderRegistry.b(FolderRegistry.java:49)
+[23:37:24] [kingdoms-worker-2/WARN]: 	... 31 more
+[23:37:24] [kingdoms-worker-2/INFO]: [Kingdoms-Addon-Peace-Treaties] Loading term grouping settings...
+[23:37:24] [kingdoms-worker-2/INFO]: [KingdomsX] Reloading done.
+[23:37:35] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:37:44] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:37:44] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:37:47] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:38:07] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:38:07] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:38:57] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:38:57] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:39:29] [kingdoms-worker-3/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:39:29] [kingdoms-worker-3/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:39:50] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:39:50] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:41:35] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:41:47] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:42:25] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:42:25] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:42:54] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:42:54] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:43:24] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:43:24] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:43:51] [kingdoms-worker-3/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:43:51] [kingdoms-worker-3/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:44:04] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:44:04] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:44:23] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:44:23] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:44:51] [kingdoms-worker-3/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:44:51] [kingdoms-worker-3/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:45:09] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:45:09] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:45:36] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:45:40] [kingdoms-worker-3/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:45:40] [kingdoms-worker-3/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:45:48] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:46:00] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:46:00] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:46:29] [kingdoms-worker-3/INFO]: [GAMECRAFT] Detected changes for language file: en
+[23:46:29] [kingdoms-worker-3/INFO]: [KingdomsX] Loading language: EN (version master)

@@ -211,35 +211,35 @@ kingdom-levels:
   V: '{$e}Necesitas mejorar tu reino al nivel {$es}5 {$e}para eso.'
 tips:
   
-  # Tip messages that are shown in console based on the server.
+  # Mensajes de consejos que se muestran en la consola según el servidor.
   message:
-    header: '&8----------------=( &cTips {$sep})=----------------'
+    header: '&8----------------=( &cConsejos {$sep})=----------------'
     entry: '&8- %description%'
     footer: '&8----------------=------------=----------------'
-  disable-crops-physics: '&2You should consider enabling ''disable-crops-physics'' option in claims.yml, but it has side effects. To ignore this tip, use &c/k admin tip ignore DISABLE_CROPS_PHYSICS'
+  disable-crops-physics: '&2Deberías considerar habilitar la opción ''disable-crops-physics'' en claims.yml, pero tiene efectos secundarios. Para ignorar este consejo, usa &c/k admin tip ignore DISABLE_CROPS_PHYSICS'
 tax:
-  kick: '{$e}You didn''t have enough money for your kingdoms taxes, therefore you were kicked out.'
+  kick: '{$e}No tenías suficiente dinero para los impuestos de tu reino, por lo tanto fuiste expulsado.'
   reminder: |
 
-    &4&l&nAttention{$colon} {$e}&lDaily checks will be performed in{$colon} {$es}%time%
-  total: '{$p}Your kingdom has gained a total of {$s}$%tax% {$p}from collecting taxes.'
-  paid: '{$es}$%tax% {$e}has been withdrawn from your account for your kingdom tax.'
-  excluded-permission: '{$p}You did not pay kingdom taxes because you were excluded.'
-  excluded-new: '{$p}You did not pay kingdom taxes because you were new.'
+    &4&l&nAtención{$colon} {$e}&lLas verificaciones diarias se realizarán en{$colon} {$es}%time%
+  total: '{$p}Tu reino ha ganado un total de {$s}$%tax% {$p}por la recaudación de impuestos.'
+  paid: '{$es}$%tax% {$e}ha sido retirado de tu cuenta por el impuesto del reino.'
+  excluded-permission: '{$p}No pagaste impuestos del reino porque fuiste excluido.'
+  excluded-new: '{$p}No pagaste impuestos del reino porque eres nuevo.'
   kingdom:
-    age: '&5Your kingdom did not pay the taxes as it''s new.'
+    age: '&5Tu reino no pagó los impuestos porque es nuevo.'
     paid: |
-      {$p}A total of {$s}$%tax% {$p}kingdom tax has been paid.
-      New Kingdom Bank Balance{$colon} {$s}$%fancy@kingdoms_bank%
-    bankruptcy: '{$e}Your kingdom failed to pay tax of {$es}$%tax% {$e}and is now bankrupt. Your kingdom bank has a negative balance and your features are limited.'
+      {$p}Se ha pagado un total de {$s}$%tax% {$p}de impuesto del reino.
+      Nuevo Saldo del Banco del Reino{$colon} {$s}$%fancy@kingdoms_bank%
+    bankruptcy: '{$e}Tu reino no pudo pagar el impuesto de {$es}$%tax% {$e}y ahora está en bancarrota. Tu banco del reino tiene un saldo negativo y tus funciones están limitadas.'
     paid-nation: |
-      {$p}A total of {$s}$%tax% {$p}kingdom tax has been paid to your nation.
-      New Kingdom Bank Balance{$colon} {$s}$%fancy@kingdoms_bank%
-      {$p}New Nation Bank Balance{$colon} {$s}$%fancy@kingdoms_nation_bank%
-    kicked: '{$es}%kingdoms_kingdom_name% {$e}kingdom has been kicked out of the nation due to not being able to pay the taxes{$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%'
-    disbanded: '{$e}Your kingdom has been disbanded due to not being able to pay the taxes{$colon} {$es}$%tax%'
-    disbanded-announce: '{$es}%kingdom% {$e}kingdom has been disbanded due to not being able to pay the taxes{$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%'
-    kicked-announce: '{$es}%kingdoms_kingdom_name% {$e}kingdom has been kicked out of {$es}%kingdoms_nation_name% {$e}nation due to not being able to pay the taxes{$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%'
+      {$p}Se ha pagado un total de {$s}$%tax% {$p}de impuesto del reino a tu nación.
+      Nuevo Saldo del Banco del Reino{$colon} {$s}$%fancy@kingdoms_bank%
+      {$p}Nuevo Saldo del Banco de la Nación{$colon} {$s}$%fancy@kingdoms_nation_bank%
+    kicked: '{$es}%kingdoms_kingdom_name% {$e}reino ha sido expulsado de la nación por no poder pagar los impuestos{$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%'
+    disbanded: '{$e}Tu reino ha sido disuelto por no poder pagar los impuestos{$colon} {$es}$%tax%'
+    disbanded-announce: '{$es}%kingdom% {$e}reino ha sido disuelto por no poder pagar los impuestos{$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%'
+    kicked-announce: '{$es}%kingdoms_kingdom_name% {$e}reino ha sido expulsado de la nación {$es}%kingdoms_nation_name% {$e}por no poder pagar los impuestos{$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%'
   nation:
     age: '&5Your nation did not pay the taxes as it''s new.'
     paid: |
@@ -371,40 +371,40 @@ bossbar:
     title:
       enter: '{$p}Enter the boss bar title {$cancel}'
 siege-cannon:
-  ready-fire: '{$p}The cannon is ready to fire.'
-  sit: '{$p}You''re now on the cannon. Either load it yourself or let someone else do it.'
-  occupied: '{$e}Someone else is already sitting on the cannon.'
-  masswar-only: '{$e}You can only use siege cannons during masswars.'
-  already-loaded: '{$e}Cannon is already loaded.'
-  ammo-special-item: '{$e}This is a special item and cannot be used as ammo.'
-  not-ammo: '{$e}Cannons can only be loaded with the projectiles specified in the GUI.'
+  ready-fire: '{$p}El cañón está listo para disparar.'
+  sit: '{$p}Ahora estás en el cañón. Puedes cargarlo tú mismo o dejar que alguien más lo haga.'
+  occupied: '{$e}Alguien más ya está sentado en el cañón.'
+  masswar-only: '{$e}Solo puedes usar cañones de asedio durante guerras masivas.'
+  already-loaded: '{$e}El cañón ya está cargado.'
+  ammo-special-item: '{$e}Este es un objeto especial y no puede usarse como munición.'
+  not-ammo: '{$e}Los cañones solo pueden ser cargados con los proyectiles especificados en la GUI.'
   hit:
-    unclaimed-land: '{$e}Cannon has hit an unclaimed land.'
-    players-shield: '{$e}Your shield was hit by a siege cannon and was broken.'
-    no-shield: '{$p}Cannon has hit {$s}%kingdoms_kingdom_name% {$p}kingdom. They didn''t have a shield.'
-    build-attribute: '{$p}But your kingdom has BUILD attribute with this kingdom, so no blocks will be destroyed.'
-    pacifist: '{$e}Cannon has hit {$es}%kingdoms_kingdom_name% {$e}kingdom, but they''re a pacifist kingdom.'
-    destroyed-shield: '{$p}Cannon has hit {$s}%kingdoms_kingdom_name% {$p}kingdom. Their shield has been destroyed.'
-    damaged-shield: '{$p}Cannon has hit {$s}%kingdoms_kingdom_name% {$p}kingdom. Remaining shield{$colon} {$s}%time@kingdoms_shield_time_left%'
-    damaged-shield-notify: '{$es}%attacker-kingdom% {$e}kingdom has hit your land at {$es}%attacked-chunk%{$e}. Remaining shield{$colon} {$s}%time@kingdoms_shield_time_left%'
+    unclaimed-land: '{$e}El cañón ha golpeado una tierra sin reclamar.'
+    players-shield: '{$e}Tu escudo fue golpeado por un cañón de asedio y se rompió.'
+    no-shield: '{$p}El cañón ha golpeado el reino {$s}%kingdoms_kingdom_name%{$p}. No tenían escudo.'
+    build-attribute: '{$p}Pero tu reino tiene el atributo CONSTRUIR con este reino, así que no se destruirán bloques.'
+    pacifist: '{$e}El cañón ha golpeado el reino {$es}%kingdoms_kingdom_name%{$e}, pero es un reino pacifista.'
+    destroyed-shield: '{$p}El cañón ha golpeado el reino {$s}%kingdoms_kingdom_name%{$p}. Su escudo ha sido destruido.'
+    damaged-shield: '{$p}El cañón ha golpeado el reino {$s}%kingdoms_kingdom_name%{$p}. Escudo restante{$colon} {$s}%time@kingdoms_shield_time_left%'
+    damaged-shield-notify: '{$es}%attacker-kingdom% {$e}reino ha golpeado tu tierra en {$es}%attacked-chunk%{$e}. Escudo restante{$colon} {$s}%time@kingdoms_shield_time_left%'
   friendly:
-    fire: '{$e}Cannon has hit a friendly (no INVADE attribute) land which belongs to {$es}%kingdom%'
+    fire: '{$e}El cañón ha golpeado una tierra amiga (sin atributo INVADIR) que pertenece a {$es}%kingdom%'
   pacifist:
-    cant-use-person: '{$e}You cannot use cannons since you''re a pacifist kingdom.'
-    cant-use: '{$e}This cannon is placed inside a pacifist kingdom and cannot be used.'
+    cant-use-person: '{$e}No puedes usar cañones ya que eres un reino pacifista.'
+    cant-use: '{$e}Este cañón está colocado dentro de un reino pacifista y no puede ser usado.'
 lands:
-  build-own-only: '{$e}You can only build in the lands you claimed.'
-  portal-protection: '{$e}Your portal teleportation was cancelled because this portal leads to an unfriendly kingdom.'
-  ender-pearl-protection: '{$e}Your ender pearl landed in an enemy kingdom!'
-  gamemode-protection: '{$e}Your gamemode has been changed for entering a foreign land.'
-  gamemode-protection-activated: '{$e}You can''t use creative mode in this land.'
+  build-own-only: '{$e}Solo puedes construir en las tierras que has reclamado.'
+  portal-protection: '{$e}Tu teletransportación por portal fue cancelada porque este portal lleva a un reino hostil.'
+  ender-pearl-protection: '{$e}¡Tu perla de ender cayó en un reino enemigo!'
+  gamemode-protection: '{$e}Tu modo de juego ha sido cambiado por entrar a una tierra extranjera.'
+  gamemode-protection-activated: '{$e}No puedes usar el modo creativo en esta tierra.'
   nation-zone:
-    place: '{$e}You cannot place blocks in nation zone of {$es}%nation%'
-    break: '{$e}You cannot break blocks in nation zone of {$es}%nation%'
-    interact: '{$e}You cannot interact with in nation zone of {$es}%nation%'
+    place: '{$e}No puedes colocar bloques en la zona de la nación {$es}%nation%'
+    break: '{$e}No puedes romper bloques en la zona de la nación {$es}%nation%'
+    interact: '{$e}No puedes interactuar en la zona de la nación {$es}%nation%'
   visualizer:
     wilderness:
-      actionbar: '{$sep}&l-=( {$p}&lUnoccupied Land {$sep}&l)=-'
+      actionbar: '{$sep}&l-=( {$p}&lTierra Sin Ocupar {$sep}&l)=-'
     self:
       titles:
         title: '&a%kingdoms_kingdom_name%'
@@ -431,283 +431,283 @@ lands:
       titles:
         title: '&c%other*kingdoms_kingdom_name%'
         subtitle: '%other*hex@kingdoms_kingdom_color%%other*kingdoms_lore%'
-  grow-structure-error: '{$e}You cannot do this here because it causes an issue at {$p}%x%{$sep}, {$p}%y%{$sep}, {$p}%z% {$colon}'
-  grow-structure-protected: '{$e}You cannot do this here because there''s a kingdom protected block at {$p}%x%{$sep}, {$p}%y%{$sep}, {$p}%z%'
+  grow-structure-error: '{$e}No puedes hacer esto aquí porque causa un problema en {$p}%x%{$sep}, {$p}%y%{$sep}, {$p}%z% {$colon}'
+  grow-structure-protected: '{$e}No puedes hacer esto aquí porque hay un bloque protegido del reino en {$p}%x%{$sep}, {$p}%y%{$sep}, {$p}%z%'
 other-kingdoms:
-  place: '{$e}You can''t build in other kingdoms land.'
-  break: '{$e}You can''t build in other kingdoms land.'
-  teleport-entity: '{$e}The {$es}%entity% {$e}you placed was not teleported through the portal because the portal goes to another kingdom''s land.'
-  teleport-portal-creation: '{$e}You cannot teleport from this portal because it will open a new portal in another kingdom''s land.'
-  kill: '{$e}You can''t kill {$es}%entity% {$e}in other kingdom land.'
-  interact: '{$e}You can''t interact in other kingdoms land.'
-  use: '{$e}You can''t use in other kingdoms land.'
+  place: '{$e}No puedes construir en tierras de otros reinos.'
+  break: '{$e}No puedes construir en tierras de otros reinos.'
+  teleport-entity: '{$e}El {$es}%entity% {$e}que colocaste no fue teletransportado a través del portal porque el portal lleva a tierra de otro reino.'
+  teleport-portal-creation: '{$e}No puedes teletransportarte desde este portal porque abrirá un nuevo portal en tierra de otro reino.'
+  kill: '{$e}No puedes matar a {$es}%entity% {$e}en tierra de otro reino.'
+  interact: '{$e}No puedes interactuar en tierras de otros reinos.'
+  use: '{$e}No puedes usar en tierras de otros reinos.'
   structure:
-    place: '{$e}You can''t place structures in other kingdoms land.'
-    interact: '{$e}You can''t open structures of other kingdoms.'
-    break: '{$e}You can''t break structures in other kingdoms land.'
-    nexus-break-with-permission: '{$e}You can''t break another kingdom''s nexus even with {$es}MANAGE_STRUCTURE {$e}relationship attribute.'
-    can-take: '{$e}You can take this structure since no kingdom owns this land.'
+    place: '{$e}No puedes colocar estructuras en tierras de otros reinos.'
+    interact: '{$e}No puedes abrir estructuras de otros reinos.'
+    break: '{$e}No puedes romper estructuras en tierras de otros reinos.'
+    nexus-break-with-permission: '{$e}No puedes romper el nexo de otro reino incluso con el atributo de relación {$es}GESTIONAR_ESTRUCTURA{$e}.'
+    can-take: '{$e}Puedes tomar esta estructura ya que ningún reino posee esta tierra.'
   nexus:
-    break: '{$p}You''ve gained {$s}%rp% {$p}for breaking this nexus.'
-    break-cooldown: '{$e}You need to wait {$es}%cooldown% {$e}before mining nexus resource points.'
-    break-wrong-item: '{$e}You can only gain resource points from breaking the nexus using a {$es}diamond hoe{$e}.'
-    break-pacifist: '{$e}You cannot gain resource points by breaking the nexus of a pacifist kingdom.'
+    break: '{$p}Has ganado {$s}%rp% {$p}por romper este nexo.'
+    break-cooldown: '{$e}Necesitas esperar {$es}%cooldown% {$e}antes de minar puntos de recursos del nexo.'
+    break-wrong-item: '{$e}Solo puedes ganar puntos de recursos rompiendo el nexo usando una {$es}azada de diamante{$e}.'
+    break-pacifist: '{$e}No puedes ganar puntos de recursos rompiendo el nexo de un reino pacifista.'
   turret:
-    can-take: '{$e}You can take this turret since no kingdom owns this land.'
-    place: '{$e}You can''t place turrets in other kingdoms land.'
-    interact: '{$e}You can''t open turret of other kingdoms.'
-    break: '{$e}You can''t break turrets in other kingdoms land.'
+    can-take: '{$e}Puedes tomar esta torreta ya que ningún reino posee esta tierra.'
+    place: '{$e}No puedes colocar torretas en tierras de otros reinos.'
+    interact: '{$e}No puedes abrir torretas de otros reinos.'
+    break: '{$e}No puedes romper torretas en tierras de otros reinos.'
 guis:
-  creative: '{$e}You can''t open this GUI in creative mode.'
-  open-error: '{$e}An error occurred while opening this GUI. If you''re a player, please inform the server admins. If you''re an admin, please check your console logs.'
-  error: '{$e}An error occurred while handling this option. If you''re a player, please inform the server admins. If you''re an admin, please check your console logs.'
-  open-inventory-during-input: '{$e}You cannot open inventories during user inputs. Type hover:{{$es}cancel;{$es}Cancel;/cancel} {$e}to cancel the action.'
-  command-during-input: '{$e}You cannot execute commands during user inputs. Type hover:{{$es}cancel;{$es}Cancel;/cancel} {$e}to cancel the action.'
-  cant-open-during-invasion: '{$e}You cannot open this GUI while your kingdom is being invaded.'
+  creative: '{$e}No puedes abrir esta GUI en modo creativo.'
+  open-error: '{$e}Ocurrió un error al abrir esta GUI. Si eres un jugador, por favor informa a los administradores del servidor. Si eres administrador, revisa los registros de la consola.'
+  error: '{$e}Ocurrió un error al manejar esta opción. Si eres un jugador, por favor informa a los administradores del servidor. Si eres administrador, revisa los registros de la consola.'
+  open-inventory-during-input: '{$e}No puedes abrir inventarios durante la entrada de datos. Escribe hover:{{$es}cancel;{$es}Cancelar;/cancel} {$e}para cancelar la acción.'
+  command-during-input: '{$e}No puedes ejecutar comandos durante la entrada de datos. Escribe hover:{{$es}cancel;{$es}Cancelar;/cancel} {$e}para cancelar la acción.'
+  cant-open-during-invasion: '{$e}No puedes abrir esta GUI mientras tu reino está siendo invadido.'
   pages:
-    next-page-not-available: '{$e}No more pages. Max pages{$colon} {$es}%pages%'
-    previous-page-not-available: '{$e}No more previous pages.'
+    next-page-not-available: '{$e}No hay más páginas. Máximo de páginas{$colon} {$es}%pages%'
+    previous-page-not-available: '{$e}No hay más páginas anteriores.'
 protected-signs:
-  cant-modify: '{$e}You can''t modify the settings of this protected block.'
-  already-protected: '{$s}This block is already protected.'
-  broke: '{$s}You broke a protected block.'
-  unprotected: '{$e}This block is no longer protected.'
-  cant-break: '{$e}Only the owner of the protected block can break it.'
-  protected: '{$e}This block is protected.'
-  invalid-sign: '{$e}You can''t protect using this sign.'
-  invalid-sign-block: '{$e}You can''t protect from this side of the block because there''s a {$es}%block% {$e}placed here.'
-  invalid-block: '{$e}You can''t protect this block.'
-  not-attached: '{$e}This sign must be attached to a block to protect.'
-  unclaimed-interact: '{$p}This block is protected, but you can access it since it''s in an unclaimed land.'
-  unclaimed: '{$e}You can''t use protection signs in an unclaimed land.'
-  kingdom-items: '{$e}You can''t use protection signs on kingdom items such as turrets and structures.'
-  other-kingdoms: '{$e}You can''t use protection signs in other kingdoms land.'
-  cant-protect-double-chest: '{$e}This chest cannot be protected as the other side is in an unclaimed land.'
-  cant-protect-double-chest-permission: '{$e}Only the owner of the chest can make this a double chest.'
+  cant-modify: '{$e}No puedes modificar la configuración de este bloque protegido.'
+  already-protected: '{$s}Este bloque ya está protegido.'
+  broke: '{$s}Has roto un bloque protegido.'
+  unprotected: '{$e}Este bloque ya no está protegido.'
+  cant-break: '{$e}Solo el dueño del bloque protegido puede romperlo.'
+  protected: '{$e}Este bloque está protegido.'
+  invalid-sign: '{$e}No puedes proteger usando este cartel.'
+  invalid-sign-block: '{$e}No puedes proteger desde este lado del bloque porque hay un {$es}%block% {$e}colocado aquí.'
+  invalid-block: '{$e}No puedes proteger este bloque.'
+  not-attached: '{$e}Este cartel debe estar adjunto a un bloque para proteger.'
+  unclaimed-interact: '{$p}Este bloque está protegido, pero puedes acceder a él ya que está en una tierra sin reclamar.'
+  unclaimed: '{$e}No puedes usar carteles de protección en una tierra sin reclamar.'
+  kingdom-items: '{$e}No puedes usar carteles de protección en objetos del reino como torretas y estructuras.'
+  other-kingdoms: '{$e}No puedes usar carteles de protección en tierras de otros reinos.'
+  cant-protect-double-chest: '{$e}Este cofre no puede ser protegido ya que el otro lado está en una tierra sin reclamar.'
+  cant-protect-double-chest-permission: '{$e}Solo el dueño del cofre puede hacer que esto sea un cofre doble.'
   password:
-    invalid: '{$e}Invalid password. Try again.'
-    cant-move: '{$e}You''re not allowed to move while entering the password.'
-    error-429: '{$e}Too many failed attempts.'
+    invalid: '{$e}Contraseña inválida. Inténtalo de nuevo.'
+    cant-move: '{$e}No se te permite moverte mientras ingresas la contraseña.'
+    error-429: '{$e}Demasiados intentos fallidos.'
     in-cooldown: |
-      {$e}This container requires a password to access, however you had too many failed attempts.
-      You can try again in{$colon} {$es}%cooldown%
-    required: '{$e}This container requires a password to be opened. Enter the password or type hover:{{$es}cancel;{$es}Cancel;/cancel} {$e}to cancel the action.'
-    required-no-password: '{$e}This container requires a password to be opened. However, no password is set.'
-    ask: '{$s}Please enter the password {$cancel} and hover:{{$e}remove;{$e}Remove;remove} {$s}to remove the password.'
-    container-only: '{$e}You can only set password on containers such as {$es}chests, hoppers, furnaces and etc.'
-    length: '{$e}Password length must be greater than {$es}%min% {$e}and less than {$es}%max% {$e}got{$colon} {$es}%length%'
-    removed: '{$p}Container''s password has been removed.'
-    not-set: '{$e}No password is set for this protected block.'
-    set: '{$p}Container password has been successfully changed.'
-  double-chest-protected: '{$p}Protecting the double chest.'
+      {$e}Este contenedor requiere una contraseña para acceder, sin embargo has tenido demasiados intentos fallidos.
+      Puedes intentar de nuevo en{$colon} {$es}%cooldown%
+    required: '{$e}Este contenedor requiere una contraseña para ser abierto. Ingresa la contraseña o escribe hover:{{$es}cancel;{$es}Cancelar;/cancel} {$e}para cancelar la acción.'
+    required-no-password: '{$e}Este contenedor requiere una contraseña para ser abierto. Sin embargo, no hay ninguna contraseña establecida.'
+    ask: '{$s}Por favor ingresa la contraseña {$cancel} y hover:{{$e}remove;{$e}Eliminar;remove} {$s}para eliminar la contraseña.'
+    container-only: '{$e}Solo puedes establecer contraseña en contenedores como {$es}cofres, tolvas, hornos, etc.'
+    length: '{$e}La longitud de la contraseña debe ser mayor que {$es}%min% {$e}y menor que {$es}%max% {$e}actual{$colon} {$es}%length%'
+    removed: '{$p}Se ha eliminado la contraseña del contenedor.'
+    not-set: '{$e}No hay contraseña establecida para este bloque protegido.'
+    set: '{$p}La contraseña del contenedor se ha cambiado exitosamente.'
+  double-chest-protected: '{$p}Protegiendo el cofre doble.'
   protection-type:
-    already-using: '{$e}This block is already using this protection method.'
-    changed: '{$p}Successfully changed the block protection method to {$es}%protection%{$e}.'
-  gui-invalid: '{$e}The protection sign that you were viewing was broken.'
+    already-using: '{$e}Este bloque ya está usando este método de protección.'
+    changed: '{$p}Se cambió exitosamente el método de protección del bloque a {$es}%protection%{$e}.'
+  gui-invalid: '{$e}El cartel de protección que estabas viendo fue roto.'
   auto-state-change-duration:
-    set: "{$s}Please enter the duration {$cancel} and \nhover:{{$e}remove;{$e}Remove;remove} {$s}to remove the password."
-    unsupported: '{$e}This block doesn''t support this feature. Currently only doors can use this.'
+    set: "{$s}Por favor ingresa la duración {$cancel} y \nhover:{{$e}remove;{$e}Eliminar;remove} {$s}para eliminar la contraseña."
+    unsupported: '{$e}Este bloque no soporta esta función. Actualmente solo las puertas pueden usar esto.'
   access-entry:
-    limit: '{$e}You can''t have more than {$es}%limit% {$e}access entries.'
+    limit: '{$e}No puedes tener más de {$es}%limit% {$e}entradas de acceso.'
     privileges:
-      owner: '&2Owner'
-      allowed: '&aAllowed'
-      disallowed: '&cDisallowed'
-      password: '&9Password'
+      owner: '&2Propietario'
+      allowed: '&aPermitido'
+      disallowed: '&cDenegado'
+      password: '&9Contraseña'
 top-rewards:
   kingdom: |
-    {$p}Your kingdom has been rewarded {$s}$%money% {$p}money and {$s}%rp% {$p}resource points for being rank {$colon} &5%rank%
-    {$p}New Kingdom Balance{$colon} {$s}$%fancy@kingdoms_bank%
-    {$p}New Kingdom Resource Points{$colon} {$s}%fancy@kingdoms_resource_points%
+    {$p}Tu reino ha sido recompensado con {$s}$%money% {$p}de dinero y {$s}%rp% {$p}puntos de recursos por estar en el rango {$colon} &5%rank%
+    {$p}Nuevo Saldo del Reino{$colon} {$s}$%fancy@kingdoms_bank%
+    {$p}Nuevos Puntos de Recursos del Reino{$colon} {$s}%fancy@kingdoms_resource_points%
   nation: |
-    {$p}Your nation has been rewarded {$s}$%money% {$p}money and {$s}%rp% {$p}resource points for being rank {$colon} &5%rank%
-    {$p}New Nation Balance{$colon} {$s}$%fancy@kingdoms_nation_bank%
-    {$p}New Nation Resource Points{$colon} {$s}%fancy@kingdoms_nation_resource_points%
+    {$p}Tu nación ha sido recompensada con {$s}$%money% {$p}de dinero y {$s}%rp% {$p}puntos de recursos por estar en el rango {$colon} &5%rank%
+    {$p}Nuevo Saldo de la Nación{$colon} {$s}$%fancy@kingdoms_nation_bank%
+    {$p}Nuevos Puntos de Recursos de la Nación{$colon} {$s}%fancy@kingdoms_nation_resource_points%
 join-leave-messages:
   join:
     kingdom:
       message: NOPREFIX|{$sep}[{$p}◆{$sep}]{$sep}[%kingdoms_rank_color%%kingdoms_rank_symbol%{$sep}] {$p}%displayname%
       sound: BLOCK_NOTE_BLOCK_BELL
-    others: NOPREFIX|{$s}%displayname% {$p}has joined the server.
+    others: NOPREFIX|{$s}%displayname% {$p}se ha unido al servidor.
   leave:
     kingdom:
       message: NOPREFIX|{$sep}[{$e}◆{$sep}]{$sep}[%kingdoms_rank_color%%kingdoms_rank_symbol%{$sep}] {$e}%displayname%
       sound: BLOCK_NOTE_BLOCK_FLUTE
-    others: NOPREFIX|{$es}%displayname% {$e}has left the server.
+    others: NOPREFIX|{$es}%displayname% {$e}ha abandonado el servidor.
 join:
-  invites: '{$p}You have {$s}%invites% {$p}invites. Check them with {$s}hover:{/k invites;&9Click to open;/k invites}'
-  unread-mails: '{$p}You have {$s}%unread-mails% {$p}unread kingdom mails.'
+  invites: '{$p}Tienes {$s}%invites% {$p}invitaciones. Revísalas con {$s}hover:{/k invites;&9Clic para abrir;/k invites}'
+  unread-mails: '{$p}Tienes {$s}%unread-mails% {$p}correos del reino sin leer.'
   language:
     not-supported: |
-      {$e}The detected language for your client was {$es}%detected-lang% {$e}which is probably not supported by the plugin or installed by the server.
-      You can change your language later using hover:{{$es}/k language;&9Click to run;|/k language} {$e}command.
+      {$e}El idioma detectado para tu cliente fue {$es}%detected-lang% {$e}que probablemente no está soportado por el plugin o instalado en el servidor.
+      Puedes cambiar tu idioma más tarde usando el comando hover:{{$es}/k language;&9Clic para ejecutar;|/k language} {$e}.
     supported: |
-      {$p}Your detected language is {$s}%detected-lang% {$sep}({$s}%kingdoms_lang%{$sep})
-      {$note} &7If you believe this was a mistake, you can change it with hover:{{$s}/k language;&9Click to open;/k language} &7command.
+      {$p}Tu idioma detectado es {$s}%detected-lang% {$sep}({$s}%kingdoms_lang%{$sep})
+      {$note} &7Si crees que esto fue un error, puedes cambiarlo con el comando hover:{{$s}/k language;&9Clic para abrir;/k language} &7.
 upgrades:
   powerup:
-    upgrade: '{$p}You''ve upgraded {$s}%powerup% {$p}to level {$s}%new_level%'
-    max: '{$e}You''ve already upgraded {$es}%powerup% {$e}to max level.'
-    not-enough-resourcepoints: '{$e}You need {$es}%cost% {$e}resourcepoints to upgrade {$es}%powerup%'
+    upgrade: '{$p}Has mejorado {$s}%powerup% {$p}al nivel {$s}%new_level%'
+    max: '{$e}Ya has mejorado {$es}%powerup% {$e}al nivel máximo.'
+    not-enough-resourcepoints: '{$e}Necesitas {$es}%cost% {$e}puntos de recursos para mejorar {$es}%powerup%'
     damage-boost:
-      name: Damage Boost
+      name: Aumento de Daño
     damage-reduction:
-      name: Damage Reduction
+      name: Reducción de Daño
     regeneration-boost:
-      name: Regeneration Boost
+      name: Aumento de Regeneración
     arrow-boost:
-      name: Arrow Boost
+      name: Mejora de Flechas
   champion:
-    upgrade: '{$p}You''ve upgraded {$s}%upgrade% {$p}to level {$s}%new_level%'
-    max: '{$e}You''ve already upgraded {$es}%upgrade% {$e}to max level.'
-    not-enough-resourcepoints: '{$e}You need {$es}%cost% {$e}resource points to upgrade {$es}%upgrade%'
+    upgrade: '{$p}Has mejorado {$s}%upgrade% {$p}al nivel {$s}%new_level%'
+    max: '{$e}Ya has mejorado {$es}%upgrade% {$e}al nivel máximo.'
+    not-enough-resourcepoints: '{$e}Necesitas {$es}%cost% {$e}puntos de recursos para mejorar {$es}%upgrade%'
     reinforcements:
-      name: Reinforcements
+      name: Refuerzos
     resistance:
-      name: Resistance
+      name: Resistencia
     death-duel:
-      name: Death Duel
+      name: Duelo a Muerte
     damage-cap:
-      name: Damage Cap
+      name: Límite de Daño
     strength:
-      name: Strength
+      name: Fuerza
     equipment:
-      name: Equipment
+      name: Equipo
     health:
-      name: Health
+      name: Salud
     focus:
-      name: Focus
+      name: Concentración
     throw:
-      name: Throw
+      name: Lanzamiento
     speed:
-      name: Speed
+      name: Velocidad
     drag:
-      name: Drag
+      name: Arrastre
     thor:
       name: Thor
     fangs:
-      name: Fangs
+      name: Colmillos
     plow:
-      name: Plow
+      name: Arado
     burst:
-      name: Burst
+      name: Explosión
   misc:
     anti-explosion:
-      name: Anti-Explosion
+      name: Anti-Explosión
     anti-trample:
-      name: Anti-Trample
+      name: Anti-Pisoteo
     nexus-guards:
-      name: Nexus Guard
+      name: Guardia del Nexo
     chest-size:
-      name: Vault Size
+      name: Tamaño de Bóveda
     max-members:
-      name: Max Members
+      name: Máximo de Miembros
     max-turrets:
-      name: Max Turrets
+      name: Máximo de Torretas
     max-claims:
-      name: Max Claims
+      name: Máximo de Reclamos
     invasion-teleportation:
-      name: Invasion Teleportation
+      name: Teletransporte de Invasión
     guards:
-      name: Guards
+      name: Guardias
     insanity:
-      name: Insanity
+      name: Locura
     glory:
-      name: Glory
+      name: Gloria
     invasions:
-      name: Invasions
-    upgrade: '{$p}You''ve upgraded {$s}%upgrade% {$p}to level {$s}%new_level%'
-    enabled: '{$p}Enabled {$s}%upgrade% {$p}misc upgrade.'
-    not-upgraded: '{$e}Cannot disable an upgrade that''s not upgraded.'
-    cannot-be-disabled: '{$e}This upgrade cannot be disabled.'
-    disabled: '{$e}Disabled {$es}%upgrade% {$e}misc upgrade.'
-    max: '{$e}You''ve already upgraded {$es}%upgrade% {$e}to max level.'
-    not-enough-resourcepoints: '{$e}You need {$es}%cost% {$e}resourcepoints to upgrade {$es}%upgrade%'
+      name: Invasiones
+    upgrade: '{$p}Has mejorado {$s}%upgrade% {$p}al nivel {$s}%new_level%'
+    enabled: '{$p}Habilitada la mejora miscelánea {$s}%upgrade%{$p}.'
+    not-upgraded: '{$e}No se puede deshabilitar una mejora que no está mejorada.'
+    cannot-be-disabled: '{$e}Esta mejora no puede ser deshabilitada.'
+    disabled: '{$e}Deshabilitada la mejora miscelánea {$es}%upgrade%{$e}.'
+    max: '{$e}Ya has mejorado {$es}%upgrade% {$e}al nivel máximo.'
+    not-enough-resourcepoints: '{$e}Necesitas {$es}%cost% {$e}puntos de recursos para mejorar {$es}%upgrade%'
 champion-type:
-  changed: '{$p}Your kingdom''s champion has been changed from {$s}%old_champion% {$p}to {$s}%new_champion%'
-  already-in-use: '{$e}Your kingdom is already using {$es}%champion% {$e}champion.'
+  changed: '{$p}El campeón de tu reino ha cambiado de {$s}%old_champion% {$p}a {$s}%new_champion%'
+  already-in-use: '{$e}Tu reino ya está usando el campeón {$es}%champion%{$e}.'
 misc:
   upgrades:
     alerts:
-      notify-members: '{$es}%player% {$e}from enemy kingdom {$es}%kingdoms_kingdom_name% {$e}has entered your land at{$colon} {$es}%world%&7, {$es}%x%&7, {$es}%y%&7, {$es}%z%'
+      notify-members: '{$es}%player% {$e}del reino enemigo {$es}%kingdoms_kingdom_name% {$e}ha entrado a tu tierra en{$colon} {$es}%world%&7, {$es}%x%&7, {$es}%y%&7, {$es}%z%'
 relations:
-  another-request: '{$es}%kingdoms_kingdom_name% {$e}has sent you a %relation% {$e}relation request before.'
-  no-permission: '{$e}You don''t have permission to manage any relationships.'
-  no-requests: '{$e}You don''t have any relationship requests sent to your group.'
-  disabled-commands: '{$e}You can''t use that command in this territory.'
+  another-request: '{$es}%kingdoms_kingdom_name% {$e}ya te ha enviado una solicitud de relación de %relation% {$e}antes.'
+  no-permission: '{$e}No tienes permiso para gestionar ninguna relación.'
+  no-requests: '{$e}No tienes ninguna solicitud de relación enviada a tu grupo.'
+  disabled-commands: '{$e}No puedes usar ese comando en este territorio.'
   
-  # Below names are also used for %kingdoms_relation_name%, but not for %kingdoms_land_relation%
-  # For the color of relations (%kingdoms_relation_color%), refer to relations.yml instead.
+  # Los nombres abajo también son usados para %kingdoms_relation_name%, pero no para %kingdoms_land_relation%
+  # Para el color de las relaciones (%kingdoms_relation_color%), consulta relations.yml
   neutral:
     name: Neutral
   enemy:
-    name: Enemy
+    name: Enemigo
   ally:
-    name: Ally
+    name: Aliado
   truce:
-    name: Truce
+    name: Tregua
   nation:
-    name: Nation
+    name: Nación
   self:
-    name: Self
+    name: Propio
   wilderness:
-    name: Wilderness
-    # The color for this relation is special and is defined in language files instead of relations.yml
+    name: Tierra Salvaje
+    # El color para esta relación es especial y está definido en los archivos de idioma en lugar de relations.yml
     color: '&f'
 fly:
-  disable-charges: '{$p}You paid a total of {$s}%currency@player_charges%{? kingdom_charges_rp > 0 || kingdom_charges_bank > 0 ? " {$p}and your kingdom paid a total of {$s}%fancy@kingdom_charges_rp% {$p}resource points and {$s}%fancy@kingdom_charges_bank%"}'
-  enemies-nearby: '{$e}There are enemies nearby. Your flight has been disabled.'
-  charges-cant-afford: '{$e}You need {$es}$%money% {$e}for every {$es}%interval% seconds {$e}you fly.'
+  disable-charges: '{$p}Has pagado un total de {$s}%currency@player_charges%{? kingdom_charges_rp > 0 || kingdom_charges_bank > 0 ? " {$p}y tu reino ha pagado un total de {$s}%fancy@kingdom_charges_rp% {$p}puntos de recursos y {$s}%fancy@kingdom_charges_bank%"}'
+  enemies-nearby: '{$e}Hay enemigos cerca. Tu vuelo ha sido desactivado.'
+  charges-cant-afford: '{$e}Necesitas {$es}$%money% {$e}por cada {$es}%interval% segundos {$e}que vueles.'
   charges:
-    cant-afford-kingdom: '{$e}Your kingdom needs {$es}$%amount% {$e}for every {$es}%interval% seconds {$e}you fly.'
+    cant-afford-kingdom: '{$e}Tu reino necesita {$es}$%amount% {$e}por cada {$es}%interval% segundos {$e}que vueles.'
   out:
-    of-land: '{$e}You can only use kingdoms fly in your own land. Your flight has been disabled.'
-  damage: '{$e}You took damage and your flight has been disabled.'
+    of-land: '{$e}Solo puedes usar el vuelo de reinos en tu propia tierra. Tu vuelo ha sido desactivado.'
+  damage: '{$e}Has recibido daño y tu vuelo ha sido desactivado.'
   warnings:
-    charges: '{$e}Your flight will be disabled in {$es}%counter% {$e}seconds due to not being able to pay the charges.'
+    charges: '{$e}Tu vuelo será desactivado en {$es}%counter% {$e}segundos por no poder pagar los cargos.'
     unfriendly-nearby:
-      safe: '{$p}You are now safe from unfriendly players.'
-      warn: '{$e}Your flight is about to be disabled in {$es}%counter% {$e}seconds due to being close to an enemy! Go back immediately.'
+      safe: '{$p}Ahora estás a salvo de jugadores hostiles.'
+      warn: '{$e}¡Tu vuelo será desactivado en {$es}%counter% {$e}segundos por estar cerca de un enemigo! Regresa inmediatamente.'
     out-of-land:
-      safe: '{$p}You are now safe in this land.'
-      warn: '{$e}Your flight is about to be disabled in {$es}%counter% {$e}seconds due to being in a land that you cannot fly in! Go back immediately'
-# This message should usually refer to some kind of recruitment forum.
-no-kingdom-reminder: '{$e}Reminder{$colon} {$es}You haven''t joined a kingdom yet.'
+      safe: '{$p}Ahora estás a salvo en esta tierra.'
+      warn: '{$e}¡Tu vuelo será desactivado en {$es}%counter% {$e}segundos por estar en una tierra donde no puedes volar! Regresa inmediatamente'
+# Este mensaje normalmente debería referirse a algún tipo de foro de reclutamiento.
+no-kingdom-reminder: '{$e}Recordatorio{$colon} {$es}Aún no te has unido a un reino.'
 regulator:
   attributes:
-    add-self: '{$e}You can''t add yourself.'
-    already-added: '{$es}%add% {$e}is already added.'
-    add: '{$p}Please enter the player name.'
-    added: '{$p}Added {$s}%add% {$p}to attributes.'
-    removed: '{$p}Removed {$s}%player% {$p}from attributes.'
+    add-self: '{$e}No puedes agregarte a ti mismo.'
+    already-added: '{$es}%add% {$e}ya está agregado.'
+    add: '{$p}Por favor ingresa el nombre del jugador.'
+    added: '{$p}Agregado {$s}%add% {$p}a los atributos.'
+    removed: '{$p}Eliminado {$s}%player% {$p}de los atributos.'
   interactions:
-    add-self: '{$e}You can''t add yourself.'
-    already-added: '{$es}%add% {$e}is already added.'
-    add: '{$p}Please enter the player name.'
-    added: '{$p}Added {$s}%add% {$p}to interactions.'
-    removed: '{$p}Removed {$s}%player% {$p}from interactions.'
-    disallowed: '{$p}A regulator in this land prohibits your interaction.'
+    add-self: '{$e}No puedes agregarte a ti mismo.'
+    already-added: '{$es}%add% {$e}ya está agregado.'
+    add: '{$p}Por favor ingresa el nombre del jugador.'
+    added: '{$p}Agregado {$s}%add% {$p}a las interacciones.'
+    removed: '{$p}Eliminado {$s}%player% {$p}de las interacciones.'
+    disallowed: '{$p}Un regulador en esta tierra prohíbe tu interacción.'
 nexus:
   pacifism:
-    enable: '{$s}Your kingdom is now {$p}pacifist.'
-    disable: '{$s}Your kingdom is no longer a {$e}pacifist.'
-    cooldown: '{$e}Your kingdom can''t be pacifist for{$colon} {$es}%cooldown%'
+    enable: '{$s}Tu reino ahora es {$p}pacifista.'
+    disable: '{$s}Tu reino ya no es {$e}pacifista.'
+    cooldown: '{$e}Tu reino no puede ser pacifista por{$colon} {$es}%cooldown%'
   home:
-    public: '{$s}Your kingdom home is now {$p}public.'
-    not-public: '{$s}Your kingdom is no longer {$e}public.'
+    public: '{$s}El hogar de tu reino ahora es {$p}público.'
+    not-public: '{$s}Tu reino ya no es {$e}público.'
   hidden:
-    enabled: '{$p}Your group is now hidden.'
-    disabled: '{$p}Your group is no longer hidden.'
-  cant-be-removed: You can't remove your kingdom's nexus.
+    enabled: '{$p}Tu grupo ahora está oculto.'
+    disabled: '{$p}Tu grupo ya no está oculto.'
+  cant-be-removed: No puedes eliminar el nexo de tu reino.
   shield:
-    enable: '{$p}Enabled shield for your kingdom.'
-    disable: '{$e}Disabled shield for your kingdom.'
+    enable: '{$p}Escudo activado para tu reino.'
+    disable: '{$e}Escudo desactivado para tu reino.'
   invites:
-    enable: '{$s}Your kingdom now requires an invite to join.'
-    king-only: '{$e}Only king can change kingdom settings.'
-    disable: '{$s}Your kingdom now doesn''t require an invite to join.'
-  structure-inventory-full: '{$e}Your inventory is full!'
-  turret-inventory-full: '{$e}Your inventory is full!'
+    enable: '{$s}Tu reino ahora requiere una invitación para unirse.'
+    king-only: '{$e}Solo el rey puede cambiar la configuración del reino.'
+    disable: '{$s}Tu reino ahora no requiere una invitación para unirse.'
+  structure-inventory-full: '{$e}¡Tu inventario está lleno!'
+  turret-inventory-full: '{$e}¡Tu inventario está lleno!'
   structure-purchased: '{$p}You''ve purchased {$s}%structure% {$p}for {$s}{? rp > 0 ? "%fancy@rp% resource points"}{? rp > 0 && money > 0 ? " {$e}&{$es} "}{? money > 0 ? "$%fancy@money%"}'
   structure-cost: '{$e}You need {$es}{? rp > 0 ? "%fancy@rp% resource points"}{? rp > 0 && money > 0 ? " {$e}&{$es} "}{? money > 0 ? "$%fancy@money%"} {$e}to buy this structure.'
   turret-cost: '{$e}You need {$es}{? rp > 0 ? "%fancy@rp% resource points"}{? rp > 0 && money > 0 ? " {$e}&{$es} "}{? money > 0 ? "$%fancy@money%"} {$e}to buy this turret.'
