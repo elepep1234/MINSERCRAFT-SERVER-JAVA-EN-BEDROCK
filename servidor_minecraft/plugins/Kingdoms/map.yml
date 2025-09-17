@@ -14,7 +14,7 @@ limit:
   width: 20
 
 # Only allow players that have a kingdom to use this command.
-kingdom-member-only: false
+kingdom-member-only: true
 
 # Message shown before and after the map.
 header: "   {$sep}&m&l-{$s}&l&m--=[{$sep}&l&m--&r {$p}&l{$$maps.name}&r {$sep}&l&m--{$s}&l&m]=--{$sep}&l&m-&r"

@@ -28,7 +28,7 @@ durability: '<durability-factor> * level'
 repair:
   # Resource points needed for a full repair.
   cost: '(building_max_durability - building_durability) / 2'
-
+  
   # When turret durability is not max but isn't 0 either, you
   # can use these items to repair it instantly.
   # Players need to drop the item near the turret they want to fix.
@@ -36,7 +36,7 @@ repair:
     iron:
       # Amount of durability restored.
       amount: 10
-
+      
       # https://github.com/CryptoMorin/KingdomsX/wiki/Config#item-matchers
       item:
         material: IRON_INGOT
@@ -89,15 +89,15 @@ building:
     # [IgnoreIfSet]
     functional-points: &fnPoints
       '0, 0, 0':
-        - { type: activation, name: main }
-        - { type: interaction, name: main }
-        - { type: manual, name: main }
+        - {type: activation, name: main}
+        - {type: interaction, name: main}
+        - {type: manual, name: main}
     block: <block-1>
     holograms: &holograms
       main:
         main:
           background-color: 0, 0, 0, 150
-
+          
           # The line numbers must be specified here.
           # If you want a custom spacing between lines,
           # you'd have to make a new hologram.
@@ -105,11 +105,7 @@ building:
             - '{$$building.holograms.main}'
             - '<extra-holograms>'
             - '{? building_durability <= 0 ? "{$sep}[{$es}!{$sep}] {$e}{$$building.holograms.progress.broken} {$sep}[{$es}!{$sep}]" ; building_durability != building_max_durability ? "{$p}{$$building.holograms.progress.durability}{$colon} {$s}%fancy@building_durability%{$sep}/{$s}%fancy@building_max_durability%"}'
-
-          # The initial height for holograms is their distance from the building's origin.
-          # Offset does the same thing as height, but it also supports xyz axis.
-          # offset: 4, 0, 35.63
-          height: &height 1.5
+          height: &height 2.5
       opening:
         main:
           background-color: 0, 255, 255, 100
@@ -142,23 +138,26 @@ building:
             - *progress1
             - *progress2
           height: *height
+    schematic: '<type>/<name>/1'
   2:
     # [IgnoreIfSet]
     functional-points: *fnPoints
     block: <block-2>
     holograms: *holograms
+    schematic: '<type>/<name>/2'
   3:
     # [IgnoreIfSet]
     functional-points: *fnPoints
     block: <block-3>
     holograms: *holograms
+    schematic: '<type>/<name>/3'
 
 sounds:
   1:
     # damaged: BLOCK_ANVIL_USE
     partial-repair: BLOCK_ANVIL_USE
     broken: BLOCK_ANVIL_DESTROY
-
+    
     opening:
       started: ENTITY_ARROW_SHOOT
       finished: BLOCK_ANVIL_USE
@@ -185,7 +184,7 @@ particles:
       color: 0, 0, 255
       size: 2
       count: 1
-
+    
     # This is displayed on the borders for the building.
     opening:
       progress:
@@ -309,7 +308,7 @@ damaging-factors:
     #   in order to apply the effects. So "allowed-range: [ 2, 2, 2 ]" means that this splash potion must be at least
     #   2 blocks (in any direction x,y,z) near the building for it to work.
     INSTANT_DAMAGE:
-      allowed-range: &splash-range [ 5, 4, 5 ]
+      allowed-range: &splash-range [5, 4, 5]
       damage: 10 * effect_lvl
     WEAKNESS:
       allowed-range: *splash-range

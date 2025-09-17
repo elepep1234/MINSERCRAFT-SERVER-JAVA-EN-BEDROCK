@@ -39,8 +39,8 @@ schema:
   1:
     # Where is the xz center of the pattern?
     # You determine this based on the pattern you put in "blocks"
-    origin: [ 1, 1 ]
-
+    origin: [1, 1]
+    
     # The block pattern. "x" represents any.
     # Other symbols must be manually mapped under "mappings" option.
     # * The "-1" here refers to the y position of the pattern.
@@ -53,15 +53,28 @@ schema:
         xxx
         xFx
         xxx
-
     # Mapping symbols to blocks.
     mappings:
       F:
         # Message showed for errors.
         displayname: Fence
         mismatch-message: '{$$building.schema.mismatch.fence}'
-
+        
         # List of blocks that this symbol represents.
         accepted-materials:
           - "REGEX:\\w+_FENCE$"
           - "REGEX:(POLISHED_(BLACKSTONE|DEEPSLATE|BLACKSTONE_BRICK)|ANDESITE|BLACKSTONE|MUD_BRICK|BRICK|COBBLESTONE|MOSSY_COBBLESTONE|MOSSY_STONE_BRICK|COBBLED_DEEPSLATE|PRISMARINE|DEEPSLATE_TILE|END_STONE_BRICK|DIORITE|NETHER_BRICK|RED_NETHER_BRICK|GRANITE|SANDSTONE|RED_SANDSTONE|STONE_BRICK)_WALL"
+building:
+  1:
+    # [Final]
+    functional-points: &fnPoints
+      0, 1, 0:
+        - {type: activation, name: main}
+        - {type: interaction, name: main}
+        - {type: manual, name: main}
+  2:
+    # [Final]
+    functional-points: *fnPoints
+  3:
+    # [Final]
+    functional-points: *fnPoints

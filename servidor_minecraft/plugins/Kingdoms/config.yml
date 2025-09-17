@@ -116,7 +116,7 @@ updates:
     # This only works if the option above is enabled.
     # Setting this option to a language name will make the plugin synchronize
     # GUIs automatically when starting the server and using /k reload
-    reference-language: ~
+    reference-language: engles
 
   # Automatically reload configs which is more efficient than /k reload.
   # The only reason you might not want this, is because this feature might not work properly for your environment setup.
@@ -833,7 +833,7 @@ top-kingdoms:
 top-nations:
   types:
     default:
-      name: Might
+      name: GAMECRAFT
       equation: "kingdoms_nation_resource_points + kingdoms_nation_kingdoms"
       description: "The default equation. Compares nations based on their resource points and kingdoms."
     resource-points:

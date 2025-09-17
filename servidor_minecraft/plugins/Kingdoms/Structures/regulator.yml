@@ -38,3 +38,17 @@ item:
       - "Disable mob or animal spawning and turrets."
       - "Enable explosions."
       - "Auto fill turrets ammo."
+building:
+  1:
+    # [Final]
+    functional-points: &fnPoints
+      0, 1, 0:
+        - {type: activation, name: main}
+        - {type: interaction, name: main}
+        - {type: manual, name: main}
+  2:
+    # [Final]
+    functional-points: *fnPoints
+  3:
+    # [Final]
+    functional-points: *fnPoints

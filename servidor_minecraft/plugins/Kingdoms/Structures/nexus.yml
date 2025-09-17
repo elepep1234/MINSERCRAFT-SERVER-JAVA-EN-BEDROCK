@@ -1,6 +1,6 @@
 (import):
   building:
-    anchors: [ &fnPoints fnPoints, &holograms holograms ]
+    anchors: [&holograms holograms]
     extend: false
   structure:
     parameters:
@@ -26,11 +26,26 @@ building:
     block:
       material: BEACON
     holograms: *holograms
+    schematic: '<type>/<name>/4'
   5:
     functional-points: *fnPoints
     block:
       material: BEACON
     holograms: *holograms
+    schematic: '<type>/<name>/5'
+  1:
+    # [Final]
+    functional-points: &fnPoints
+      0, 1, 0:
+        - {type: activation, name: main}
+        - {type: interaction, name: main}
+        - {type: manual, name: main}
+  2:
+    # [Final]
+    functional-points: *fnPoints
+  3:
+    # [Final]
+    functional-points: *fnPoints
 
 particles:
   1:

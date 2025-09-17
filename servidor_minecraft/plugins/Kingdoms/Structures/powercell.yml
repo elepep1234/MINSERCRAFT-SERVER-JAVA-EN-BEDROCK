@@ -27,7 +27,7 @@ item:
   1:
     name: "&bPowercell"
     material: MUSIC_DISC_BLOCKS
-    flags: [ ALL ]
+    flags: [ALL]
     lore:
       - "{$dot} {$p}Level{$colon} {$s}%roman@level%"
       - ""
@@ -37,3 +37,17 @@ item:
       - "power cell first."
       - "&cDoes not work on other power cell lands."
       - "{$dot} {$p}Level{$colon} {$s}%roman@level%"
+building:
+  1:
+    # [Final]
+    functional-points: &fnPoints
+      0, 1, 0:
+        - {type: activation, name: main}
+        - {type: interaction, name: main}
+        - {type: manual, name: main}
+  2:
+    # [Final]
+    functional-points: *fnPoints
+  3:
+    # [Final]
+    functional-points: *fnPoints

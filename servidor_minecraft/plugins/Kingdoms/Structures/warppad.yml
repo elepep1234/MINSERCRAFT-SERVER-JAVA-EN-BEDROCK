@@ -28,7 +28,7 @@ conditions:
 fuel:
   enabled: true
   capacity: lvl * 1000
-
+  
   # https://github.com/CryptoMorin/KingdomsX/wiki/Config#item-matchers
   variants:
     first:
@@ -61,3 +61,66 @@ item:
       - "from a structure to another."
       - "{$dot} {$p}Name{$colon} {$s}%structure-custom-name%"
       - "{$dot} {$p}Fuel{$colon} {$s}%fuel%"
+building:
+  1:
+    # [Final]
+    functional-points: &fnPoints
+      0, 2, 0:
+        - {type: activation, name: main}
+        - {type: interaction, name: main}
+        - {type: manual, name: main}
+    holograms:
+      main:
+        main:
+          height: *hologram-height
+      opening:
+        main:
+          height: *hologram-height
+      upgrading:
+        main:
+          height: *hologram-height
+      demolishing:
+        main:
+          height: *hologram-height
+      repairing:
+        main:
+          height: *hologram-height
+  2:
+    # [Final]
+    functional-points: *fnPoints
+    holograms:
+      main:
+        main:
+          height: *hologram-height
+      opening:
+        main:
+          height: *hologram-height
+      upgrading:
+        main:
+          height: *hologram-height
+      demolishing:
+        main:
+          height: *hologram-height
+      repairing:
+        main:
+          height: *hologram-height
+  3:
+    # [Final]
+    functional-points: *fnPoints
+    holograms:
+      main:
+        main:
+          height: *hologram-height
+      opening:
+        main:
+          height: *hologram-height
+      upgrading:
+        main:
+          height: *hologram-height
+      demolishing:
+        main:
+          height: *hologram-height
+      repairing:
+        main:
+          height: *hologram-height
+'[holograms-height]': &hologram-height 5.0
