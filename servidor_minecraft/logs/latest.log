@@ -43,3 +43,45 @@
 [00:11:27] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
 [00:13:40] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [00:13:53] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:17:21] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:17:21] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:17:41] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:17:43] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:17:43] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:17:53] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:18:14] [kingdoms-worker-2/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:18:14] [kingdoms-worker-2/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:18:51] [kingdoms-worker-2/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:18:51] [kingdoms-worker-2/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:19:12] [kingdoms-worker-2/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:19:12] [kingdoms-worker-2/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:19:26] [kingdoms-worker-2/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:19:26] [kingdoms-worker-2/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:19:39] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:19:39] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:20:11] [kingdoms-worker-2/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:20:11] [kingdoms-worker-2/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:20:20] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:20:20] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:20:41] [kingdoms-worker-2/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:20:41] [kingdoms-worker-2/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:21:05] [kingdoms-worker-0/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:21:05] [kingdoms-worker-0/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:21:27] [kingdoms-worker-2/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:21:27] [kingdoms-worker-2/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:21:41] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:21:52] [kingdoms-worker-2/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:21:52] [kingdoms-worker-2/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:21:53] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:22:13] [kingdoms-worker-2/INFO]: [GAMECRAFT] Detected changes for language file: en
+[00:22:13] [kingdoms-worker-2/INFO]: [KingdomsX] Loading language: EN (version master)
+[00:25:20] [kingdoms-worker-2/INFO]: [GAMECRAFT] Auto Save: 
+  | GLOBALS:  0/1 (0ms)
+  | KINGDOMS: 0/1 (1ms)
+  | LANDS:    0/1 (0ms)
+  | MTG:      0/0 (0ms)
+  | NATIONS:  0/0 (0ms)
+  | PLAYERS:  0/1 (0ms)
+[00:25:22] [kingdoms-worker-2/INFO]: [GAMECRAFT] Updating top group data for KINGDOMS with 1 data.
+[00:25:42] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:25:54] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive

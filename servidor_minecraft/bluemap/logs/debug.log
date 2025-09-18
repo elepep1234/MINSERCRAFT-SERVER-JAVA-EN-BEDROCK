@@ -283,3 +283,15 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was BEGIN_
 [2025-09-18 00:10:51][FINE] Scheduled update for region-file: (-1, -1) (Map: void)
 [2025-09-18 00:15:51][FINE] Scheduled update for region-file: (0, 0) (Map: world)
 [2025-09-18 00:15:51][FINE] Scheduled update for region-file: (-1, -1) (Map: void)
+[2025-09-18 00:20:51][FINE] Scheduled update for region-file: (0, 0) (Map: world)
+[2025-09-18 00:20:51][FINE] Scheduled update for region-file: (-1, -1) (Map: void)
+[2025-09-18 00:25:19][FINE] Stopped watching map 'world_the_end' for updates.
+[2025-09-18 00:25:19][FINE] Stopped watching map 'void' for updates.
+[2025-09-18 00:25:19][FINE] Stopped watching map 'world' for updates.
+[2025-09-18 00:25:19][FINE] Stopped watching map 'world_nether' for updates.
+[2025-09-18 00:25:19][FINE] Started watching map 'world_the_end' for updates...
+[2025-09-18 00:25:19][FINE] Started watching map 'world' for updates...
+[2025-09-18 00:25:19][FINE] Started watching map 'void' for updates...
+[2025-09-18 00:25:19][FINE] Started watching map 'world_nether' for updates...
+[2025-09-18 00:25:51][FINE] Scheduled update for region-file: (0, 0) (Map: world)
+[2025-09-18 00:25:51][FINE] Scheduled update for region-file: (-1, -1) (Map: void)

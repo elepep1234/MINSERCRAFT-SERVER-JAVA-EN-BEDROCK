@@ -1143,30 +1143,30 @@ command:
           kingdom-king: '{$dot} {$e}El rey del reino no tiene el rango de rey.{$colon} {$e}Reino{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$es}%kingdom_id%{$sep}) {$sep}| {$e}Jugador{$colon} {$es}%player% {$sep}({$es}%player_id%{$sep}) {$sep}| {$e}Rango{$colon} {$es}%rank%'
           nation-king: '{$dot} {$e}El rey del reino capital de la nación no tiene el rango de rey.{$colon} {$e}Nación{$colon} {$es}%kingdoms_nation_name% {$sep}({$es}%nation_id%{$sep}) {$sep}| {$e}Jugador{$colon} {$es}%player% {$sep}({$es}%player_id%{$sep}) {$sep}| {$e}Rango{$colon} {$es}%rank%'
         upgrade:
-          disabled: '{$dot} {$e}Kingdom has disabled upgrade{$colon} {$e}Kingdom{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) - {$e}Upgrade{$colon} {$es}%upgrade% {$e}Lvl. {$es}%level%'
-          max-level-exceeded: '{$dot} {$e}Kingdom upgrade exceeded max level{$colon} {$e}Kingdom{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) - {$e}Upgrade{$colon} {$es}%upgrade% {$e}Lvl. {$es}%level% {$sep}> {$es}%max_level%'
+          disabled: '{$dot} {$e}El reino tiene una mejora deshabilitada{$colon} {$e}Reino{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) - {$e}Mejora{$colon} {$es}%upgrade% {$e}Nvl. {$es}%level%'
+          max-level-exceeded: '{$dot} {$e}La mejora del reino excedió el nivel máximo{$colon} {$e}Reino{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) - {$e}Mejora{$colon} {$es}%upgrade% {$e}Nvl. {$es}%level% {$sep}> {$es}%max_level%'
         player:
-          unknown: '{$dot} {$e}Unknown player with no name{$colon} {$es}''%player_name%'' {$sep}- {$e}UUID{$colon} {$es}%player_uuid% {$e}Has Played Before{$colon} {$es}%hasPlayedBefore% {$e}All of this players data will be removed.'
-          kingdom-unknown: '{$dot} {$e}Unknown kingdom for player{$colon} {$es}%player% {$sep}- {$e}UUID{$colon} {$es}%uuid%'
-          claim-unknown: '{$dot} {$e}Unknown claim for player{$colon} {$es}%player% {$sep}- {$e}Land{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%z% {$sep}- {$e}Kingdom{$colon} {$es}%kingdom_name% {$sep}({$s}%kingdom_id%{$sep})'
-      error: '{$e}An error occurred while scanning kingdom data files, please check your console.'
-      hanging: '{$e}It looks like {$es}%pending_tasks% {$e}tasks are taking too long to finish. Check your console for more info.'
-      may-take-awhile: '{$e}It seems like you have a lot of data. This may take several minutes, specially if you have a lot of claimed lands.'
+          unknown: '{$dot} {$e}Jugador desconocido sin nombre{$colon} {$es}''%player_name%'' {$sep}- {$e}UUID{$colon} {$es}%player_uuid% {$e}Ha Jugado Antes{$colon} {$es}%hasPlayedBefore% {$e}Todos los datos de este jugador serán eliminados.'
+          kingdom-unknown: '{$dot} {$e}Reino desconocido para el jugador{$colon} {$es}%player% {$sep}- {$e}UUID{$colon} {$es}%uuid%'
+          claim-unknown: '{$dot} {$e}Reclamo desconocido para el jugador{$colon} {$es}%player% {$sep}- {$e}Terreno{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%z% {$sep}- {$e}Reino{$colon} {$es}%kingdom_name% {$sep}({$s}%kingdom_id%{$sep})'
+      error: '{$e}Ocurrió un error al escanear los archivos de datos del reino, por favor revisa tu consola.'
+      hanging: '{$e}Parece que {$es}%pending_tasks% {$e}tareas están tardando demasiado en terminar. Revisa tu consola para más información.'
+      may-take-awhile: '{$e}Parece que tienes muchos datos. Esto podría tomar varios minutos, especialmente si tienes muchos terrenos reclamados.'
       done:
-        no-corruption: '{$p}Scan done. Found no corrupted data. Took {$s}%time%ms{$p}. Please restart your server to prevent performance issues.'
-        corrupted: '{$e}Scan done. Took {$es}%time%ms{$e}. Found a total of {$es}%corrupted% {$e}corrupted data. To attempt to fix them, please use {$es}hover:{/k admin fsck %options%;&7Click to run the command;/k admin fsck %options%}'
-        corrupted-fixed: '{$e}Done. Took {$es}%time%ms{$e}. Fixed a total of {$es}%corrupted% {$e}corrupted data. &lPlease restart your server with /stop now to save all data.'
-        too-many: '{$e}Since there are too many entries, the log of all the changes was written to console and to a file named {$es}%file%'
-      progress: '{$p}Pending tasks{$colon} {$s}%pending_tasks%'
+        no-corruption: '{$p}Escaneo terminado. No se encontraron datos corruptos. Tomó {$s}%time%ms{$p}. Por favor reinicia tu servidor para prevenir problemas de rendimiento.'
+        corrupted: '{$e}Escaneo terminado. Tomó {$es}%time%ms{$e}. Se encontró un total de {$es}%corrupted% {$e}datos corruptos. Para intentar arreglarlos, por favor usa {$es}hover:{/k admin fsck %options%;&7Clic para ejecutar el comando;/k admin fsck %options%}'
+        corrupted-fixed: '{$e}Terminado. Tomó {$es}%time%ms{$e}. Se arregló un total de {$es}%corrupted% {$e}datos corruptos. &lPor favor reinicia tu servidor con /stop ahora para guardar todos los datos.'
+        too-many: '{$e}Ya que hay demasiadas entradas, el registro de todos los cambios fue escrito en la consola y en un archivo llamado {$es}%file%'
+      progress: '{$p}Tareas pendientes{$colon} {$s}%pending_tasks%'
       peacetreaties:
         kingdom:
-          unknown: "Peace treaty with unknown kingdoms found for{$colon} \n  {$e}Proposer{$colon} {$e}%proposer%\n  {$e}Victim{$colon} {$e}%victim%"
+          unknown: "Tratado de paz encontrado con reinos desconocidos para{$colon} \n  {$e}Proponente{$colon} {$e}%proposer%\n  {$e}Víctima{$colon} {$e}%victim%"
     item:
       editor:
-        description: '{$s}Edit all properties of any item, including their name, lore, custom model data, material, attributes and etc. This command takes the item that you''re currently holding in your main hand, if you''re not holding anything, a template item will be used instead.'
-      description: '{$s}Custom resource point item related comamnds.'
-      needs-kingdom: '{$e}Kingdom items require the target player to have a kingdom in order to construct the item.'
-      style-has-no-item: '{$e}The kingdom item has no associated item. It''s only accessible in the form of placed blocks.'
+        description: '{$s}Edita todas las propiedades de cualquier objeto, incluyendo su nombre, descripción, datos de modelo personalizado, material, atributos, etc. Este comando toma el objeto que actualmente tienes en tu mano principal, si no tienes nada, se usará un objeto plantilla.'
+      description: '{$s}Comandos relacionados con objetos de puntos de recursos personalizados.'
+      needs-kingdom: '{$e}Los objetos del reino requieren que el jugador objetivo tenga un reino para poder construir el objeto.'
+      style-has-no-item: '{$e}El objeto del reino no tiene un objeto asociado. Solo es accesible en forma de bloques colocados.'
       resourcepoints:
         description: '{$s}Give a custom item defined in the config that contains rp.'
         usage: '{$usage}item give {$p}<name> &9[amount] [player]'
@@ -1174,87 +1174,87 @@ command:
         invalid-amount: '{$e}Invalid amount{$colon} {$es}%amount%'
         done: '{$p}Successfully gave {$s}%amount% %item% {$p}worth of {$s}%rp% resource points {$p}to {$s}%target%'
       inject:
-        description: '{$s}Permanently inject resource points into an item.'
-        usage: '{$usage}item inject {$p}<resource points>'
-        no-item: '{$e}You''re not holding any item to inject resource points into.'
-        done: '{$p}Successfully injected {$s}%rp% resource points {$p}to {$s}%item%'
+        description: '{$s}Inyecta permanentemente puntos de recursos en un objeto.'
+        usage: '{$usage}item inject {$p}<puntos de recursos>'
+        no-item: '{$e}No estás sosteniendo ningún objeto para inyectarle puntos de recursos.'
+        done: '{$p}Se han inyectado exitosamente {$s}%rp% puntos de recursos {$p}a {$s}%item%'
       turret:
-        description: '{$s}Directly get a turret item.'
-        usage: '{$usage}item turret {$p}<style> &9[amount] [player]'
+        description: '{$s}Obtener directamente un objeto de torreta.'
+        usage: '{$usage}item turret {$p}<estilo> &9[cantidad] [jugador]'
         unknown-style: |
-          {$e}Unknown turret style{$colon} {$es}%style%
-          {$e}Available styles{$colon} {$es}%styles%
-        done: '{$p}Successfully gave {$s}%amount% %item% {$p}to {$s}%target%'
+          {$e}Estilo de torreta desconocido{$colon} {$es}%style%
+          {$e}Estilos disponibles{$colon} {$es}%styles%
+        done: '{$p}Se ha dado exitosamente {$s}%amount% %item% {$p}a {$s}%target%'
       structure:
-        description: '{$s}Directly get a structure item.'
-        usage: '{$usage}item structure {$p}<style> &9[amount] [player]'
+        description: '{$s}Obtener directamente un objeto de estructura.'
+        usage: '{$usage}item structure {$p}<estilo> &9[cantidad] [jugador]'
         unknown-style: |
-          {$e}Unknown structure style{$colon} {$es}%style%
-          {$e}Available styles{$colon} {$es}%styles%
-        done: '{$p}Successfully gave {$s}%amount% %item% {$p}to {$s}%target%'
+          {$e}Estilo de estructura desconocido{$colon} {$es}%style%
+          {$e}Estilos disponibles{$colon} {$es}%styles%
+        done: '{$p}Se ha dado exitosamente {$s}%amount% %item% {$p}a {$s}%target%'
     openfile:
-      description: '{$s}Opens a file relative to kingdom''s plugin folder in the default text editor program that the server is running on. This is not intended to beused directly by admins, but for {$p}/k admin track {$s}command to easily access files for you. The player accessing this command needs
-        to be opped. This can also be used directly if you have a GitHub link from KingdomsX repository. If you''re running on a server which doesn''t have a graphical interface, then this command obviously won''t work.'
-      permission: '{$e}You need to be opped in order to use this functionality.'
-      usage: '{$usage}admin openfile {$p}[file path relative to kingdoms folder]'
-      not-supported: '{$e}The platform that you''re running your server on, doesn''t support this operation.'
-      error: '{$e}Failed to open file{$colon} {$es}%error%'
-      unknown-link: '{$e}Unknown link. The only recognized links are official KingdomsX GitHub links{$colon} {$es}%link%'
-      gui-warning: '{$sep}[{$es}!{$sep}] {$es}Warning{$colon} {$es}The file directs to a GUI file. If you have multiple languages installed, you might want to refer to hover:{{$e}updates {$sep}-> {$e}synchronize-guis;{$sep}Click to view option;@https://github.com/CryptoMorin/KingdomsX/blob/1ed7ea77cf2f7773f9dcad682ac95261b6a4094e/core/src/main/resources/config.yml#L87}
-        {$es}config section for synchronization issues.'
-      opened: '{$p}Opened file{$colon} {$s}%file%'
+      description: '{$s}Abre un archivo relativo a la carpeta del plugin de Kingdoms en el programa editor de texto predeterminado del servidor. Esto no está destinado a ser usado directamente por administradores, sino para el comando {$p}/k admin track {$s}para acceder fácilmente a los archivos. El jugador
+        que accede a este comando necesita ser operador. También se puede usar directamente si tienes un enlace de GitHub del repositorio KingdomsX. Si estás ejecutando en un servidor que no tiene interfaz gráfica, entonces este comando obviamente no funcionará.'
+      permission: '{$e}Necesitas ser operador para usar esta funcionalidad.'
+      usage: '{$usage}admin openfile {$p}[ruta de archivo relativa a la carpeta kingdoms]'
+      not-supported: '{$e}La plataforma en la que estás ejecutando tu servidor no soporta esta operación.'
+      error: '{$e}Error al abrir el archivo{$colon} {$es}%error%'
+      unknown-link: '{$e}Enlace desconocido. Los únicos enlaces reconocidos son los enlaces oficiales de GitHub de KingdomsX{$colon} {$es}%link%'
+      gui-warning: '{$sep}[{$es}!{$sep}] {$es}Advertencia{$colon} {$es}El archivo dirige a un archivo GUI. Si tienes múltiples idiomas instalados, podrías querer consultar hover:{{$e}actualizaciones {$sep}-> {$e}sincronizar-guis;{$sep}Clic para ver opción;@https://github.com/CryptoMorin/KingdomsX/blob/1ed7ea77cf2f7773f9dcad682ac95261b6a4094e/core/src/main/resources/config.yml#L87}
+        {$es}sección de configuración para problemas de sincronización.'
+      opened: '{$p}Archivo abierto{$colon} {$s}%file%'
     unclaim:
       all:
-        description: '{$s}Unclaims all your kingdom lands.'
-        usage: '{$usage}admin unclaim all {$p}<kingdom>'
-      description: '{$s}Unclaim any lands.'
-      success: '{$p}Unclaimed land at {$s}%x%&7, {$s}%z% {$p}from {$s}%kingdom%'
-      not-claimed: '{$e}This land is not claimed.'
+        description: '{$s}Libera todas las tierras de tu reino.'
+        usage: '{$usage}admin unclaim all {$p}<reino>'
+      description: '{$s}Liberar cualquier tierra.'
+      success: '{$p}Tierra liberada en {$s}%x%&7, {$s}%z% {$p}de {$s}%kingdom%'
+      not-claimed: '{$e}Esta tierra no está reclamada.'
       name: unclaim
     languagepack:
-      description: '{$s}Shows a list of available language packs to install and also to update.'
-      progress-bar: '{$p}Downloading {$s}%language_pack% {$p}language pack{$colon} {$sep}[%progress%{$sep}]'
-      unknown-languagepack: '{$e}Unknown language pack{$colon} {$es}%language_pack%'
-      in-progress: '{$e}You cannot do anything with language packs while another process is still in progress. {$sep}({$p}Processing{$colon} {$s}%current_process%{$sep})'
+      description: '{$s}Muestra una lista de paquetes de idiomas disponibles para instalar y actualizar.'
+      progress-bar: '{$p}Descargando paquete de idioma {$s}%language_pack%{$colon} {$sep}[%progress%{$sep}]'
+      unknown-languagepack: '{$e}Paquete de idioma desconocido{$colon} {$es}%language_pack%'
+      in-progress: '{$e}No puedes hacer nada con los paquetes de idioma mientras otro proceso está en progreso. {$sep}({$p}Procesando{$colon} {$s}%current_process%{$sep})'
       notification: |
-        {$p}An update is available for the following language packs{$colon}
+        {$p}Hay una actualización disponible para los siguientes paquetes de idioma{$colon}
         %update%
 
-        {$p}You can download them by going to {$s}hover:{/k admin languagepacks;&7Click to open;/k admin languagepacks} {$p}GUI.
+        {$p}Puedes descargarlos yendo a la interfaz {$s}hover:{/k admin languagepacks;&7Clic para abrir;/k admin languagepacks} {$p}.
       all: |
-        {$p}Downloading & updating all language packs. This might take more than 10 minutes.
-        If you didn't see any messages for a few minutes, check your console for errors. This process will not be finished until a message confirming that all languages have been downloaded is sent to you.
-      all-done: '{$p}All languages has been downloaded and are up to date.'
-      all-no-action-needed: '{$p}No actions taken. All the packages were installed and up-to-date.'
-      indexing: '{$p}Please wait while the latest language information is being gathered...'
-      indexing-failed: '{$p}Language pack indexing failed. Please check your console for more information.'
-      downloading: '{$p}Downloading {$s}%lang% {$p}language. This might take a few minutes.'
-      updating: '{$p}Updating {$s}%lang% {$p}language.'
-      already-installed: '{$e}This language pack is already installed.'
-      not-installed: '{$e}This language pack is not installed.'
-      done: '{$s}%lang% {$p}language files have been downloaded. You can now use it from {$s}hover:{/k lang;&7Click to open;/k lang}'
+        {$p}Descargando y actualizando todos los paquetes de idioma. Esto podría tomar más de 10 minutos.
+        Si no ves ningún mensaje por unos minutos, revisa tu consola en busca de errores. Este proceso no terminará hasta que se te envíe un mensaje confirmando que todos los idiomas han sido descargados.
+      all-done: '{$p}Todos los idiomas han sido descargados y están actualizados.'
+      all-no-action-needed: '{$p}No se realizaron acciones. Todos los paquetes estaban instalados y actualizados.'
+      indexing: '{$p}Por favor espera mientras se recopila la información más reciente de los idiomas...'
+      indexing-failed: '{$p}La indexación del paquete de idioma falló. Por favor revisa tu consola para más información.'
+      downloading: '{$p}Descargando idioma {$s}%lang%{$p}. Esto podría tomar unos minutos.'
+      updating: '{$p}Actualizando idioma {$s}%lang%{$p}.'
+      already-installed: '{$e}Este paquete de idioma ya está instalado.'
+      not-installed: '{$e}Este paquete de idioma no está instalado.'
+      done: '{$s}Los archivos del idioma {$s}%lang% {$p}han sido descargados. Ahora puedes usarlo desde {$s}hover:{/k lang;&7Clic para abrir;/k lang}'
       done-error: |
-        {$e}There were some issues downloading the files{$colon}
-          {$sep}| {$p}Files successfully downloaded{$colon} {$es}%downloads_done%
-          {$sep}| {$e}Files that weren't translated{$colon} {$es}%downloads_notFound%
-          {$sep}| {$e}Files failed to download after retrying{$colon} {$es}%downloads_failed_retrying%
-          {$sep}| {$e}Files failed to download that couldn't be retried{$colon} {$es}%downloads_failed_critical%
-          {$note} {$p}These issues shouldn't stop you from using the language pack, however if none of the files were successfully downloaded, then nothing will be translated and that means there's a bigger issue. Not all languages are completely translated, so please do not report issues about it.
-      progress: '{$p}Downloading   {$s}%downloaded%{$sep}/{$s}%total%'
+        {$e}Hubo algunos problemas al descargar los archivos{$colon}
+          {$sep}| {$p}Archivos descargados exitosamente{$colon} {$es}%downloads_done%
+          {$sep}| {$e}Archivos que no fueron traducidos{$colon} {$es}%downloads_notFound%
+          {$sep}| {$e}Archivos que fallaron al descargar después de reintentar{$colon} {$es}%downloads_failed_retrying%
+          {$sep}| {$e}Archivos que fallaron al descargar y no se pudieron reintentar{$colon} {$es}%downloads_failed_critical%
+          {$note} {$p}Estos problemas no deberían impedir que uses el paquete de idioma, sin embargo, si ninguno de los archivos se descargó exitosamente, entonces nada será traducido y eso significa que hay un problema mayor. No todos los idiomas están completamente traducidos, así que por favor no reportes problemas sobre esto.
+      progress: '{$p}Descargando   {$s}%downloaded%{$sep}/{$s}%total%'
       aliases: languagespack languagespacks languagepacks langpack langspack lang langs languages
       name: languagepack
       install:
-        description: '{$s}Install a language pack.'
-        usage: '{$usage}admin languagepacks install {$p}<language>'
+        description: '{$s}Instalar un paquete de idioma.'
+        usage: '{$usage}admin languagepacks install {$p}<idioma>'
       uninstall:
-        description: '{$s}Uninstall a language pack.'
-        usage: '{$usage}admin languagepacks uninstall {$p}<language>'
-        default-language: '{$e}Cannot uninstall the English language.'
-        uninstalling: '{$e}Uninstalling {$es}%lang% {$e}language.'
-        not-installed: '{$es}%lang% {$e}is not installed.'
+        description: '{$s}Desinstalar un paquete de idioma.'
+        usage: '{$usage}admin languagepacks uninstall {$p}<idioma>'
+        default-language: '{$e}No se puede desinstalar el idioma inglés.'
+        uninstalling: '{$e}Desinstalando idioma {$es}%lang%{$e}.'
+        not-installed: '{$es}%lang% {$e}no está instalado.'
       update:
-        description: '{$s}Update a language pack.'
-        usage: '{$usage}admin languagepacks update {$p}<language>'
+        description: '{$s}Actualizar un paquete de idioma.'
+        usage: '{$usage}admin languagepacks update {$p}<idioma>'
     addons:
       description: '{$s}Get a list of all the available verified addons for the plugin.'
       unknown-addon: '{$e}Unknown addon{$colon} {$es}%addon_name%'
