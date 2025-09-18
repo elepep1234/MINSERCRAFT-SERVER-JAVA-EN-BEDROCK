@@ -968,106 +968,106 @@ mails:
       &7.......................................................
   reply-subject-formatter: '{$sep}[{$p}RE{$sep}] &f%subject%'
   notifications:
-    join: '{$p}You have {$s}%mails% {$p}new mails. Open your mailbox to read them.'
+    join: '{$p}Tienes {$s}%mails% {$p}correos nuevos. Abre tu buzón para leerlos.'
     receivers: |
-      &9%player% {$p}from &9%kingdoms_kingdom_name% {$p}kingdom has sent you a mail{$colon}
-      hover:{&f%subject%;&9Click to read;/k mail open %id%}
-  primary-none: '{$e}None'
+      &9%player% {$p}del reino &9%kingdoms_kingdom_name% {$p}te ha enviado un correo{$colon}
+      hover:{&f%subject%;&9Clic para leer;/k mail open %id%}
+  primary-none: '{$e}Ninguno'
   cc:
     each: '{$p}%cc%'
-    none: '{$e}None'
+    none: '{$e}Ninguno'
     separator: '&7, '
-    removed: '{$e}Removed CC recipient{$colon} {$es}%recipient%'
-    max: '{$e}You can''t send more than %limit% carbon copies.'
-    enter: '{$p}Enter the name of the kingdom you wish to send a carbon copy to or type hover:{{$e}cancel;{$es}Cancel;/cancel} {$p}to cancel.'
-  to-enter: '{$p}Enter the name of the kingdom you wish to send the mail to or type hover:{{$e}cancel;{$es}Cancel;/cancel} {$p}to cancel.'
-  to-yourself: '{$e}You can''t send mails to your own kingdom.'
-  already-recipient: '{$e}The specified kingdom is already a recipient.'
+    removed: '{$e}Destinatario CC eliminado{$colon} {$es}%recipient%'
+    max: '{$e}No puedes enviar más de %limit% copias carbón.'
+    enter: '{$p}Ingresa el nombre del reino al que deseas enviar una copia carbón o escribe hover:{{$e}cancelar;{$es}Cancelar;/cancel} {$p}para cancelar.'
+  to-enter: '{$p}Ingresa el nombre del reino al que deseas enviar el correo o escribe hover:{{$e}cancelar;{$es}Cancelar;/cancel} {$p}para cancelar.'
+  to-yourself: '{$e}No puedes enviar correos a tu propio reino.'
+  already-recipient: '{$e}El reino especificado ya es un destinatario.'
   subject:
-    empty: '{$e}None'
-    enter: '{$p}Enter a subject for your mail or type hover:{{$e}cancel;{$es}Cancel;/cancel} {$p}to cancel'
-    limit: '{$e}Mail subjects can only be {$es}%limit% {$e}characters long.'
-    changed: '{$p}Mail subjected changed{$colon} {$s}%subject%'
+    empty: '{$e}Ninguno'
+    enter: '{$p}Ingresa un asunto para tu correo o escribe hover:{{$e}cancelar;{$es}Cancelar;/cancel} {$p}para cancelar'
+    limit: '{$e}Los asuntos de correo solo pueden tener {$es}%limit% {$e}caracteres de largo.'
+    changed: '{$p}Asunto del correo cambiado{$colon} {$s}%subject%'
   content:
-    empty: '{$e}None'
-  cleared-properties: '{$p}Cleared all mail properties.'
+    empty: '{$e}Ninguno'
+  cleared-properties: '{$p}Se han borrado todas las propiedades del correo.'
   envelope:
-    no-free-slot: '{$e}You don''t have any free slots in your inventory for the envelope.'
-    not-enough-resources: '{$e}Your kingdom needs {$es}%rp% resources points {$e}and {$es}$%money% {$e}for an envelope.'
-    give: '{$p}Right-click the item while sneaking to edit special properties.'
+    no-free-slot: '{$e}No tienes espacios libres en tu inventario para el sobre.'
+    not-enough-resources: '{$e}Tu reino necesita {$es}%rp% puntos de recursos {$e}y {$es}$%money% {$e}para un sobre.'
+    give: '{$p}Clic derecho en el objeto mientras te agachas para editar propiedades especiales.'
   send:
-    missing-subject: '{$e}Your mail doesn''t have a subject.'
-    missing-primary-recipient: '{$e}Your mail doesn''t a primary recipient.'
-    missing-content: '{$e}Your mail''s content is empty.'
-    total-cooldown: '{$e}Your Kingdom can send another mail in{$colon} {$es}%cooldown%'
-    per-group-cooldown: '{$e}Your Kingdom can send another mail to {$es}%kingdom% {$e}in{$colon} {$es}%cooldown%'
+    missing-subject: '{$e}Tu correo no tiene asunto.'
+    missing-primary-recipient: '{$e}Tu correo no tiene un destinatario principal.'
+    missing-content: '{$e}El contenido de tu correo está vacío.'
+    total-cooldown: '{$e}Tu Reino puede enviar otro correo en{$colon} {$es}%cooldown%'
+    per-group-cooldown: '{$e}Tu Reino puede enviar otro correo a {$es}%kingdom% {$e}en{$colon} {$es}%cooldown%'
   not:
-    an-envelope: '{$e}The item is not an envelope.'
+    an-envelope: '{$e}El objeto no es un sobre.'
 kingdom-item:
-  inventory: '{$e}Cannot use kingdom item in this inventory.'
-  craft: '{$e}Cannot use kingdom items to craft.'
-  shoot: '{$e}Cannot shoot kingdom items with bows.'
+  inventory: '{$e}No se pueden usar objetos del reino en este inventario.'
+  craft: '{$e}No se pueden usar objetos del reino para craftear.'
+  shoot: '{$e}No se pueden disparar objetos del reino con arcos.'
 auto:
   claim:
-    disabled-world: '{$e}Claiming is disabled in {$s}%world%'
+    disabled-world: '{$e}El reclamo está deshabilitado en {$s}%world%'
     actionbar:
       enabled:
-        actionbar: '{$p}Auto-claim{$colon} {$s}Enabled'
+        actionbar: '{$p}Auto-reclamo{$colon} {$s}Habilitado'
       disabled:
-        actionbar: '{$p}Auto-claim{$colon} {$e}Disabled'
-    success: '{$p}Claimed {$s}%x%&7, {$s}%z% {$p}as kingdom land.'
-    nation-zone: '{$e}This land is a part of {$es}%nation%''s {$e}nation zone and cannot be claimed.'
+        actionbar: '{$p}Auto-reclamo{$colon} {$e}Deshabilitado'
+    success: '{$p}Reclamado {$s}%x%&7, {$s}%z% {$p}como tierra del reino.'
+    nation-zone: '{$e}Esta tierra es parte de la zona de la nación {$es}%nation% {$e}y no puede ser reclamada.'
   unclaim:
     actionbar:
       enabled:
-        actionbar: '{$p}Auto-unclaim{$colon} {$s}Enabled'
+        actionbar: '{$p}Auto-liberar{$colon} {$s}Habilitado'
       disabled:
-        actionbar: '{$p}Auto-unclaim{$colon} {$e}Disabled'
-    success: '{$p}Unclaimed {$s}%x%&7, {$s}%z% {$p}as kingdom land.'
+        actionbar: '{$p}Auto-liberar{$colon} {$e}Deshabilitado'
+    success: '{$p}Liberado {$s}%x%&7, {$s}%z% {$p}como tierra del reino.'
 inactivity-announce:
-  player: '{$es}%player% {$e}has been kicked due to inactivity.'
-  kingdom: '{$es}%kingdom% {$s}has been disbanded due to inactivity.'
+  player: '{$es}%player% {$e}ha sido expulsado por inactividad.'
+  kingdom: '{$es}%kingdom% {$s}ha sido disuelto por inactividad.'
 command:
   updates:
-    description: '{$s}Checks if there are any updates available for Kingdoms.'
+    description: '{$s}Verifica si hay actualizaciones disponibles para Kingdoms.'
     name: updates
     aliases: update
   help:
-    description: '{$s}Displays all commands'
+    description: '{$s}Muestra todos los comandos'
     name: help
     aliases: h ? --help /? -h
-    usage: '{$usage}%command% &9[page]'
-    negative-pages: '{$e}This isn''t a building. You can''t just go to a negative page.'
-    group: Kingdoms
+    usage: '{$usage}%command% &9[página]'
+    negative-pages: '{$e}Esto no es un edificio. No puedes ir a una página negativa.'
+    group: Reinos
     header:
       unpaginated: NOPREFIX|{$sep}&m---------------=({$e}&l %group% {$sep}&m)=---------------
       paginated: NOPREFIX|{$sep}&m---------------=({$e}&l %group% {$s}%page%&7/{$s}%max_pages% {$sep}&m)=---------------
     commands: hover:{{$sep}/{$p}k %cmd% &7- %description%;&5%usage%;|/k %cmd%}
     footer:
-      main: hover:{{$s}←;{$s}Previous Page;/k %command% %previous_page%} %pages%hover:{{$s}→;{$s}Next Page;/k %command% %next_page%}
-      page: hover:{{$sep}[{$p}%number%{$sep}];{$s}Go to page {$p}%number%;/k %command% %number%}
-      current-page: hover:{{$sep}[{$p}&l%number%{$sep}];{$p}Current Page}
-    no-more-pages: '{$e}There are no more pages to load.'
-    not-found: '{$e}Could not find any command matching{$colon} {$es}%command%'
+      main: hover:{{$s}←;{$s}Página Anterior;/k %command% %previous_page%} %pages%hover:{{$s}→;{$s}Página Siguiente;/k %command% %next_page%}
+      page: hover:{{$sep}[{$p}%number%{$sep}];{$s}Ir a la página {$p}%number%;/k %command% %number%}
+      current-page: hover:{{$sep}[{$p}&l%number%{$sep}];{$p}Página Actual}
+    no-more-pages: '{$e}No hay más páginas para cargar.'
+    not-found: '{$e}No se pudo encontrar ningún comando que coincida con{$colon} {$es}%command%'
     info: |
       NOPREFIX|{$sep}------------=( {$p}%main-name% {$sep})=------------
-      &7| {$p}Display Name{$colon} &9%command-displayname%
-      &7| {$p}Aliases{$colon} &9%aliases%
-      &7| {$p}Description{$colon} &9%description%
-      &7| {$p}Usage{$colon} &9%usage%
-      &7| {$p}Cooldown{$colon} &9%cooldown%
+      &7| {$p}Nombre Mostrado{$colon} &9%command-displayname%
+      &7| {$p}Alias{$colon} &9%aliases%
+      &7| {$p}Descripción{$colon} &9%description%
+      &7| {$p}Uso{$colon} &9%usage%
+      &7| {$p}Tiempo de Espera{$colon} &9%cooldown%
   admin:
     silent:
       description: |
-        {$s}Runs KingdomsX commands without showing any messages.
-        This is mostly intended to be used when the command is used within other plugins that can run commands.
-        Some commands don't support this feature.
-        &cIt's not recommended to use &dNONE &clogging level as it hides errors.
-      usage: '{$usage}admin backup take {$s}<logging level> <command...>'
-      unknown-logging-level: '{$e}Unknown logging level{$colon} {$es}%logging_level%'
+        {$s}Ejecuta comandos de KingdomsX sin mostrar ningún mensaje.
+        Esto está principalmente destinado a ser usado cuando el comando se utiliza dentro de otros plugins que pueden ejecutar comandos.
+        Algunos comandos no soportan esta característica.
+        &cNo se recomienda usar el nivel de registro &dNONE &cya que oculta errores.
+      usage: '{$usage}admin backup take {$s}<nivel de registro> <comando...>'
+      unknown-logging-level: '{$e}Nivel de registro desconocido{$colon} {$es}%logging_level%'
     backup:
-      description: '{$s}Commands relating to kingdom backups.'
-      busy: '{$e}The backup system is currently busy, please try again in a few seconds.'
+      description: '{$s}Comandos relacionados con copias de seguridad del reino.'
+      busy: '{$e}El sistema de copias de seguridad está ocupado actualmente, por favor intenta de nuevo en unos segundos.'
       take:
         description: '{$s}Manually takes a backup to the Backups folder with the given name.'
         usage: '{$usage}admin backup take {$s}<name>'
@@ -1084,59 +1084,60 @@ command:
         restored: '{$p}Backup has been restored to{$colon} {$s}%destination%'
         shutting-down: '{$p}Successfully restored the backup, restarting the server...'
     fsck:
-      description: '{$s}A black magic fuckery that makes all your problems suddenly disappear. Attempts to fix corrupted data.'
+      description: '{$s}Una magia negra que hace que todos tus problemas desaparezcan repentinamente. Intenta reparar datos corruptos.'
       name: FSCK
       aliases: SFC CHKDSK
-      scanning: '{$p}Loading and scanning all data files... This might take a minute'
+      scanning: '{$p}Cargando y escaneando todos los archivos de datos... Esto podría tomar un minuto'
       corruption:
-        expired-data: '{$dot} {$e}Kingdom object that''s expired is still in use{$colon} {$es}%data%'
+        expired-data: '{$dot} {$e}El objeto del reino que está expirado sigue en uso{$colon} {$es}%data%'
         mail:
-          no-connection: '{$dot} {$e}Mail is not used in any kingdom{$colon} {$e}Nation{$colon} {$es}%id% {$sep}| {$e}Subject{$colon} {$es}%subject%'
-          unknown: '{$dot} {$e}Unknown mail in kingdom{$colon} {$e}Kingdom{$colon} {$es}%kingdom_id% {$sep}| {$e}Mail{$colon} {$es}%id%'
-          not-related: '{$dot} {$e}Unrelated mail in kingdom{$colon} {$e}Kingdom{$colon} {$es}%kingdom_id% {$sep}| {$e}Mail{$colon} {$es}%id% {$sep}| {$e}Subject{$colon} {$es}%subject%'
+          no-connection: '{$dot} {$e}El correo no se usa en ningún reino{$colon} {$e}Nación{$colon} {$es}%id% {$sep}| {$e}Asunto{$colon} {$es}%subject%'
+          unknown: '{$dot} {$e}Correo desconocido en el reino{$colon} {$e}Reino{$colon} {$es}%kingdom_id% {$sep}| {$e}Correo{$colon} {$es}%id%'
+          not-related: '{$dot} {$e}Correo no relacionado en el reino{$colon} {$e}Reino{$colon} {$es}%kingdom_id% {$sep}| {$e}Correo{$colon} {$es}%id% {$sep}| {$e}Asunto{$colon} {$es}%subject%'
         nation:
-          kingdom: '{$dot} {$e}Unknown kingdom inside nation{$colon} {$e}Nation{$colon} {$es}%kingdoms_nation_name% {$sep}({$es}%nation_id%{$sep}) - {$e}Kingdom{$colon} {$es}%kingdom_id% {$sep}({$s}%kingdom_name%{$sep})'
-          no-members: '{$dot} {$e}Nation doesn''t have any members. It will be disbanded{$colon} {$es}%kingdoms_nation_name%{$sep}, {$es}%nation_id%'
-          wrong-capital: '{$dot} {$e}Nation''s capital was corrupted, will change to another random member kingdom.{$colon} {$es}%kingdoms_nation_name%{$sep}, {$es}%nation_id% {$sep}| {$e}Old Capital{$colon} {$es}%old_capital_id% {$sep}-> {$e}New Capital{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$es}%new_capital_id%{$sep})'
+          kingdom: '{$dot} {$e}Reino desconocido dentro de la nación{$colon} {$e}Nación{$colon} {$es}%kingdoms_nation_name% {$sep}({$es}%nation_id%{$sep}) - {$e}Reino{$colon} {$es}%kingdom_id% {$sep}({$s}%kingdom_name%{$sep})'
+          no-members: '{$dot} {$e}La nación no tiene miembros. Será disuelta{$colon} {$es}%kingdoms_nation_name%{$sep}, {$es}%nation_id%'
+          wrong-capital: '{$dot} {$e}La capital de la nación estaba corrupta, se cambiará a otro reino miembro aleatorio{$colon} {$es}%kingdoms_nation_name%{$sep}, {$es}%nation_id% {$sep}| {$e}Capital Anterior{$colon} {$es}%old_capital_id% {$sep}-> {$e}Nueva Capital{$colon} {$es}%kingdoms_kingdom_name%
+            {$sep}({$es}%new_capital_id%{$sep})'
         land:
-          unknown-world: '{$dot} {$e}Unknown world for land{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%z%'
-          invalid-building-state: '{$dot} {$e}Unexpected building state for{$colon} {$es}%type% {$sep}- {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%'
-          unknown-kingdom: '{$dot} {$e}Unknown kingdom for land{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%z% {$sep}| {$e}Kingdom{$colon} {$es}%kingdom_id%'
-          kingdom-doesnt-include: '{$dot} {$e}Land not marked as claimed in kingdom{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%z% {$sep}| {$e}Kingdom{$colon} {$es}%kingdom_id%'
+          unknown-world: '{$dot} {$e}Mundo desconocido para el terreno{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%z%'
+          invalid-building-state: '{$dot} {$e}Estado de construcción inesperado para{$colon} {$es}%type% {$sep}- {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%'
+          unknown-kingdom: '{$dot} {$e}Reino desconocido para el terreno{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%z% {$sep}| {$e}Reino{$colon} {$es}%kingdom_id%'
+          kingdom-doesnt-include: '{$dot} {$e}Terreno no marcado como reclamado en el reino{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%z% {$sep}| {$e}Reino{$colon} {$es}%kingdom_id%'
           item-wrong-block:
-            removing: '{$dot} {$e}Wrong block for kingdom item.{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} | {$e}Expected Block{$colon} {$es}%expected_block% {$sep}| {$e}Actual Block{$colon} {$es}%actual_block%'
-            updating: '{$dot} {$e}Wrong block for kingdom item. Needs updating{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} | {$e}Expected Block{$colon} {$es}%expected_block% {$sep}| {$e}Actual Block{$colon} {$es}%actual_block%'
-          nexus-unclaimed: '{$dot} {$e}Found a nexus structure in unclaimed land{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} | {$p}Block{$colon} {$s}%block%'
-          national-nexus-in-nationless: '{$dot} {$e}Found a national nexus structure in land that doesn''t have a nation{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} | {$p}Block{$colon} {$s}%block%'
-          nexus-level-mismatch: '{$dot} {$e}Found a nexus structure with mismatching levels{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} | {$p}Group Level{$colon} {$s}%group_level% {$sep}| {$p}Nexus Level{$colon} {$s}%nexus_level%'
-          protection-sign: '{$dot} {$e}No block or missing sign for protection sign{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} {$sep}| {$p}Block{$colon} {$s}%block% {$sep}| {$p}Sign{$colon} {$s}%sign% '
+            removing: '{$dot} {$e}Bloque incorrecto para el ítem del reino{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} | {$e}Bloque Esperado{$colon} {$es}%expected_block% {$sep}| {$e}Bloque Actual{$colon} {$es}%actual_block%'
+            updating: '{$dot} {$e}Bloque incorrecto para el ítem del reino. Necesita actualización{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} | {$e}Bloque Esperado{$colon} {$es}%expected_block% {$sep}| {$e}Bloque Actual{$colon} {$es}%actual_block%'
+          nexus-unclaimed: '{$dot} {$e}Se encontró una estructura nexo en terreno no reclamado{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} | {$p}Bloque{$colon} {$s}%block%'
+          national-nexus-in-nationless: '{$dot} {$e}Se encontró una estructura nexo nacional en un terreno que no tiene nación{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} | {$p}Bloque{$colon} {$s}%block%'
+          nexus-level-mismatch: '{$dot} {$e}Se encontró una estructura nexo con niveles no coincidentes{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} | {$p}Nivel del Grupo{$colon} {$s}%group_level% {$sep}| {$p}Nivel del Nexo{$colon} {$s}%nexus_level%'
+          protection-sign: '{$dot} {$e}No hay bloque o falta cartel para el cartel de protección{$colon} {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%y%{$sep}, {$es}%z%{$sep} {$sep}| {$p}Bloque{$colon} {$s}%block% {$sep}| {$p}Cartel{$colon} {$s}%sign% '
         kingdom:
-          unknown-claim: '{$dot} {$e}Unknown claim for kingdom{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$es}%kingdom_id%{$sep}) - {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%z%'
-          unknown-player: '{$dot} {$e}Unknown player in kingdom{$colon} {$e}Kingdom{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) - {$e}Player{$colon} {$es}%player_id%'
-          unknown-champion-type: '{$dot} {$e}Kingdom''s champion type doesn''t exist{$colon} {$e}Kingdom{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) {$sep}| {$e}Champion Type{$colon} {$es}%champion%'
-          relationship-self: '{$dot} {$e}Kingdom has relationship with itself{$colon} {$e}Kingdom{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep})'
-          unknown-relationship-request: '{$dot} {$e}Unknown relationship request between kingdoms{$colon} {$e}Kingdom{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) - {$e}To kingdom{$colon} {$es}%other*kingdom_id%'
-          unknown-relationship: '{$dot} {$e}Unknown relationship between kingdoms{$colon} {$e}Kingdom{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) - {$e}To kingdom{$colon} {$es}%other*kingdom_id%'
-          relationship-both-requested: '{$dot} {$e}Two kingdoms have relationship requests to each other{$colon} {$e}Kingdom 1{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$es}%kingdom_id%{$sep}) {$sep}| {$e}Relation{$colon} {$es}%first_relation% {$sep}- {$e}Kingdom 2{$colon} {$es}%other*kingdom_id% {$sep}({$es}%other*kingdom_id%{$sep})
-            {$e}Relation{$colon} {$es}%second_relation%'
-          relationship-mismatch: '{$dot} {$e}Inconsistent relationship between kingdoms{$colon} {$e}Kingdom 1{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$es}%kingdom_id%{$sep}) {$sep}| {$e}Relation{$colon} {$es}%first_relation% {$sep}- {$e}Kingdom 2{$colon} {$es}%other*kingdom_id% {$sep}({$es}%other*kingdom_id%{$sep})
-            {$e}Relation{$colon} {$es}%second_relation%'
-          relationship-both-forms-exist: '{$dot} {$e}Between two kingdoms, one has a definite relationship with another kingdom, while that other kingdom already has a relationship request sent{$colon} {$e}Kingdom 1{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$es}%kingdom_id%{$sep}) {$sep}| {$e}Relation{$colon}
-            {$es}%first_relation% {$sep}- {$e}Kingdom 2{$colon} {$es}%other*kingdom_id% {$sep}({$es}%other*kingdom_id%{$sep}) {$e}Relation{$colon} {$es}%second_relation%'
-          no-members: '{$dot} {$e}kingdom doesn''t have any members. It will be disbanded{$colon} {$es}%kingdoms_kingdom_name%{$sep}, {$es}%kingdom_id%'
-          wrong-king: '{$dot} {$e}Kingdom''s king was corrupted, will change to another random member.{$colon} {$es}%kingdoms_kingdom_name%{$sep}, {$es}%kingdom_id% {$sep}| {$e}Old King{$colon} {$es}%old_king_id% {$sep}-> {$e}New King{$colon} {$es}%player% {$sep}({$es}%new_king_id%{$sep})'
-          pacifism: '{$dot} {$e}Pacifist kingdom found while pacifism is disabled{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$s}%kingdom_id%{$sep})'
-          nonfinite-resource-points: '{$dot} {$e}Kingdom has corrupted resource points number{$colon} {$es}%value% {$sep}| {$es}%kingdoms_kingdom_name% {$sep}({$s}%kingdom_id%{$sep}) {$es}Will reset resource points to 0'
-          nonfinite-bank: '{$dot} {$e}Kingdom has corrupted bank number{$colon} {$es}%value% {$sep}| {$es}%kingdoms_kingdom_name% {$sep}({$s}%kingdom_id%{$sep}) {$es}Will reset bank to 0'
-          nation: '{$dot} {$e}Unknown nation for kingdom{$colon} {$e}Nation{$colon} {$es}%nation_id% {$sep}- {$e}Kingdom{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$s}%kingdom_id%{$sep})'
+          unknown-claim: '{$dot} {$e}Reclamo desconocido para el reino{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$es}%kingdom_id%{$sep}) - {$es}%world%{$sep}, {$es}%x%{$sep}, {$es}%z%'
+          unknown-player: '{$dot} {$e}Jugador desconocido en el reino{$colon} {$e}Reino{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) - {$e}Jugador{$colon} {$es}%player_id%'
+          unknown-champion-type: '{$dot} {$e}El tipo de campeón del reino no existe{$colon} {$e}Reino{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) {$sep}| {$e}Tipo de Campeón{$colon} {$es}%champion%'
+          relationship-self: '{$dot} {$e}El reino tiene una relación consigo mismo{$colon} {$e}Reino{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep})'
+          unknown-relationship-request: '{$dot} {$e}Solicitud de relación desconocida entre reinos{$colon} {$e}Reino{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) - {$e}Al reino{$colon} {$es}%other*kingdom_id%'
+          unknown-relationship: '{$dot} {$e}Relación desconocida entre reinos{$colon} {$e}Reino{$colon} {$es}%kingdoms_kingdom_name% {$sep}(%kingdom_id%{$sep}) - {$e}Al reino{$colon} {$es}%other*kingdom_id%'
+          relationship-both-requested: '{$dot} {$e}Dos reinos tienen solicitudes de relación entre sí{$colon} {$e}Reino 1{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$es}%kingdom_id%{$sep}) {$sep}| {$e}Relación{$colon} {$es}%first_relation% {$sep}- {$e}Reino 2{$colon} {$es}%other*kingdom_id% {$sep}({$es}%other*kingdom_id%{$sep})
+            {$e}Relación{$colon} {$es}%second_relation%'
+          relationship-mismatch: '{$dot} {$e}Relación inconsistente entre reinos{$colon} {$e}Reino 1{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$es}%kingdom_id%{$sep}) {$sep}| {$e}Relación{$colon} {$es}%first_relation% {$sep}- {$e}Reino 2{$colon} {$es}%other*kingdom_id% {$sep}({$es}%other*kingdom_id%{$sep})
+            {$e}Relación{$colon} {$es}%second_relation%'
+          relationship-both-forms-exist: '{$dot} {$e}Entre dos reinos, uno tiene una relación definitiva con otro reino, mientras que ese otro reino ya tiene una solicitud de relación enviada{$colon} {$e}Reino 1{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$es}%kingdom_id%{$sep}) {$sep}| {$e}Relación{$colon}
+            {$es}%first_relation% {$sep}- {$e}Reino 2{$colon} {$es}%other*kingdom_id% {$sep}({$es}%other*kingdom_id%{$sep}) {$e}Relación{$colon} {$es}%second_relation%'
+          no-members: '{$dot} {$e}El reino no tiene miembros. Será disuelto{$colon} {$es}%kingdoms_kingdom_name%{$sep}, {$es}%kingdom_id%'
+          wrong-king: '{$dot} {$e}El rey del reino estaba corrupto, se cambiará a otro miembro aleatorio.{$colon} {$es}%kingdoms_kingdom_name%{$sep}, {$es}%kingdom_id% {$sep}| {$e}Rey Anterior{$colon} {$es}%old_king_id% {$sep}-> {$e}Nuevo Rey{$colon} {$es}%player% {$sep}({$es}%new_king_id%{$sep})'
+          pacifism: '{$dot} {$e}Reino pacifista encontrado mientras el pacifismo está deshabilitado{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$s}%kingdom_id%{$sep})'
+          nonfinite-resource-points: '{$dot} {$e}El reino tiene un número corrupto de puntos de recursos{$colon} {$es}%value% {$sep}| {$es}%kingdoms_kingdom_name% {$sep}({$s}%kingdom_id%{$sep}) {$es}Se reiniciarán los puntos de recursos a 0'
+          nonfinite-bank: '{$dot} {$e}El reino tiene un número corrupto en el banco{$colon} {$es}%value% {$sep}| {$es}%kingdoms_kingdom_name% {$sep}({$s}%kingdom_id%{$sep}) {$es}Se reiniciará el banco a 0'
+          nation: '{$dot} {$e}Nación desconocida para el reino{$colon} {$e}Nación{$colon} {$es}%nation_id% {$sep}- {$e}Reino{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$s}%kingdom_id%{$sep})'
         ranks:
-          node-mismatch: '{$dot} {$e}Rank node mismatch{$colon} {$e}Group{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rank{$colon} {$es}%node% {$sep}| {$e}Encoded node {$es}%encoded_node%'
-          priority-mistmatch: '{$dot} {$e}Rank priority mismatch{$colon} {$e}Group{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rank{$colon} {$es}%node% {$sep}| {$e}Encoded priority {$es}%encoded_priority% {$sep}| {$e}Instance priority {$es}%priority%'
-          missing: '{$dot} {$e}Less than 2 ranks found{$colon} {$e}Group{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Ranks{$colon} {$es}%ranks%'
-          priority-misorder: '{$dot} {$e}Rank priority not ordered{$colon} {$e}Group{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rank{$colon} {$es}%node% {$sep}| {$e}Expected priority {$es}%expected_priority% {$sep}| {$e}Real priority {$es}%priority%'
-          missing-pair: '{$dot} {$e}Rank priority map doesn''t have a corresponding node entry in %mode%{$colon} {$e}Group{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rank{$colon} {$es}%node% {$sep}| {$e}priority{$colon} {$es}%priority%'
-          unsupported-material: '{$dot} {$e}Rank has an unsupported material for the current server version{$colon} {$e}Group{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rank{$colon} {$es}%rank% {$sep}| {$e}Material{$colon} {$es}%material%'
-          different-instance: '{$dot} {$e}Rank maps contain different instances in %mode%{$colon} {$e}Group{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rank{$colon} {$es}%node% {$sep}- {$es}%priority% {$sep}| {$e}Other Rank{$colon} {$es}%other*rank%'
+          node-mismatch: '{$dot} {$e}Desajuste en el nodo de rango{$colon} {$e}Grupo{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rango{$colon} {$es}%node% {$sep}| {$e}Nodo codificado {$es}%encoded_node%'
+          priority-mistmatch: '{$dot} {$e}Desajuste en la prioridad del rango{$colon} {$e}Grupo{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rango{$colon} {$es}%node% {$sep}| {$e}Prioridad codificada {$es}%encoded_priority% {$sep}| {$e}Prioridad de instancia {$es}%priority%'
+          missing: '{$dot} {$e}Menos de 2 rangos encontrados{$colon} {$e}Grupo{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rangos{$colon} {$es}%ranks%'
+          priority-misorder: '{$dot} {$e}Prioridad del rango no ordenada{$colon} {$e}Grupo{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rango{$colon} {$es}%node% {$sep}| {$e}Prioridad esperada {$es}%expected_priority% {$sep}| {$e}Prioridad real {$es}%priority%'
+          missing-pair: '{$dot} {$e}El mapa de prioridad del rango no tiene una entrada de nodo correspondiente en %mode%{$colon} {$e}Grupo{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rango{$colon} {$es}%node% {$sep}| {$e}prioridad{$colon} {$es}%priority%'
+          unsupported-material: '{$dot} {$e}El rango tiene un material no soportado para la versión actual del servidor{$colon} {$e}Grupo{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rango{$colon} {$es}%rank% {$sep}| {$e}Material{$colon} {$es}%material%'
+          different-instance: '{$dot} {$e}Los mapas de rango contienen diferentes instancias en %mode%{$colon} {$e}Grupo{$colon} {$es}%name% {$sep}(%id%{$sep}) - {$e}Rango{$colon} {$es}%node% {$sep}- {$es}%priority% {$sep}| {$e}Otro Rango{$colon} {$es}%other*rank%'
           unknown: '{$dot} {$e}Player has unknown rank{$colon} {$e}Group{$colon} {$es}%name% {$sep}(%id%{$sep}) | {$e}Rank{$colon} {$es}%node% {$sep}| {$e}Player{$colon} {$es}%player% {$sep}(%player_id%{$sep})'
           multiple-kings: '{$dot} {$e}Multiple kings for{$colon} {$e}Group{$colon} {$es}%name% {$sep}(%id%{$sep}) | %players%'
           kingdom-king: '{$dot} {$e}Kingdom''s king doesn''t have the king rank.{$colon} {$e}Kingdom{$colon} {$es}%kingdoms_kingdom_name% {$sep}({$es}%kingdom_id%{$sep}) {$sep}| {$e}Player{$colon} {$es}%player% {$sep}({$es}%player_id%{$sep}) {$sep}| {$e}Rank{$colon} {$es}%rank%'
