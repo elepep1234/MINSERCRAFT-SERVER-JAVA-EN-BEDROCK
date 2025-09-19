@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1758325847894
   login: 1758325603684
 money: '0'
 last-account-name: douglassp
@@ -28,3 +28,11 @@ lastlocation:
   z: -147.37865859968673
   yaw: -85.182861328125
   pitch: 33.749908447265625
+logoutlocation:
+  world: e19baa22-a9a0-4122-9237-a01b5655df17
+  world-name: world
+  x: -585.4410149492039
+  y: 69.0
+  z: -4155.061250962991
+  yaw: 3.6534423828125
+  pitch: 16.049230575561523

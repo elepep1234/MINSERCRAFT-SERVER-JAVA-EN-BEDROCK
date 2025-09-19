@@ -1002,3 +1002,434 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPl
 [23:48:01] [Server thread/INFO]: edsthilaire121 issued server command: /tp edsthilaire121 douglassp
 [23:48:05] [Server thread/INFO]: edsthilaire121 issued server command: /erp
 [23:48:11] [Server thread/INFO]: edsthilaire121 issued server command: /tp edsthilaire121 douglassp
+[23:48:17] [Async Chat Thread - #0/INFO]: [A]|[♚ GAME] [Owner] edsthilaire121 ≫ oye
+[23:48:33] [Server thread/INFO]: [PLAYER] douglassp [MEMBER] has made the advancement [Stone Age]
+[23:49:02] [Server thread/INFO]: [SAY] CONSOLE sy pone /k create
+[23:49:16] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Global
+[23:49:19] [Async Chat Thread - #2/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:49:22] [Async Chat Thread - #2/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:49:41] [Async Chat Thread - #2/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:49:44] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Global
+[23:49:45] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Global
+[23:49:49] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Global
+[23:49:52] [Server thread/INFO]: edsthilaire121 issued server command: /k chat
+[23:50:02] [Server thread/INFO]: edsthilaire121 issued server command: /k chat all
+[23:50:09] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Global
+[23:50:15] [Async Chat Thread - #2/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:50:18] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Global oye
+[23:50:22] [Async Chat Thread - #2/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:50:23] [Server thread/INFO]: edsthilaire121 issued server command: /v
+[23:50:35] [Server thread/INFO]: edsthilaire121 issued server command: /tp edsthilaire121 douglassp
+[23:50:47] [Server thread/INFO]: douglassp lost connection: Disconnected
+[23:50:47] [Server thread/INFO]: [U] douglassp ha abandonado el servidor.
+[23:50:47] [Server thread/INFO]: [voicechat] Disconnecting client douglassp
+[23:50:47] [Server thread/INFO]: [U] douglassp ha salido del juego.
+[23:50:57] [Server thread/INFO]: edsthilaire121 issued server command: /lp
+[23:51:04] [Server thread/INFO]: edsthilaire121 issued server command: /
+[23:51:16] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:51:20] [Server thread/INFO]: edsthilaire121 issued server command: /k admin chat
+[23:51:23] [Server thread/INFO]: edsthilaire121 issued server command: /k admin chat
+[23:51:27] [Server thread/INFO]: edsthilaire121 issued server command: /k admin chat all
+[23:51:29] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:51:36] [Server thread/INFO]: edsthilaire121 issued server command: /k chat
+[23:51:38] [Server thread/INFO]: edsthilaire121 issued server command: /k chat top
+[23:51:42] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Global
+[23:51:43] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Global
+[23:51:44] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Global
+[23:51:47] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Global message
+[23:51:51] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Tregua
+[23:51:52] [Async Chat Thread - #4/INFO]: [T]|[♚ GAME] [Owner] edsthilaire121 ≫ tt
+[23:51:57] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Reino
+[23:51:59] [Async Chat Thread - #4/INFO]: [R]|[♚ GAME] [Owner] edsthilaire121 ≫ tt
+[23:52:03] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
+[23:52:03] [Server thread/INFO]: [voicechat] Disconnecting client edsthilaire121
+[23:54:07] [User Authenticator #1/INFO]: UUID of player edsthilaire121 is 024fdfad-d078-3149-8896-20d579490a75
+[23:54:07] [Server thread/INFO]: [NameTag] §7Player edsthilaire121 joined. Applying NameTag.
+[23:54:07] [Server thread/INFO]: edsthilaire121[/127.198.128.226:54325] logged in with entity id 1330 at ([world]-590.4096725084729, 75.99135949299918, -4146.633780377404)
+[23:54:11] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Reino
+[23:54:15] [Server thread/INFO]: edsthilaire121 issued server command: /k chat Global
+[23:54:18] [Async Chat Thread - #6/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:54:21] [Async Chat Thread - #6/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:54:22] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
+[23:54:22] [Server thread/INFO]: [voicechat] Disconnecting client edsthilaire121
+[23:54:23] [User Authenticator #1/INFO]: UUID of player edsthilaire121 is 024fdfad-d078-3149-8896-20d579490a75
+[23:54:24] [Server thread/INFO]: [NameTag] §7Player edsthilaire121 joined. Applying NameTag.
+[23:54:24] [Server thread/INFO]: edsthilaire121[/127.198.128.226:59599] logged in with entity id 1469 at ([world]-585.9280081676942, 75.99135949299918, -4143.596780006805)
+[23:54:25] [Async Chat Thread - #6/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:54:27] [Async Chat Thread - #6/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:54:27] [Async Chat Thread - #6/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:54:28] [Async Chat Thread - #6/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:54:28] [Async Chat Thread - #6/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:54:38] [Server thread/INFO]: edsthilaire121 issued server command: /tab cpu
+[23:55:17] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:55:29] [Thread-40/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[23:57:29] [Server thread/INFO]: edsthilaire121 issued server command: /k reload
+[23:57:29] [Server thread/INFO]: [KingdomsX] Performing a full reload for the plugin...
+[23:57:29] [kingdoms-worker-4/INFO]: [KingdomsX] Setting up file manager...
+[23:57:29] [kingdoms-worker-4/INFO]: [KingdomsX] Reloading langauge and GUI files...
+[23:57:29] [kingdoms-worker-4/INFO]: [KingdomsX] Loading language: EN (version master)
+[23:57:29] [kingdoms-worker-4/INFO]: [KingdomsX] Default language: en (English)
+[23:57:29] [kingdoms-worker-4/INFO]: [KingdomsX] Reloading configs...
+[23:57:29] [kingdoms-worker-4/INFO]: [KingdomsX] Reregistering event listeners...
+[23:57:29] [kingdoms-worker-4/WARN]: [KingdomsX] Please ignore any messages you receive about EntityKnockbackEvent being deprecated. It's bullshit :)
+[23:57:29] [kingdoms-worker-4/WARN]: [KingdomsX] "Kingdoms v1.17.20-BETA" has registered a listener for org.bukkit.event.entity.EntityKnockbackEvent on method "private static void org.kingdoms.managers.land.LandProtectionManager$c.a(org.bukkit.event.entity.EntityKnockbackEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Crypto Morin].
+[23:57:29] [kingdoms-worker-4/INFO]: [KingdomsX] Registering declaration modules...
+[23:57:29] [kingdoms-worker-4/INFO]: [KingdomsX] Registering commands...
+[23:57:30] [kingdoms-worker-4/INFO]: [KingdomsX] Reinitializing other services...
+[23:57:30] [kingdoms-worker-4/INFO]: [KingdomsX] Reloading turrets...
+[23:57:31] [kingdoms-worker-4/INFO]: [KingdomsX] Reloading structures...
+[23:57:31] [kingdoms-worker-4/INFO]: [GAMECRAFT] Manual Save: 
+  | GLOBALS:  0/1 (0ms)
+  | KINGDOMS: 0/1 (1ms)
+  | LANDS:    1/1 (3ms)
+  | MTG:      0/0 (0ms)
+  | NATIONS:  0/0 (0ms)
+  | PLAYERS:  1/2 (2ms)
+[23:57:31] [kingdoms-worker-4/INFO]: [KingdomsX] Reloading addons...
+[23:57:31] [kingdoms-worker-4/INFO]: [GAMECRAFT] Failed to load map services:
+[23:57:31] [kingdoms-worker-4/WARN]: java.lang.IllegalStateException: Error while registering Map Icons 'warppad' plugins/Kingdoms/maps/icons/warppad.png
+[23:57:31] [kingdoms-worker-4/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.utils.fs.FolderRegistry.b(FolderRegistry.java:51)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.utils.fs.FolderRegistry.visitPresent(FolderRegistry.java:42)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.IconFolderRegistry.register(IconFolderRegistry.java:50)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.MapServiceProvider.loadIcons(MapServiceProvider.java:78)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.MapServiceProvider.load(MapServiceProvider.java:53)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.ServiceMap.lambda$load$7(ServiceMap.java:140)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.data.centers.KingdomsStartup.whenReady(KingdomsStartup.java:77)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.ServiceMap.load(ServiceMap.java:135)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.MapViewerAddon.reloadAddon(MapViewerAddon.java:43)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.commands.general.admin.CommandReload.a(CommandReload.java:99)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.scheduler.traced.TracedFunctionalObject.tracedRun(TracedFunctionalObject.java:37)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.scheduler.traced.TracedRunnable.run(TracedRunnable.java:23)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.scheduler.convert.UnconsumedRunnable.accept(UnconsumedRunnable.java:16)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.scheduler.convert.InjectedConsumerRunnable.run(InjectedConsumerRunnable.java:16)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[23:57:31] [kingdoms-worker-4/WARN]: Caused by: java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.getMarkerAPI()" because "this.api" is null
+[23:57:31] [kingdoms-worker-4/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.dynmap.ServiceDynmap.updateOrRegisterIcon(ServiceDynmap.java:258)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar//org.kingdoms.services.maps.IconFolderRegistry.handle(IconFolderRegistry.java:43)
+[23:57:31] [kingdoms-worker-4/WARN]: 	at KingdomsX-1.17.20-BETA.jar//org.kingdoms.utils.fs.FolderRegistry.b(FolderRegistry.java:49)
+[23:57:31] [kingdoms-worker-4/WARN]: 	... 31 more
+[23:57:31] [kingdoms-worker-4/INFO]: [Kingdoms-Addon-Peace-Treaties] Loading term grouping settings...
+[23:57:31] [kingdoms-worker-4/INFO]: [KingdomsX] Reloading done.
+[23:57:38] [Server thread/INFO]: edsthilaire121 issued server command: /ess reload
+[23:57:38] [Server thread/INFO]: [Essentials] Loaded 43883 items from items.json.
+[23:57:38] [Server thread/INFO]: [Essentials] Using locale en
+[23:57:38] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[23:57:45] [Async Chat Thread - #8/ERROR]: Could not pass event AsyncPlayerChatEvent to Kingdoms v1.17.20-BETA
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCommonAPI.postPlayerMessageToWeb(String, String, String)" because "this.api" is null
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.dynmap.ServiceDynmap.sendMessage(ServiceDynmap.java:194) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.MapServiceProvider.sendGlobalMessage(MapServiceProvider.java:87) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at Kingdoms-Addon-Map Viewers-3.1.0.2.jar/org.kingdoms.services.maps.ServiceMap.sendGlobalMessage(ServiceMap.java:163) ~[Kingdoms-Addon-Map Viewers-3.1.0.2.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.services.managers.ServiceHandler.sendGlobalMessage(ServiceHandler.java:139) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.KingdomsChatProcessor.process(KingdomsChatProcessor.java:126) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at KingdomsX-1.17.20-BETA.jar/org.kingdoms.managers.chat.DefaultChatExecutor.execute(DefaultChatExecutor.java:34) ~[KingdomsX-1.17.20-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2492) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2272) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:58:08] [Server thread/INFO]: edsthilaire121 issued server command: /plugin disable EssentialsXChat
+[23:58:18] [Server thread/INFO]: edsthilaire121 issued server command: /plugins EssentialsXChat
