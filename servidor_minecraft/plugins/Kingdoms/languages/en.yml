@@ -1244,17 +1244,17 @@ command:
       aliases: languagespack languagespacks languagepacks langpack langspack lang langs languages
       name: languagepack
       install:
-        description: '{$s}Instalar un paquete de idioma.'
-        usage: '{$usage}admin languagepacks install {$p}<idioma>'
+        description: '{$s}Install a language pack.'
+        usage: '{$usage}admin languagepacks install {$p}<language>'
       uninstall:
-        description: '{$s}Desinstalar un paquete de idioma.'
-        usage: '{$usage}admin languagepacks uninstall {$p}<idioma>'
-        default-language: '{$e}No se puede desinstalar el idioma inglés.'
-        uninstalling: '{$e}Desinstalando idioma {$es}%lang%{$e}.'
-        not-installed: '{$es}%lang% {$e}no está instalado.'
+        description: '{$s}Uninstall a language pack.'
+        usage: '{$usage}admin languagepacks uninstall {$p}<language>'
+        default-language: '{$e}Cannot uninstall the English language.'
+        uninstalling: '{$e}Uninstalling {$es}%lang% {$e}language.'
+        not-installed: '{$es}%lang% {$e}is not installed.'
       update:
-        description: '{$s}Actualizar un paquete de idioma.'
-        usage: '{$usage}admin languagepacks update {$p}<idioma>'
+        description: '{$s}Update a language pack.'
+        usage: '{$usage}admin languagepacks update {$p}<language>'
     addons:
       description: '{$s}Get a list of all the available verified addons for the plugin.'
       unknown-addon: '{$e}Unknown addon{$colon} {$es}%addon_name%'
