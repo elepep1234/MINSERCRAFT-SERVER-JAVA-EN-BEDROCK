@@ -1,0 +1,63 @@
+WorldsMenu:
+  Title: '&8〘 &2&lMUNDOS DISPONIBLES &8〙'
+  Size: 27
+  Update: 40
+  
+  Fill:
+    All:
+      Material: BLACK_STAINED_GLASS_PANE
+      Name: ' '
+
+  Items:
+    'World':
+      Material: GRASS_BLOCK
+      Slot: 11
+      Name: '&a&lMUNDO NORMAL'
+      Lore:
+        - '&7El mundo principal del servidor'
+        - '&7donde podrás construir y sobrevivir.'
+        - ''
+        - '&e➜ Click para ir'
+      Commands:
+        - '[PLAYER] warp world'
+        - '[CLOSE]'
+
+    'Nether':
+      Material: NETHERRACK
+      Slot: 13
+      Name: '&c&lNETHER'
+      Lore:
+        - '&7Un mundo lleno de peligros'
+        - '&7y recursos valiosos.'
+        - ''
+        - '&e➜ Click para ir'
+      Commands:
+        - '[PLAYER] warp nether'
+        - '[CLOSE]'
+
+    'End':
+      Material: END_STONE
+      Slot: 15
+      Name: '&5&lTHE END'
+      Lore:
+        - '&7Enfrenta al dragón y'
+        - '&7encuentra ciudades del End.'
+        - ''
+        - '&e➜ Click para ir'
+      Commands:
+        - '[PLAYER] warp end'
+        - '[CLOSE]'
+
+    'Back':
+      Material: ARROW
+      Slot: 26
+      Name: '&c&l← VOLVER'
+      Lore:
+        - '&7Volver al menú principal'
+      Commands:
+        - '[OPEN] MainMenu'
+
+    'Decoration':
+      Material: LIME_STAINED_GLASS_PANE
+      Slot: 0,1,7,8,9,17,18,19,25,26
+      Name: ' '

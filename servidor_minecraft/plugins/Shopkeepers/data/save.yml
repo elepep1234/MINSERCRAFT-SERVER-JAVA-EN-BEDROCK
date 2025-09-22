@@ -66,6 +66,6 @@ data-version: 4|2|4440
     baby: false
     profession: minecraft:none
     villagerType: minecraft:plains
-    villagerLevel: 1
+    villagerLevel: 3
   recipes: {}
   snapshots: []

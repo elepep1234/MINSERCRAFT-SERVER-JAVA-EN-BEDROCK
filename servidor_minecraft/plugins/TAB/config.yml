@@ -1,17 +1,17 @@
 header-footer:
   enabled: true
-  disable-condition: "%world%=disabledworld"
+  disable-condition: ""
   header:
-    - "<#55FF55>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-    - "&6 GAMECRAFT"
-    - "&7Bienvenido &e%player% &7a &aSurvival!"
-    - "&7Jugadores online: &f%online%"
-    - "<#55FF55>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "&8&m                                                "
+    - "&6&lGamecraft"
+    - "&7Bienvenido &e%player%"
+    - "&7Jugadores: &f%online%"
+    - "&8&m                                                "
   footer:
-    - '&e⏰ Hora: &f%time%'
-    - '&a✔ Ping: &f%ping% ms'
-    - '&3🌐 &7Visita: &bwww.tuservidor.com'
-    - "<#55FF55>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    - "&8&m                                                "
+    - "&e⏰ &f%time%&7 | &a✔ &f%ping% ms"
+    - "&7&oplay.tuservidor.net"
+    - "&8&m                                                "
 
 tablist-name-formatting:
   enabled: true
@@ -72,7 +72,7 @@ scoreboard:
         - "&f👤 %player%"
         - "&f⭐ Rango: %vault_prefix%"
         - "&f💰 Dinero: &a$%vault_eco_balance_formatted%"
-        - "&e✦ Feature: &aCOMING SOON!"
+        - "&e✦ Reino: &b%kingdoms_kingdom_name% "
         - ""
         - "&a✔ Online: &f%online%"
         - "&c⚔ Kills: &f%statistic_player_kills%"

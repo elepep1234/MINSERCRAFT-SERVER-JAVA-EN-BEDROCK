@@ -1,0 +1,31 @@
+groups:
+  default:
+    default: true
+    permissions:
+      - bukkit.broadcast.user
+      - bukkit.command.help
+      - bukkit.command.list
+      - bukkit.command.me
+      - bukkit.command.tell
+      
+  moderator:
+    inheritance:
+      - default
+    permissions:
+      - bukkit.command.kick
+      - bukkit.command.ban
+      - bukkit.command.unban
+      - bukkit.command.tp
+      - bukkit.command.gamemode
+      - bukkit.command.time
+      - minecraft.command.time
+      - minecraft.command.gamemode
+      - minecraft.command.tp
+      
+  admin:
+    inheritance:
+      - moderator
+    permissions:
+      - bukkit.command.*
+      - minecraft.command.*
+      - '*'

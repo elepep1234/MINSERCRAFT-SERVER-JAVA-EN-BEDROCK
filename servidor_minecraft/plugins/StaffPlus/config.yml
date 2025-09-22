@@ -1,0 +1,204 @@
+############################################################
+#                 Staff+ Configuration                    #
+############################################################
+
+# Configuración de rangos del staff
+ranks:
+  owner:
+    name: "Owner"
+    prefix: "&4[Owner] "
+    nameColor: "&4"
+    permissions:
+      - "staff.*"
+      - "*"
+  admin:
+    name: "Admin"
+    prefix: "&c[Admin] "
+    nameColor: "&c"
+    permissions:
+      - "staff.admin"
+      - "staff.mode"
+      - "staff.freeze"
+      - "staff.vanish"
+  mod:
+    name: "Mod"
+    prefix: "&9[Mod] "
+    nameColor: "&9"
+    permissions:
+      - "staff.mod"
+      - "staff.mode"
+      - "staff.freeze"
+  helper:
+    name: "Helper"
+    prefix: "&a[Helper] "
+    nameColor: "&a"
+    permissions:
+      - "staff.helper"
+      - "staff.mode"
+
+# Configuración del modo staff
+staff-mode:
+  enabled: true
+  vanish-on-enable: true
+  flight-enabled: true
+  prevent-item-drop: true
+  compass-enabled: true
+  random-teleport: true
+
+# Configuración del chat del staff
+staff-chat:
+  enabled: true
+  format: "&8[&bStaff&8] %player%: &f%message%"
+  alerts-enabled: true
+
+# Configuración de vanish
+vanish:
+  enabled: true
+  prevent-interaction: true
+  silent-chest-open: true
+  show-armor: false
+  night-vision: true
+
+# Sistema de alertas
+alerts:
+  xray: true
+  placed-blocks: true
+  broken-blocks: true
+  join-leave: true
+
+# Sistema de reportes
+reports:
+  enabled: true
+  cooldown: 60
+  require-reason: true
+  notify-staff: true
+
+# Comando de congelación
+freeze:
+  enabled: true
+  prevent-commands: true
+  prevent-movement: true
+  freeze-message: "&c¡Has sido congelado por un miembro del staff!"
+  timer-enabled: true
+  timer-duration: 300
+
+# Configuración del chat
+chat:
+  staff-chat-symbol: "@"
+  clear-chat-enabled: true
+  mute-chat-enabled: true
+  slow-chat-enabled: true
+
+# Sistema de advertencias
+warnings:
+  enabled: true
+  require-reason: true
+  notify-staff: true
+  max-warnings: 3
+  actions:
+    3: "kick {player} Has alcanzado el máximo de advertencias"
+
+# Sistema de anuncios
+broadcasts:
+  staff-login: "&b[Staff] &f%player% &7ha entrado en modo staff"
+  staff-logout: "&b[Staff] &f%player% &7ha salido del modo staff"
+
+# Gestión de inventario
+inventory:
+  examine-enabled: true
+  save-inventories: true
+  restore-inventories: true
+
+# Protección
+protection:
+  prevent-item-drop: true
+  prevent-item-pickup: true
+  prevent-container-interaction: true
+
+# Configuración de la interfaz
+gui:
+  main-color: BLUE
+  sub-color: AQUA
+  staff-list-enabled: true
+  reports-enabled: true
+  warnings-enabled: true
+
+# Configuración de almacenamiento
+storage:
+  type: FLAT_FILE  # Opciones: FLAT_FILE, MYSQL
+  warnings-expiration: 30d
+  reports-expiration: 30d
+
+# Opciones de desarrollo
+dev-mode: false
+debug: false
+      - "staff.owner"
+  admin:
+    prefix: "&c[Admin] "
+    permissions:
+      - "staff.admin"
+      - "staff.mode"
+      - "staff.freeze"
+      - "staff.vanish"
+  mod:
+    prefix: "&e[Mod] "
+    permissions:
+      - "staff.mod"
+      - "staff.mode"
+      - "staff.freeze"
+  helper:
+    prefix: "&a[Helper] "
+    permissions:
+      - "staff.helper"
+      - "staff.mode"
+
+# Características del modo staff
+staff-mode:
+  enabled: true
+  vanish-on-enable: true
+  flight-enabled: true
+  items:
+    compass:
+      enabled: true
+      slot: 0
+      name: "&bTeleportador"
+    freeze:
+      enabled: true
+      slot: 1
+      name: "&bCongelar Jugador"
+    vanish:
+      enabled: true
+      slot: 4
+      name: "&bVanish"
+    random-teleport:
+      enabled: true
+      slot: 8
+      name: "&bTeletransporte Aleatorio"
+
+# Alertas y notificaciones
+alerts:
+  xray: true
+  notifications: true
+  mention-staff: true
+  chat-phrases:
+    enabled: true
+    phrases:
+      - "hack"
+      - "cheat"
+      - "hacker"
+
+# Comandos de staff
+commands:
+  staff-chat:
+    enabled: true
+    format: "&c[StaffChat] &7%player%: &f%message%"
+  report:
+    enabled: true
+    cooldown: 30
+    notify-staff: true
+
+# Opciones de vanish
+vanish:
+  join-vanished: true
+  prevent-pickup: true
+  hide-from-tab: true

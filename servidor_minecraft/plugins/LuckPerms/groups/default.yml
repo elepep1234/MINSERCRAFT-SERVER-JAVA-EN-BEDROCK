@@ -1,0 +1,40 @@
+/tab reloadpermissions:
+  - worldedit.* true
+  - worldguard.* true
+  - minecraft.command.* true
+  - bukkit.command.* true
+  - voicechat.* true
+  - tab.* true
+  - essentials.* true
+  - essentials.chat.* true
+  - essentials.chat.color true
+  - essentials.chat.format true
+  - bukkit.command.me true
+  - bukkit.command.tell true
+  - minecraft.command.msg true
+  - minecraft.command.say true
+  - tab.admin true
+groups:
+  owner:
+    permissions:
+      - staff.* true
+      - staff.owner true
+      - '*' true
+  admin:
+    permissions:
+      - staff.admin true
+      - staff.mode true
+      - staff.freeze true
+      - staff.vanish true
+      - essentials.gamemode true
+      - essentials.tp true
+  mod:
+    permissions:
+      - staff.mod true
+      - staff.mode true
+      - staff.freeze true
+      - essentials.tp true
+  helper:
+    permissions:
+      - staff.helper true
+      - staff.mode true

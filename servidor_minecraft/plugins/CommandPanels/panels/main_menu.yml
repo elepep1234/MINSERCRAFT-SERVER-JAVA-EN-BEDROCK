@@ -1,0 +1,99 @@
+MainMenu:
+  # Configuración general del panel
+  Title: '&8〘 &d&lMENU PRINCIPAL &8〙'
+  Size: 54
+  Update: 40
+  
+  # Fondo del menú
+  Fill:
+    All:
+      Material: BLACK_STAINED_GLASS_PANE
+      Name: ' '
+
+  # Botones del menú principal
+  Items:
+    'Kits':
+      Material: DIAMOND_CHESTPLATE
+      Slot: 20
+      Name: '&b&l✦ KITS &b&l✦'
+      Lore:
+        - '&7Obtén kits especiales para'
+        - '&7ayudarte en tu aventura!'
+        - ''
+        - '&e➜ Click para abrir'
+      Enchanted: true
+      Commands:
+        - '[PLAYER] kits'
+        - '[CLOSE]'
+
+    'Shop':
+      Material: EMERALD
+      Slot: 22
+      Name: '&a&l✧ TIENDA &a&l✧'
+      Lore:
+        - '&7Compra y vende items'
+        - '&7para conseguir dinero!'
+        - ''
+        - '&e➜ Click para abrir'
+      Enchanted: true
+      Commands:
+        - '[PLAYER] shop'
+        - '[CLOSE]'
+
+    'Warps':
+      Material: COMPASS
+      Slot: 24
+      Name: '&6&l❋ WARPS &6&l❋'
+      Lore:
+        - '&7Teletranspórtate a diferentes'
+        - '&7lugares del servidor!'
+        - ''
+        - '&e➜ Click para ver warps'
+      Enchanted: true
+      Commands:
+        - '[PLAYER] warp'
+        - '[CLOSE]'
+
+    'Worlds':
+      Material: GRASS_BLOCK
+      Slot: 30
+      Name: '&2&l⚐ MUNDOS &2&l⚐'
+      Lore:
+        - '&7Explora los diferentes'
+        - '&7mundos del servidor!'
+        - ''
+        - '&e➜ Click para ver mundos'
+      Commands:
+        - '[OPEN] WorldsMenu'
+
+    'Help':
+      Material: BOOK
+      Slot: 32
+      Name: '&e&l? AYUDA &e&l?'
+      Lore:
+        - '&7Información útil y'
+        - '&7comandos importantes'
+        - ''
+        - '&e➜ Click para ver ayuda'
+      Commands:
+        - '[OPEN] HelpMenu'
+
+    'RTP':
+      Material: ENDER_PEARL
+      Slot: 40
+      Name: '&5&l✤ TELETRANSPORTE ALEATORIO &5&l✤'
+      Lore:
+        - '&7¡Teletranspórtate a un'
+        - '&7lugar aleatorio!'
+        - ''
+        - '&e➜ Click para usar RTP'
+      Enchanted: true
+      Commands:
+        - '[PLAYER] rtp'
+        - '[CLOSE]'
+
+    # Decoración del menú
+    'Decoration1':
+      Material: PURPLE_STAINED_GLASS_PANE
+      Slot: 0,1,7,8,9,17,36,44,45,46,52,53
+      Name: ' '

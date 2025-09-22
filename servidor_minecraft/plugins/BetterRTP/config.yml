@@ -3,28 +3,24 @@
 # Mensajes divertidos y seguros
 
 CustomWorlds:
-- custom_world_1:
-    UseWorldBorder: false
-    MaxRadius: 1000
-    MinRadius: 100
+- world:
+    UseWorldBorder: true
+    MaxRadius: 15000
+    MinRadius: 1000
     CenterX: 0
     CenterZ: 0
-    Price: 50
-    Shape: square
-    MaxY: 320
-    MinY: 0
-    Cooldown: 60
-- other_custom_world:
-    MaxRadius: 10000
-    MinRadius: 150
-    CenterX: 123
-    CenterZ: -123
     Price: 0
-    Biomes:
-    - desert
-    - forest
     Shape: circle
-    RTPOnDeath: true
+    MaxY: 320
+    MinY: 60
+    Cooldown: 300
+    Biomes:
+    - PLAINS
+    - FOREST
+    - BIRCH_FOREST
+    - FLOWER_FOREST
+    - MEADOW
+    - SUNFLOWER_PLAINS
 Language-File: es.yml
 
 Settings:
@@ -123,43 +119,49 @@ WorldType:
 - world_the_end: NORMAL
 
 PermissionGroup:
-  Enabled: false
+  Enabled: true
   Groups:
   - vip:
-    - Build_World:
-        Priority: 0
-        MaxRadius: 10000
+    - world:
+        Priority: 1
+        MaxRadius: 20000
         MinRadius: 1000
-        Price: 100
-        Cooldown: 500
-    - Survival_World:
-        Priority: 10
-        UseWorldBorder: false
-        MaxRadius: 5000
+        Price: 0
+        Cooldown: 300
+        Biomes:
+        - ALL
+  - elite:
+    - world:
+        Priority: 2
+        MaxRadius: 30000
         MinRadius: 1000
-        CenterX: 10
-        CenterZ: 10
-        Price: 10
-        MaxY: 320
-        MinY: 0
-  - vip2:
-    - Build_World:
-        MaxRadius: 25000
-        MinRadius: 10000
-        Price: 15
-        Cooldown: 1500
+        Price: 0
+        Cooldown: 180
+        Biomes:
+        - ALL
+  - legend:
+    - world:
+        Priority: 3
+        MaxRadius: 50000
+        MinRadius: 1000
+        Price: 0
+        Cooldown: 60
+        Biomes:
+        - ALL
 
 # Mensajes divertidos de RTP
 Messages:
-  Success: '&a¡%player%, GAMECRAFT te teletransportó a un lugar seguro! 🎉'
-  Fail: '&c¡Uy! GAMECRAFT no encontró un lugar seguro, intenta de nuevo.'
-  Cooldown: '&cEspera &7(%seconds%s) antes de usar /rtp otra vez, dice GAMECRAFT.'
-  QueueStart: '&eGAMECRAFT está buscando un lugar seguro para ti, %player%… paciencia
-    😎'
-  QueueFinish: '&a¡Listo! GAMECRAFT te dejó en un lugar seguro, disfruta tu nueva
-    ubicación 🌎'
-  VoidRedirect: '&6GAMECRAFT dice: ¡Cuidado! Intentaste /rtp en el void, te llevamos
-    al mundo seguro. 🌟'
+  Success: '&d✦ &a¡Teletransporte exitoso! &7Coordenadas: &e%x%&7, &e%y%&7, &e%z%
+    &d✦'
+  Fail: '&c&l⚠ &7No se encontró un lugar seguro después de &c%attempts% &7intentos.
+    ¡Intenta de nuevo!'
+  Cooldown: '&6⌛ &7Debes esperar &e%seconds% &7segundos antes de usar RTP de nuevo.'
+  QueueStart: '&b&l↻ &7Buscando lugar seguro... &8(&7Esto puede tomar unos segundos&8)'
+  QueueFinish: '&a&l✔ &7¡Lugar seguro encontrado! &7Teletransportando en &a3 &7segundos...'
+  VoidRedirect: '&5&l⚡ &7¡El void no es seguro! Te llevaremos a un mundo mejor.'
+  InCombat: '&c&l⚔ &7¡No puedes usar RTP durante el combate!'
+  NotEnoughMoney: '&c&l$ &7Necesitas &e%price% &7monedas para usar RTP.'
+  NoPermission: '&c&l✖ &7No tienes permiso para usar este comando.'
 
 # Configuración de placeholders
 betterrtp_count: Cantidad total de /rtp realizados
@@ -180,18 +182,18 @@ betterrtp_price_<world_name>: Precio de /rtp en un mundo específico
 
 Config:
   TimeFormat:
-    Days: '{0} Día(s)'
-    Hours: '{0} Hora(s)'
-    Minutes: '{0} Min(s)'
-    Seconds: '{0} Seg(s)'
-    ZeroAll: Ninguno
-    Infinite: ∞
+    Days: '&e{0}&7d'
+    Hours: '&e{0}&7h'
+    Minutes: '&e{0}&7m'
+    Seconds: '&e{0}&7s'
+    ZeroAll: '&7Ninguno'
+    Infinite: '&d∞'
     Separator:
-      Middle: ', '
+      Middle: ' '
       Last: ' y '
   CanRTP:
-    Success: '&aSí! GAMECRAFT te teletransportará 😎'
-    NoPermission: '&c¡Ups! No tienes permiso para hacer /rtp'
-    Cooldown: '&fGAMECRAFT dice: paciencia, tu teletransporte aún no está listo ⏳'
-    Price: '&cNo puedes. &7Razón: &eBancarrota 💸'
-    Hunger: '&cNo puedes. &7Razón: &3¡Hambriento! Come algo antes 🍗'
+    Success: '&a&l✓ &7¡Listo para teletransportarte!'
+    NoPermission: '&c&l✖ &7Necesitas un rango más alto para usar RTP.'
+    Cooldown: '&6⌛ &7Tiempo restante: &e%time%'
+    Price: '&c&l$ &7Necesitas &e%price% &7monedas.'
+    Hunger: '&c&l☠ &7¡Come algo antes de usar RTP!'

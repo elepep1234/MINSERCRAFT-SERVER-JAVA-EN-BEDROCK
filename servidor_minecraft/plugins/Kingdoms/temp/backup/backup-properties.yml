@@ -1,9 +1,0 @@
-kingdoms-version: 1.17.20-BETA
-server-version: 1.21.8
-data-version: 1
-at: 1758325142656
-backup-method: DIRECT_H2
-backup-version: 2.3.232
-elements:
-  - Data
-  - Configs

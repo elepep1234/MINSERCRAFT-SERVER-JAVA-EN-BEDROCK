@@ -1,0 +1,11 @@
+enabled: true
+default-format: '<{DISPLAYNAME}> {MESSAGE}'
+force-format: true
+radius: 0
+enable-per-world-chat: false
+channel-options:
+  default:
+    enabled: true
+    format: '<{DISPLAYNAME}> {MESSAGE}'
+    radius: 0
+    handle-chat: true

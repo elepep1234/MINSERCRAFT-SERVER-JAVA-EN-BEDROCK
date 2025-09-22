@@ -1,6 +1,0 @@
-config-migration:
-  last-fresh-version: 1.17.20-BETA
-updates:
-  languages:
-enginehub:
-  setup-version: 2
