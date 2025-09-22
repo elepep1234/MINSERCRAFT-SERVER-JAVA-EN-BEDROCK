@@ -1,0 +1,10 @@
+name: ELPEPE
+kits:
+  iron:
+    cooldown: 1758592212567
+    one_time: false
+    bought: false
+  food:
+    cooldown: 1758585015152
+    one_time: false
+    bought: false

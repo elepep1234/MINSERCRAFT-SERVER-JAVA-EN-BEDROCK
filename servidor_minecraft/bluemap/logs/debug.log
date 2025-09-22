@@ -248,3 +248,11 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was BEGIN_
 [2025-09-22 22:41:35][FINE] Scheduled update for region-file: (10, 13) (Map: world)
 [2025-09-22 22:41:35][FINE] Scheduled update for region-file: (11, 13) (Map: world)
 [2025-09-22 22:42:26][FINE] Scheduled update for region-file: (0, 0) (Map: world)
+[2025-09-22 22:47:26][FINE] Scheduled update for region-file: (0, 0) (Map: world)
+[2025-09-22 22:47:26][FINE] Scheduled update for region-file: (-1, -1) (Map: void)
+[2025-09-22 22:48:04][FINE] Failed to load skin from mojang for player: 'b5a3e982-8f67-389f-b518-5c72ece532a8' - java.io.IOException: java.lang.IllegalStateException: Not a JSON Object: null
+[2025-09-22 22:48:04][FINE] No player-skin provided for UUID: b5a3e982-8f67-389f-b518-5c72ece532a8
+[2025-09-22 22:52:26][FINE] Scheduled update for region-file: (0, 0) (Map: world)
+[2025-09-22 22:52:26][FINE] Scheduled update for region-file: (-1, -1) (Map: void)
+[2025-09-22 22:57:26][FINE] Scheduled update for region-file: (0, 0) (Map: world)
+[2025-09-22 22:57:26][FINE] Scheduled update for region-file: (-1, -1) (Map: void)

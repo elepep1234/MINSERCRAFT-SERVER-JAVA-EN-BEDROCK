@@ -832,3 +832,32 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was BEGIN_
 [22:45:16] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
 [22:45:45] [Server thread/INFO]: edsthilaire121 issued server command: /kits
 [22:45:50] [Server thread/INFO]: edsthilaire121 issued server command: /kits
+[22:46:20] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
+[22:46:20] [Server thread/INFO]: [voicechat] Disconnecting client edsthilaire121
+[22:47:53] [User Authenticator #1/INFO]: UUID of player edsthilaire121 is 024fdfad-d078-3149-8896-20d579490a75
+[22:47:54] [Server thread/INFO]: [NameTag] §7Player edsthilaire121 joined. Applying NameTag.
+[22:47:54] [Server thread/INFO]: edsthilaire121[/127.198.128.226:38429] logged in with entity id 1636 at ([void]-144.10606804550676, -27.0, -146.61999229060206)
+[22:48:00] [User Authenticator #1/INFO]: UUID of player ELPEPE is b5a3e982-8f67-389f-b518-5c72ece532a8
+[22:48:04] [Server thread/INFO]: [NameTag] §7Player ELPEPE joined. Applying NameTag.
+[22:48:04] [Server thread/INFO]: ELPEPE se ha unido por primera vez, ¡bienvenido a nuestro servidor!
+[22:48:04] [Server thread/INFO]: ELPEPE[/127.198.128.226:38749] logged in with entity id 1637 at ([world]25.5, 83.0, 212.5)
+[22:48:04] [Server thread/INFO]: [PLAYER] ELPEPE [MEMBER] has made the advancement [Getting an Upgrade]
+[22:49:04] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:49:14] [Server thread/INFO]: ELPEPE issued server command: /rtp world world
+[22:49:16] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:49:24] [Server thread/INFO]: ELPEPE issued server command: /rtp world world
+[22:49:52] [Server thread/INFO]: ELPEPE issued server command: /shop
+[22:50:11] [Server thread/INFO]: ELPEPE issued server command: /kits
+[22:50:12] [Server thread/INFO]: [PLAYER] ELPEPE [MEMBER] has made the advancement [Isn't It Iron Pick]
+[22:51:07] [Server thread/INFO]: edsthilaire121 issued server command: /lp user ELPEPE parent set vip
+[22:51:07] [luckperms-command-executor/INFO]: [LP] LOG > (edsthilaire121) [U] (elpepe)
+[22:51:07] [luckperms-command-executor/INFO]: [LP] LOG > parent set vip
+[22:51:48] [Server thread/INFO]: ELPEPE lost connection: Disconnected
+[22:51:48] [Server thread/INFO]: [voicechat] Disconnecting client ELPEPE
+[22:51:48] [Server thread/INFO]: [U] ELPEPE ha salido del juego.
+[22:52:19] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
+[22:52:19] [Server thread/INFO]: [voicechat] Disconnecting client edsthilaire121
+[22:53:05] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:53:17] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:57:05] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[22:57:17] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
