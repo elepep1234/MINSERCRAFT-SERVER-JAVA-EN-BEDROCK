@@ -3,7 +3,7 @@ header-footer:
   disable-condition: ""
   header:
     - "&8&m                                                "
-    - "&6&lGamecraft"
+    - "&6&lSUPECRAFT"
     - "&7Bienvenido &e%player%"
     - "&7Jugadores: &f%online%"
     - "&8&m                                                "
@@ -72,7 +72,7 @@ scoreboard:
         - "&f👤 %player%"
         - "&f⭐ Rango: %vault_prefix%"
         - "&f💰 Dinero: &a$%vault_eco_balance_formatted%"
-        - "&e✦ Reino: &b%kingdoms_kingdom_name% "
+        - "&e✦ Reino: &b???? "
         - ""
         - "&a✔ Online: &f%online%"
         - "&c⚔ Kills: &f%statistic_player_kills%"
