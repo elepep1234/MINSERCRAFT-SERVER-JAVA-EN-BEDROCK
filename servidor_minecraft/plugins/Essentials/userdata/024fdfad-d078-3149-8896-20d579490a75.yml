@@ -21,13 +21,13 @@ timestamps:
 money: '454994375000.0'
 last-account-name: edsthilaire121
 lastlocation:
-  world: e19baa22-a9a0-4122-9237-a01b5655df17
-  world-name: world
-  x: 3795.5
-  y: 80.0
-  z: -2485.5
-  yaw: 154.8612060546875
-  pitch: 3.5646300315856934
+  world: 5eaa8144-2adf-4164-a151-70ae1ae982fb
+  world-name: void
+  x: -135.32210822639004
+  y: -27.0
+  z: -151.3195648081174
+  yaw: -1.057373046875
+  pitch: 9.058359146118164
 logoutlocation:
   world: 5eaa8144-2adf-4164-a151-70ae1ae982fb
   world-name: void

@@ -558,3 +558,17 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 [00:37:44] [Server thread/INFO]: edsthilaire121 issued server command: /ie attribute add sneaking_speed +2
 [00:38:05] [Server thread/INFO]: edsthilaire121 issued server command: /ie attribute add submerged_mining_speed +1
 [00:38:57] [Server thread/INFO]: edsthilaire121 issued server command: /gm 1
+[00:42:29] [Server thread/INFO]: [PLAYER] edsthilaire121 [MEMBER] has made the advancement [Crafting a New Look]
+[00:45:46] [Server thread/INFO]: edsthilaire121 issued server command: /ie enchant smite 9
+[00:45:48] [Server thread/INFO]: edsthilaire121 issued server command: /ie enchant smite 9
+[00:45:49] [Server thread/INFO]: edsthilaire121 issued server command: /ie enchant smite 9
+[00:45:54] [Server thread/INFO]: edsthilaire121 issued server command: /ie enchant sharpness 9
+[00:46:05] [Server thread/INFO]: edsthilaire121 issued server command: /ie enchant sweeping_edge 9
+[00:46:21] [Server thread/INFO]: edsthilaire121 issued server command: /ie enchant looting 9
+[00:46:49] [Server thread/INFO]: edsthilaire121 issued server command: /ie attribute add attack_damage 1
+[00:46:52] [Server thread/INFO]: edsthilaire121 issued server command: /ie attribute add attack_speed 1
+[00:47:16] [Server thread/INFO]: edsthilaire121 issued server command: /rtp world world
+[00:47:41] [Server thread/INFO]: [PLAYER] edsthilaire121 [MEMBER] has made the advancement [Acquire Hardware]
+[00:48:28] [Server thread/INFO]: edsthilaire121 issued server command: /gm 0
+[00:49:26] [Server thread/INFO]: edsthilaire121 issued server command: /gm 1
+[00:50:12] [Server thread/INFO]: edsthilaire121 issued server command: /ie enchant efficiency 9

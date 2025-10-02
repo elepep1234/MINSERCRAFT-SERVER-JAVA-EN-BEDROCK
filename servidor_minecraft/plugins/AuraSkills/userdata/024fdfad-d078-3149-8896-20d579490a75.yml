@@ -32,10 +32,10 @@ skills:
     xp: 52.5
   auraskills/agility:
     level: 1
-    xp: 155.80399999999997
-mana: 54.32000000000011
+    xp: 165.44599999999997
+mana: 138.3199999999994
 action_bar:
   idle: true
 ability_data:
   auraskills/xp_convert:
-    xp: 13.5
+    xp: 2.642000000000003
