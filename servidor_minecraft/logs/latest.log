@@ -503,3 +503,10 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 [22:03:15] [Server thread/INFO]: edsthilaire121[/127.198.128.226:38077] logged in with entity id 99 at ([void]-136.0380226851047, -28.0, -116.3727248628925)
 [22:12:52] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
 [22:12:52] [Server thread/INFO]: [voicechat] Disconnecting client edsthilaire121
+[22:27:01] [User Authenticator #1/INFO]: UUID of player sthilaireed is a5c322c1-a433-36c6-8021-d757628825cd
+[22:27:05] [Server thread/INFO]: [NameTag] §7Player sthilaireed joined. Applying NameTag.
+[22:27:05] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Detected skin change of sthilaireed, updating cached skin...
+[22:27:05] [Server thread/INFO]: sthilaireed[/127.198.128.226:53961] logged in with entity id 100 at ([world]133.92984876919374, 93.6252050950888, 627.0069534125214)
+[22:29:08] [Server thread/INFO]: sthilaireed issued server command: /pl
+[22:29:12] [Server thread/INFO]: sthilaireed lost connection: Disconnected
+[22:29:12] [Server thread/INFO]: [voicechat] Disconnecting client sthilaireed
