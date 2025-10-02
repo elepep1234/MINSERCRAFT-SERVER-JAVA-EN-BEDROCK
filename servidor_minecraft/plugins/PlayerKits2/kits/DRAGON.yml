@@ -7,16 +7,9 @@ save_original_items: true
 allow_placeholders_on_original_items: false
 display:
   default:
-    id: STONE_SWORD
-    name: '&c&l%kit_name% &cKit'
+    id: NETHERITE_SWORD
+    name: '&4DRAGON'
     amount: 1
-    lore:
-    - '&fThis is a description of the kit.'
-    - ''
-    - '&7Edit it on the &c%kit_name%.yml &7file'
-    - '&7or using &c/kit edit %kit_name%'
-    item_flags:
-    - HIDE_ATTRIBUTES
   no_permission:
     id: BARRIER
     name: '&c&l%kit_name% &cKit'

@@ -6,6 +6,6 @@ enable-per-world-chat: false
 channel-options:
   default:
     enabled: true
-    format: '<{DISPLAYNAME}> {MESSAGE}'
+    format: 'GAMECRAFT <{DISPLAYNAME}> {MESSAGE}'
     radius: 0
     handle-chat: true

@@ -7,13 +7,13 @@
 ###### ¡PlaceholderAPI soportado!   ######
 
 # Prefijo del plugin
-Prefix: '&6[&bGAMECRAFT&6]' 
+Prefix: '&6[&bSUPECRAFT&6]' 
 Reload-Message: '&a¡Config recargada en %reloadtime%ms, qué velocidad!' 
 No-Permission-Message: '&cNo tienes permiso crack, pide OP jajaja.'
 
 # Comandos principales
 Main-Command-Message:
-  - '&7&m-------------&b GAMECRAFT Comandos &7&m-------------'
+  - '&7&m-------------&b SUPECRAFT Comandos &7&m-------------'
   - ''
   - '&b/custommessages &7- &b/cm &7- &eMuestra este menú mágico.'
   - '&b/custommessages reload &7- &b/cm reload &7- &eRecarga la config (otra vez).'
@@ -37,7 +37,7 @@ Server-Settings:
     - "&b¡Bienvenido!\n&eEntra al server y trae papitas."
     - "&aHace un buen día...\n&7... para picar diamantes."
     - "&dNuevas locuras añadidas!\n&9Ven a descubrirlas."
-    - "&cGAMECRAFT 2.0\n&fAhora con menos bugs (o eso creemos)."
+    - "&cSUPECRAFT 2.0\n&fAhora con menos bugs (o eso creemos)."
     - "&6¡Servidor encendido!\n&eY tu PC todavía no explota."
 
 # Configuración del chat

@@ -1,51 +1,49 @@
-2025-10-02 00:10:23 [INFO]: Loading Overrides...
-2025-10-02 00:10:23 [INFO]: Loading World Types...
-2025-10-02 00:10:23 [INFO]: - World Type for 'world' set to 'NORMAL'
-2025-10-02 00:10:23 [INFO]: - World Type for 'world_nether' set to 'NETHER'
-2025-10-02 00:10:23 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
-2025-10-02 00:10:23 [INFO]: Loading Defaults...
-2025-10-02 00:10:23 [INFO]: Loading Custom Worlds...
-2025-10-02 00:10:23 [INFO]: Custom World 'world' registered:
-2025-10-02 00:10:23 [INFO]: - UseWorldBorder: true
-2025-10-02 00:10:23 [INFO]: - CenterX: 0
-2025-10-02 00:10:23 [INFO]: - CenterZ: 0
-2025-10-02 00:10:23 [INFO]: - MaxRadius: 15000
-2025-10-02 00:10:23 [INFO]: - MinRadius: 1000
-2025-10-02 00:10:23 [INFO]: - Biomes: [PLAINS, FOREST, BIRCH_FOREST, FLOWER_FOREST, MEADOW, SUNFLOWER_PLAINS]
-2025-10-02 00:10:23 [INFO]: - Shape: CIRCLE
-2025-10-02 00:10:23 [INFO]: - MinY: 60
-2025-10-02 00:10:23 [INFO]: - MaxY: 320
-2025-10-02 00:10:23 [INFO]: - Cooldown: 300
-2025-10-02 00:10:23 [INFO]: Loading Permission Groups...
-2025-10-02 00:10:23 [INFO]: - Permission Group: vip
-2025-10-02 00:10:23 [INFO]: - -- World: world
-2025-10-02 00:10:23 [INFO]: - - Priority: 1
-2025-10-02 00:10:23 [INFO]: - - MaxRadius: 20000
-2025-10-02 00:10:23 [INFO]: - - MinRadius: 1000
-2025-10-02 00:10:23 [INFO]: - - Cooldown: 300
-2025-10-02 00:10:23 [INFO]: - - Biomes: [ALL]
-2025-10-02 00:10:23 [INFO]: - Permission Group: elite
-2025-10-02 00:10:23 [INFO]: - -- World: world
-2025-10-02 00:10:23 [INFO]: - - Priority: 2
-2025-10-02 00:10:23 [INFO]: - - MaxRadius: 30000
-2025-10-02 00:10:23 [INFO]: - - MinRadius: 1000
-2025-10-02 00:10:23 [INFO]: - - Cooldown: 180
-2025-10-02 00:10:23 [INFO]: - - Biomes: [ALL]
-2025-10-02 00:10:23 [INFO]: - Permission Group: legend
-2025-10-02 00:10:23 [INFO]: - -- World: world
-2025-10-02 00:10:23 [INFO]: - - Priority: 3
-2025-10-02 00:10:23 [INFO]: - - MaxRadius: 50000
-2025-10-02 00:10:23 [INFO]: - - MinRadius: 1000
-2025-10-02 00:10:23 [INFO]: - - Cooldown: 60
-2025-10-02 00:10:23 [INFO]: - - Biomes: [ALL]
-2025-10-02 00:10:23 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
-2025-10-02 00:10:30 [INFO]: Database QUEUE:Queue configured and loaded!
-2025-10-02 00:10:30 [INFO]: Database COOLDOWN:world configured and loaded!
-2025-10-02 00:10:30 [INFO]: Database COOLDOWN:world_nether configured and loaded!
-2025-10-02 00:10:30 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2025-10-02 00:10:30 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
-2025-10-02 00:10:30 [INFO]: Database PLAYERS:Players configured and loaded!
-2025-10-02 00:10:31 [INFO]: Attempting to queue up some more safe locations...
-2025-10-02 00:10:31 [INFO]: Queueing paused, max queue limit reached!
-2025-10-02 00:47:16 [INFO]: edsthilaire121 executed: /rtp world world
-2025-10-02 00:47:19 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=-965.5,y=65.0,z=-4160.5,pitch=9.058359,yaw=-1.057373}
+2025-10-02 22:02:10 [INFO]: Loading Overrides...
+2025-10-02 22:02:10 [INFO]: Loading World Types...
+2025-10-02 22:02:10 [INFO]: - World Type for 'world' set to 'NORMAL'
+2025-10-02 22:02:10 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2025-10-02 22:02:10 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2025-10-02 22:02:10 [INFO]: Loading Defaults...
+2025-10-02 22:02:10 [INFO]: Loading Custom Worlds...
+2025-10-02 22:02:10 [INFO]: Custom World 'world' registered:
+2025-10-02 22:02:10 [INFO]: - UseWorldBorder: true
+2025-10-02 22:02:10 [INFO]: - CenterX: 0
+2025-10-02 22:02:10 [INFO]: - CenterZ: 0
+2025-10-02 22:02:10 [INFO]: - MaxRadius: 15000
+2025-10-02 22:02:10 [INFO]: - MinRadius: 1000
+2025-10-02 22:02:10 [INFO]: - Biomes: [PLAINS, FOREST, BIRCH_FOREST, FLOWER_FOREST, MEADOW, SUNFLOWER_PLAINS]
+2025-10-02 22:02:10 [INFO]: - Shape: CIRCLE
+2025-10-02 22:02:10 [INFO]: - MinY: 60
+2025-10-02 22:02:10 [INFO]: - MaxY: 320
+2025-10-02 22:02:10 [INFO]: - Cooldown: 300
+2025-10-02 22:02:10 [INFO]: Loading Permission Groups...
+2025-10-02 22:02:10 [INFO]: - Permission Group: vip
+2025-10-02 22:02:10 [INFO]: - -- World: world
+2025-10-02 22:02:10 [INFO]: - - Priority: 1
+2025-10-02 22:02:10 [INFO]: - - MaxRadius: 20000
+2025-10-02 22:02:10 [INFO]: - - MinRadius: 1000
+2025-10-02 22:02:10 [INFO]: - - Cooldown: 300
+2025-10-02 22:02:10 [INFO]: - - Biomes: [ALL]
+2025-10-02 22:02:10 [INFO]: - Permission Group: elite
+2025-10-02 22:02:10 [INFO]: - -- World: world
+2025-10-02 22:02:10 [INFO]: - - Priority: 2
+2025-10-02 22:02:10 [INFO]: - - MaxRadius: 30000
+2025-10-02 22:02:10 [INFO]: - - MinRadius: 1000
+2025-10-02 22:02:10 [INFO]: - - Cooldown: 180
+2025-10-02 22:02:10 [INFO]: - - Biomes: [ALL]
+2025-10-02 22:02:10 [INFO]: - Permission Group: legend
+2025-10-02 22:02:10 [INFO]: - -- World: world
+2025-10-02 22:02:10 [INFO]: - - Priority: 3
+2025-10-02 22:02:10 [INFO]: - - MaxRadius: 50000
+2025-10-02 22:02:10 [INFO]: - - MinRadius: 1000
+2025-10-02 22:02:10 [INFO]: - - Cooldown: 60
+2025-10-02 22:02:10 [INFO]: - - Biomes: [ALL]
+2025-10-02 22:02:10 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2025-10-02 22:02:16 [INFO]: Database PLAYERS:Players configured and loaded!
+2025-10-02 22:02:16 [INFO]: Database COOLDOWN:world configured and loaded!
+2025-10-02 22:02:16 [INFO]: Database COOLDOWN:world_nether configured and loaded!
+2025-10-02 22:02:16 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2025-10-02 22:02:16 [INFO]: Database QUEUE:Queue configured and loaded!
+2025-10-02 22:02:16 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2025-10-02 22:02:17 [INFO]: Attempting to queue up some more safe locations...
+2025-10-02 22:02:17 [INFO]: Queueing paused, max queue limit reached!

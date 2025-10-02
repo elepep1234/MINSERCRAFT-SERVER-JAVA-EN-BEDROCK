@@ -1,1 +1,28 @@
 version: 2 # DO NOT CHANGE
+holograms:
+  TOP:
+    type: TEXT
+    location:
+      world: void
+      x: -135.50180053710938
+      y: -25.9375
+      z: -111.51653289794922
+      yaw: -177.86455
+      pitch: 4.0858355
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - Edit this line with /hologram edit TOP
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
