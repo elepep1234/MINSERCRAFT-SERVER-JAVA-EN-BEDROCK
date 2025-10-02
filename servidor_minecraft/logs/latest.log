@@ -501,3 +501,5 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 [22:03:13] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, SkinsRestorer, Essentials, CustomMessages, WorldGuard, UltimateMobCoins]
 [22:03:15] [Server thread/INFO]: [NameTag] §7Player edsthilaire121 joined. Applying NameTag.
 [22:03:15] [Server thread/INFO]: edsthilaire121[/127.198.128.226:38077] logged in with entity id 99 at ([void]-136.0380226851047, -28.0, -116.3727248628925)
+[22:12:52] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
+[22:12:52] [Server thread/INFO]: [voicechat] Disconnecting client edsthilaire121
