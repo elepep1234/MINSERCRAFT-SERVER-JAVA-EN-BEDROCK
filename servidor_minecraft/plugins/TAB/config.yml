@@ -72,19 +72,19 @@ scoreboard:
         - "&f👤 %player%"
         - "&f⭐ Rango: %vault_prefix%"
         - "&f💰 Dinero: &a$%vault_eco_balance_formatted%"
-        - "&e✦ Reino: &b???? "
+        - "&e✦ ?: &b???? "
         - ""
         - "&a✔ Online: &f%online%"
         - "&c⚔ Kills: &f%statistic_player_kills%"
         - "&4☠ Deaths: &f%statistic_deaths%"
         - ""
-        - "&7▶ &fplay.tuservidor.net"
+        - "&7▶ &f"
 
 layout:
   enabled: false
 
 ping-spoof:
-  enabled: false
+  enabled: true
   value: 0
 
 placeholders:

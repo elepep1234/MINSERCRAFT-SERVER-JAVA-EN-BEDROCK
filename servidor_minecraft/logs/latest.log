@@ -502,3 +502,31 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 [00:19:00] [Server thread/INFO]: edsthilaire121 issued server command: /tab reload
 [00:19:00] [Server thread/INFO]: [TAB] Disabled in 1ms
 [00:19:00] [Server thread/INFO]: [TAB] Enabled in 12ms
+[00:19:18] [Server thread/INFO]: edsthilaire121 issued server command: /tab reload
+[00:19:18] [Server thread/INFO]: [TAB] Disabled in 1ms
+[00:19:18] [Server thread/INFO]: [TAB] Enabled in 12ms
+[00:19:50] [Server thread/INFO]: [TAB] Disabled in 0ms
+[00:19:50] [Server thread/INFO]: [TAB] Enabled in 13ms
+[00:19:50] [Server thread/INFO]: [TAB] [TAB] Successfully reloaded
+[00:20:03] [Server thread/INFO]: [TAB] Disabled in 1ms
+[00:20:03] [Server thread/INFO]: [TAB] [WARN] [config.yml] layout: Missing configuration section "layout.direction" of type String, using default value COLUMNS.
+[00:20:03] [Server thread/INFO]: [TAB] [WARN] [config.yml] layout: Missing configuration section "layout.default-skin" of type String, using default value mineskin:1753261242.
+[00:20:03] [Server thread/INFO]: [TAB] [WARN] [config.yml] layout: Missing configuration section "layout.enable-remaining-players-text" of type Boolean, using default value true.
+[00:20:03] [Server thread/INFO]: [TAB] [WARN] [config.yml] layout: Missing configuration section "layout.remaining-players-text" of type String, using default value ... and %s more.
+[00:20:03] [Server thread/INFO]: [TAB] [WARN] [config.yml] layout: Missing configuration section "layout.empty-slot-ping-value" of type Integer, using default value 1000.
+[00:20:03] [Server thread/INFO]: [TAB] [WARN] [config.yml] Layout feature breaks playerlist-objective feature, because it replaces real player with fake slots with different usernames for more reliable functionality. Disable playerlist-objective feature, as it will only look bad and consume resources.
+[00:20:03] [Server thread/INFO]: [TAB] [WARN] Failed to load skin by id: No skin with the id '1753261242' was found
+[00:20:03] [Server thread/INFO]: [TAB] [WARN] Found a total of 6 issues.
+[00:20:03] [Server thread/INFO]: [TAB] Enabled in 221ms
+[00:20:03] [Server thread/INFO]: [TAB] [TAB] Successfully reloaded
+[00:20:16] [Server thread/INFO]: [TAB] Disabled in 1ms
+[00:20:16] [Server thread/INFO]: [TAB] Enabled in 12ms
+[00:20:16] [Server thread/INFO]: [TAB] [TAB] Successfully reloaded
+[00:20:28] [Server thread/INFO]: [TAB] Disabled in 0ms
+[00:20:28] [Server thread/INFO]: [TAB] Enabled in 8ms
+[00:20:28] [Server thread/INFO]: [TAB] [TAB] Successfully reloaded
+[00:24:04] [Server thread/INFO]: [PLAYER] edsthilaire121 [MEMBER] has completed the challenge [Cover Me in Debris]
+[00:25:38] [Server thread/INFO]: [PLAYER] edsthilaire121 [MEMBER] has made the advancement [Enchanter]
+[00:27:21] [Server thread/INFO]: edsthilaire121 issued server command: /skill xp add edsthilaire121 enchanting 100000000
+[00:28:03] [Server thread/INFO]: edsthilaire121 issued server command: /skill xp add edsthilaire121 enchanting 100000000
+[00:28:07] [Server thread/INFO]: edsthilaire121 issued server command: /skill xp add edsthilaire121 enchanting 100000000000000
