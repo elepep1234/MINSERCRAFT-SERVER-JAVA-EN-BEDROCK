@@ -109,3 +109,62 @@
 [21:24:35] [Server thread/INFO]: edsthilaire121[/127.198.128.226:34319] logged in with entity id 6496 at ([world]-15.007893824616588, 68.0, 455.1327643119627)
 [21:24:44] [Server thread/INFO]: edsthilaire121 issued server command: /tp Bot
 [21:24:44] [Server thread/INFO]: [edsthilaire121: Teleported edsthilaire121 to Bot]
+[21:25:12] [Server thread/INFO]: Bot was slain by edsthilaire121
+[21:25:13] [Async Chat Thread - #2/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:25:16] [Server thread/WARN]: Bot moved too quickly! 8.127400050092358,-1.0,-6.0000000000000355
+[21:25:36] [Server thread/INFO]: Bot was slain by edsthilaire121
+[21:25:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:25:46] [Async Chat Thread - #2/INFO]: [Not Secure] <edsthilaire121> hola
+[21:26:21] [Server thread/INFO]: edsthilaire121 was slain by Bot
+[21:26:23] [Server thread/INFO]: Bot has made the advancement [Suit Up]
+[21:26:38] [Server thread/INFO]: edsthilaire121 issued server command: /tp Bot
+[21:26:38] [Server thread/INFO]: [edsthilaire121: Teleported edsthilaire121 to Bot]
+[21:26:45] [Server thread/INFO]: Bot was slain by edsthilaire121
+[21:26:45] [Async Chat Thread - #2/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:26:48] [Server thread/WARN]: Bot moved too quickly! 11.01988246235316,-1.0,0.4507383548445745
+[21:27:09] [Server thread/INFO]: edsthilaire121 issued server command: /gamemode creative
+[21:27:09] [Server thread/INFO]: [edsthilaire121: Set own game mode to Creative Mode]
+[21:27:18] [Server thread/INFO]: Bot lost connection: Disconnected
+[21:27:18] [Server thread/INFO]: Bot left the game
+[21:27:43] [User Authenticator #3/INFO]: UUID of player Bot is bb19ef2f-2f95-39a8-8bad-bda3ed373847
+[21:27:43] [Server thread/INFO]: Bot joined the game
+[21:27:43] [Server thread/INFO]: Bot[/[0:0:0:0:0:0:0:1]:57390] logged in with entity id 7062 at ([world]-19.600324772131763, 63.0, -44.36467833640792)
+[21:27:43] [Async Chat Thread - #3/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:28:40] [Server thread/INFO]: edsthilaire121 has made the advancement [Ol' Betsy]
+[21:28:40] [Server thread/INFO]: edsthilaire121 has made the advancement [Take Aim]
+[21:28:54] [Server thread/INFO]: Bot was shot by edsthilaire121
+[21:28:54] [Async Chat Thread - #4/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:29:11] [Server thread/INFO]: Bot was shot by edsthilaire121
+[21:29:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:29:26] [Server thread/INFO]: edsthilaire121 issued server command: /gamemode spectator
+[21:29:26] [Server thread/INFO]: [edsthilaire121: Set own game mode to Spectator Mode]
+[21:29:37] [Server thread/INFO]: Bot was slain by Husk
+[21:29:37] [Async Chat Thread - #4/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:29:38] [Server thread/INFO]: edsthilaire121 issued server command: /gamemode creative
+[21:29:38] [Server thread/INFO]: [edsthilaire121: Set own game mode to Creative Mode]
+[21:29:58] [Server thread/INFO]: Bot was slain by Husk
+[21:29:58] [Async Chat Thread - #4/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:30:01] [Server thread/WARN]: Bot moved too quickly! 6.804139051916458,0.0,7.788738700783206
+[21:30:11] [Server thread/INFO]: Bot was slain by Husk
+[21:30:11] [Async Chat Thread - #5/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:30:24] [Server thread/INFO]: Bot was slain by Husk
+[21:30:24] [Async Chat Thread - #5/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:30:35] [Server thread/INFO]: Bot was slain by Husk
+[21:30:36] [Async Chat Thread - #5/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:30:38] [Server thread/WARN]: Bot moved too quickly! 14.280511005887927,0.0,1.000153436928116
+[21:30:47] [Server thread/INFO]: Bot was slain by Husk
+[21:30:47] [Async Chat Thread - #4/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:30:50] [Server thread/WARN]: Bot moved too quickly! 9.903852056454305,-1.0,1.9182792848063386
+[21:31:03] [Server thread/INFO]: Bot was slain by edsthilaire121
+[21:31:04] [Async Chat Thread - #4/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:31:18] [Server thread/INFO]: Bot lost connection: Disconnected
+[21:31:18] [Server thread/INFO]: Bot left the game
+[21:32:25] [Server thread/INFO]: edsthilaire121 has made the advancement [Sweet Dreams]
+[21:33:09] [User Authenticator #4/INFO]: UUID of player Bot is bb19ef2f-2f95-39a8-8bad-bda3ed373847
+[21:33:09] [Server thread/INFO]: Bot joined the game
+[21:33:09] [Server thread/INFO]: Bot[/[0:0:0:0:0:0:0:1]:46370] logged in with entity id 7663 at ([world]-40.50637263563322, 64.0, -44.50759018401005)
+[21:33:09] [Async Chat Thread - #6/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:33:28] [Server thread/INFO]: Bot was slain by Husk
+[21:33:28] [Async Chat Thread - #6/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:33:43] [Server thread/INFO]: Bot lost connection: Disconnected
+[21:33:43] [Server thread/INFO]: Bot left the game
