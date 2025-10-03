@@ -1,8 +1,0 @@
-groups:
-  default:
-    default: true
-    permissions:
-      - commandpanel.menu
-      - commandpanel.use.mainmenu
-      - commandpanel.use.helpdefault
-      - commandpanel.use.worldsmenu
