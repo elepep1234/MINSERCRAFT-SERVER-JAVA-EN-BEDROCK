@@ -188,3 +188,66 @@
 [21:55:10] [Server thread/INFO]: edsthilaire121 issued server command: /kill Bot
 [21:55:10] [Server thread/INFO]: Bot was killed
 [21:55:10] [Server thread/INFO]: [edsthilaire121: Killed Bot]
+[21:55:15] [Server thread/INFO]: edsthilaire121 issued server command: /kill Bot
+[21:55:15] [Server thread/INFO]: [edsthilaire121: Killed Bot]
+[21:55:16] [Server thread/INFO]: edsthilaire121 issued server command: /kill Bot
+[21:55:16] [Server thread/INFO]: [edsthilaire121: Killed Bot]
+[21:55:16] [Server thread/INFO]: edsthilaire121 issued server command: /kill Bot
+[21:55:16] [Server thread/INFO]: [edsthilaire121: Killed Bot]
+[21:55:16] [Server thread/INFO]: edsthilaire121 issued server command: /kill Bot
+[21:55:16] [Server thread/INFO]: [edsthilaire121: Killed Bot]
+[21:55:18] [Server thread/INFO]: edsthilaire121 issued server command: /setworldspawn
+[21:55:18] [Server thread/INFO]: [edsthilaire121: Set the world spawn point to -1560, 77, -1764 [0.0]]
+[21:55:22] [Server thread/INFO]: edsthilaire121 issued server command: /setworldspawn ~ ~ ~
+[21:55:22] [Server thread/INFO]: [edsthilaire121: Set the world spawn point to -1560, 77, -1764 [0.0]]
+[21:55:24] [Server thread/INFO]: edsthilaire121 issued server command: /kill Bot
+[21:55:24] [Server thread/INFO]: [edsthilaire121: Killed Bot]
+[21:55:31] [Server thread/INFO]: edsthilaire121 issued server command: /setworldspawn ~ ~ ~
+[21:55:31] [Server thread/INFO]: [edsthilaire121: Set the world spawn point to -1566, 64, -1774 [0.0]]
+[21:55:33] [Server thread/INFO]: edsthilaire121 issued server command: /kill Bot
+[21:55:33] [Server thread/INFO]: [edsthilaire121: Killed Bot]
+[21:55:37] [Server thread/INFO]: Bot lost connection: Timed out
+[21:55:37] [Server thread/INFO]: Bot left the game
+[21:56:15] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
+[21:56:15] [Server thread/INFO]: edsthilaire121 left the game
+[21:56:27] [User Authenticator #6/INFO]: UUID of player Bot is bb19ef2f-2f95-39a8-8bad-bda3ed373847
+[21:56:28] [Server thread/INFO]: Bot joined the game
+[21:56:28] [Server thread/INFO]: Bot[/[0:0:0:0:0:0:0:1]:53350] logged in with entity id 11021 at ([world]-39.424142102004396, 51.92159999847412, -65.4078897309582)
+[21:56:28] [Async Chat Thread - #11/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:56:31] [User Authenticator #6/INFO]: UUID of player edsthilaire121 is 024fdfad-d078-3149-8896-20d579490a75
+[21:56:32] [Server thread/INFO]: edsthilaire121 joined the game
+[21:56:32] [Server thread/INFO]: edsthilaire121[/127.198.128.226:41971] logged in with entity id 11039 at ([world]-1565.9776207418217, 64.67874778927109, -1768.8770296642379)
+[21:58:37] [Server thread/INFO]: edsthilaire121 issued server command: /gamemode spectator
+[21:58:37] [Server thread/INFO]: [edsthilaire121: Set own game mode to Spectator Mode]
+[21:58:43] [Server thread/INFO]: Bot has made the advancement [Stone Age]
+[21:59:03] [Server thread/INFO]: edsthilaire121 issued server command: /summon minecraft:zoglin
+[21:59:03] [Server thread/INFO]: [edsthilaire121: Summoned new Zoglin]
+[21:59:15] [Server thread/INFO]: edsthilaire121 issued server command: /kill 94436f16-ac08-442b-96d1-42c014bc494c
+[21:59:15] [Server thread/INFO]: [edsthilaire121: Killed Zoglin]
+[22:01:45] [Server thread/INFO]: edsthilaire121 issued server command: /effect give edsthilaire121 minecraft:night_vision infinite
+[22:01:45] [Server thread/INFO]: [edsthilaire121: Applied effect Night Vision to edsthilaire121]
+[22:02:53] [Server thread/INFO]: edsthilaire121 issued server command: /gamemode creative
+[22:02:53] [Server thread/INFO]: [edsthilaire121: Set own game mode to Creative Mode]
+[22:03:06] [Server thread/INFO]: edsthilaire121 issued server command: /gamemode survival
+[22:03:06] [Server thread/INFO]: [edsthilaire121: Set own game mode to Survival Mode]
+[22:03:07] [Server thread/INFO]: edsthilaire121 was slain by Bot
+[22:03:18] [Server thread/INFO]: edsthilaire121 issued server command: /gamemode spectator
+[22:03:18] [Server thread/INFO]: [edsthilaire121: Set own game mode to Spectator Mode]
+[22:03:44] [Server thread/INFO]: Bot was slain by Zombie
+[22:03:44] [Async Chat Thread - #12/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[22:03:47] [Server thread/WARN]: Bot moved too quickly! 2.9994489206374055,0.41999998688697815,13.200000000000045
+[22:03:59] [Server thread/INFO]: Bot was shot by Skeleton
+[22:03:59] [Async Chat Thread - #12/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[22:04:02] [Server thread/WARN]: Bot moved too quickly! 2.0422694722824417,0.0,10.98905324229645
+[22:04:05] [Server thread/INFO]: edsthilaire121 issued server command: /kill c824e64b-2b54-4e8d-9797-be474a2bda8e
+[22:04:05] [Server thread/INFO]: [edsthilaire121: Killed Skeleton]
+[22:04:17] [Server thread/INFO]: Bot fell from a high place
+[22:04:17] [Async Chat Thread - #12/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[22:04:20] [Server thread/WARN]: Bot moved wrongly!
+[22:04:22] [Server thread/INFO]: edsthilaire121 issued server command: /kill 780781af-b80a-413a-9260-d5bc4552d345
+[22:04:22] [Server thread/INFO]: [edsthilaire121: Killed Zombie]
+[22:04:27] [Server thread/INFO]: edsthilaire121 issued server command: /kill 814b5557-64f2-42fa-9683-d89977174354
+[22:04:27] [Server thread/INFO]: [edsthilaire121: Killed Zombie]
+[22:04:36] [Server thread/INFO]: edsthilaire121 issued server command: /kill
+[22:04:36] [Server thread/INFO]: edsthilaire121 was killed
+[22:04:36] [Server thread/INFO]: [edsthilaire121: Killed edsthilaire121]
