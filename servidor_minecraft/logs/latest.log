@@ -91,3 +91,21 @@
 [20:50:55] [Server thread/INFO]: edsthilaire121 has made the advancement [Diamonds!]
 [20:52:38] [Server thread/INFO]: edsthilaire121 has made the advancement [Suit Up]
 [21:09:40] [Server thread/INFO]: edsthilaire121 has made the advancement [Not Today, Thank You]
+[21:16:34] [User Authenticator #1/INFO]: UUID of player Bot is bb19ef2f-2f95-39a8-8bad-bda3ed373847
+[21:16:34] [Server thread/INFO]: Bot joined the game
+[21:16:34] [Server thread/INFO]: Bot[/[0:0:0:0:0:0:0:1]:47288] logged in with entity id 4749 at ([world]-23.5, 63.0, -47.5)
+[21:16:34] [Async Chat Thread - #0/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot
+[21:17:25] [Async Chat Thread - #0/INFO]: [Not Secure] <edsthilaire121> hola
+[21:18:22] [Server thread/INFO]: Bot lost connection: Disconnected
+[21:18:22] [Server thread/INFO]: Bot left the game
+[21:24:12] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
+[21:24:12] [Server thread/INFO]: edsthilaire121 left the game
+[21:24:17] [User Authenticator #2/INFO]: UUID of player Bot is bb19ef2f-2f95-39a8-8bad-bda3ed373847
+[21:24:18] [Server thread/INFO]: Bot joined the game
+[21:24:18] [Server thread/INFO]: Bot[/[0:0:0:0:0:0:0:1]:51656] logged in with entity id 6363 at ([world]-23.5, 63.0, -47.5)
+[21:24:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:24:34] [User Authenticator #2/INFO]: UUID of player edsthilaire121 is 024fdfad-d078-3149-8896-20d579490a75
+[21:24:35] [Server thread/INFO]: edsthilaire121 joined the game
+[21:24:35] [Server thread/INFO]: edsthilaire121[/127.198.128.226:34319] logged in with entity id 6496 at ([world]-15.007893824616588, 68.0, 455.1327643119627)
+[21:24:44] [Server thread/INFO]: edsthilaire121 issued server command: /tp Bot
+[21:24:44] [Server thread/INFO]: [edsthilaire121: Teleported edsthilaire121 to Bot]
