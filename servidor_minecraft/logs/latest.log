@@ -168,3 +168,23 @@
 [21:33:28] [Async Chat Thread - #6/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
 [21:33:43] [Server thread/INFO]: Bot lost connection: Disconnected
 [21:33:43] [Server thread/INFO]: Bot left the game
+[21:51:30] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
+[21:51:30] [Server thread/INFO]: edsthilaire121 left the game
+[21:53:33] [User Authenticator #5/INFO]: UUID of player Bot is bb19ef2f-2f95-39a8-8bad-bda3ed373847
+[21:53:33] [Server thread/INFO]: Bot joined the game
+[21:53:33] [Server thread/INFO]: Bot[/[0:0:0:0:0:0:0:1]:46890] logged in with entity id 9533 at ([world]-18.574097754496332, 63.0, -44.46794401542702)
+[21:53:34] [Async Chat Thread - #8/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:53:38] [User Authenticator #5/INFO]: UUID of player edsthilaire121 is 024fdfad-d078-3149-8896-20d579490a75
+[21:53:38] [Server thread/INFO]: edsthilaire121 joined the game
+[21:53:38] [Server thread/INFO]: edsthilaire121[/127.198.128.226:46931] logged in with entity id 9550 at ([world]-31.767188551298613, 65.87705486462357, -56.03272772011074)
+[21:54:03] [Server thread/INFO]: Bot was blown up by Creeper
+[21:54:03] [Async Chat Thread - #8/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[21:54:27] [Server thread/INFO]: edsthilaire121 issued server command: /locate biome minecraft:pale_garden
+[21:54:27] [Server thread/INFO]: Locating element minecraft:pale_garden took 754 ms
+[21:54:29] [Server thread/INFO]: edsthilaire121 issued server command: /tp @s -1569 129 -1721
+[21:54:29] [Server thread/INFO]: [edsthilaire121: Teleported edsthilaire121 to -1568.500000, 129.000000, -1720.500000]
+[21:55:05] [Server thread/INFO]: edsthilaire121 issued server command: /setworldspawn
+[21:55:05] [Server thread/INFO]: [edsthilaire121: Set the world spawn point to -1567, 71, -1764 [0.0]]
+[21:55:10] [Server thread/INFO]: edsthilaire121 issued server command: /kill Bot
+[21:55:10] [Server thread/INFO]: Bot was killed
+[21:55:10] [Server thread/INFO]: [edsthilaire121: Killed Bot]
