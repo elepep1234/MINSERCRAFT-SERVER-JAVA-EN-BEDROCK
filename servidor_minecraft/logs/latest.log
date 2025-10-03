@@ -254,3 +254,14 @@
 [22:14:44] [Server thread/INFO]: Bot was doomed to fall by Zombie
 [22:14:44] [Async Chat Thread - #14/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
 [22:14:47] [Server thread/WARN]: Bot moved wrongly!
+[22:16:09] [Server thread/INFO]: Bot lost connection: Disconnected
+[22:16:09] [Server thread/INFO]: Bot left the game
+[22:16:36] [User Authenticator #7/INFO]: UUID of player Bot is bb19ef2f-2f95-39a8-8bad-bda3ed373847
+[22:16:36] [Server thread/INFO]: Bot joined the game
+[22:16:36] [Server thread/INFO]: Bot[/[0:0:0:0:0:0:0:1]:41346] logged in with entity id 13565 at ([world]-1574.5906154717372, 54.0, -1790.5)
+[22:16:36] [Async Chat Thread - #16/INFO]: [Not Secure] <Bot> ¡Hola! Soy un bot autónomo
+[22:24:17] [Server thread/INFO]: edsthilaire121 issued server command: /gamemode creative
+[22:24:17] [Server thread/INFO]: [edsthilaire121: Set own game mode to Creative Mode]
+[22:24:30] [Server thread/INFO]: edsthilaire121 issued server command: /gamemode spectator
+[22:24:30] [Server thread/INFO]: [edsthilaire121: Set own game mode to Spectator Mode]
+[22:24:43] [Server thread/INFO]: edsthilaire121 issued server command: /item
