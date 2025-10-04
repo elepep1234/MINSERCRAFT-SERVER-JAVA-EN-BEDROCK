@@ -1,42 +1,42 @@
 refresh-time: 1759674400437
 items-data:
-  32_xp_bottles:
-    stock: 5
-    purchase-limits: {}
-    position: 25
-  64_dia_blocks:
-    stock: 5
-    purchase-limits: {}
-    position: 12
-  prot_4_enchant:
-    stock: 5
-    purchase-limits: {}
-    position: 24
-  64_iron_blocks:
-    stock: 5
-    purchase-limits: {}
-    position: 15
-  32_iron_blocks:
-    stock: 5
-    purchase-limits: {}
-    position: 21
-  32_gold_blocks:
-    stock: 5
-    purchase-limits: {}
-    position: 14
   mending_enchant:
     stock: 5
     purchase-limits: {}
     position: 22
-  32_emerald_blocks:
-    stock: 5
-    purchase-limits: {}
-    position: 16
-  unbr_3_enchant:
-    stock: 5
-    purchase-limits: {}
-    position: 13
   64_gold_blocks:
     stock: 5
     purchase-limits: {}
     position: 23
+  64_dia_blocks:
+    stock: 5
+    purchase-limits: {}
+    position: 12
+  unbr_3_enchant:
+    stock: 5
+    purchase-limits: {}
+    position: 13
+  prot_4_enchant:
+    stock: 5
+    purchase-limits: {}
+    position: 24
+  32_gold_blocks:
+    stock: 5
+    purchase-limits: {}
+    position: 14
+  32_iron_blocks:
+    stock: 5
+    purchase-limits: {}
+    position: 21
+  32_emerald_blocks:
+    stock: 5
+    purchase-limits: {}
+    position: 16
+  64_iron_blocks:
+    stock: 5
+    purchase-limits: {}
+    position: 15
+  32_xp_bottles:
+    stock: 5
+    purchase-limits: {}
+    position: 25
