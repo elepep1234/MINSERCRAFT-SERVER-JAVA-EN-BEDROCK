@@ -3,4 +3,6 @@
 #
 # version: 2.12.1
 
+npc.punto.actual::*, long, 0000000000000000
+npc.ruta::*, string, 8000
 
