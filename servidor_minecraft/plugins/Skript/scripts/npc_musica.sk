@@ -1,0 +1,68 @@
+# Script para música en NPCs
+# Creado para hacer que los NPCs reproduzcan música
+
+# Comando para activar música en un NPC
+command /npcmusica [<text>] [<text>]:
+    permission: npc.music
+    usage: /npcmusica <npcid> <tipo>
+    trigger:
+        if arg-1 is not set:
+            send "&c¡Uso correcto: /npcmusica <npcid> <tipo>!"
+            send "&eTipos de música disponibles:"
+            send "&a- cat"
+            send "&a- blocks"
+            send "&a- chirp"
+            send "&a- far"
+            send "&a- mall"
+            send "&a- mellohi"
+            send "&a- stal"
+            send "&a- strad"
+            send "&a- ward"
+            send "&a- wait"
+            stop
+        
+        if arg-2 is not set:
+            send "&c¡Debes especificar el tipo de música!"
+            stop
+
+# Evento cuando un jugador hace clic derecho en un NPC
+on right click on entity:
+    if entity is a player:
+        loop all players in radius 10 around event-entity:
+            if arg-2 is "cat":
+                play sound "record.cat" with volume 1 at player's location
+            else if arg-2 is "blocks":
+                play sound "record.blocks" with volume 1 at player's location
+            else if arg-2 is "chirp":
+                play sound "record.chirp" with volume 1 at player's location
+            else if arg-2 is "far":
+                play sound "record.far" with volume 1 at player's location
+            else if arg-2 is "mall":
+                play sound "record.mall" with volume 1 at player's location
+            else if arg-2 is "mellohi":
+                play sound "record.mellohi" with volume 1 at player's location
+            else if arg-2 is "stal":
+                play sound "record.stal" with volume 1 at player's location
+            else if arg-2 is "strad":
+                play sound "record.strad" with volume 1 at player's location
+            else if arg-2 is "ward":
+                play sound "record.ward" with volume 1 at player's location
+            else if arg-2 is "wait":
+                play sound "record.wait" with volume 1 at player's location
+
+# Comando para detener la música
+command /npcmusicastop:
+    permission: npc.music.stop
+    trigger:
+        loop all players in radius 20 around player:
+            stop sound "record.cat" for loop-player
+            stop sound "record.blocks" for loop-player
+            stop sound "record.chirp" for loop-player
+            stop sound "record.far" for loop-player
+            stop sound "record.mall" for loop-player
+            stop sound "record.mellohi" for loop-player
+            stop sound "record.stal" for loop-player
+            stop sound "record.strad" for loop-player
+            stop sound "record.ward" for loop-player
+            stop sound "record.wait" for loop-player
+        send "&a¡Música detenida!"

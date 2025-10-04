@@ -69,3 +69,43 @@ data-version: 4|2|4440
     villagerLevel: 3
   recipes: {}
   snapshots: []
+'5':
+  uniqueId: 8708bd7b-1928-471c-a961-868ca48bc68e
+  world: void
+  x: -79
+  y: -29
+  z: -138
+  yaw: 276.32657
+  type: admin
+  name: ''
+  object:
+    type: creaking
+  recipes:
+    '1':
+      resultItem:
+        DataVersion: 4440
+        id: minecraft:emerald
+        count: 1
+      item1:
+        DataVersion: 4440
+        id: minecraft:iron_ingot
+        count: 1
+    '2':
+      resultItem:
+        DataVersion: 4440
+        id: minecraft:lapis_lazuli
+        count: 1
+      item1:
+        DataVersion: 4440
+        id: minecraft:emerald
+        count: 1
+    '3':
+      resultItem:
+        DataVersion: 4440
+        id: minecraft:diamond
+        count: 1
+      item1:
+        DataVersion: 4440
+        id: minecraft:lapis_lazuli
+        count: 1
+  snapshots: []

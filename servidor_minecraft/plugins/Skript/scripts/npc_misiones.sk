@@ -1,0 +1,88 @@
+# Sistema de Misiones para NPCs
+# Creado para gestionar misiones con NPCs de FancyNPCs
+
+options:
+    prefix: &8[&6Misiones&8]
+
+variables:
+    {mision.%player%.activa} = ""
+    {mision.%player%.progreso} = 0
+    {mision.%player%.completadas::*} = ""
+
+command /crearmision <text> <text> <text> <number>:
+    permission: misiones.admin
+    usage: /crearmision <id> <nombre> <objetivo> <cantidad>
+    trigger:
+        set {misiones::%arg-1%::nombre} to arg-2
+        set {misiones::%arg-1%::objetivo} to arg-3
+        set {misiones::%arg-1%::cantidad} to arg-4
+        send "{@prefix} &aMisión creada correctamente!"
+
+command /asignarmision <text> <text>:
+    permission: misiones.admin
+    usage: /asignarmision <npcid> <misionid>
+    trigger:
+        set {npc::%arg-1%::mision} to arg-2
+        send "{@prefix} &aMisión asignada al NPC!"
+
+on right click on entity:
+    if {npc::%target's uuid%::mision} is set:
+        set {_mision} to {npc::%target's uuid%::mision}
+        if {mision.%player%.completadas::*} contains {_mision}:
+            send "{@prefix} &c¡Ya has completado esta misión!"
+            stop
+        if {mision.%player%.activa} is "":
+            set {mision.%player%.activa} to {_mision}
+            set {mision.%player%.progreso} to 0
+            send "{@prefix} &e¡Nueva misión aceptada!"
+            send "&7Objetivo: &f%{misiones::%{_mision}%::objetivo}%"
+            send "&7Progreso: &f0/%{misiones::%{_mision}%::cantidad}%"
+        else:
+            send "{@prefix} &c¡Ya tienes una misión activa!"
+
+# Eventos para diferentes tipos de misiones
+on break of any block:
+    if {mision.%player%.activa} is set:
+        set {_mision} to {mision.%player%.activa}
+        if {misiones::%{_mision}%::objetivo} contains "romper":
+            add 1 to {mision.%player%.progreso}
+            checkMisionProgress(player)
+
+on death of any monster:
+    attacker is a player
+    if {mision.%player%.activa} is set:
+        set {_mision} to {mision.%player%.activa}
+        if {misiones::%{_mision}%::objetivo} contains "matar":
+            add 1 to {mision.%player%.progreso}
+            checkMisionProgress(attacker)
+
+function checkMisionProgress(p: player):
+    set {_mision} to {mision.%{_p}%.activa}
+    if {mision.%{_p}%.progreso} >= {misiones::%{_mision}%::cantidad}:
+        add {_mision} to {mision.%{_p}%.completadas::*}
+        clear {mision.%{_p}%.activa}
+        set {mision.%{_p}%.progreso} to 0
+        send "{@prefix} &a¡Misión completada!" to {_p}
+        give 5 diamonds to {_p}
+    else:
+        send "{@prefix} &ePregreso: %{mision.%{_p}%.progreso}%/%{misiones::%{_mision}%::cantidad}%" to {_p}
+
+command /vermision:
+    trigger:
+        if {mision.%player%.activa} is set:
+            set {_mision} to {mision.%player%.activa}
+            send "{@prefix} &eMisión actual:"
+            send "&7Nombre: &f%{misiones::%{_mision}%::nombre}%"
+            send "&7Objetivo: &f%{misiones::%{_mision}%::objetivo}%"
+            send "&7Progreso: &f%{mision.%player%.progreso}%/%{misiones::%{_mision}%::cantidad}%"
+        else:
+            send "{@prefix} &cNo tienes ninguna misión activa"
+
+command /abandonarmision:
+    trigger:
+        if {mision.%player%.activa} is set:
+            clear {mision.%player%.activa}
+            set {mision.%player%.progreso} to 0
+            send "{@prefix} &cHas abandonado la misión actual"
+        else:
+            send "{@prefix} &cNo tienes ninguna misión activa"

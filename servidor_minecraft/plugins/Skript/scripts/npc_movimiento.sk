@@ -1,0 +1,92 @@
+# Sistema de Movimiento para NPCs
+# Creado para hacer que los NPCs se muevan por rutas
+
+options:
+    prefix: &8[&6NPCs&8]
+
+variables:
+    {npc.ruta::*} = ""
+    {npc.punto.actual::*} = 0
+
+command /npcpunto [<text>]:
+    permission: npc.admin.movimiento
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &cUso: /npcpunto <nombre_ruta>"
+            stop
+        
+        set {_loc} to location of player
+        add "%{_loc}%" to {npc.ruta::%arg-1%::*}
+        send "{@prefix} &aPoint añadido a la ruta %arg-1%!"
+        send "&7Posición: &f%{_loc}%"
+
+command /npcrutalimpiar [<text>]:
+    permission: npc.admin.movimiento
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &cUso: /npcrutalimpiar <nombre_ruta>"
+            stop
+        
+        clear {npc.ruta::%arg-1%::*}
+        send "{@prefix} &aRuta %arg-1% limpiada!"
+
+command /npcmover [<text>] [<text>]:
+    permission: npc.admin.movimiento
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &cUso: /npcmover <npcid> <nombre_ruta>"
+            stop
+        if arg-2 is not set:
+            send "{@prefix} &cDebes especificar una ruta!"
+            stop
+            
+        set {npc.movimiento::%arg-1%} to arg-2
+        set {npc.punto.actual::%arg-1%} to 0
+        send "{@prefix} &aNPC configurado para moverse en la ruta %arg-2%!"
+
+command /npcdetener [<text>]:
+    permission: npc.admin.movimiento
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &cUso: /npcdetener <npcid>"
+            stop
+            
+        clear {npc.movimiento::%arg-1%}
+        clear {npc.punto.actual::%arg-1%}
+        send "{@prefix} &aNPC detenido!"
+
+command /npcvelocidad [<text>] [<number>]:
+    permission: npc.admin.movimiento
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &cUso: /npcvelocidad <npcid> <velocidad>"
+            stop
+        if arg-2 is not set:
+            send "{@prefix} &cDebes especificar una velocidad (0.1 - 1.0)!"
+            stop
+            
+        set {npc.velocidad::%arg-1%} to arg-2
+        send "{@prefix} &aVelocidad del NPC establecida a %arg-2%!"
+
+every 1 seconds:
+    loop all entities:
+        if loop-entity is a player:
+            set {_npcid} to "%loop-entity's uuid%"
+            if {npc.movimiento::%{_npcid}%} is set:
+                set {_ruta} to {npc.movimiento::%{_npcid}%}
+                set {_punto} to {npc.punto.actual::%{_npcid}%}
+                
+                if size of {npc.ruta::%{_ruta}%::*} > 0:
+                    set {_destino} to location at {npc.ruta::%{_ruta}%::%{_punto}%}
+                    set {_velocidad} to {npc.velocidad::%{_npcid}%} ? 0.3
+                    
+                    # Mover NPC hacia el siguiente punto
+                    if distance between loop-entity and {_destino} > 1:
+                        set {_vector} to vector from loop-entity to {_destino}
+                        set {_vector} to normalized {_vector}
+                        set {_vector} to {_vector} * {_velocidad}
+                        push loop-entity {_vector}
+                    else:
+                        add 1 to {npc.punto.actual::%{_npcid}%}
+                        if {npc.punto.actual::%{_npcid}%} > size of {npc.ruta::%{_ruta}%::*}:
+                            set {npc.punto.actual::%{_npcid}%} to 0

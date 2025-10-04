@@ -89,3 +89,27 @@ npcs:
         '1':
           action: player_command
           value: kits
+  38f6027c-eeb4-4d7c-bb8b-cb7e4b45b687:
+    name: mision
+    creator: 024fdfad-d078-3149-8896-20d579490a75
+    displayName: mision
+    type: PLAYER
+    location:
+      world: void
+      x: -162.5940953411881
+      y: -29.0
+      z: -106.45280993031271
+      yaw: -91.575745
+      pitch: -2.6397178
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
