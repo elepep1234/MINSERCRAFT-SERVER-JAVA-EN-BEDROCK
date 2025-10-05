@@ -41,3 +41,23 @@ expansions:
       billions: B
       trillions: T
       quadrillions: Q
+  server:
+    server_name: A Minecraft Server
+    time:
+      locale: en
+      zone: Etc/UTC
+      suffix:
+        week: w
+        day: d
+        hour: h
+        minute: m
+        second: s
+    tps_color:
+      high: '&a'
+      medium: '&e'
+      low: '&c'
+  math:
+    Disable-Warnings: false
+    Rounding: half-up
+    Decimals: 3
+    Debug: false

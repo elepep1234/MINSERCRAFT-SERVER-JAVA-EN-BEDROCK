@@ -1,340 +1,4116 @@
-8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 3 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.16.2): 1759607936670 tunnel running, 3 tunnels registered
+8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 3 tunnels[2J8[0mstarting up tunnel connection[2J8[0mGot Error
+MSG: Failed to setup tunnel client
+Error: RequestError(ParseError(Error("expected value", line: 1, column: 1), 502, "error code: 502"))
+[2J8[0mtunnel running[2J8[0mplayit (v0.16.2): 1759616387649 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607939827 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616390815 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607942950 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616393900 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607946041 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616397019 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607949146 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616400145 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607952258 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616403290 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607955366 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616406398 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607958542 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616409628 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607961652 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616412719 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607964738 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616415811 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607967873 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616418959 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607971017 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616422057 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607974129 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616425141 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607977251 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616428231 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607980387 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616431421 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607983491 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616434532 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607986625 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616437614 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607989750 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616440714 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607992870 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616443818 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607995979 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616447010 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759607999090 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616450126 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608002250 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616453240 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608005421 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616456327 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608008559 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616459447 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608011713 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616462534 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608014826 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616465623 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608017926 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616468731 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608021038 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616471826 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608024135 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616474967 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608027291 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616478055 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608030418 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616481163 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608033504 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616484256 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608036623 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616487346 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608039710 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616490442 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608042816 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616493535 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608046048 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616496622 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608049162 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616499749 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608052251 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616502840 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608055472 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616505942 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608058680 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616509093 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608061816 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616512179 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608065003 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616515280 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608068099 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616518384 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608071201 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616521477 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608074286 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616524577 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608077395 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616527676 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608080560 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616530773 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608083753 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616533858 tunnel running, 3 tunnels registered
 
 
 TUNNELS
 pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
 internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.16.2): 1759608086852 tunnel running, 3 tunnels registered
+[2J8[0mplayit (v0.16.2): 1759616536955 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616540050 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616543159 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616546267 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616549413 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616552528 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616555612 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616558719 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616561807 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616564889 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616567981 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616571293 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616574394 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616577480 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616580577 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616583798 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616586902 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616590133 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616593221 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616596309 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616599406 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616602510 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616605602 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616608764 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616611851 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616614940 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616618022 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616621115 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616624201 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616627305 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616630459 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616633555 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616636655 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616639789 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616642975 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616646073 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616649164 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616652275 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616655369 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616658455 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616661606 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616664710 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616667829 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616670986 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616674083 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616677186 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616680388 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616683489 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616686580 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616689739 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616692828 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616695932 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616699015 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616702097 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616705184 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616708313 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616711408 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616714493 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616717626 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616720729 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616723813 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616726900 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616729985 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616733095 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616736180 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616739336 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616742474 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616745660 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616748780 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616751875 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616754972 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616758079 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616761167 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616764266 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616767372 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616770500 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616773600 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616776719 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616779808 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616782898 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616785990 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616789252 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616792357 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616795467 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616798575 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616801662 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616804746 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616807832 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616810928 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616814037 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616817146 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616820314 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616823431 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616826529 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616829633 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616832777 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616835883 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616838978 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616842098 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616845218 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616848317 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616851447 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616854571 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616857687 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616860821 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616863910 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616866994 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616870089 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616873242 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616876340 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616879516 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616882600 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616885712 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616888869 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616891956 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616895070 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616898166 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616901248 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616904330 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616907433 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616910525 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616913618 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616916793 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616919877 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616922985 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616926329 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616929425 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616932536 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616935686 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616938774 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616941875 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616944964 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616948053 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616951195 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616954368 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616957478 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616960582 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616963821 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616966968 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616970079 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616973265 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616976389 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616979500 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616982646 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616985788 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616988905 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616992077 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616995177 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759616998284 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617001380 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617004576 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617007700 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617010813 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617013924 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617017035 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617020128 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617023250 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617026366 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617029465 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617032551 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617035648 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617038749 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617041835 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617044928 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617048022 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617051107 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617054276 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617057379 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617060468 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617063578 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617066694 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617069837 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617072934 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617076023 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617079131 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617082255 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617085345 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617088451 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617091537 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617094690 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617097828 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617100921 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617104135 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617107226 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617110315 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617113418 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617116551 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617119647 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617122737 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617125867 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617128958 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617132069 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617135159 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617138263 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617141384 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617144466 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617147603 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617150736 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617153831 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617156938 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617160033 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617163148 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617166245 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617169329 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617172413 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617175657 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617178766 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617181878 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617184997 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617188109 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617191206 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617194291 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617197417 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617200520 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617203617 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617206764 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617209874 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617212992 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617216076 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617219175 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617222278 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617225380 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617228491 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617231575 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617234695 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617237794 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617240896 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617244005 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617247143 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617250285 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617253400 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617256482 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617259588 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617262759 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617265844 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617268934 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617272026 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617275117 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617278223 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617281336 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617284442 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617287542 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617290638 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617293737 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617296835 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617299942 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617303040 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617306153 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617309263 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617312356 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617315494 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617318580 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617321666 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617324768 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617327866 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617331012 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617334093 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617337174 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617340304 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617343404 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617346515 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617349602 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617352761 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617355875 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617358973 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617362064 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617365174 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617368299 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617371397 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617374524 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617377648 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617380737 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617383895 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617386976 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617390096 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617393209 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617396317 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617399464 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617402582 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617405665 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617408753 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617411865 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617414957 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617418045 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617421247 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617424328 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617427456 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617430578 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617433694 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617436810 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617439935 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617443026 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617446118 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617449211 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617452304 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617455418 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617458499 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617461619 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617464722 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617467829 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617470916 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617474016 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617477102 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617480217 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617483334 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617486451 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617489546 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617492635 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617495722 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617498812 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617501944 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617505054 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617508143 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617511285 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617514370 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617517494 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617520685 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617523800 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617526918 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617530117 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617533253 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617536343 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617539435 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617542523 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617545649 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617548764 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617551890 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617555016 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617558121 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617561239 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617564352 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617567508 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617570602 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617573761 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617576858 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617579939 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617583054 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617586261 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617589356 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617592442 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617595598 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617598737 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617601854 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617604997 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617608100 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617611194 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617614367 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617617514 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617620660 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617623744 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617626838 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617629925 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617633018 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617636101 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617639189 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617642317 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617645414 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617648570 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617651735 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617654832 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617657944 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617661024 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617664131 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617667308 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617670405 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617673492 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617676632 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617679719 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617682830 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617685913 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617688998 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617692160 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617695242 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617698326 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617701454 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617704546 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617707683 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617710814 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617713930 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617717034 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617720141 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617723235 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617726330 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617729422 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617732534 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617735655 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617738739 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617741910 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617745027 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617748120 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617751267 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617754355 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617757440 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617760589 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617763686 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617766808 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617769899 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617773002 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617776089 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617779201 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617782291 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617785422 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617788521 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617791624 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617794717 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617797839 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617800957 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617804058 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617807162 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617810331 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617813467 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617816620 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617819708 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617822828 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617825926 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617829020 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617832115 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617835209 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617838299 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617841443 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617844540 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617847688 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617850823 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617853948 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617857088 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617860212 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617863356 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617866461 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617869550 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617872651 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617875746 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617878829 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617881954 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617885057 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617888143 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617891280 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617894396 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617897509 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617900592 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617903937 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617907033 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617910179 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617913402 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617916485 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617919570 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617922661 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617925747 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617928864 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617931956 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617935067 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617938190 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617941294 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617944382 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617947499 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617950616 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617953721 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617956826 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617960008 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617963109 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617966205 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617969292 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617972373 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617975488 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617978591 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617981680 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617984807 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617987935 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617991031 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617994168 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759617997260 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618000350 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618003485 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618006571 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618009677 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618012766 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618015855 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618018973 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618022082 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618025177 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618028279 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618031367 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618034474 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618037564 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618040674 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618043792 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618046894 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618049986 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618053088 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618056212 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618059312 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618062398 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618065492 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618068589 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618071718 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618074831 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618077915 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618081006 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618084229 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618087358 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618090447 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618093590 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618096697 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618099787 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618102874 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618105958 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618109040 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618112143 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618115301 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618118408 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618121534 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618124634 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618127718 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618130852 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618133972 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618137069 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618140168 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618143310 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618146398 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618149484 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618152570 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618155747 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618158830 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618161937 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618165049 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618168164 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618171249 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618174331 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618177414 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618180524 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618183673 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618186754 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618189851 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618192956 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618196042 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618199130 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618202315 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618205461 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618208588 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618211696 tunnel running, 3 tunnels registered
+
+
+TUNNELS
+pc-authorization.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+software-shipped.gl.at.ply.gg:1469 => 127.0.0.1:19132 (minecraft-bedrock)
+internet-floral.gl.at.ply.gg:40673 => 127.0.0.1:2009 (proto: Tcp, port count: 1)
+[2J8[0mplayit (v0.16.2): 1759618214808 tunnel running, 3 tunnels registered
 
 
 TUNNELS

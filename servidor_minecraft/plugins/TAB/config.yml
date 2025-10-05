@@ -65,20 +65,23 @@ scoreboard:
   delay-on-join-milliseconds: 0
   scoreboards:
     survival:
-      title: "&a&lSURVIVAL"
+      title: "&b&l✦ &a&lSURVIVAL &b&l✦"
       lines:
-        - "&7📅 %date%"
-        - ""
-        - "&f👤 %player%"
+        - "&8&m                  "
+        - "&b&l JUGADOR &7⎪ &e%player%"
         - "&f⭐ Rango: %vault_prefix%"
-        - "&f💰 Dinero: &a$%vault_eco_balance_formatted%"
-        - "&e✦ ?: &b???? "
         - ""
-        - "&a✔ Online: &f%online%"
-        - "&c⚔ Kills: &f%statistic_player_kills%"
-        - "&4☠ Deaths: &f%statistic_deaths%"
+        - "&e&l ECONOMÍA"
+        - "&f💰 &a$%vault_eco_balance_formatted% &7⎪ &f💎 &b%player_level%"
         - ""
-        - "&7▶ &f"
+        - "&c&l ESTADÍSTICAS"
+        - "&c⚔ &f%statistic_player_kills% &7⎪ &4☠ &f%statistic_deaths%"
+        - "&f🏹 K/D: &b%math_{statistic_player_kills}/{statistic_deaths}%"
+        - ""
+        - "&d&l SERVIDOR"
+        - "&f� &a%online% &7online"
+        - "&f📡 &a%ping%ms &7⎪ &f🌍 &a%server_tps_1_colored%"
+        - "&8&m                  "
 
 layout:
   enabled: false

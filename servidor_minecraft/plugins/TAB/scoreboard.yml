@@ -1,0 +1,20 @@
+scoreboard:
+  title: "%animation:rainbow%&lSERVER"
+  enabled: true
+  lines:
+    - "%animation:line%"
+    - "&f"
+    - "&f➥ &eJugador:"
+    - "  &b%player%"
+    - "&f"
+    - "&f➥ &eRango:"
+    - "  %group%"
+    - "&f"
+    - "&f➥ &eDinero:"
+    - "  &a$%money%"
+    - "&f"
+    - "&f➥ &eJugadores:"
+    - "  &b%online%&7/&b%maxplayers%"
+    - "&f"
+    - "&7&owww.minecraft.net"
+    - "%animation:line%"
