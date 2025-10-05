@@ -951,3 +951,177 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 [15:12:46] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
 [15:12:46] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
 [15:12:46] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:12:56] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:12:56] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:12:56] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:13:07] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:13:07] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:13:07] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:13:15] [Server thread/INFO]: edsthilaire121 issued server command: /gm 0
+[15:13:17] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:13:17] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:13:17] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:13:28] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:13:28] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:13:28] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:13:38] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:13:38] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:13:38] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:13:49] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:13:49] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:13:49] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:13:59] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:13:59] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:13:59] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:14:10] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:14:10] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:14:10] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:14:20] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:14:20] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:14:20] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:14:31] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:14:31] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:14:31] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:14:41] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:14:41] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:14:41] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:14:48] [Server thread/INFO]: edsthilaire121 lost connection: Disconnected
+[15:14:48] [Server thread/INFO]: [voicechat] Disconnecting client edsthilaire121
+[15:14:52] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:14:52] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:14:52] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:15:02] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:15:02] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:15:02] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:15:13] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:15:13] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:15:13] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:15:23] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:15:23] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:15:23] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:15:34] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:15:34] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:15:34] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:15:44] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:15:44] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:15:44] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:15:55] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:15:55] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:15:55] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:16:05] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:16:05] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:16:05] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:16:16] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:16:16] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:16:16] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:16:26] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:16:26] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:16:26] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:16:37] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:16:37] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:16:37] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:16:47] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:16:47] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:16:47] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:16:58] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:16:58] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:16:58] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:17:08] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:17:08] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:17:08] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:17:19] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:17:19] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:17:19] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:17:29] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:17:29] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:17:29] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:17:40] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:17:40] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:17:40] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:17:50] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:17:50] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:17:50] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:18:01] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:18:01] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:18:01] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:18:11] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:18:11] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:18:11] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:18:21] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:18:21] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:18:21] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:18:32] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:18:32] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:18:32] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:18:42] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:18:42] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:18:42] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:18:53] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:18:53] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:18:53] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:19:03] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:19:03] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:19:03] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:19:14] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:19:14] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:19:14] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:19:24] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:19:24] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:19:24] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:19:35] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:19:35] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:19:35] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:19:45] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:19:45] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:19:45] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:19:56] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:19:56] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:19:56] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:20:06] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:20:06] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:20:06] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:20:17] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:20:17] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:20:17] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:20:27] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:20:27] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:20:27] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:20:38] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:20:38] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:20:38] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:20:48] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:20:48] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:20:48] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:20:59] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:20:59] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:20:59] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:21:09] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:21:09] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:21:09] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:21:20] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:21:20] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:21:20] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:21:30] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:21:30] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:21:30] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:21:41] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:21:41] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:21:41] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:21:51] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:21:51] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:21:51] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:22:02] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:22:02] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:22:02] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:22:12] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:22:12] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:22:12] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:22:23] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:22:23] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:22:23] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:22:33] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:22:33] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:22:33] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
+[15:22:44] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[15:22:44] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{statistic_player_kills}/{statistic_deaths}%
+[15:22:44] [TAB Placeholder Refreshing Thread/WARN]: [PlaceholderAPI] [math] Cause:       '0/0' is not a valid Math expression.
