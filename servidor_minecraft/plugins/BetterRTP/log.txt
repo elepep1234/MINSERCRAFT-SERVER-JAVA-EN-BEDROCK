@@ -47,3 +47,5 @@
 2025-10-05 14:51:04 [INFO]: Database PLAYERS:Players configured and loaded!
 2025-10-05 14:51:06 [INFO]: Attempting to queue up some more safe locations...
 2025-10-05 14:51:06 [INFO]: Queueing paused, max queue limit reached!
+2025-10-05 15:12:31 [INFO]: edsthilaire121 executed: /rtp world world
+2025-10-05 15:12:34 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=-4106.5,y=73.0,z=-3302.5,pitch=28.470585,yaw=-174.07855}
