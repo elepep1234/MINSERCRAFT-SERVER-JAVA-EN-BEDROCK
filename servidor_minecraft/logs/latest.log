@@ -688,3 +688,26 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 [23:22:22] [Server thread/INFO]: [NameTag] §7Player edsthilaire121 joined. Applying NameTag.
 [23:22:22] [Server thread/INFO]: edsthilaire121[/127.198.128.226:33879] logged in with entity id 137 at ([world]-4091.300000011921, 50.0, -3204.699999988079)
 [23:23:52] [Server thread/INFO]: edsthilaire121 issued server command: /k create HELLO
+[23:26:51] [Async Chat Thread - #2/INFO]: [G]|[♚ HELLO] [Owner] edsthilaire121 ≫ tt'
+[23:29:26] [Server thread/INFO]: edsthilaire121 issued server command: /k map settings
+[23:29:46] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000000
+[23:29:48] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 10000
+[23:29:51] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 1000000
+[23:29:54] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000
+[23:29:56] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000
+[23:29:57] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000
+[23:29:58] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000
+[23:29:59] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000
+[23:30:00] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000
+[23:30:00] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000
+[23:30:01] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000
+[23:30:02] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000
+[23:30:03] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000
+[23:30:04] [Server thread/INFO]: edsthilaire121 issued server command: /k bank deposit 100000
+[23:30:11] [Server thread/INFO]: edsthilaire121 issued server command: /k map settings
+[23:30:57] [Server thread/INFO]: edsthilaire121 issued server command: /k administrator claim HELLO '
+[23:30:59] [Server thread/INFO]: edsthilaire121 issued server command: /k administrator claim HELLO
+[23:31:12] [Server thread/INFO]: edsthilaire121 issued server command: /k administrator openfile
+[23:32:31] [Server thread/INFO]: edsthilaire121 issued server command: /k map settings
+[23:33:44] [Server thread/INFO]: edsthilaire121 issued server command: /k map settings
+[23:35:30] [Server thread/INFO]: edsthilaire121 issued server command: /k map settings
