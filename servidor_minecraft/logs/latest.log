@@ -711,3 +711,16 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 [23:32:31] [Server thread/INFO]: edsthilaire121 issued server command: /k map settings
 [23:33:44] [Server thread/INFO]: edsthilaire121 issued server command: /k map settings
 [23:35:30] [Server thread/INFO]: edsthilaire121 issued server command: /k map settings
+[23:36:22] [Server thread/INFO]: edsthilaire121 issued server command: /shop
+[23:42:15] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 agility
+[23:42:18] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 agility 10000000000000
+[23:42:27] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 alchemy 10000000000000
+[23:42:31] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 archery 10000000000000
+[23:42:35] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 defense 10000000000000
+[23:42:40] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 enchanting 10000000000000
+[23:42:44] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 excavation 10000000000000
+[23:42:48] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 farming 10000000000000
+[23:42:51] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 fighting 10000000000000
+[23:42:55] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 fishing 10000000000000
+[23:43:00] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 foraging 10000000000000
+[23:43:05] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 mining 10000000000000
