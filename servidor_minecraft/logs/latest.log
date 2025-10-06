@@ -724,3 +724,16 @@ java.lang.IllegalArgumentException: 'default' key contained unknown value
 [23:42:55] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 fishing 10000000000000
 [23:43:00] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 foraging 10000000000000
 [23:43:05] [Server thread/INFO]: edsthilaire121 issued server command: /skills xp set edsthilaire121 mining 10000000000000
+[23:47:25] [kingdoms-worker-0/INFO]: [Kingdoms] Auto Save: 
+  | GLOBALS:  1/1   (2ms) 
+  | KINGDOMS: 1/1   (35ms)
+  | LANDS:    25/25 (18ms)
+  | MTG:      0/0   (0ms) 
+  | NATIONS:  0/0   (0ms) 
+  | PLAYERS:  1/1   (5ms) 
+[23:47:26] [kingdoms-worker-2/INFO]: [Kingdoms] Updating top group data for KINGDOMS with 1 data.
+[23:48:32] [Server thread/INFO]: edsthilaire121 issued server command: /k map settings
+[23:53:11] [Server thread/INFO]: edsthilaire121 issued server command: /lagg
+[23:53:16] [Server thread/INFO]: edsthilaire121 issued server command: /lagg clear
+[23:55:51] [Server thread/INFO]: edsthilaire121 issued server command: /fly
+[23:56:24] [Server thread/INFO]: edsthilaire121 issued server command: /k home
