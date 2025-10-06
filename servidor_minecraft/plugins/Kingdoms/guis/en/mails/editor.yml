@@ -1,0 +1,36 @@
+title: "{$sep}-=( {$p}Mail {$sep})=-"
+type: HOPPER
+
+options:
+  subject:
+    slot: 0
+    material: NAME_TAG
+    name: '{$p}Subject{$colon}'
+    lore: '&f%subject%'
+  recipients:
+    slot: 1
+    material: BOOK
+    name: '{$p}Recipients{$colon}'
+    lore: |
+      {$s}To{$colon} {$sp}%to%
+      {$s}CC{$colon} {$sp}%cc%
+  summary:
+    slot: 2
+    material: PAPER
+    name: '{$p}Summary{$colon}'
+    lore: '&f%summary%'
+  reset:
+    slot: 3
+    material: RED_WOOL
+    name: '&cReset'
+    lore: |
+      {$sep}Resets all mail properties such
+      as the subject, recipients and
+      the content.
+  preview:
+    slot: 4
+    material: WRITTEN_BOOK
+    name: '{$sp}Preview'
+    lore: |
+      {$sep}Shows how this mail would
+      look like when people read it.

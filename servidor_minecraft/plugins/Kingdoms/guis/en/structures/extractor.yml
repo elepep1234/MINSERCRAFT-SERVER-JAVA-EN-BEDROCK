@@ -1,0 +1,68 @@
+title: "{$p}Extractor"
+type: HOPPER
+sound: BLOCK_ANVIL_USE
+
+options:
+  collect:
+    outOfFuel:
+      condition: 'fuel <= 0'
+      name: "{$e}Out of fuel {$sp}%extractor-last-collected-time-passed% {$sep}- {$sp}%fancy@extractor_collected_resource_points%"
+      material: RED_WOOL
+    nothing-to-collect:
+      condition: 'amount <= 0'
+      name: "{$e}Nothing to collect {$sp}%extractor-last-collected-time-passed%"
+      material: RED_WOOL
+    else:
+      name: "{$p}Collect{$colon} {$sp}%extractor-last-collected-time-passed% {$sep}- {$sp}%fancy@extractor_collected_resource_points%"
+      material: GREEN_WOOL
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    lore:
+      - "{$s}Collect all the generated"
+      - "resource points."
+      - "Last collected by{$colon} {$p}%extractor-last-collector%"
+    slot: 0
+  fuel:
+    name: "{$p}Fuel{$colon} {$s}%fancy@fuel%&8/{$s}%fancy@max_fuel%"
+    material: COAL
+    refresh: true
+    slot: 1
+    lore: |
+      {$sep}To fill the fuel, simply drop
+      one of the fuel items on the
+      extractor block.
+
+      {$sep}Additionally, you can place a {$p}hopper
+      {$sep}facing into the extractor with the following items.
+      {$note} This only works once the extractor's
+      fuel is almost at zero.
+
+      {$p}Coal{$colon} {$sp}5
+      {$p}Charcoal{$colon} {$sp}3
+      {$p}Blaze Rods{$colon} {$sp}100
+  upgrade:
+    slot: 3
+    upgrade:
+      condition: level < max_level
+      name: "{$sp}Upgrade{$colon} {$s}%roman@level% {$sep}➛ {$s}%roman@next_level%"
+      material: NETHER_STAR
+      lore:
+        - "{$dot} {$p}Every{$colon} {$s}%every% {$sep}➔ {$s}%next-every%"
+        - "{$dot} {$p}Resource Points{$colon} {$s}%fancy@resource-points% {$sep}➔ {$s}%fancy@next-resource-points%"
+        - "{$dot} {$p}Fuel Consumption{$colon} {$s}%extractor_needed_fuel% {$sep}➔ {$s}%next_extractor_needed_fuel%"
+        - ""
+        - "{$dot} {$p}Max Level{$colon} {$s}%roman@max_level%"
+        - "{$dot} {$p}Cost{$colon} {$s}%upgrade_cost%"
+    maxxed:
+      name: "{$sp}Level{$colon} {$s}%roman@level%"
+      material: NETHER_STAR
+      lore:
+        - "{$dot} {$p}Every{$colon} {$s}%every%"
+        - "{$dot} {$p}Resource Points{$colon} {$s}%fancy@resource-points%"
+        - "{$dot} {$p}Fuel Consumption{$colon} {$s}%extractor_needed_fuel%"
+  break:
+    name: "&4Break"
+    material: REDSTONE_BLOCK
+    sound: ENTITY_ITEM_BREAK
+    lore:
+      - "{$s}Breaks the structure."
+    slot: 4

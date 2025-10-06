@@ -1,0 +1,40 @@
+(import):
+  structure:
+    parameters:
+      <name>: regulator
+      <build-duration-factor>: '+5 minutes'
+      <durability-factor>: 100
+      <material-1>: LECTERN
+      <material-2>: LECTERN
+      <material-3>: LECTERN
+
+name: "&3Regulator"
+default-name: 'Regulator'
+type: regulator
+# Regulators only refill if ammo reached 0
+# so this cost is for a full refill.
+auto-fill-cost: "maxAmmo / 3"
+
+conditions:
+  purchase:
+    'kingdoms_kingdom_level < 4': '{$$kingdom-levels.IV}'
+
+# The default option values when a new entry (player/kingdom)
+# is added to the regulator.
+defaults:
+  attributes:
+    BUILD: false
+
+cost: 5000
+sell: 4000
+item:
+  1:
+    name: "&3Regulator"
+    material: LECTERN
+    lore:
+      - "{$s}Manage player attributes such as building,"
+      - "turret ceasefire and etc..."
+      - "Change which player can interact with what block."
+      - "Disable mob or animal spawning and turrets."
+      - "Enable explosions."
+      - "Auto fill turrets ammo."

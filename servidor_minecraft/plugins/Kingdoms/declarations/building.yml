@@ -1,0 +1,338 @@
+### Shared settings for all buildings (turrets and structures) ###
+(module):
+  description: 'Base settings for <type>.'
+  parameters:
+    <type>: str
+    <name>: str
+    <build-duration-factor>: str
+    <durability-factor>: int
+    <extra-holograms>: list
+    <block-1>: map
+    <block-2>: map
+    <block-3>: map
+
+# Maximum level this building can be upgraded to.
+max-level: 3
+
+# The amount of time for a specific type of building to be finished.
+build-duration:
+  # max() is used here just in case the duration factor is negative.
+  opening: 'max(0, [1min] + [<build-duration-factor>])'
+  upgrading: 'max(0, ([1min] + [<build-duration-factor>]) * level)'
+  repairing: '[1sec] * (building_max_durability - building_durability)'
+  demolishing: 'building_region_blocks * [50ms]'
+
+# The durability of a building (used for things like siege cannons)
+durability: '<durability-factor> * level'
+
+repair:
+  # Resource points needed for a full repair.
+  cost: '(building_max_durability - building_durability) / 2'
+
+  # When turret durability is not max but isn't 0 either, you
+  # can use these items to repair it instantly.
+  # Players need to drop the item near the turret they want to fix.
+  materials:
+    iron:
+      # Amount of durability restored.
+      amount: 10
+
+      # https://github.com/CryptoMorin/KingdomsX/wiki/Config#item-matchers
+      item:
+        material: IRON_INGOT
+    gold:
+      amount: 15
+      item:
+        material: GOLD_INGOT
+    diamond:
+      amount: 50
+      item:
+        material: DIAMOND
+
+preview:
+  1:
+    ok:
+      type: INFO
+      color: 0, 255, 0, 70
+      block:
+        material: GREEN_STAINED_GLASS_PANE
+    out-of-chunk:
+      type: ERROR
+      message: 'building.errors.out-of-chunk'
+      color: 250, 150, 0, 70
+      block:
+        material: ORANGE_STAINED_GLASS
+    not-owned:
+      type: ERROR
+      message: 'building.errors.not-owned'
+      color: 250, 150, 0, 70
+      block:
+        material: ORANGE_STAINED_GLASS
+    wrong-schema:
+      type: ERROR
+      message: 'building.errors.wrong-schema'
+      color: 0, 100, 250, 70
+      block:
+        material: BLUE_STAINED_GLASS
+    conflict:
+      type: ERROR
+      message: 'building.errors.conflict'
+      color: 200, 0, 0, 70
+      block:
+        material: RED_STAINED_GLASS_PANE
+
+building:
+  1:
+    # Uses the registered default.
+    # type: SINGLE_BLOCKED
+
+    # [IgnoreIfSet]
+    functional-points: &fnPoints
+      '0, 0, 0':
+        - { type: activation, name: main }
+        - { type: interaction, name: main }
+        - { type: manual, name: main }
+    block: <block-1>
+    holograms: &holograms
+      main:
+        main:
+          background-color: 0, 0, 0, 150
+
+          # The line numbers must be specified here.
+          # If you want a custom spacing between lines,
+          # you'd have to make a new hologram.
+          lines:
+            - '{$$building.holograms.main}'
+            - '<extra-holograms>'
+            - '{? building_durability <= 0 ? "{$sep}[{$es}!{$sep}] {$e}{$$building.holograms.progress.broken} {$sep}[{$es}!{$sep}]" ; building_durability != building_max_durability ? "{$p}{$$building.holograms.progress.durability}{$colon} {$s}%fancy@building_durability%{$sep}/{$s}%fancy@building_max_durability%"}'
+
+          # The initial height for holograms is their distance from the building's origin.
+          # Offset does the same thing as height, but it also supports xyz axis.
+          # offset: 4, 0, 35.63
+          height: &height 1.5
+      opening:
+        main:
+          background-color: 0, 255, 255, 100
+          lines:
+            - '{$$building.holograms.main}'
+            - &progress1 '{$$building.holograms.progress.2}'
+            - &progress2 '{$$building.holograms.progress.3}'
+          height: *height
+      upgrading:
+        main:
+          background-color: 101, 0, 140, 100
+          lines:
+            - '{$$building.holograms.upgrading}'
+            - *progress1
+            - *progress2
+          height: *height
+      demolishing:
+        main:
+          background-color: 200, 0, 0, 100
+          lines:
+            - '{$$building.holograms.demolishing}'
+            - *progress1
+            - *progress2
+          height: *height
+      repairing:
+        main:
+          background-color: 128, 140, 0, 100
+          lines:
+            - '{$$building.holograms.repairing}'
+            - *progress1
+            - *progress2
+          height: *height
+  2:
+    # [IgnoreIfSet]
+    functional-points: *fnPoints
+    block: <block-2>
+    holograms: *holograms
+  3:
+    # [IgnoreIfSet]
+    functional-points: *fnPoints
+    block: <block-3>
+    holograms: *holograms
+
+sounds:
+  1:
+    # damaged: BLOCK_ANVIL_USE
+    partial-repair: BLOCK_ANVIL_USE
+    broken: BLOCK_ANVIL_DESTROY
+
+    opening:
+      started: ENTITY_ARROW_SHOOT
+      finished: BLOCK_ANVIL_USE
+      stopped: &stop-sound ENTITY_ITEM_BREAK
+    upgrading:
+      started: BLOCK_ANVIL_USE
+      finished: BLOCK_ANVIL_USE
+      stopped: *stop-sound
+    repairing:
+      started: BLOCK_ANVIL_USE
+      finished: BLOCK_ANVIL_USE
+      stopped: *stop-sound
+    demolition:
+      started: *stop-sound
+      finished: *stop-sound
+      stopped: *stop-sound
+
+particles:
+  # Other entries:
+  # place-block: Particle for when a single block is placed.
+  1:
+    broken:
+      particle: REDSTONE
+      color: 0, 0, 255
+      size: 2
+      count: 1
+
+    # This is displayed on the borders for the building.
+    opening:
+      progress:
+        particle: REDSTONE
+        color: 0, 255, 0
+        size: 2
+        count: 1
+      started: &basic-cloud
+        particle: CLOUD
+        count: 70
+        offset: 0.5, 0.5, 0.5
+      finished: *basic-cloud
+      stopped: *basic-cloud
+    upgrading:
+      started: *basic-cloud
+      stopped: *basic-cloud
+      finished: *basic-cloud
+      progress: &particle-2
+        particle: REDSTONE
+        color: 0, 0, 255
+        size: 2
+        count: 1
+    demolition:
+      started: *basic-cloud
+      stopped: *basic-cloud
+      finished: *basic-cloud
+      progress: *basic-cloud
+    repairing:
+      started: *basic-cloud
+      stopped: *basic-cloud
+      finished: *basic-cloud
+      progress:
+        particle: REDSTONE
+        color: 255, 255, 0
+        size: 2
+        count: 1
+  2:
+    opening:
+      progress: *particle-2
+    upgrading:
+      progress: &particle-3
+        particle: REDSTONE
+        color: 255, 0, 0
+        size: 2
+        count: 1
+  3:
+    opening:
+      progress: *particle-3
+    upgrading:
+      progress: *particle-3
+
+markers:
+  1:
+    opening:
+      progress: 0, 255, 0, 70
+      paused: 0, 255, 0, 70
+    upgrading:
+      progress: 0, 255, 0, 70
+      paused: 0, 255, 0, 70
+    demolition:
+      progress: 0, 255, 0, 70
+      paused: 0, 255, 0, 70
+
+# Things that damage (decrease the durability), paralyze, hypnotize, etc... the turret.
+# If an arrow or a splash potion has multiple effects, all of them will apply.
+#
+# All custom effects mentioned here, except 'hypnotize' have no effect when accidentally
+# (or even intentionally) done by an ally to a friendly turret.
+#
+# If two conflicting effects are applied, e.g. a 10sec paralysis and a 5sec paralysis,
+# the newer one will override the last one regardless of how strong the older one is.
+#
+# Siege cannon damages are separatedly configured by their ammo type.
+# Note: Only the "damage" setting works on structures, others have no effect.
+# ----------------------------
+# Effects:
+#   * damage: Decreases the durability of the turret.
+#   * paralyze: Prevents the turret from automatically shooting at any targets temporarily.
+#               However, the cooldown does not persist between restarts. This effect will
+#               override the hypnotize effect and prevents the turret from shooting altogether.
+#   * hypnotize: Makes the turret attack the members of the kingdom that the turret was placed
+#                in, but not their allies. Has no effect when an ally uses this.
+#   * slowness: Makes the turret work slower. Specified in ticks. The "cooldown" placeholder can be used
+#               for these effects.
+#   * weakness: Makes the turret damage less. The number specified will be subtracted from the final damage.
+#               The "damage" placeholder can be used for these effects which is the current damage.
+damaging-factors:
+  SNOWBALL:
+    paralyze: 2s
+  SPECTRAL_ARROW:
+    hypnotize: 10s
+  ARROW:
+    # The following are the potion effect of the arrows.
+    # * The "effect_lvl" (starting from 1) placeholder can be used if it's a tipped arrow.
+    # * The "force" variable (from 0 to 3.0) is used for how hard the player
+    # charged the bow before releasing it.
+    # * The "weapon_<info>" can be used to get information about the bow.
+    normal:
+      damage: (0.1 * force) * max(1, weapon_enchant_power * 3)
+    POISON:
+      paralyze: '[10s] * effect_level'
+    INSTANT_DAMAGE:
+      damage: 7 * effect_lvl
+    WEAKNESS:
+      weakness:
+        damage-reduction: 5 * effect_lvl
+        duration: effect_duration
+    SLOWNESS:
+      slowness:
+        delay: 10 * effect_lvl
+        duration: effect_duration
+  POTION:
+    # * The "effect_lvl" (starting from 1) and "effect_duration" (in ticks) placeholder can be used as well.
+    #
+    # * The "effect_distance" determines the distance between the building and the splash potion.
+    #   This distance starts from 0 and can only go up to 10 blocks (even though Vanilla Minecraft distances are lower)
+    #   and you can control the values based on this value. Note that when using EngineHub add-on where buildings
+    #   have multiple blocks, it'll calculate this distance based on the closest block to the potion's location.
+    #
+    # * "allowed-range" option can be used to determine the minimum distance this splash potion must be close
+    #   in order to apply the effects. So "allowed-range: [ 2, 2, 2 ]" means that this splash potion must be at least
+    #   2 blocks (in any direction x,y,z) near the building for it to work.
+    INSTANT_DAMAGE:
+      allowed-range: &splash-range [ 5, 4, 5 ]
+      damage: 10 * effect_lvl
+    WEAKNESS:
+      allowed-range: *splash-range
+      weakness:
+        damage-reduction: 5 * effect_lvl
+        duration: effect_duration
+    SLOWNESS:
+      allowed-range: *splash-range
+      slowness:
+        delay: cooldown * effect_lvl
+        duration: effect_duration
+    POISON:
+      allowed-range: *splash-range
+      paralyze: '[10s] * effect_lvl'
+  WIND_CHARGE:
+    damage: 20
+    paralyze: 20s
+  TRIDENT:
+    damage: 1
+    paralyze: 1s
+    weakness:
+      damage-reduction: damage / 5
+      duration: 2s
+    slowness:
+      delay: cooldown / 5
+      duration: 2s

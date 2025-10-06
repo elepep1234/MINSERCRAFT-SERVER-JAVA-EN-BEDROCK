@@ -1,0 +1,26 @@
+title: "&0-=( {$s}Kingdom Type &0)=-"
+type: HOPPER
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+options:
+  pacifist:
+    name: "{$p}Pacifist"
+    material: OAK_SAPLING
+    lore:
+      - '{$sep}Pacifist kingdoms cannot invade'
+      - 'other kingdoms and cannot be invaded.'
+      - "They cannot PvP other players"
+      - "unless {$s}/k pvp {$sep}is enabled."
+      - "Basically it'll provide a"
+      - '&4permanent {$sep}peaceful gameplay.'
+    slot: 1
+  aggressor:
+    name: "&cAggressor"
+    material: DIAMOND_SWORD
+    flags: ALL
+    lore:
+      - '{$sep}These kingdoms can invade and PvP'
+      - 'other non-ally kingdoms, but they may'
+      - 'use shields for a peaceful experience'
+      - 'to a certain extent temporarily.'
+    slot: 3

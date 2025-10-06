@@ -1,0 +1,54 @@
+(import):
+  mine:
+    parameters:
+      <name>: explosive-mine
+      <build-duration-factor>: '0'
+      <durability-factor>: 100
+      <material>: HEAVY_WEIGHTED_PRESSURE_PLATE
+
+name: "{$sep}Explosive Mine"
+type: pressure_mine
+cost: 200
+sell: 100
+upgrade-cost: lvl * 50
+effects: ~
+
+# https://minecraft.gamepedia.com/Explosion#Typical_damage_radius
+# https://minecraft.gamepedia.com/Damage#Explosions
+damage: 0
+
+explosion:
+  # From which level should explosions be enabled?
+  level: 1
+
+  # From which level should explosions spread fire?
+  fire: 1
+
+  # The level of the explosion. Usually anything under 1 doesn't cause any block damage.
+  power: 3
+
+sounds:
+  1:
+    opening:
+      started: &start-sound BLOCK_WOODEN_PRESSURE_PLATE_CLICK_ON
+      finished: *start-sound
+      stopped: &stop-sound BLOCK_WOODEN_PRESSURE_PLATE_CLICK_OFF
+    upgrading:
+      started: *start-sound
+      finished: *start-sound
+      stopped: *stop-sound
+    demolition:
+      started: *stop-sound
+      finished: *stop-sound
+      stopped: *stop-sound
+
+item:
+  1:
+    name: "{$sep}Explosive Mine"
+    material: HEAVY_WEIGHTED_PRESSURE_PLATE
+    lore:
+      - "{$s}Explodes when an enemy steps"
+      - "on the plate."
+      - ""
+      - "{$dot} {$p}Durability{$colon} {$s}%building_durability%"
+      - "{$dot} {$p}Damage{$colon} {$s}TNT"

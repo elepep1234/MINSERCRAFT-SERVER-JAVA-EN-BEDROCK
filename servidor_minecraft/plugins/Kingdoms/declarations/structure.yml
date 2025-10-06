@@ -1,0 +1,25 @@
+(import):
+  building:
+    parameters:
+      <type>: structures
+      <extra-holograms>: <extra-holograms>
+      <block-1>:
+        material: <material-1>
+      <block-2>:
+        material: <material-2>
+      <block-3>:
+        material: <material-3>
+
+### Shared structure settings ###
+(module):
+  description: 'Base settings for structures.'
+  parameters:
+    <name>: str
+    <build-duration-factor>: str
+    <durability-factor>: int
+    <extra-holograms>:
+      type: list
+      default: [ ]
+    <material-1>: Material
+    <material-2>: Material
+    <material-3>: Material

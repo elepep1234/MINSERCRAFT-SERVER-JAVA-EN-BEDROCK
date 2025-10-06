@@ -1,0 +1,65 @@
+title: "{$sep}-=[ &5Protection {$sep}]=-"
+rows: 3
+sound: BLOCK_CHEST_OPEN
+
+options:
+  access-entries:
+    name: "{$p}Access Entries"
+    lore: |-
+      {$s}Add different privileges to
+      certain players based on a filter.
+    material: PLAYER_HEAD
+    skull: '%owner%'
+    posx: 3
+    posy: 2
+  info:
+    name: "&5Protection Signs"
+    lore: |-
+      {$s}Protected blocks are protected
+      against griefs and no player can use it
+      without permission.
+
+      If a player has access to this block,
+      they still cannot change the sign settings
+      or break the sign or the block.
+
+      {$sep}Click here to set a password on the block.
+      This only works if the block being protected
+      is a container such as a chest.
+    material: NETHER_STAR
+    posx: 4
+    posy: 2
+  protection-type:
+    name: "{$p}Protection Type{$colon} {$sp}%protection_type%"
+    lore: |-
+      {$s}Change the method of how
+      this block is protected from
+      other players by default.
+    material: CHEST
+    posx: 6
+    posy: 2
+  automatic-state-toggle-duration:
+    name: "&5Automatic State Toggle Duration"
+    supported:
+      condition: 'openable'
+      lore: |
+        {$desc}Closes the door automatically after
+        it was opened.
+
+        {$p}Duration{$colon} {$s}%time@automatic_state_toggle_duration%
+    else:
+      lore: |
+        {$desc}The protected block doesn't support
+        this feature. Only works with doors.
+    material: COMPARATOR
+    posx: 7
+    posy: 2
+
+  decoration-light-blue:
+    slots: [ 0, 4, 8, 18, 22, 26 ]
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    name: ''
+  decoration-blue:
+    slots: [ 1, 7, 9, 13, 17, 19, 25 ]
+    material: BLUE_STAINED_GLASS_PANE
+    name: ''
