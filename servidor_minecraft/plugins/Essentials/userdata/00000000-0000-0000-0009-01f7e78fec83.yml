@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1759796103535
   login: 1759795582495
 money: '0'
 last-account-name: .Sthilaireed1
 lastlocation:
   world: e19baa22-a9a0-4122-9237-a01b5655df17
   world-name: world
-  x: 26.5
-  y: 83.0
-  z: 212.5
-  yaw: 0.0
-  pitch: 0.0
+  x: -5280.9116
+  y: 111.0
+  z: -7547.674
+  yaw: -94.83639526367188
+  pitch: -1.3565521240234375
+logoutlocation:
+  world: e19baa22-a9a0-4122-9237-a01b5655df17
+  world-name: world
+  x: -4094.6797
+  y: 71.0
+  z: -3337.6836
+  yaw: -5.3462066650390625
+  pitch: 31.263748168945312
