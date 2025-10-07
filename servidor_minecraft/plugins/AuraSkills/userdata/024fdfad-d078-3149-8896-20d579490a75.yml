@@ -32,23 +32,18 @@ skills:
     xp: 9.999967155839E12
   auraskills/agility:
     level: 100
-    xp: 9.999967156226416E12
+    xp: 9.999967156429898E12
 mana: 520.0
 action_bar:
   idle: true
 stat_modifiers:
   '0':
-    name: mining-stamina
-    stat: auraskills/toughness
-    operation: ADD
-    value: 20.0
-  '1':
     name: AbilityModifier-EnchantedStrength
     stat: auraskills/strength
     operation: ADD
-    value: 30.0
+    value: 50.0
 ability_data:
   auraskills/first_strike:
     counter: 1
   auraskills/xp_convert:
-    xp: 0.8172281124868874
+    xp: 19.801228112486875

@@ -14073,3 +14073,540 @@ java.lang.IllegalStateException: New prioritized state doesn't logically match t
 [00:15:03] [Server thread/INFO]: .Sthilaireed1 has left the server.
 [00:15:03] [Server thread/INFO]: [voicechat] Disconnecting client .Sthilaireed1
 [00:15:03] [Server thread/INFO]: [U] .Sthilaireed1 ha salido del juego.
+[00:17:25] [kingdoms-worker-2/INFO]: [Kingdoms] Auto Save: 
+  | GLOBALS:  0/1  (0ms) 
+  | KINGDOMS: 1/1  (23ms)
+  | LANDS:    3/25 (5ms) 
+  | MTG:      0/0  (0ms) 
+  | NATIONS:  0/0  (0ms) 
+  | PLAYERS:  1/2  (2ms) 
+[00:17:26] [kingdoms-worker-2/INFO]: [Kingdoms] Updating top group data for KINGDOMS with 1 data.
+[00:18:01] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username Sthilaireed1
+[00:18:01] [localSession-7-3/INFO]: [Geyser-Spigot] Sthilaireed1 (logged in as: Sthilaireed1) has connected to the Java server
+[00:18:01] [Server thread/INFO]: [NameTag] §7Player .Sthilaireed1 joined. Applying NameTag.
+[00:18:01] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Sthilaireed1 joined (UUID: 00000000-0000-0000-0009-01f7e78fec83)
+[00:18:01] [Server thread/INFO]: .Sthilaireed1 se ha unido al juego.
+[00:18:01] [Server thread/INFO]: .Sthilaireed1[/127.198.128.226:0] logged in with entity id 18007 at ([world]-4094.6797, 71.0, -3337.6836)
+[00:18:01] [kingdoms-worker-2/WARN]: [KingdomsX] Thread kingdoms-worker-2 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onJoin(DistanceManager.kt:78) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:332) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:185) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:02] [kingdoms-worker-2/INFO]: .Sthilaireed1 has joined the server.
+[00:18:12] [Server thread/INFO]: edsthilaire121 issued server command: /k pvp
+[00:18:18] [Server thread/INFO]: edsthilaire121 issued server command: /pvp
+[00:18:22] [kingdoms-worker-4/WARN]: [KingdomsX] Thread kingdoms-worker-4 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:22] [kingdoms-worker-4/WARN]: [KingdomsX] Thread kingdoms-worker-4 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:28] [Server thread/INFO]: .Sthilaireed1 issued server command: /k pvp
+[00:18:29] [kingdoms-worker-2/WARN]: [KingdomsX] Thread kingdoms-worker-2 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:30] [kingdoms-worker-3/WARN]: [KingdomsX] Thread kingdoms-worker-3 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:30] [kingdoms-worker-3/WARN]: [KingdomsX] Thread kingdoms-worker-3 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:30] [kingdoms-worker-3/WARN]: [KingdomsX] Thread kingdoms-worker-3 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:31] [kingdoms-worker-4/WARN]: [KingdomsX] Thread kingdoms-worker-4 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:31] [kingdoms-worker-4/WARN]: [KingdomsX] Thread kingdoms-worker-4 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:31] [kingdoms-worker-4/WARN]: [KingdomsX] Thread kingdoms-worker-4 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:32] [kingdoms-worker-4/WARN]: [KingdomsX] Thread kingdoms-worker-4 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:32] [kingdoms-worker-4/WARN]: [KingdomsX] Thread kingdoms-worker-4 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:32] [kingdoms-worker-3/WARN]: [KingdomsX] Thread kingdoms-worker-3 threw an uncaught exception
+java.lang.IllegalStateException: New prioritized state doesn't logically match the requested state: CraftPlayer{name=.Sthilaireed1, uuid=00000000-0000-0000-0009-01f7e78fec83} from: (wasNull=false) SHOW -> HIDE (SHOW) a(state=SHOW, states=NamespacedMap(
+  (1)Kingdoms:VISUAL_MANAGER => VisibilitySpecifier(state=HIDE, priority=20000)
+
+  (1)Kingdoms:DISTANCED => VisibilitySpecifier(state=SHOW, priority=30000)
+))
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.a(StatefulVisibilityStrategy.java:176) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.StatefulVisibilityStrategy.showTo(StatefulVisibilityStrategy.java:272) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.utils.display.visualizer.visibility.DistancedVisibilityStrategy$a.onGettingClose$core(VisibilityStrategies.kt:37) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.PlayerDistanceListener.checkActions$core(PlayerDistanceListener.kt:73) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.a(DistanceManager.kt:128) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.b(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.scheduler.TaskScheduler.execute(TaskScheduler.java:31) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:113) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager$Companion.checkActions(DistanceManager.kt:107) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at KingdomsX-1.17.21-BETA.jar/org.kingdoms.managers.land.distance.DistanceManager.onMove(DistanceManager.kt:58) ~[KingdomsX-1.17.21-BETA.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1649) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:62) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.handle(ServerboundMovePlayerPacket.java:101) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:18:44] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Sthilaireed1 has disconnected from the Java server because of Bedrock client timed out
+[00:18:44] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Sthilaireed1 disconnected
+[00:18:44] [Server thread/INFO]: .Sthilaireed1 lost connection: Disconnected
+[00:18:44] [Server thread/INFO]: .Sthilaireed1 has left the server.
+[00:18:44] [Server thread/INFO]: [voicechat] Disconnecting client .Sthilaireed1
+[00:18:44] [Server thread/INFO]: .Sthilaireed1 ha salido del juego.
+[00:24:53] [Server thread/INFO]: edsthilaire121 issued server command: /lp group default
+[00:25:05] [Server thread/INFO]: edsthilaire121 issued server command: /lp group default permission check
+[00:25:12] [Server thread/INFO]: edsthilaire121 issued server command: /lp group default permission settemp
+[00:25:15] [Server thread/INFO]: edsthilaire121 issued server command: /lp group default permission unset
+[00:25:18] [Server thread/INFO]: edsthilaire121 issued server command: /lp group default permission unsettemp
